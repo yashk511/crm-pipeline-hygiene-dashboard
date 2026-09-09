@@ -1,0 +1,138 @@
+account_id,account_name,industry,country,duns_number,created_date,owner_rep_id,account_source,duns_missing_flag
+A0026,Allen-Allen,Telecom,Hong Kong,,2026-01-16,R012,Event,True
+A0029,Anderson Group,Retail,Western Sahara,,2023-12-29,R003,Event,True
+A0070,Anderson-Bailey,Public Sector,Nauru,583258726,2025-09-11,R009,Outbound,False
+A0027,Arroyo Miller and Tucker,Healthcare,Lesotho,165082363,2026-04-14,R013,Partner,False
+A0009,Baker and Sons,Technology,Lao People's Democratic Republic,249926919,2025-10-14,R008,Unknown,False
+A0020,Baker Mason and White,Technology,Qatar,666585408,2025-08-29,R014,Outbound,False
+A0047,Baxter Inc,Manufacturing,Libyan Arab Jamahiriya,220123666,2024-03-10,R003,Outbound,False
+A0115,Bentley Byrd and Orr,Public Sector,Zambia,570040006,2023-10-13,R003,Unknown,False
+A0033,Brooks Lam and Hayes,Technology,Iceland,554200826,2024-01-14,R018,Event,False
+A0043,Brown Valdez and Lucas,Technology,South Georgia and the South Sandwich Islands,,2025-10-31,R004,Inbound,True
+A0131,Bryant Group,Public Sector,Reunion,445505799,2024-06-21,R007,Outbound,False
+A0013,Burton Ltd,Healthcare,Syrian Arab Republic,831980933,2026-07-10,R018,Partner,False
+A0077,Campbell-Clark,Telecom,Burkina Faso,,2024-09-13,R006,Event,True
+A0014,Carlson-Cruz,Telecom,Italy,269820594,2024-12-09,R015,Inbound,False
+A0116,Carroll Sullivan and Bass,Technology,Egypt,127772220,2024-10-11,R003,Outbound,False
+A0122,Chambers and Sons,Telecom,Dominican Republic,,2023-12-30,R002,Outbound,True
+A0105,Chandler-Edwards,Healthcare,Zambia,,2023-10-30,R002,Outbound,True
+A0035,Chapman and Sons,Manufacturing,Uganda,645276696,2025-09-14,R003,Outbound,False
+A0112,Cortez LLC,Telecom,Armenia,223240112,2025-06-23,R018,Outbound,False
+A0058,Daniels Adkins and Brown,Retail,Iraq,491079829,2023-09-03,R014,Inbound,False
+A0080,Davis Group,Energy,Cocos (Keeling) Islands,,2024-10-02,R013,Partner,True
+A0110,Diaz Inc,Public Sector,Slovakia (Slovak Republic),,2024-04-18,R016,Partner,True
+A0090,Dickson-Brady,Financial Services,Turkmenistan,567600762,2024-01-04,R006,Unknown,False
+A0065,Donovan-Harris,Healthcare,Nigeria,,2023-12-03,R015,Event,True
+A0017,Dyer Potter and Mack,Energy,Sierra Leone,624636385,2026-08-01,R001,Inbound,False
+A0066,Edwards Baker and Anderson,Public Sector,Martinique,529123992,2024-06-07,R008,Outbound,False
+A0067,Evans Stewart and Walton,Telecom,Anguilla,,2025-12-27,R008,Outbound,True
+A0069,Ferrell Jones and Lewis,Public Sector,India,757830420,2024-10-22,R017,Event,False
+A0015,Ferrell Rice and Maddox,Financial Services,Iceland,645119047,2025-02-09,R004,Partner,False
+A0083,Figueroa PLC,Financial Services,Hong Kong,,2026-06-22,R008,Outbound,True
+A0016,Frazier Inc,Financial Services,United Kingdom,501486939,2025-06-21,R006,Unknown,False
+A0075,Garcia Humphrey and Baker,Telecom,Norway,612153089,2026-06-23,R001,Partner,False
+A0024,George Group,Healthcare,Serbia,652070932,2024-09-25,R008,Partner,False
+A0125,Gibson Ltd,Financial Services,Paraguay,433665422,2025-03-30,R018,Inbound,False
+A0042,Gomez-Jenkins,Manufacturing,Mayotte,817112652,2024-11-21,R018,Partner,False
+A0096,Gonzalez Group,Public Sector,Italy,,2023-12-01,R015,Inbound,True
+A0053,Gray Group,Retail,Iceland,339362341,2024-11-15,R001,Outbound,False
+A0136,Green-Wright,Energy,New Caledonia,824085842,2026-02-19,R018,Event,False
+A0052,Hancock Inc,Manufacturing,Antarctica (the territory South of 60 deg S),605399561,2024-06-10,R008,Outbound,False
+A0091,Hancock and Sons,Public Sector,Hong Kong,,2023-11-16,R014,Unknown,True
+A0021,Harrell LLC,Technology,Angola,528414718,2025-06-17,R012,Event,False
+A0032,Harris Collins and Carney,Financial Services,Sao Tome and Principe,506919288,2026-04-04,R001,Event,False
+A0078,Harris-Walters,Telecom,Tonga,735540030,2026-06-08,R001,Inbound,False
+A0121,Harvey Davis and Crane,Healthcare,Cape Verde,929517022,2024-10-09,R013,Unknown,False
+A0055,Henderson-Bernard,Manufacturing,Paraguay,223847257,2024-09-23,R009,Outbound,False
+A0062,Hensley Powell and David,Public Sector,Lao People's Democratic Republic,,2024-10-12,R015,Event,True
+A0127,Hernandez Ltd,Technology,Mongolia,546129354,2023-09-25,R016,Event,False
+A0031,Hickman Ltd,Financial Services,French Southern Territories,536383774,2025-04-05,R016,Event,False
+A0138,Hill Inc,Healthcare,San Marino,565973314,2025-04-24,R004,Inbound,False
+A0010,Hoffman Baker and Richards,Telecom,Israel,488690725,2024-03-08,R008,Outbound,False
+A0130,Holmes Williams and Wright,Public Sector,Lao People's Democratic Republic,259553112,2024-11-29,R015,Unknown,False
+A0054,House-Glover,Technology,Guadeloupe,,2026-03-13,R012,Unknown,True
+A0120,Jackson Miller and Robertson,Telecom,Nigeria,973559879,2024-12-20,R018,Inbound,False
+A0104,Johnson-Carlson,Financial Services,Austria,155165334,2024-09-04,R009,Event,False
+A0092,Johnson-Doyle,Technology,Fiji,584044963,2026-02-06,R008,Event,False
+A0040,Johnston Sanchez and Kennedy,Healthcare,San Marino,677280546,2026-01-10,R007,Unknown,False
+A0061,Jones Inc,Technology,Tajikistan,536019893,2025-08-11,R018,Inbound,False
+A0001,Jones Reid and Ferguson,Energy,Cape Verde,748245888,2024-07-28,R009,Inbound,False
+A0038,Jones-Young,Retail,Italy,,2024-10-28,R009,Event,True
+A0106,Joyce Wilson and Lam,Healthcare,Guernsey,366493008,2024-11-18,R004,Unknown,False
+A0118,Lawson Morris and Ramos,Financial Services,Taiwan,728492896,2025-01-10,R014,Event,False
+A0126,Lee Horton and Snyder,Public Sector,Brazil,,2025-12-13,R004,Outbound,True
+A0041,Lee-Davis,Retail,Saint Pierre and Miquelon,496776692,2026-03-15,R010,Outbound,False
+A0119,Lewis Kennedy and Santana,Energy,Angola,444733679,2024-04-18,R004,Outbound,False
+A0135,Manning Group,Healthcare,Chad,,2025-09-20,R016,Partner,True
+A0002,Martin Group,Healthcare,Romania,692749116,2024-06-18,R010,Unknown,False
+A0030,Martin Rose and Obrien,Manufacturing,Guinea,800235246,2026-01-14,R018,Inbound,False
+A0101,May-Ross,Healthcare,Andorra,994027897,2024-12-31,R007,Partner,False
+A0003,Mayo-Bowman,Healthcare,Croatia,149203558,2025-07-05,R008,Partner,False
+A0111,Mccall Hanson and Alvarado,Public Sector,Pakistan,176428684,2024-12-31,R008,Partner,False
+A0109,Mcdaniel Bentley and Mclaughlin,Financial Services,Bangladesh,,2026-02-17,R008,Outbound,True
+A0085,Mckee Gardner and Davenport,Financial Services,Croatia,433975497,2025-12-11,R004,Unknown,False
+A0140,Miller Hernandez and Reyes,Telecom,Brazil,707660630,2025-03-20,R006,Outbound,False
+A0139,Mitchell Nelson and Flores,Manufacturing,Saint Barthelemy,448294647,2026-06-04,R002,Partner,False
+A0117,Mitchell-Jordan,Technology,Cook Islands,718740490,2026-06-21,R002,Outbound,False
+A0072,Moore-Bass,Energy,Panama,443285529,2025-01-23,R018,Inbound,False
+A0006,Morales-Jones,Technology,Ireland,,2024-06-16,R018,Outbound,True
+A0048,Morton-Chase,Telecom,Cyprus,236843584,2025-10-03,R002,Partner,False
+A0076,Newton and Sons,Retail,Japan,624232414,2024-03-27,R008,Partner,False
+A0088,Nolan and Sons,Energy,Guadeloupe,672030854,2026-05-10,R014,Partner,False
+A0087,Nolan-Flynn,Healthcare,Greece,848605284,2025-03-23,R010,Unknown,False
+A0050,Novak and Sons,Financial Services,Jordan,354194771,2024-04-22,R006,Outbound,False
+A0057,Novak PLC,Healthcare,South Georgia and the South Sandwich Islands,513600440,2023-09-20,R007,Partner,False
+A0113,Parker Ortiz and Powell,Healthcare,Saudi Arabia,164035859,2025-10-15,R006,Partner,False
+A0084,Patterson Smith and Jones,Public Sector,Greece,,2025-05-13,R009,Partner,True
+A0093,Patton-Jenkins,Manufacturing,Sao Tome and Principe,630757561,2024-09-13,R011,Outbound,False
+A0005,Perez Inc,Healthcare,Israel,754049436,2025-02-02,R006,Unknown,False
+A0044,Powell LLC,Retail,Netherlands,,2025-01-02,R011,Outbound,True
+A0137,Ramirez Strickland and Washington,Manufacturing,New Caledonia,762992051,2023-11-07,R003,Outbound,False
+A0100,Rasmussen LLC,Retail,Latvia,893070706,2025-07-06,R016,Partner,False
+A0124,Riggs PLC,Public Sector,Lebanon,,2024-12-21,R016,Inbound,True
+A0102,Rivera Johnson and Wiley,Financial Services,San Marino,,2026-07-05,R009,Inbound,True
+A0036,Robinson Jones and Welch,Telecom,Zimbabwe,,2025-04-08,R004,Unknown,True
+A0004,Robinson Nguyen and Tate,Telecom,Bahrain,398471886,2026-01-08,R015,Partner,False
+A0129,Robinson-Brock,Energy,Cuba,,2024-04-05,R017,Partner,True
+A0025,Rodriguez LLC,Public Sector,Morocco,,2025-11-05,R008,Event,True
+A0095,Rodriguez Brennan and Garrison,Retail,Switzerland,873174285,2026-02-08,R014,Event,False
+A0018,Rodriguez-Graham,Retail,Myanmar,162196678,2024-11-11,R008,Unknown,False
+A0022,Romero Gonzalez and Brooks,Retail,Togo,168747287,2025-03-13,R011,Inbound,False
+A0099,Ross LLC,Energy,Belgium,,2025-07-04,R004,Unknown,True
+A0011,Ross Robinson and Bright,Healthcare,Bahamas,,2026-04-28,R005,Outbound,True
+A0051,Russell Group,Telecom,Libyan Arab Jamahiriya,,2024-09-21,R008,Partner,True
+A0023,Ryan PLC,Manufacturing,Turkmenistan,,2025-05-08,R003,Inbound,True
+A0133,Salazar-Ball,Financial Services,Seychelles,631855083,2024-06-03,R002,Outbound,False
+A0063,Sanchez Wheeler and Harvey,Healthcare,Uruguay,404713332,2025-08-20,R017,Unknown,False
+A0064,Sandoval-Cunningham,Technology,Brunei Darussalam,341206079,2025-04-08,R007,Outbound,False
+A0132,Schmidt Hansen and Stewart,Manufacturing,Equatorial Guinea,,2024-04-13,R011,Event,True
+A0107,Scott Ltd,Telecom,Czech Republic,583736219,2025-04-27,R015,Partner,False
+A0094,Shields Cochran and Adams,Energy,Zambia,400281010,2025-02-19,R009,Unknown,False
+A0134,Simmons Meadows and Griffin,Public Sector,Heard Island and McDonald Islands,207064620,2026-01-09,R017,Event,False
+A0074,Smith Montoya and Evans,Manufacturing,Belize,322086735,2024-04-03,R014,Event,False
+A0068,Smith PLC,Manufacturing,United States of America,698509918,2023-12-25,R008,Inbound,False
+A0019,Smith-Bowen,Healthcare,Yemen,,2023-11-11,R018,Outbound,True
+A0108,Smith-Frost,Manufacturing,Pakistan,754586204,2024-11-15,R004,Outbound,False
+A0012,Snyder Campos and Callahan,Telecom,Costa Rica,509760584,2026-03-25,R015,Unknown,False
+A0028,Spence PLC,Retail,Albania,,2025-07-06,R018,Event,True
+A0114,Spencer-Lee,Public Sector,Antarctica (the territory South of 60 deg S),233523720,2024-12-19,R015,Partner,False
+A0128,Stafford Inc,Retail,Yemen,743576792,2024-06-08,R017,Outbound,False
+A0056,Stanley Tucker and Lee,Healthcare,Philippines,740563507,2026-05-16,R014,Partner,False
+A0071,Suarez LLC,Retail,Mongolia,,2023-11-14,R009,Event,True
+A0097,Torres-Pope,Technology,El Salvador,,2025-03-22,R012,Event,True
+A0086,Tran Jordan and Williams,Telecom,Korea,867741192,2024-06-25,R007,Inbound,False
+A0073,Turner Riggs and Roman,Retail,Anguilla,,2025-09-24,R003,Event,True
+A0079,Wagner-King,Financial Services,Kyrgyz Republic,,2023-12-31,R002,Partner,True
+A0098,Walker Ltd,Energy,Syrian Arab Republic,854684750,2024-09-24,R015,Partner,False
+A0082,Walsh LLC,Healthcare,Eritrea,938842599,2025-04-30,R002,Inbound,False
+A0007,Walter Edwards and Rios,Retail,Greenland,982403818,2026-04-10,R002,Partner,False
+A0039,Washington Ryan and Cummings,Energy,Mauritania,907308348,2024-01-09,R003,Inbound,False
+A0046,West Henderson and Ramirez,Manufacturing,Cyprus,458153605,2026-05-04,R005,Partner,False
+A0103,White-Estes,Public Sector,Mauritius,210152642,2025-11-17,R001,Unknown,False
+A0008,Wilkerson-Day,Retail,Mauritius,,2024-10-27,R016,Event,True
+A0049,Williams PLC,Energy,Faroe Islands,325567963,2026-05-13,R008,Inbound,False
+A0081,Williams-Cook,Healthcare,Australia,604988121,2025-03-04,R001,Unknown,False
+A0059,Woods Calhoun and Schmidt,Healthcare,Saint Kitts and Nevis,872830248,2024-10-29,R010,Unknown,False
+A0045,Wright and Sons,Public Sector,Ukraine,369639388,2023-10-02,R002,Inbound,False
+A0089,Wright Garcia and Deleon,Telecom,Senegal,982971099,2026-07-08,R016,Inbound,False
+A0060,Yu Inc,Technology,Chad,695295870,2024-04-30,R005,Outbound,False

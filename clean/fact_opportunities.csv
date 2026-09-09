@@ -1,0 +1,901 @@
+opp_id,account_id,rep_id,product,lead_source,stage,amount,created_date,close_date,last_activity_date,days_since_activity,deal_age_days,is_closed,is_won,is_stale,amount_missing_flag
+O00001,A0110,R015,Platform License,LinkedIn Sales Nav,Closed Lost,15300.0,2025-05-13,2025-11-05,2025-11-02,303,176,True,False,False,False
+O00002,A0133,R005,Data Module,Referral,Prospecting,14900.0,2025-04-14,,2026-08-28,4,505,False,False,False,False
+O00003,A0081,R013,Platform License,,Closed Lost,8700.0,2026-03-26,2026-08-08,2026-08-04,28,135,True,False,False,False
+O00004,A0081,R007,Support Add-on,Outreach Sequence,Qualification,14900.0,2025-08-17,,2026-08-21,11,380,False,False,False,False
+O00005,A0035,R008,Platform License,Outreach Sequence,Qualification,64100.0,2025-07-20,,2026-08-18,14,408,False,False,False,False
+O00006,A0027,R015,Professional Services,ZoomInfo List,Qualification,36800.0,2025-09-24,,2026-08-26,6,342,False,False,False,False
+O00007,A0061,R016,Professional Services,Outreach Sequence,Closed Won,7100.0,2025-09-29,2025-12-18,2025-12-17,258,80,True,True,False,False
+O00008,A0072,R004,Professional Services,LinkedIn Sales Nav,Prospecting,5700.0,2026-08-05,,2026-08-25,7,27,False,False,False,False
+O00009,A0067,R017,Support Add-on,Referral,Prospecting,18100.0,2026-07-09,,2026-08-09,23,54,False,False,False,False
+O00010,A0103,R016,Data Module,,Proposal,24000.0,2026-05-12,,2026-08-31,1,112,False,False,False,False
+O00011,A0047,R013,Data Module,Outreach Sequence,Prospecting,11400.0,2026-07-31,,2026-08-19,13,32,False,False,False,False
+O00012,A0121,R005,Data Module,Referral,Qualification,11700.0,2026-06-10,,2026-06-19,74,83,False,False,True,False
+O00013,A0014,R009,Professional Services,Inbound Web,Qualification,4600.0,2025-03-06,,2026-08-29,3,544,False,False,False,False
+O00014,A0132,R014,Support Add-on,Inbound Web,Closed Lost,6800.0,2025-05-26,2025-08-30,2025-08-27,370,96,True,False,False,False
+O00015,A0057,R018,Platform License,Outreach Sequence,Negotiation,16600.0,2025-10-15,,2026-08-11,21,321,False,False,False,False
+O00016,A0138,R013,Support Add-on,,Proposal,6000.0,2026-05-28,,2026-08-07,25,96,False,False,False,False
+O00017,A0118,R011,Support Add-on,Referral,Proposal,12500.0,2026-04-28,,2026-08-19,13,126,False,False,False,False
+O00018,A0081,R018,Platform License,LinkedIn Sales Nav,Qualification,13500.0,2025-10-16,,2026-08-28,4,320,False,False,False,False
+O00019,A0053,R003,Support Add-on,Outreach Sequence,Prospecting,12100.0,2025-08-20,,2026-08-07,25,377,False,False,False,False
+O00020,A0083,R006,Data Module,Outreach Sequence,Qualification,11700.0,2026-02-28,,2026-08-21,11,185,False,False,False,True
+O00021,A0058,R016,Data Module,Inbound Web,Closed Won,6700.0,2026-04-08,2026-05-11,2026-05-06,118,33,True,True,False,False
+O00022,A0068,R013,Platform License,ZoomInfo List,Prospecting,8700.0,2025-09-16,,2026-08-08,24,350,False,False,False,False
+O00023,A0120,R011,Data Module,Referral,Closed Won,8400.0,2026-03-23,2026-04-22,2026-04-20,134,30,True,True,False,False
+O00024,A0021,R008,Support Add-on,,Proposal,4900.0,2025-06-05,,2026-08-29,3,453,False,False,False,False
+O00025,A0076,R012,Platform License,ZoomInfo List,Proposal,5400.0,2025-04-20,,2025-05-03,486,499,False,False,True,False
+O00026,A0115,R007,Data Module,,Closed Lost,4900.0,2025-10-27,2026-01-10,2026-01-08,236,75,True,False,False,False
+O00027,A0114,R006,Platform License,Inbound Web,Prospecting,9100.0,2025-06-17,,2026-08-25,7,441,False,False,False,False
+O00028,A0078,R003,Data Module,LinkedIn Sales Nav,Proposal,42200.0,2026-07-19,,2026-08-22,10,44,False,False,False,False
+O00029,A0136,R004,Platform License,Inbound Web,Proposal,9900.0,2026-05-06,,2026-05-26,98,118,False,False,True,False
+O00030,A0138,R002,Support Add-on,ZoomInfo List,Qualification,8300.0,2026-05-15,,2026-08-30,2,109,False,False,False,False
+O00031,A0054,R009,Support Add-on,LinkedIn Sales Nav,Closed Won,12500.0,2025-09-24,2026-02-11,2026-02-06,207,140,True,True,False,False
+O00032,A0048,R003,Professional Services,,Qualification,17200.0,2026-04-02,,2026-04-08,146,152,False,False,True,False
+O00033,A0138,R005,Support Add-on,ZoomInfo List,Proposal,12500.0,2025-04-13,,2026-08-18,14,506,False,False,False,False
+O00034,A0090,R009,Support Add-on,Referral,Prospecting,22100.0,2025-06-07,,2026-08-07,25,451,False,False,False,False
+O00035,A0096,R018,Platform License,Referral,Qualification,18200.0,2026-06-17,,2026-06-29,64,76,False,False,True,False
+O00036,A0139,R015,Data Module,Referral,Proposal,44600.0,2025-03-30,,2026-08-07,25,520,False,False,False,False
+O00037,A0124,R007,Platform License,Referral,Qualification,18800.0,2026-02-20,,2026-08-31,1,193,False,False,False,False
+O00038,A0008,R009,Support Add-on,LinkedIn Sales Nav,Prospecting,21200.0,2026-03-08,,2026-08-16,16,177,False,False,False,False
+O00039,A0092,R009,Platform License,LinkedIn Sales Nav,Proposal,26100.0,2025-11-15,,2026-08-31,1,290,False,False,False,False
+O00040,A0056,R009,Platform License,Referral,Proposal,17500.0,2026-05-27,,2026-06-16,77,97,False,False,True,False
+O00041,A0046,R005,Support Add-on,Referral,Closed Lost,8400.0,2026-04-09,2026-08-28,2026-08-27,5,141,True,False,False,False
+O00042,A0130,R002,Data Module,Referral,Negotiation,48300.0,2025-08-11,,2026-08-11,21,386,False,False,False,False
+O00043,A0097,R008,Professional Services,ZoomInfo List,Prospecting,20300.0,2025-08-26,,2025-09-02,364,371,False,False,True,False
+O00044,A0071,R003,Support Add-on,Referral,Prospecting,19300.0,2026-04-13,,2026-08-29,3,141,False,False,False,False
+O00045,A0099,R006,Data Module,Outreach Sequence,Negotiation,20100.0,2026-04-19,,2026-05-09,115,135,False,False,True,False
+O00046,A0064,R003,Professional Services,Referral,Qualification,4100.0,2025-07-07,,2025-07-22,406,421,False,False,True,False
+O00047,A0010,R008,Data Module,LinkedIn Sales Nav,Qualification,22400.0,2025-12-30,,2026-08-26,6,245,False,False,False,False
+O00048,A0113,R014,Support Add-on,Outreach Sequence,Proposal,7300.0,2025-08-05,,2026-08-26,6,392,False,False,False,False
+O00049,A0022,R004,Support Add-on,Inbound Web,Closed Won,37000.0,2025-04-26,2025-09-15,2025-09-15,351,142,True,True,False,False
+O00050,A0134,R013,Platform License,Inbound Web,Prospecting,43400.0,2025-03-24,,2025-04-01,518,526,False,False,True,False
+O00051,A0102,R004,Support Add-on,Outreach Sequence,Proposal,13500.0,2026-07-08,,2026-07-11,52,55,False,False,True,False
+O00052,A0112,R012,Professional Services,,Closed Won,9700.0,2025-09-22,2025-10-11,2025-10-09,327,19,True,True,False,False
+O00053,A0136,R009,Data Module,Outreach Sequence,Proposal,1700.0,2025-05-08,,2026-09-01,0,481,False,False,False,False
+O00054,A0120,R002,Platform License,Outreach Sequence,Qualification,4300.0,2025-11-09,,2025-11-23,282,296,False,False,True,False
+O00055,A0050,R007,Support Add-on,Inbound Web,Negotiation,27600.0,2025-04-07,,2026-08-14,18,512,False,False,False,False
+O00056,A0036,R004,Support Add-on,Outreach Sequence,Negotiation,20800.0,2026-08-30,,2026-08-27,5,2,False,False,False,False
+O00057,A0081,R017,Data Module,LinkedIn Sales Nav,Proposal,8000.0,2025-03-11,,2026-08-20,12,539,False,False,False,False
+O00058,A0041,R014,Support Add-on,ZoomInfo List,Closed Won,23900.0,2025-12-15,2026-01-11,2026-01-09,235,27,True,True,False,False
+O00059,A0075,R007,Data Module,,Qualification,6400.0,2026-07-17,,2026-08-27,5,46,False,False,False,False
+O00060,A0035,R005,Professional Services,Outreach Sequence,Closed Won,3500.0,2026-02-26,2026-07-03,2026-07-03,60,127,True,True,False,False
+O00061,A0096,R014,Support Add-on,LinkedIn Sales Nav,Closed Lost,13000.0,2025-10-12,2026-03-10,2026-03-07,178,149,True,False,False,False
+O00062,A0014,R003,Data Module,Inbound Web,Closed Won,3500.0,2026-07-14,2026-08-31,2026-08-29,3,48,True,True,False,False
+O00063,A0014,R012,Platform License,,Closed Lost,8000.0,2025-09-18,2026-02-02,2026-01-31,213,137,True,False,False,False
+O00064,A0118,R004,Support Add-on,LinkedIn Sales Nav,Prospecting,20900.0,2025-06-23,,2026-08-22,10,435,False,False,False,False
+O00065,A0044,R014,Support Add-on,Referral,Negotiation,19300.0,2025-06-01,,2025-06-16,442,457,False,False,True,False
+O00066,A0004,R004,Platform License,ZoomInfo List,Qualification,18300.0,2025-06-12,,2025-06-25,433,446,False,False,True,False
+O00067,A0019,R018,Professional Services,,Prospecting,2200.0,2025-06-09,,2025-06-21,437,449,False,False,True,False
+O00068,A0014,R006,Data Module,LinkedIn Sales Nav,Closed Lost,16800.0,2025-05-28,2025-09-28,2025-09-28,338,123,True,False,False,False
+O00069,A0062,R018,Platform License,LinkedIn Sales Nav,Qualification,13100.0,2025-11-19,,2025-11-25,280,286,False,False,True,False
+O00070,A0101,R002,Professional Services,Outreach Sequence,Closed Won,7500.0,2025-12-08,2026-05-23,2026-05-21,103,166,True,True,False,False
+O00071,A0110,R007,Support Add-on,,Closed Won,26400.0,2026-04-15,2026-06-08,2026-06-03,90,54,True,True,False,False
+O00072,A0033,R011,Support Add-on,Referral,Closed Won,14900.0,2025-09-10,2025-12-05,2025-12-04,271,86,True,True,False,False
+O00073,A0076,R012,Support Add-on,Referral,Prospecting,18500.0,2026-01-14,,2026-08-25,7,230,False,False,False,False
+O00074,A0075,R015,Data Module,Referral,Proposal,17400.0,2025-08-19,,2025-08-22,375,378,False,False,True,False
+O00075,A0059,R008,Data Module,,Closed Won,5300.0,2025-07-07,2025-08-18,2025-08-16,381,42,True,True,False,False
+O00076,A0064,R014,Data Module,Referral,Qualification,27400.0,2025-03-20,,2026-08-27,5,530,False,False,False,False
+O00077,A0033,R001,Support Add-on,Referral,Closed Won,19900.0,2026-07-06,2026-08-30,2026-08-29,3,55,True,True,False,False
+O00078,A0044,R003,Professional Services,,Closed Won,45800.0,2025-11-14,2026-01-13,2026-01-08,236,60,True,True,False,False
+O00079,A0051,R005,Professional Services,,Negotiation,7700.0,2025-10-25,,2026-08-27,5,311,False,False,False,False
+O00080,A0054,R009,Professional Services,Referral,Closed Won,11600.0,2025-09-20,2025-10-07,2025-10-07,329,17,True,True,False,False
+O00081,A0110,R008,Data Module,ZoomInfo List,Negotiation,5400.0,2025-07-01,,2026-08-12,20,427,False,False,False,False
+O00082,A0107,R010,Data Module,ZoomInfo List,Qualification,3200.0,2025-07-12,,2026-08-27,5,416,False,False,False,False
+O00083,A0053,R018,Data Module,ZoomInfo List,Negotiation,13800.0,2025-09-17,,2026-08-22,10,349,False,False,False,False
+O00084,A0063,R018,Professional Services,ZoomInfo List,Proposal,4200.0,2025-08-17,,2025-09-01,365,380,False,False,True,False
+O00085,A0089,R011,Support Add-on,Referral,Prospecting,9800.0,2026-05-24,,2026-08-19,13,100,False,False,False,False
+O00086,A0014,R005,Data Module,Outreach Sequence,Qualification,4400.0,2025-10-15,,2026-08-16,16,321,False,False,False,False
+O00087,A0038,R014,Platform License,LinkedIn Sales Nav,Closed Lost,52100.0,2026-05-31,2026-08-10,2026-08-09,23,71,True,False,False,False
+O00088,A0127,R014,Data Module,ZoomInfo List,Negotiation,4500.0,2025-04-12,,2026-08-23,9,507,False,False,False,False
+O00089,A0045,R018,Support Add-on,Referral,Closed Won,6400.0,2025-12-04,2026-03-17,2026-03-17,168,103,True,True,False,False
+O00090,A0024,R013,Professional Services,Outreach Sequence,Prospecting,23800.0,2025-11-09,,2026-08-24,8,296,False,False,False,False
+O00091,A0045,R009,Data Module,Referral,Qualification,2900.0,2025-07-24,,2026-08-21,11,404,False,False,False,False
+O00092,A0118,R006,Professional Services,Referral,Prospecting,12300.0,2026-07-21,,2026-08-07,25,42,False,False,False,False
+O00093,A0043,R004,Support Add-on,Referral,Prospecting,15200.0,2025-03-22,,2025-04-11,508,528,False,False,True,False
+O00094,A0045,R018,Support Add-on,,Proposal,8300.0,2025-03-28,,2026-08-17,15,522,False,False,False,False
+O00095,A0080,R008,Platform License,Referral,Closed Lost,31100.0,2026-05-11,2026-08-31,2026-08-27,5,112,True,False,False,False
+O00096,A0038,R004,Professional Services,Outreach Sequence,Prospecting,13450.0,2025-04-27,,2025-05-05,484,492,False,False,True,True
+O00097,A0043,R017,Platform License,,Qualification,52400.0,2025-06-06,,2026-08-26,6,452,False,False,False,False
+O00098,A0090,R002,Professional Services,Inbound Web,Proposal,17000.0,2026-04-12,,2026-04-28,126,142,False,False,True,False
+O00099,A0077,R011,Data Module,ZoomInfo List,Proposal,11700.0,2025-09-15,,2026-08-09,23,351,False,False,False,False
+O00100,A0045,R010,Data Module,LinkedIn Sales Nav,Qualification,4900.0,2025-12-22,,2026-01-01,243,253,False,False,True,False
+O00101,A0038,R010,Data Module,LinkedIn Sales Nav,Qualification,18200.0,2025-04-27,,2025-05-01,488,492,False,False,True,False
+O00102,A0045,R005,Support Add-on,,Qualification,45400.0,2026-04-04,,2026-08-30,2,150,False,False,False,False
+O00103,A0117,R017,Platform License,Referral,Qualification,9400.0,2025-04-28,,2025-05-16,473,491,False,False,True,False
+O00104,A0090,R010,Platform License,Inbound Web,Qualification,7800.0,2025-12-29,,2026-08-25,7,246,False,False,False,False
+O00105,A0094,R014,Data Module,,Closed Won,5700.0,2025-09-27,2025-11-11,2025-11-11,294,45,True,True,False,False
+O00106,A0070,R014,Platform License,,Proposal,14100.0,2025-05-01,,2026-08-23,9,488,False,False,False,False
+O00107,A0077,R003,Data Module,ZoomInfo List,Proposal,8900.0,2026-01-06,,2026-08-31,1,238,False,False,False,False
+O00108,A0038,R002,Platform License,Outreach Sequence,Closed Lost,6300.0,2026-07-25,2026-08-30,2026-08-25,7,36,True,False,False,False
+O00109,A0093,R016,Professional Services,Referral,Negotiation,6200.0,2025-10-30,,2026-08-22,10,306,False,False,False,False
+O00110,A0120,R007,Platform License,,Qualification,7000.0,2025-05-09,,2025-05-24,465,480,False,False,True,False
+O00111,A0016,R009,Data Module,Referral,Closed Won,29000.0,2025-09-20,2025-11-13,2025-11-09,296,54,True,True,False,False
+O00112,A0021,R006,Platform License,LinkedIn Sales Nav,Prospecting,32500.0,2025-09-30,,2025-10-05,331,336,False,False,True,False
+O00113,A0042,R010,Support Add-on,,Qualification,8400.0,2025-08-04,,2026-08-23,9,393,False,False,False,False
+O00114,A0082,R018,Data Module,,Closed Won,20400.0,2025-08-28,2026-02-24,2026-02-24,189,180,True,True,False,False
+O00115,A0139,R010,Support Add-on,Referral,Closed Lost,8100.0,2025-04-04,2025-05-14,2025-05-09,480,40,True,False,False,False
+O00116,A0118,R018,Data Module,,Qualification,19000.0,2026-01-17,,2026-08-18,14,227,False,False,False,False
+O00117,A0100,R003,Data Module,Referral,Closed Won,6700.0,2025-05-06,2025-07-18,2025-07-13,415,73,True,True,False,False
+O00118,A0022,R012,Professional Services,ZoomInfo List,Prospecting,5800.0,2025-08-26,,2025-09-13,353,371,False,False,True,False
+O00119,A0127,R018,Platform License,Referral,Closed Won,6900.0,2025-09-30,2025-11-08,2025-11-03,302,39,True,True,False,False
+O00120,A0117,R007,Data Module,,Closed Won,11900.0,2025-06-01,2025-07-14,2025-07-10,418,43,True,True,False,False
+O00121,A0087,R010,Platform License,Inbound Web,Closed Won,10300.0,2025-10-20,2026-01-03,2026-01-03,241,75,True,True,False,False
+O00122,A0058,R015,Professional Services,ZoomInfo List,Closed Won,13450.0,2025-09-13,2025-10-10,2025-10-07,329,27,True,True,False,True
+O00123,A0121,R009,Support Add-on,Outreach Sequence,Qualification,14800.0,2025-06-27,,2026-08-20,12,431,False,False,False,False
+O00124,A0086,R010,Platform License,Outreach Sequence,Closed Lost,9400.0,2026-03-02,2026-07-25,2026-07-24,39,145,True,False,False,False
+O00125,A0111,R003,Professional Services,Inbound Web,Proposal,45400.0,2025-10-30,,2026-08-15,17,306,False,False,False,False
+O00126,A0086,R002,Data Module,Referral,Prospecting,23500.0,2025-09-11,,2026-08-09,23,355,False,False,False,False
+O00127,A0010,R012,Professional Services,,Qualification,10500.0,2026-08-15,,2026-08-17,15,17,False,False,False,False
+O00128,A0138,R001,Professional Services,Referral,Proposal,22500.0,2026-07-17,,2026-08-08,24,46,False,False,False,False
+O00129,A0019,R016,Professional Services,LinkedIn Sales Nav,Qualification,4700.0,2025-11-08,,2026-08-14,18,297,False,False,False,False
+O00130,A0098,R014,Data Module,Referral,Closed Lost,7400.0,2026-04-07,2026-07-31,2026-07-29,34,115,True,False,False,False
+O00131,A0007,R014,Data Module,Inbound Web,Prospecting,32300.0,2025-04-11,,2026-08-11,21,508,False,False,False,False
+O00132,A0001,R010,Support Add-on,,Qualification,31700.0,2026-04-01,,2026-08-17,15,153,False,False,False,False
+O00133,A0113,R016,Data Module,ZoomInfo List,Closed Won,26200.0,2026-04-06,2026-08-28,2026-08-25,7,144,True,True,False,False
+O00134,A0098,R016,Professional Services,Outreach Sequence,Qualification,28400.0,2025-12-13,,2025-12-28,247,262,False,False,True,False
+O00135,A0086,R014,Data Module,ZoomInfo List,Qualification,12000.0,2025-11-30,,2026-08-30,2,275,False,False,False,False
+O00136,A0114,R007,Data Module,ZoomInfo List,Qualification,7700.0,2025-09-25,,2025-10-02,334,341,False,False,True,False
+O00137,A0051,R007,Support Add-on,LinkedIn Sales Nav,Proposal,26500.0,2026-02-03,,2026-08-08,24,210,False,False,False,False
+O00138,A0024,R011,Support Add-on,ZoomInfo List,Qualification,5600.0,2025-12-07,,2026-08-07,25,268,False,False,False,False
+O00139,A0038,R007,Support Add-on,Referral,Qualification,10600.0,2025-08-17,,2026-08-25,7,380,False,False,False,False
+O00140,A0015,R007,Data Module,Referral,Qualification,16100.0,2025-06-30,,2025-07-13,415,428,False,False,True,False
+O00141,A0130,R008,Professional Services,,Qualification,11200.0,2025-09-20,,2026-08-12,20,346,False,False,False,False
+O00142,A0038,R012,Platform License,Outreach Sequence,Prospecting,16200.0,2025-09-05,,2025-09-23,343,361,False,False,True,False
+O00143,A0051,R003,Platform License,ZoomInfo List,Closed Won,8200.0,2026-07-13,2026-08-27,2026-08-22,10,45,True,True,False,False
+O00144,A0067,R012,Data Module,Outreach Sequence,Proposal,7800.0,2025-04-01,,2026-08-11,21,518,False,False,False,False
+O00145,A0021,R008,Platform License,Referral,Proposal,3300.0,2026-08-25,,2026-09-11,-10,7,False,False,False,False
+O00146,A0115,R006,Professional Services,Referral,Closed Won,26800.0,2025-06-17,2025-07-24,2025-07-24,404,37,True,True,False,False
+O00147,A0134,R016,Data Module,Referral,Qualification,29200.0,2025-03-10,,2025-03-23,527,540,False,False,True,False
+O00148,A0119,R017,Platform License,Outreach Sequence,Closed Lost,8000.0,2025-12-25,2026-03-21,2026-03-16,169,86,True,False,False,False
+O00149,A0026,R018,Platform License,Inbound Web,Qualification,13300.0,2025-07-12,,2026-08-12,20,416,False,False,False,True
+O00150,A0073,R016,Professional Services,ZoomInfo List,Negotiation,2300.0,2025-06-13,,2026-08-29,3,445,False,False,False,False
+O00151,A0026,R012,Professional Services,LinkedIn Sales Nav,Qualification,11300.0,2025-05-02,,2026-08-24,8,487,False,False,False,False
+O00152,A0090,R018,Data Module,,Closed Lost,13100.0,2026-08-15,2026-08-31,2026-08-29,3,16,True,False,False,False
+O00153,A0128,R010,Platform License,Outreach Sequence,Proposal,12900.0,2025-09-26,,2025-09-29,337,340,False,False,True,False
+O00154,A0004,R001,Support Add-on,Outreach Sequence,Qualification,11900.0,2025-06-10,,2025-06-30,428,448,False,False,True,False
+O00155,A0096,R007,Data Module,ZoomInfo List,Closed Won,21900.0,2025-11-25,2026-04-09,2026-04-08,146,135,True,True,False,False
+O00156,A0131,R009,Professional Services,Inbound Web,Prospecting,6700.0,2025-08-07,,2026-08-10,22,390,False,False,False,False
+O00157,A0019,R016,Data Module,LinkedIn Sales Nav,Closed Won,44800.0,2026-03-27,2026-07-07,2026-07-07,56,102,True,True,False,False
+O00158,A0127,R015,Platform License,Outreach Sequence,Prospecting,14700.0,2025-11-28,,2025-12-13,262,277,False,False,True,False
+O00159,A0007,R017,Platform License,LinkedIn Sales Nav,Qualification,19500.0,2026-06-01,,2026-08-07,25,92,False,False,False,False
+O00160,A0114,R008,Professional Services,,Proposal,8400.0,2025-07-04,,2026-08-15,17,424,False,False,False,False
+O00161,A0016,R016,Data Module,LinkedIn Sales Nav,Prospecting,5100.0,2025-08-07,,2025-08-23,374,390,False,False,True,False
+O00162,A0129,R018,Professional Services,Inbound Web,Qualification,67500.0,2025-06-26,,2026-08-25,7,432,False,False,False,False
+O00163,A0092,R002,Support Add-on,Inbound Web,Prospecting,31800.0,2026-05-14,,2026-08-22,10,110,False,False,False,False
+O00164,A0068,R010,Data Module,LinkedIn Sales Nav,Proposal,5900.0,2025-09-23,,2026-08-28,4,343,False,False,False,False
+O00165,A0005,R001,Professional Services,LinkedIn Sales Nav,Closed Lost,6200.0,2026-03-03,2026-05-26,2026-05-21,103,84,True,False,False,False
+O00166,A0135,R011,Platform License,,Qualification,3300.0,2025-08-11,,2026-08-14,18,386,False,False,False,False
+O00167,A0095,R010,Data Module,,Closed Lost,15600.0,2025-05-16,2025-09-15,2025-09-13,353,122,True,False,False,False
+O00168,A0020,R013,Platform License,Inbound Web,Prospecting,6700.0,2025-04-07,,2025-04-12,507,512,False,False,True,False
+O00169,A0131,R003,Support Add-on,,Negotiation,35300.0,2025-04-28,,2026-08-10,22,491,False,False,False,False
+O00170,A0092,R018,Data Module,LinkedIn Sales Nav,Prospecting,22100.0,2026-06-05,,2026-08-21,11,88,False,False,False,False
+O00171,A0098,R007,Data Module,LinkedIn Sales Nav,Prospecting,13500.0,2025-06-17,,2025-07-04,424,441,False,False,True,False
+O00172,A0053,R015,Data Module,Outreach Sequence,Proposal,24200.0,2025-07-27,,2026-08-16,16,401,False,False,False,False
+O00173,A0071,R002,Data Module,ZoomInfo List,Proposal,8000.0,2025-11-02,,2025-11-07,298,303,False,False,True,False
+O00174,A0004,R014,Platform License,,Proposal,34000.0,2025-03-16,,2025-03-31,519,534,False,False,True,False
+O00175,A0100,R010,Professional Services,Referral,Prospecting,7300.0,2026-05-06,,2026-08-11,21,118,False,False,False,False
+O00176,A0132,R016,Professional Services,,Qualification,18100.0,2026-03-21,,2026-08-25,7,164,False,False,False,False
+O00177,A0035,R016,Data Module,Outreach Sequence,Proposal,12300.0,2025-06-15,,2026-08-26,6,443,False,False,False,False
+O00178,A0019,R004,Support Add-on,LinkedIn Sales Nav,Qualification,9700.0,2026-01-24,,2026-08-30,2,220,False,False,False,False
+O00179,A0138,R005,Data Module,Referral,Proposal,9300.0,2026-02-11,,2026-08-17,15,202,False,False,False,False
+O00180,A0098,R009,Platform License,,Negotiation,37800.0,2025-07-26,,2026-08-18,14,402,False,False,False,False
+O00181,A0134,R005,Data Module,Inbound Web,Qualification,13300.0,2026-04-16,,2026-04-22,132,138,False,False,True,False
+O00182,A0067,R015,Professional Services,Inbound Web,Negotiation,18400.0,2026-04-12,,2026-04-30,124,142,False,False,True,False
+O00183,A0007,R011,Platform License,Inbound Web,Prospecting,6500.0,2025-11-09,,2026-08-13,19,296,False,False,False,False
+O00184,A0031,R010,Data Module,Inbound Web,Qualification,6600.0,2026-04-14,,2026-08-16,16,140,False,False,False,False
+O00185,A0105,R012,Platform License,LinkedIn Sales Nav,Proposal,10800.0,2025-06-03,,2026-08-07,25,455,False,False,False,False
+O00186,A0102,R007,Platform License,Referral,Proposal,6500.0,2026-01-13,,2026-08-14,18,231,False,False,False,False
+O00187,A0085,R008,Data Module,Referral,Qualification,6900.0,2026-05-07,,2026-08-21,11,117,False,False,False,False
+O00188,A0030,R013,Data Module,LinkedIn Sales Nav,Closed Lost,12200.0,2026-01-20,2026-07-16,2026-07-15,48,177,True,False,False,False
+O00189,A0004,R012,Professional Services,,Closed Won,44900.0,2025-09-09,2026-01-09,2026-01-09,235,122,True,True,False,False
+O00190,A0021,R015,Professional Services,Outreach Sequence,Closed Won,14400.0,2025-09-06,2025-10-28,2025-10-24,312,52,True,True,False,False
+O00191,A0081,R001,Support Add-on,Referral,Proposal,4600.0,2025-09-06,,2026-08-22,10,360,False,False,False,False
+O00192,A0085,R010,Professional Services,,Closed Lost,2300.0,2025-12-01,2026-01-14,2026-01-11,233,44,True,False,False,False
+O00193,A0029,R007,Data Module,ZoomInfo List,Qualification,16500.0,2026-04-18,,2026-04-26,128,136,False,False,True,False
+O00194,A0108,R002,Data Module,Referral,Negotiation,5900.0,2025-11-29,,2026-08-12,20,276,False,False,False,False
+O00195,A0130,R017,Platform License,,Closed Won,3800.0,2025-11-20,2026-03-26,2026-03-23,162,126,True,True,False,False
+O00196,A0129,R010,Professional Services,Inbound Web,Negotiation,10200.0,2025-05-19,,2026-08-30,2,470,False,False,False,False
+O00197,A0098,R002,Data Module,LinkedIn Sales Nav,Proposal,1900.0,2026-01-27,,2026-08-22,10,217,False,False,False,False
+O00198,A0062,R007,Data Module,ZoomInfo List,Prospecting,17400.0,2026-07-13,,2026-07-19,44,50,False,False,True,False
+O00199,A0072,R016,Support Add-on,Outreach Sequence,Closed Lost,12600.0,2026-04-18,2026-06-07,2026-06-05,88,50,True,False,False,False
+O00200,A0118,R008,Data Module,,Negotiation,3900.0,2025-08-16,,2025-08-29,368,381,False,False,True,False
+O00201,A0104,R016,Data Module,Outreach Sequence,Closed Won,10000.0,2026-05-30,2026-08-02,2026-07-30,33,64,True,True,False,False
+O00202,A0096,R017,Platform License,,Closed Won,23400.0,2026-08-23,2026-08-30,2026-08-27,5,7,True,True,False,False
+O00203,A0137,R014,Professional Services,Outreach Sequence,Prospecting,32200.0,2026-05-19,,2026-08-28,4,105,False,False,False,False
+O00204,A0017,R011,Professional Services,Inbound Web,Negotiation,41200.0,2025-03-06,,2026-08-18,14,544,False,False,False,False
+O00205,A0073,R011,Support Add-on,Inbound Web,Closed Won,8400.0,2025-06-04,2025-07-09,2025-07-08,420,35,True,True,False,False
+O00206,A0089,R014,Platform License,,Closed Won,9800.0,2025-10-13,2026-01-01,2025-12-27,248,80,True,True,False,False
+O00207,A0134,R016,Professional Services,Inbound Web,Qualification,25200.0,2025-10-27,,2026-08-09,23,309,False,False,False,False
+O00208,A0096,R003,Support Add-on,LinkedIn Sales Nav,Prospecting,4400.0,2025-08-01,,2026-08-30,2,396,False,False,False,False
+O00209,A0051,R006,Platform License,Outreach Sequence,Proposal,11100.0,2026-04-18,,2026-08-15,17,136,False,False,False,False
+O00210,A0071,R017,Support Add-on,,Prospecting,35700.0,2026-06-23,,2026-06-25,68,70,False,False,True,False
+O00211,A0135,R008,Support Add-on,Outreach Sequence,Closed Won,13900.0,2025-04-05,2025-07-26,2025-07-26,402,112,True,True,False,False
+O00212,A0048,R011,Platform License,LinkedIn Sales Nav,Prospecting,22900.0,2025-10-18,,2026-08-28,4,318,False,False,False,False
+O00213,A0106,R008,Platform License,Inbound Web,Closed Won,20300.0,2025-06-10,2025-07-04,2025-07-03,425,24,True,True,False,False
+O00214,A0036,R013,Platform License,ZoomInfo List,Qualification,32100.0,2026-07-06,,2026-08-27,5,57,False,False,False,False
+O00215,A0106,R003,Platform License,Outreach Sequence,Closed Lost,5400.0,2025-04-10,2025-06-01,2025-05-30,459,52,True,False,False,False
+O00216,A0073,R007,Data Module,Inbound Web,Closed Won,6500.0,2025-09-22,2026-02-13,2026-02-13,200,144,True,True,False,False
+O00217,A0016,R015,Platform License,Referral,Qualification,8200.0,2025-03-26,,2026-08-27,5,524,False,False,False,False
+O00218,A0035,R016,Support Add-on,Inbound Web,Qualification,12100.0,2026-05-05,,2026-05-06,118,119,False,False,True,False
+O00219,A0029,R015,Professional Services,LinkedIn Sales Nav,Prospecting,9600.0,2026-03-31,,2026-08-10,22,154,False,False,False,False
+O00220,A0113,R003,Platform License,ZoomInfo List,Proposal,12200.0,2025-12-20,,2025-12-23,252,255,False,False,True,False
+O00221,A0095,R010,Support Add-on,LinkedIn Sales Nav,Closed Won,9700.0,2026-01-15,2026-05-07,2026-05-07,117,112,True,True,False,False
+O00222,A0072,R007,Professional Services,Inbound Web,Proposal,36800.0,2026-06-04,,2026-08-23,9,89,False,False,False,False
+O00223,A0090,R003,Professional Services,Outreach Sequence,Negotiation,22400.0,2025-08-19,,2026-08-08,24,378,False,False,False,False
+O00224,A0026,R012,Platform License,,Prospecting,21300.0,2025-07-08,,2026-08-10,22,420,False,False,False,False
+O00225,A0051,R003,Data Module,Inbound Web,Closed Won,28600.0,2025-08-11,2025-09-16,2025-09-15,351,36,True,True,False,False
+O00226,A0072,R008,Support Add-on,Inbound Web,Closed Lost,10600.0,2026-07-01,2026-08-31,2026-08-31,1,61,True,False,False,False
+O00227,A0096,R008,Data Module,,Negotiation,3900.0,2026-06-06,,2026-06-19,74,87,False,False,True,False
+O00228,A0091,R013,Support Add-on,Inbound Web,Qualification,11200.0,2026-04-20,,2026-08-07,25,134,False,False,False,False
+O00229,A0045,R010,Professional Services,Inbound Web,Qualification,2900.0,2025-11-26,,2025-12-15,260,279,False,False,True,False
+O00230,A0055,R001,Data Module,LinkedIn Sales Nav,Qualification,6100.0,2025-05-11,,2026-08-08,24,478,False,False,False,False
+O00231,A0105,R004,Support Add-on,ZoomInfo List,Prospecting,16100.0,2026-05-01,,2026-08-10,22,123,False,False,False,False
+O00232,A0097,R017,Professional Services,Outreach Sequence,Closed Won,23300.0,2026-05-30,2026-08-27,2026-08-27,5,89,True,True,False,False
+O00233,A0099,R008,Platform License,Outreach Sequence,Closed Won,2600.0,2025-07-13,2025-08-16,2025-08-13,384,34,True,True,False,False
+O00234,A0097,R010,Platform License,Referral,Closed Won,3000.0,2026-06-29,2026-08-11,2026-08-10,22,43,True,True,False,False
+O00235,A0087,R015,Professional Services,Outreach Sequence,Closed Lost,8100.0,2025-12-09,2025-12-24,2025-12-24,251,15,True,False,False,False
+O00236,A0031,R016,Data Module,Outreach Sequence,Prospecting,21100.0,2025-09-26,,2025-10-15,321,340,False,False,True,False
+O00237,A0074,R001,Support Add-on,Inbound Web,Closed Won,4400.0,2025-08-05,2025-11-13,2025-11-12,293,100,True,True,False,False
+O00238,A0113,R013,Platform License,Outreach Sequence,Prospecting,5700.0,2026-04-01,,2026-08-17,15,153,False,False,False,False
+O00239,A0012,R014,Data Module,,Proposal,5100.0,2025-11-18,,2025-12-05,270,287,False,False,True,False
+O00240,A0012,R015,Support Add-on,ZoomInfo List,Proposal,21600.0,2025-08-29,,2025-09-17,349,368,False,False,True,False
+O00241,A0032,R017,Support Add-on,Referral,Qualification,17400.0,2026-08-05,,2026-08-14,18,27,False,False,False,False
+O00242,A0061,R015,Professional Services,Referral,Closed Lost,12500.0,2026-01-05,2026-03-19,2026-03-14,171,73,True,False,False,False
+O00243,A0027,R005,Platform License,,Qualification,3800.0,2025-07-30,,2025-08-18,379,398,False,False,True,False
+O00244,A0027,R017,Support Add-on,ZoomInfo List,Closed Lost,5700.0,2025-09-05,2026-02-06,2026-02-05,208,154,True,False,False,False
+O00245,A0057,R004,Platform License,LinkedIn Sales Nav,Prospecting,13300.0,2025-04-16,,2025-04-24,495,503,False,False,True,True
+O00246,A0096,R013,Professional Services,Outreach Sequence,Closed Won,14800.0,2026-02-06,2026-04-02,2026-03-31,154,55,True,True,False,False
+O00247,A0038,R013,Platform License,LinkedIn Sales Nav,Closed Won,5800.0,2025-03-11,2025-06-24,2025-06-19,439,105,True,True,False,False
+O00248,A0107,R009,Support Add-on,ZoomInfo List,Qualification,18200.0,2025-10-26,,2026-08-19,13,310,False,False,False,False
+O00249,A0065,R004,Professional Services,ZoomInfo List,Qualification,26600.0,2025-08-31,,2026-08-20,12,366,False,False,False,False
+O00250,A0043,R006,Platform License,Inbound Web,Closed Lost,19200.0,2026-08-30,2026-08-31,2026-08-30,2,1,True,False,False,False
+O00251,A0013,R009,Support Add-on,Inbound Web,Qualification,14100.0,2026-04-09,,2026-04-20,134,145,False,False,True,False
+O00252,A0003,R007,Platform License,Outreach Sequence,Qualification,6100.0,2026-08-20,,2026-08-21,11,12,False,False,False,False
+O00253,A0009,R001,Support Add-on,Referral,Proposal,8300.0,2025-08-01,,2026-08-19,13,396,False,False,False,False
+O00254,A0019,R017,Professional Services,Inbound Web,Prospecting,7300.0,2025-08-12,,2026-08-14,18,385,False,False,False,False
+O00255,A0132,R006,Platform License,LinkedIn Sales Nav,Closed Won,51900.0,2026-06-17,2026-08-31,2026-08-29,3,75,True,True,False,False
+O00256,A0129,R003,Support Add-on,Referral,Closed Lost,17100.0,2026-03-10,2026-04-08,2026-04-04,150,29,True,False,False,False
+O00257,A0094,R001,Professional Services,Outreach Sequence,Closed Won,12400.0,2025-04-24,2025-10-18,2025-10-17,319,177,True,True,False,False
+O00258,A0103,R004,Support Add-on,LinkedIn Sales Nav,Qualification,26900.0,2026-05-20,,2026-08-15,17,104,False,False,False,False
+O00259,A0053,R005,Platform License,Inbound Web,Prospecting,20600.0,2025-12-31,,2026-08-17,15,244,False,False,False,False
+O00260,A0048,R012,Professional Services,ZoomInfo List,Qualification,8400.0,2026-06-03,,2026-08-17,15,90,False,False,False,False
+O00261,A0101,R004,Data Module,,Closed Lost,4500.0,2025-11-06,2025-12-15,2025-12-13,262,39,True,False,False,False
+O00262,A0075,R002,Platform License,LinkedIn Sales Nav,Prospecting,8500.0,2025-12-03,,2025-12-16,259,272,False,False,True,False
+O00263,A0098,R001,Platform License,,Proposal,11700.0,2025-06-07,,2026-08-14,18,451,False,False,False,False
+O00264,A0105,R001,Data Module,Referral,Closed Won,13900.0,2025-09-13,2026-02-20,2026-02-19,194,160,True,True,False,False
+O00265,A0023,R005,Professional Services,Outreach Sequence,Negotiation,8800.0,2025-05-02,,2026-08-30,2,487,False,False,False,False
+O00266,A0023,R008,Data Module,Outreach Sequence,Prospecting,16300.0,2025-05-29,,2026-08-07,25,460,False,False,False,False
+O00267,A0095,R001,Platform License,Inbound Web,Qualification,37200.0,2025-06-12,,2025-07-02,426,446,False,False,True,False
+O00268,A0109,R006,Platform License,Inbound Web,Proposal,8200.0,2025-07-21,,2026-09-01,0,407,False,False,False,False
+O00269,A0015,R016,Support Add-on,Inbound Web,Prospecting,6700.0,2026-03-31,,2026-08-14,18,154,False,False,False,False
+O00270,A0117,R010,Data Module,ZoomInfo List,Proposal,11700.0,2025-12-04,,2026-08-17,15,271,False,False,False,True
+O00271,A0072,R015,Support Add-on,Outreach Sequence,Prospecting,15900.0,2025-07-16,,2026-08-31,1,412,False,False,False,False
+O00272,A0032,R008,Professional Services,ZoomInfo List,Closed Won,25400.0,2025-09-20,2025-12-18,2025-12-16,259,89,True,True,False,False
+O00273,A0013,R010,Professional Services,Inbound Web,Closed Lost,37100.0,2025-10-28,2026-01-28,2026-01-26,218,92,True,False,False,False
+O00274,A0003,R018,Professional Services,Outreach Sequence,Closed Lost,45700.0,2026-01-27,2026-06-10,2026-06-06,87,134,True,False,False,False
+O00275,A0087,R006,Professional Services,ZoomInfo List,Closed Won,36000.0,2025-10-17,2025-11-30,2025-11-26,279,44,True,True,False,False
+O00276,A0064,R017,Professional Services,LinkedIn Sales Nav,Closed Won,2100.0,2026-02-07,2026-02-25,2026-02-22,191,18,True,True,False,False
+O00277,A0125,R015,Support Add-on,Inbound Web,Closed Won,57200.0,2025-08-19,2026-02-07,2026-02-07,206,172,True,True,False,False
+O00278,A0140,R006,Platform License,LinkedIn Sales Nav,Prospecting,21500.0,2025-06-01,,2026-08-21,11,457,False,False,False,False
+O00279,A0134,R007,Professional Services,,Proposal,5200.0,2026-08-03,,2026-08-08,24,29,False,False,False,False
+O00280,A0094,R001,Data Module,ZoomInfo List,Qualification,28600.0,2026-02-01,,2026-08-08,24,212,False,False,False,False
+O00281,A0025,R009,Support Add-on,Inbound Web,Negotiation,8900.0,2026-03-07,,2026-03-27,158,178,False,False,True,False
+O00282,A0090,R011,Platform License,Outreach Sequence,Closed Won,9500.0,2025-08-11,2025-10-24,2025-10-23,313,74,True,True,False,False
+O00283,A0085,R004,Support Add-on,,Closed Lost,12000.0,2025-03-26,2025-08-26,2025-08-21,376,153,True,False,False,False
+O00284,A0119,R016,Support Add-on,,Proposal,61200.0,2026-05-13,,2026-08-12,20,111,False,False,False,False
+O00285,A0043,R016,Support Add-on,,Qualification,17600.0,2025-10-30,,2026-08-31,1,306,False,False,False,False
+O00286,A0128,R001,Data Module,,Closed Won,8700.0,2026-04-10,2026-07-04,2026-07-02,61,85,True,True,False,False
+O00287,A0073,R016,Data Module,,Negotiation,5600.0,2026-07-26,,2026-08-22,10,37,False,False,False,False
+O00288,A0069,R013,Data Module,ZoomInfo List,Proposal,5900.0,2025-08-29,,2026-08-15,17,368,False,False,False,False
+O00289,A0113,R002,Professional Services,,Closed Won,4300.0,2025-12-10,2026-03-15,2026-03-10,175,95,True,True,False,False
+O00290,A0120,R005,Data Module,Outreach Sequence,Proposal,4300.0,2025-10-21,,2026-08-14,18,315,False,False,False,False
+O00291,A0105,R009,Data Module,Outreach Sequence,Proposal,8000.0,2026-06-20,,2026-08-11,21,73,False,False,False,False
+O00292,A0115,R016,Professional Services,LinkedIn Sales Nav,Prospecting,4400.0,2026-03-30,,2026-04-18,136,155,False,False,True,False
+O00293,A0035,R002,Platform License,Outreach Sequence,Closed Won,8300.0,2026-02-28,2026-06-03,2026-05-29,95,95,True,True,False,False
+O00294,A0116,R006,Professional Services,Referral,Qualification,7200.0,2025-05-26,,2026-08-27,5,463,False,False,False,False
+O00295,A0016,R005,Professional Services,,Negotiation,29200.0,2025-06-13,,2026-08-17,15,445,False,False,False,False
+O00296,A0060,R015,Professional Services,ZoomInfo List,Closed Lost,13450.0,2025-08-14,2026-01-06,2026-01-05,239,145,True,False,False,True
+O00297,A0128,R013,Platform License,LinkedIn Sales Nav,Qualification,12200.0,2025-09-13,,2026-08-14,18,353,False,False,False,False
+O00298,A0073,R016,Support Add-on,Inbound Web,Proposal,8800.0,2025-11-07,,2026-08-22,10,298,False,False,False,False
+O00299,A0033,R009,Professional Services,,Closed Won,8000.0,2025-08-29,2025-12-20,2025-12-20,255,113,True,True,False,False
+O00300,A0089,R002,Platform License,Referral,Negotiation,10700.0,2026-08-09,,2026-08-11,21,23,False,False,False,False
+O00301,A0104,R016,Data Module,Inbound Web,Negotiation,11300.0,2026-07-13,,2026-08-31,1,50,False,False,False,False
+O00302,A0072,R013,Support Add-on,Inbound Web,Proposal,7100.0,2026-04-27,,2026-08-26,6,127,False,False,False,False
+O00303,A0118,R014,Platform License,LinkedIn Sales Nav,Negotiation,6400.0,2026-05-20,,2026-08-10,22,104,False,False,False,False
+O00304,A0139,R016,Professional Services,LinkedIn Sales Nav,Closed Won,86500.0,2026-05-07,2026-07-06,2026-07-02,61,60,True,True,False,False
+O00305,A0008,R018,Support Add-on,ZoomInfo List,Qualification,14300.0,2025-07-08,,2026-08-26,6,420,False,False,False,False
+O00306,A0129,R007,Platform License,Referral,Prospecting,17300.0,2026-08-29,,2026-08-14,18,3,False,False,False,False
+O00307,A0099,R011,Support Add-on,Inbound Web,Closed Won,7300.0,2026-06-16,2026-08-30,2026-08-25,7,75,True,True,False,False
+O00308,A0004,R016,Data Module,,Prospecting,16000.0,2026-07-11,,2026-08-23,9,52,False,False,False,False
+O00309,A0071,R015,Support Add-on,LinkedIn Sales Nav,Prospecting,2900.0,2026-05-05,,2026-05-10,114,119,False,False,True,False
+O00310,A0071,R013,Platform License,Inbound Web,Closed Lost,5200.0,2025-06-09,2025-07-12,2025-07-10,418,33,True,False,False,False
+O00311,A0069,R006,Professional Services,Outreach Sequence,Closed Lost,11200.0,2025-07-18,2025-11-03,2025-10-29,307,108,True,False,False,False
+O00312,A0014,R001,Data Module,ZoomInfo List,Closed Won,10900.0,2026-04-18,2026-06-07,2026-06-07,86,50,True,True,False,False
+O00313,A0011,R002,Data Module,Inbound Web,Closed Won,25000.0,2025-08-08,2025-09-20,2025-09-17,349,43,True,True,False,False
+O00314,A0131,R010,Support Add-on,Referral,Prospecting,3500.0,2026-07-15,,2026-08-01,31,48,False,False,True,False
+O00315,A0028,R014,Support Add-on,,Closed Won,6200.0,2025-03-14,2025-07-12,2025-07-07,421,120,True,True,False,False
+O00316,A0057,R013,Data Module,ZoomInfo List,Prospecting,14600.0,2025-08-02,,2025-08-08,389,395,False,False,True,False
+O00317,A0116,R018,Professional Services,Referral,Closed Won,1800.0,2026-06-16,2026-08-26,2026-08-24,8,71,True,True,False,False
+O00318,A0062,R007,Platform License,Inbound Web,Proposal,7700.0,2025-08-09,,2025-08-24,373,388,False,False,True,False
+O00319,A0115,R017,Platform License,Referral,Qualification,5100.0,2025-05-31,,2026-09-01,0,458,False,False,False,False
+O00320,A0070,R004,Support Add-on,LinkedIn Sales Nav,Closed Won,6700.0,2026-08-31,2026-08-27,2026-08-26,6,-4,True,True,False,False
+O00321,A0031,R012,Data Module,Outreach Sequence,Closed Won,3400.0,2026-07-07,2026-08-27,2026-08-23,9,51,True,True,False,False
+O00322,A0070,R015,Support Add-on,,Closed Won,20700.0,2026-05-24,2026-06-03,2026-06-01,92,10,True,True,False,False
+O00323,A0004,R012,Platform License,LinkedIn Sales Nav,Prospecting,19600.0,2026-05-15,,2026-08-10,22,109,False,False,False,False
+O00324,A0094,R013,Data Module,Outreach Sequence,Qualification,24400.0,2026-02-12,,2026-02-19,194,201,False,False,True,False
+O00325,A0093,R012,Data Module,Outreach Sequence,Closed Won,14300.0,2026-04-27,2026-09-01,2026-08-27,5,127,True,True,False,False
+O00326,A0082,R011,Professional Services,,Closed Won,4200.0,2025-03-06,2025-08-12,2025-08-09,388,159,True,True,False,False
+O00327,A0066,R003,Support Add-on,Inbound Web,Prospecting,18000.0,2026-04-22,,2026-08-20,12,132,False,False,False,False
+O00328,A0115,R009,Support Add-on,,Closed Lost,2700.0,2025-09-14,2025-10-28,2025-10-27,309,44,True,False,False,False
+O00329,A0114,R011,Professional Services,Referral,Qualification,26000.0,2026-01-21,,2026-08-11,21,223,False,False,False,False
+O00330,A0024,R002,Support Add-on,Inbound Web,Closed Won,58100.0,2025-10-05,2026-03-07,2026-03-04,181,153,True,True,False,False
+O00331,A0081,R010,Support Add-on,ZoomInfo List,Proposal,19200.0,2026-08-18,,2026-08-31,1,14,False,False,False,False
+O00332,A0050,R001,Platform License,LinkedIn Sales Nav,Closed Won,9200.0,2025-11-11,2025-12-06,2025-12-01,274,25,True,True,False,False
+O00333,A0014,R013,Platform License,Inbound Web,Prospecting,18900.0,2025-05-25,,2026-08-15,17,464,False,False,False,False
+O00334,A0117,R018,Professional Services,Referral,Proposal,9100.0,2025-07-31,,2025-08-18,379,397,False,False,True,False
+O00335,A0064,R004,Professional Services,LinkedIn Sales Nav,Closed Won,14500.0,2025-06-04,2025-11-11,2025-11-07,298,160,True,True,False,False
+O00336,A0129,R011,Data Module,Outreach Sequence,Prospecting,20200.0,2025-05-29,,2025-06-04,454,460,False,False,True,False
+O00337,A0129,R009,Support Add-on,Inbound Web,Qualification,48400.0,2025-06-19,,2025-07-08,420,439,False,False,True,False
+O00338,A0025,R009,Data Module,Referral,Prospecting,4000.0,2026-03-26,,2026-08-08,24,159,False,False,False,False
+O00339,A0135,R017,Data Module,Referral,Prospecting,4600.0,2025-08-30,,2026-08-27,5,367,False,False,False,False
+O00340,A0106,R004,Support Add-on,ZoomInfo List,Prospecting,5300.0,2025-07-14,,2026-08-11,21,414,False,False,False,False
+O00341,A0066,R004,Data Module,ZoomInfo List,Proposal,11700.0,2025-03-06,,2026-08-12,20,544,False,False,False,True
+O00342,A0047,R014,Platform License,Referral,Closed Lost,4800.0,2025-12-25,2026-04-11,2026-04-11,143,107,True,False,False,False
+O00343,A0038,R005,Support Add-on,Referral,Proposal,10900.0,2025-08-13,,2026-08-31,1,384,False,False,False,False
+O00344,A0078,R002,Professional Services,,Closed Lost,29700.0,2026-06-08,2026-08-27,2026-08-27,5,80,True,False,False,False
+O00345,A0093,R015,Platform License,,Closed Won,22800.0,2025-06-23,2025-11-17,2025-11-12,293,147,True,True,False,False
+O00346,A0039,R004,Platform License,Referral,Prospecting,6000.0,2026-03-27,,2026-03-30,155,158,False,False,True,False
+O00347,A0019,R004,Support Add-on,Outreach Sequence,Closed Lost,11700.0,2026-01-10,2026-04-29,2026-04-26,128,109,True,False,False,False
+O00348,A0119,R001,Platform License,LinkedIn Sales Nav,Negotiation,5400.0,2025-07-29,,2025-08-18,379,399,False,False,True,False
+O00349,A0035,R017,Data Module,Inbound Web,Prospecting,39200.0,2025-04-04,,2026-08-23,9,515,False,False,False,False
+O00350,A0059,R014,Professional Services,LinkedIn Sales Nav,Proposal,12500.0,2026-07-31,,2026-08-13,19,32,False,False,False,False
+O00351,A0051,R017,Platform License,Referral,Closed Lost,16600.0,2025-08-14,2026-01-12,2026-01-08,236,151,True,False,False,False
+O00352,A0033,R010,Professional Services,ZoomInfo List,Proposal,6400.0,2025-07-24,,2025-08-05,392,404,False,False,True,False
+O00353,A0022,R005,Data Module,,Negotiation,33000.0,2026-01-17,,2026-01-23,221,227,False,False,True,False
+O00354,A0104,R003,Support Add-on,LinkedIn Sales Nav,Qualification,11300.0,2026-06-18,,2026-06-25,68,75,False,False,True,False
+O00355,A0092,R011,Support Add-on,Inbound Web,Negotiation,22000.0,2026-04-22,,2026-05-12,112,132,False,False,True,False
+O00356,A0095,R015,Support Add-on,Inbound Web,Qualification,42100.0,2025-05-27,,2025-06-15,443,462,False,False,True,False
+O00357,A0017,R003,Support Add-on,LinkedIn Sales Nav,Prospecting,15600.0,2026-03-12,,2026-08-10,22,173,False,False,False,False
+O00358,A0011,R009,Data Module,Referral,Negotiation,3800.0,2026-04-16,,2026-08-18,14,138,False,False,False,False
+O00359,A0001,R006,Support Add-on,,Prospecting,6000.0,2026-05-12,,2026-08-28,4,112,False,False,False,False
+O00360,A0134,R002,Platform License,Referral,Closed Won,18300.0,2026-06-14,2026-08-31,2026-08-27,5,78,True,True,False,False
+O00361,A0110,R001,Professional Services,Referral,Proposal,40500.0,2025-12-08,,2026-08-08,24,267,False,False,False,False
+O00362,A0108,R010,Professional Services,Referral,Prospecting,13450.0,2025-11-07,,2026-08-16,16,298,False,False,False,True
+O00363,A0090,R005,Data Module,LinkedIn Sales Nav,Proposal,23000.0,2026-04-10,,2026-08-14,18,144,False,False,False,False
+O00364,A0015,R018,Professional Services,Referral,Qualification,15200.0,2026-07-21,,2026-07-30,33,42,False,False,True,False
+O00365,A0018,R018,Platform License,,Proposal,9600.0,2025-08-27,,2026-08-31,1,370,False,False,False,False
+O00366,A0070,R001,Data Module,,Negotiation,21600.0,2025-03-16,,2026-08-24,8,534,False,False,False,False
+O00367,A0024,R015,Professional Services,Referral,Qualification,48800.0,2025-08-09,,2026-08-30,2,388,False,False,False,False
+O00368,A0124,R004,Professional Services,Inbound Web,Qualification,12800.0,2025-07-12,,2026-08-17,15,416,False,False,False,False
+O00369,A0125,R017,Support Add-on,Referral,Qualification,16500.0,2026-03-15,,2026-08-26,6,170,False,False,False,False
+O00370,A0112,R005,Data Module,ZoomInfo List,Negotiation,26400.0,2026-05-02,,2026-08-09,23,122,False,False,False,False
+O00371,A0073,R015,Professional Services,,Negotiation,24300.0,2026-03-19,,2026-03-21,164,166,False,False,True,False
+O00372,A0022,R007,Platform License,,Prospecting,33000.0,2025-03-25,,2025-04-03,516,525,False,False,True,False
+O00373,A0026,R017,Professional Services,ZoomInfo List,Closed Lost,17800.0,2025-11-14,2026-03-18,2026-03-14,171,124,True,False,False,False
+O00374,A0055,R017,Professional Services,,Negotiation,5200.0,2025-07-07,,2026-08-27,5,421,False,False,False,False
+O00375,A0124,R005,Platform License,ZoomInfo List,Closed Lost,8900.0,2025-09-15,2025-11-22,2025-11-19,286,68,True,False,False,False
+O00376,A0044,R009,Platform License,Referral,Closed Won,8100.0,2025-03-14,2025-05-01,2025-04-27,492,48,True,True,False,False
+O00377,A0131,R016,Data Module,Referral,Closed Won,7100.0,2025-04-03,2025-08-14,2025-08-09,388,133,True,True,False,False
+O00378,A0038,R018,Data Module,LinkedIn Sales Nav,Qualification,11300.0,2025-06-27,,2026-08-19,13,431,False,False,False,False
+O00379,A0064,R006,Support Add-on,Referral,Proposal,30500.0,2026-05-23,,2026-08-25,7,101,False,False,False,False
+O00380,A0073,R013,Platform License,Inbound Web,Qualification,13300.0,2025-07-09,,2026-08-07,25,419,False,False,False,True
+O00381,A0038,R004,Support Add-on,LinkedIn Sales Nav,Closed Won,2200.0,2026-02-02,2026-05-27,2026-05-25,99,114,True,True,False,False
+O00382,A0081,R007,Data Module,ZoomInfo List,Negotiation,14300.0,2025-06-24,,2025-07-07,421,434,False,False,True,False
+O00383,A0129,R013,Professional Services,,Proposal,16600.0,2025-08-17,,2025-08-27,370,380,False,False,True,False
+O00384,A0035,R007,Support Add-on,Referral,Closed Won,8000.0,2026-05-02,2026-06-22,2026-06-22,71,51,True,True,False,False
+O00385,A0004,R005,Platform License,Outreach Sequence,Prospecting,34600.0,2026-07-09,,2026-08-28,4,54,False,False,False,False
+O00386,A0015,R006,Support Add-on,,Qualification,7300.0,2025-12-05,,2026-08-09,23,270,False,False,False,False
+O00387,A0122,R007,Professional Services,Outreach Sequence,Closed Lost,13450.0,2026-07-04,2026-08-28,2026-08-25,7,55,True,False,False,True
+O00388,A0104,R009,Platform License,ZoomInfo List,Proposal,13300.0,2025-03-27,,2026-08-11,21,523,False,False,False,True
+O00389,A0092,R016,Platform License,Outreach Sequence,Closed Lost,16300.0,2026-06-04,2026-08-28,2026-08-25,7,85,True,False,False,False
+O00390,A0112,R016,Data Module,Inbound Web,Closed Won,3600.0,2025-11-13,2026-02-19,2026-02-17,196,98,True,True,False,False
+O00391,A0107,R003,Support Add-on,Outreach Sequence,Qualification,2500.0,2026-08-27,,2026-08-15,17,5,False,False,False,False
+O00392,A0057,R005,Support Add-on,Inbound Web,Closed Lost,41200.0,2025-03-24,2025-07-25,2025-07-22,406,123,True,False,False,False
+O00393,A0120,R006,Professional Services,,Closed Lost,16300.0,2025-05-17,2025-09-27,2025-09-27,339,133,True,False,False,False
+O00394,A0006,R009,Professional Services,LinkedIn Sales Nav,Closed Won,11300.0,2026-01-08,2026-04-18,2026-04-14,140,100,True,True,False,False
+O00395,A0011,R018,Data Module,LinkedIn Sales Nav,Proposal,13000.0,2026-05-28,,2026-08-30,2,96,False,False,False,False
+O00396,A0110,R018,Professional Services,,Qualification,3000.0,2025-09-03,,2025-09-10,356,363,False,False,True,False
+O00397,A0070,R014,Professional Services,Outreach Sequence,Closed Won,16100.0,2025-12-27,2026-03-05,2026-03-04,181,68,True,True,False,False
+O00398,A0112,R003,Support Add-on,Referral,Closed Lost,36900.0,2026-05-01,2026-08-31,2026-08-27,5,122,True,False,False,False
+O00399,A0082,R011,Data Module,ZoomInfo List,Proposal,18400.0,2025-10-13,,2026-08-17,15,323,False,False,False,False
+O00400,A0056,R017,Data Module,,Prospecting,11700.0,2026-04-22,,2026-08-15,17,132,False,False,False,True
+O00401,A0008,R015,Platform License,,Proposal,67400.0,2026-03-06,,2026-08-18,14,179,False,False,False,False
+O00402,A0105,R015,Support Add-on,ZoomInfo List,Qualification,19800.0,2026-01-28,,2026-02-17,196,216,False,False,True,False
+O00403,A0098,R007,Data Module,,Proposal,17900.0,2025-11-29,,2025-12-05,270,276,False,False,True,False
+O00404,A0085,R009,Platform License,,Qualification,24100.0,2025-08-15,,2025-08-21,376,382,False,False,True,False
+O00405,A0134,R013,Data Module,Outreach Sequence,Closed Won,9100.0,2025-11-28,2026-03-15,2026-03-14,171,107,True,True,False,False
+O00406,A0076,R014,Data Module,LinkedIn Sales Nav,Proposal,15200.0,2026-03-04,,2026-08-12,20,181,False,False,False,False
+O00407,A0135,R008,Professional Services,LinkedIn Sales Nav,Negotiation,15100.0,2025-12-18,,2025-12-22,253,257,False,False,True,False
+O00408,A0040,R001,Support Add-on,Referral,Closed Won,5100.0,2025-05-01,2025-09-03,2025-08-29,368,125,True,True,False,False
+O00409,A0022,R002,Support Add-on,LinkedIn Sales Nav,Qualification,38000.0,2025-12-11,,2025-12-31,244,264,False,False,True,False
+O00410,A0079,R011,Support Add-on,Inbound Web,Negotiation,22800.0,2025-10-03,,2026-08-18,14,333,False,False,False,False
+O00411,A0048,R001,Platform License,Outreach Sequence,Closed Won,8600.0,2026-04-05,2026-07-31,2026-07-26,37,117,True,True,False,False
+O00412,A0105,R012,Support Add-on,Inbound Web,Qualification,20200.0,2026-03-19,,2026-03-29,156,166,False,False,True,False
+O00413,A0026,R018,Professional Services,,Closed Won,8900.0,2025-08-25,2025-12-18,2025-12-17,258,115,True,True,False,False
+O00414,A0083,R007,Platform License,Outreach Sequence,Negotiation,45500.0,2026-01-03,,2026-08-30,2,241,False,False,False,False
+O00415,A0082,R018,Platform License,LinkedIn Sales Nav,Closed Lost,17800.0,2026-06-27,2026-08-31,2026-08-31,1,65,True,False,False,False
+O00416,A0131,R016,Professional Services,ZoomInfo List,Prospecting,21700.0,2026-03-25,,2026-04-02,152,160,False,False,True,False
+O00417,A0035,R014,Data Module,Inbound Web,Closed Won,11400.0,2025-03-10,2025-03-28,2025-03-23,527,18,True,True,False,False
+O00418,A0079,R013,Data Module,Referral,Proposal,30000.0,2025-11-26,,2026-08-10,22,279,False,False,False,False
+O00419,A0103,R015,Support Add-on,LinkedIn Sales Nav,Closed Lost,14500.0,2025-10-18,2026-03-15,2026-03-14,171,148,True,False,False,False
+O00420,A0131,R001,Support Add-on,LinkedIn Sales Nav,Qualification,38400.0,2025-07-05,,2025-07-22,406,423,False,False,True,False
+O00421,A0072,R011,Data Module,LinkedIn Sales Nav,Proposal,16400.0,2025-05-08,,2026-08-08,24,481,False,False,False,False
+O00422,A0096,R018,Data Module,ZoomInfo List,Closed Won,47500.0,2026-01-07,2026-03-06,2026-03-03,182,58,True,True,False,False
+O00423,A0068,R012,Professional Services,Referral,Closed Won,14300.0,2026-03-17,2026-07-01,2026-06-30,63,106,True,True,False,False
+O00424,A0030,R009,Professional Services,ZoomInfo List,Qualification,5200.0,2025-11-26,,2026-08-24,8,279,False,False,False,False
+O00425,A0096,R009,Professional Services,LinkedIn Sales Nav,Prospecting,5400.0,2025-11-08,,2026-08-24,8,297,False,False,False,False
+O00426,A0089,R016,Data Module,,Prospecting,15700.0,2026-08-12,,2026-08-16,16,20,False,False,False,False
+O00427,A0036,R012,Data Module,LinkedIn Sales Nav,Qualification,4900.0,2026-08-23,,2026-08-30,2,9,False,False,False,False
+O00428,A0064,R006,Platform License,LinkedIn Sales Nav,Closed Won,20300.0,2025-05-14,2025-08-16,2025-08-16,381,94,True,True,False,False
+O00429,A0089,R006,Platform License,,Prospecting,9500.0,2025-07-26,,2025-08-04,393,402,False,False,True,False
+O00430,A0115,R013,Professional Services,Inbound Web,Proposal,9600.0,2025-12-20,,2025-12-22,253,255,False,False,True,False
+O00431,A0133,R017,Platform License,LinkedIn Sales Nav,Closed Won,5400.0,2025-07-29,2025-10-29,2025-10-28,308,92,True,True,False,False
+O00432,A0066,R016,Platform License,ZoomInfo List,Negotiation,17400.0,2025-04-26,,2026-08-31,1,493,False,False,False,False
+O00433,A0059,R010,Platform License,Outreach Sequence,Qualification,9700.0,2025-06-13,,2026-08-14,18,445,False,False,False,False
+O00434,A0067,R003,Platform License,,Closed Won,17700.0,2025-05-02,2025-08-15,2025-08-15,382,105,True,True,False,False
+O00435,A0030,R007,Professional Services,Inbound Web,Closed Lost,7500.0,2025-09-19,2025-10-14,2025-10-12,324,25,True,False,False,False
+O00436,A0110,R003,Professional Services,Outreach Sequence,Qualification,18000.0,2026-01-05,,2026-08-08,24,239,False,False,False,False
+O00437,A0038,R006,Support Add-on,Referral,Qualification,24700.0,2025-08-10,,2025-08-12,385,387,False,False,True,False
+O00438,A0085,R011,Professional Services,Outreach Sequence,Qualification,14900.0,2025-04-17,,2026-08-22,10,502,False,False,False,False
+O00439,A0087,R005,Data Module,,Prospecting,31700.0,2025-03-06,,2026-08-15,17,544,False,False,False,False
+O00440,A0006,R018,Data Module,ZoomInfo List,Closed Lost,17600.0,2026-02-23,2026-08-10,2026-08-09,23,168,True,False,False,False
+O00441,A0031,R013,Platform License,Outreach Sequence,Closed Won,21500.0,2025-03-13,2025-08-26,2025-08-24,373,166,True,True,False,False
+O00442,A0071,R015,Professional Services,Outreach Sequence,Negotiation,2000.0,2025-03-14,,2026-08-28,4,536,False,False,False,False
+O00443,A0019,R004,Platform License,LinkedIn Sales Nav,Qualification,51500.0,2025-04-21,,2026-08-20,12,498,False,False,False,False
+O00444,A0017,R013,Data Module,,Negotiation,5600.0,2026-01-17,,2026-01-24,220,227,False,False,True,False
+O00445,A0105,R014,Support Add-on,Referral,Qualification,5200.0,2026-06-30,,2026-08-19,13,63,False,False,False,False
+O00446,A0010,R009,Platform License,,Closed Won,7600.0,2026-07-21,2026-08-19,2026-08-18,14,29,True,True,False,False
+O00447,A0021,R002,Data Module,,Proposal,26800.0,2026-01-07,,2026-01-15,229,237,False,False,True,False
+O00448,A0014,R009,Data Module,Referral,Closed Won,13600.0,2026-05-15,2026-08-28,2026-08-28,4,105,True,True,False,False
+O00449,A0102,R014,Support Add-on,LinkedIn Sales Nav,Negotiation,2800.0,2025-09-20,,2026-08-18,14,346,False,False,False,False
+O00450,A0134,R016,Data Module,Referral,Closed Won,16900.0,2025-07-05,2025-10-05,2025-10-01,335,92,True,True,False,False
+O00451,A0124,R012,Support Add-on,Referral,Qualification,12650.0,2025-12-14,,2026-08-20,12,261,False,False,False,True
+O00452,A0016,R008,Platform License,,Proposal,14400.0,2026-08-15,,2026-08-23,9,17,False,False,False,False
+O00453,A0104,R012,Professional Services,LinkedIn Sales Nav,Closed Lost,61900.0,2025-11-22,2025-12-26,2025-12-26,249,34,True,False,False,False
+O00454,A0092,R007,Data Module,Referral,Closed Lost,11600.0,2025-08-21,2025-10-29,2025-10-27,309,69,True,False,False,False
+O00455,A0046,R003,Support Add-on,Outreach Sequence,Closed Won,28800.0,2026-01-21,2026-06-03,2026-06-02,91,133,True,True,False,False
+O00456,A0039,R009,Data Module,Outreach Sequence,Prospecting,16900.0,2025-08-06,,2026-08-22,10,391,False,False,False,False
+O00457,A0068,R012,Platform License,LinkedIn Sales Nav,Closed Won,10600.0,2026-01-11,2026-07-02,2026-06-27,66,172,True,True,False,False
+O00458,A0105,R001,Data Module,Referral,Qualification,6100.0,2026-03-31,,2026-04-02,152,154,False,False,True,False
+O00459,A0085,R001,Platform License,Inbound Web,Prospecting,41400.0,2025-04-02,,2025-04-15,504,517,False,False,True,False
+O00460,A0109,R016,Professional Services,Inbound Web,Proposal,15100.0,2026-07-12,,2026-07-29,34,51,False,False,True,False
+O00461,A0088,R011,Professional Services,Outreach Sequence,Proposal,6400.0,2026-02-10,,2026-08-15,17,203,False,False,False,False
+O00462,A0035,R012,Data Module,LinkedIn Sales Nav,Closed Won,13100.0,2025-12-02,2026-05-08,2026-05-08,116,157,True,True,False,False
+O00463,A0071,R017,Support Add-on,Referral,Qualification,24400.0,2025-09-09,,2026-09-01,0,357,False,False,False,False
+O00464,A0104,R013,Professional Services,,Negotiation,16400.0,2025-06-05,,2025-06-13,445,453,False,False,True,False
+O00465,A0109,R010,Platform License,LinkedIn Sales Nav,Prospecting,13400.0,2026-06-05,,2026-06-25,68,88,False,False,True,False
+O00466,A0119,R001,Professional Services,Referral,Qualification,35900.0,2026-05-10,,2026-05-17,107,114,False,False,True,False
+O00467,A0018,R013,Data Module,Referral,Closed Won,6100.0,2025-03-14,2025-08-30,2025-08-25,372,169,True,True,False,False
+O00468,A0130,R014,Platform License,Inbound Web,Prospecting,7800.0,2025-03-10,,2025-03-17,533,540,False,False,True,False
+O00469,A0120,R018,Platform License,LinkedIn Sales Nav,Prospecting,16600.0,2026-08-23,,2026-08-11,21,9,False,False,False,False
+O00470,A0053,R008,Data Module,Referral,Qualification,24100.0,2025-08-01,,2026-08-10,22,396,False,False,False,False
+O00471,A0057,R001,Platform License,ZoomInfo List,Prospecting,6900.0,2025-03-05,,2026-08-18,14,545,False,False,False,False
+O00472,A0047,R005,Support Add-on,,Qualification,12650.0,2025-03-07,,2026-08-27,5,543,False,False,False,True
+O00473,A0088,R002,Platform License,Referral,Qualification,12300.0,2025-10-26,,2025-10-28,308,310,False,False,True,False
+O00474,A0069,R016,Professional Services,Inbound Web,Qualification,17100.0,2025-11-18,,2026-08-11,21,287,False,False,False,False
+O00475,A0006,R016,Professional Services,,Negotiation,19400.0,2025-12-28,,2026-08-13,19,247,False,False,False,False
+O00476,A0011,R003,Data Module,ZoomInfo List,Negotiation,6300.0,2026-04-12,,2026-08-28,4,142,False,False,False,False
+O00477,A0028,R017,Professional Services,,Qualification,7900.0,2026-03-23,,2026-08-09,23,162,False,False,False,False
+O00478,A0096,R012,Professional Services,ZoomInfo List,Closed Won,19300.0,2026-08-01,2026-08-29,2026-08-26,6,28,True,True,False,False
+O00479,A0134,R015,Professional Services,ZoomInfo List,Prospecting,24500.0,2026-05-14,,2026-08-13,19,110,False,False,False,False
+O00480,A0003,R002,Support Add-on,ZoomInfo List,Qualification,26100.0,2026-08-05,,2026-08-28,4,27,False,False,False,False
+O00481,A0072,R016,Support Add-on,Inbound Web,Proposal,12650.0,2025-07-31,,2025-08-08,389,397,False,False,True,True
+O00482,A0090,R017,Data Module,,Closed Won,6000.0,2026-01-16,2026-03-19,2026-03-19,166,62,True,True,False,False
+O00483,A0135,R015,Support Add-on,Inbound Web,Closed Won,23100.0,2025-10-03,2026-01-30,2026-01-27,217,119,True,True,False,False
+O00484,A0117,R015,Platform License,ZoomInfo List,Negotiation,14700.0,2025-03-12,,2026-08-16,16,538,False,False,False,False
+O00485,A0129,R007,Professional Services,LinkedIn Sales Nav,Proposal,20200.0,2025-03-18,,2025-03-31,519,532,False,False,True,False
+O00486,A0139,R005,Support Add-on,Referral,Proposal,28700.0,2025-06-07,,2026-08-23,9,451,False,False,False,False
+O00487,A0060,R016,Professional Services,Referral,Closed Won,11600.0,2026-07-07,2026-08-28,2026-08-28,4,52,True,True,False,False
+O00488,A0103,R010,Data Module,Outreach Sequence,Proposal,3600.0,2026-04-15,,2026-08-27,5,139,False,False,False,False
+O00489,A0115,R011,Platform License,Outreach Sequence,Qualification,11300.0,2025-12-18,,2026-08-07,25,257,False,False,False,False
+O00490,A0132,R015,Data Module,Referral,Negotiation,17100.0,2025-05-28,,2026-08-20,12,461,False,False,False,False
+O00491,A0127,R008,Professional Services,ZoomInfo List,Prospecting,17000.0,2025-08-07,,2026-08-14,18,390,False,False,False,False
+O00492,A0020,R015,Support Add-on,,Closed Won,3700.0,2026-03-01,2026-06-26,2026-06-24,69,117,True,True,False,False
+O00493,A0039,R014,Platform License,Inbound Web,Prospecting,16600.0,2026-02-27,,2026-09-01,0,186,False,False,False,False
+O00494,A0014,R007,Data Module,Inbound Web,Closed Won,37100.0,2025-04-09,2025-09-21,2025-09-18,348,165,True,True,False,False
+O00495,A0087,R002,Platform License,ZoomInfo List,Prospecting,17000.0,2025-06-05,,2025-06-23,435,453,False,False,True,False
+O00496,A0098,R002,Support Add-on,Outreach Sequence,Prospecting,9100.0,2026-04-02,,2026-04-04,150,152,False,False,True,False
+O00497,A0007,R007,Data Module,,Prospecting,4800.0,2026-07-12,,2026-07-22,41,51,False,False,True,False
+O00498,A0077,R001,Platform License,Inbound Web,Closed Lost,19200.0,2025-08-28,2025-11-22,2025-11-20,285,86,True,False,False,False
+O00499,A0058,R006,Professional Services,,Qualification,16900.0,2026-06-26,,2026-07-05,58,67,False,False,True,False
+O00500,A0124,R003,Data Module,,Negotiation,8000.0,2026-01-29,,2026-08-12,20,215,False,False,False,False
+O00501,A0083,R014,Professional Services,Referral,Proposal,34200.0,2025-11-10,,2025-11-29,276,295,False,False,True,False
+O00502,A0023,R004,Support Add-on,ZoomInfo List,Proposal,25500.0,2025-04-10,,2026-08-07,25,509,False,False,False,False
+O00503,A0003,R016,Data Module,Inbound Web,Prospecting,5100.0,2026-08-30,,2026-08-29,3,2,False,False,False,False
+O00504,A0068,R013,Support Add-on,LinkedIn Sales Nav,Qualification,12650.0,2026-07-16,,2026-08-26,6,47,False,False,False,True
+O00505,A0051,R005,Support Add-on,Inbound Web,Qualification,12650.0,2026-06-23,,2026-08-08,24,70,False,False,False,True
+O00506,A0125,R014,Platform License,,Closed Won,13200.0,2026-08-02,2026-08-29,2026-08-24,8,27,True,True,False,False
+O00507,A0066,R017,Data Module,,Proposal,25100.0,2026-04-14,,2026-08-15,17,140,False,False,False,False
+O00508,A0136,R003,Support Add-on,LinkedIn Sales Nav,Closed Won,69600.0,2026-07-05,2026-08-29,2026-08-25,7,55,True,True,False,False
+O00509,A0049,R005,Data Module,ZoomInfo List,Closed Lost,14700.0,2026-06-25,2026-07-12,2026-07-10,53,17,True,False,False,False
+O00510,A0095,R002,Platform License,Inbound Web,Closed Won,13300.0,2026-05-04,2026-08-02,2026-07-28,35,90,True,True,False,True
+O00511,A0097,R005,Platform License,ZoomInfo List,Qualification,25000.0,2025-12-31,,2026-01-10,234,244,False,False,True,False
+O00512,A0010,R010,Data Module,,Proposal,15800.0,2026-05-29,,2026-08-16,16,95,False,False,False,False
+O00513,A0072,R016,Professional Services,,Qualification,22100.0,2025-03-13,,2025-03-17,533,537,False,False,True,False
+O00514,A0127,R001,Platform License,LinkedIn Sales Nav,Proposal,13300.0,2026-07-25,,2026-08-29,3,38,False,False,False,True
+O00515,A0027,R016,Support Add-on,,Closed Lost,2000.0,2025-05-10,2025-09-30,2025-09-25,341,143,True,False,False,False
+O00516,A0067,R009,Platform License,LinkedIn Sales Nav,Qualification,42300.0,2026-01-29,,2026-02-16,197,215,False,False,True,False
+O00517,A0117,R001,Professional Services,Referral,Prospecting,18500.0,2026-04-01,,2026-04-21,133,153,False,False,True,False
+O00518,A0118,R006,Platform License,LinkedIn Sales Nav,Proposal,17000.0,2025-09-07,,2025-09-17,349,359,False,False,True,False
+O00519,A0003,R014,Platform License,Inbound Web,Proposal,8800.0,2025-09-19,,2025-10-05,331,347,False,False,True,False
+O00520,A0013,R010,Support Add-on,LinkedIn Sales Nav,Prospecting,3200.0,2026-07-07,,2026-07-27,36,56,False,False,True,False
+O00521,A0051,R011,Platform License,Inbound Web,Closed Won,29600.0,2025-09-25,2026-02-01,2026-01-28,216,129,True,True,False,False
+O00522,A0013,R012,Support Add-on,LinkedIn Sales Nav,Closed Won,1100.0,2025-10-18,2026-02-25,2026-02-24,189,130,True,True,False,False
+O00523,A0006,R008,Platform License,Inbound Web,Qualification,2300.0,2025-07-26,,2025-08-06,391,402,False,False,True,False
+O00524,A0136,R010,Platform License,Inbound Web,Qualification,2800.0,2026-05-08,,2026-08-23,9,116,False,False,False,False
+O00525,A0036,R008,Data Module,ZoomInfo List,Qualification,6500.0,2026-05-14,,2026-05-24,100,110,False,False,True,False
+O00526,A0069,R002,Data Module,Referral,Proposal,35600.0,2025-12-25,,2026-08-22,10,250,False,False,False,False
+O00527,A0118,R010,Platform License,Referral,Proposal,35400.0,2025-09-15,,2025-09-18,348,351,False,False,True,False
+O00528,A0097,R008,Platform License,Referral,Qualification,12500.0,2025-05-14,,2026-08-27,5,475,False,False,False,False
+O00529,A0081,R002,Platform License,ZoomInfo List,Closed Won,16500.0,2026-05-12,2026-08-13,2026-08-10,22,93,True,True,False,False
+O00530,A0134,R001,Data Module,Referral,Closed Lost,8200.0,2026-04-11,2026-05-28,2026-05-23,101,47,True,False,False,False
+O00531,A0110,R017,Data Module,,Qualification,11300.0,2025-05-31,,2026-08-23,9,458,False,False,False,False
+O00532,A0084,R018,Support Add-on,Outreach Sequence,Closed Lost,13300.0,2025-09-13,2026-02-26,2026-02-22,191,166,True,False,False,False
+O00533,A0036,R012,Platform License,LinkedIn Sales Nav,Closed Lost,37500.0,2025-08-18,2025-08-28,2025-08-23,374,10,True,False,False,False
+O00534,A0096,R014,Data Module,Inbound Web,Qualification,52100.0,2026-07-31,,2026-08-12,20,32,False,False,False,False
+O00535,A0105,R015,Support Add-on,Inbound Web,Proposal,4500.0,2025-06-12,,2025-06-17,441,446,False,False,True,False
+O00536,A0035,R014,Professional Services,,Qualification,21500.0,2026-03-27,,2026-03-28,157,158,False,False,True,False
+O00537,A0086,R014,Professional Services,Inbound Web,Negotiation,9700.0,2025-04-20,,2025-05-04,485,499,False,False,True,False
+O00538,A0068,R012,Data Module,,Proposal,13200.0,2025-03-28,,2026-08-25,7,522,False,False,False,False
+O00539,A0115,R003,Platform License,Referral,Closed Won,15500.0,2026-01-01,2026-04-26,2026-04-22,132,115,True,True,False,False
+O00540,A0105,R001,Professional Services,,Closed Won,21400.0,2025-04-24,2025-09-29,2025-09-26,340,158,True,True,False,False
+O00541,A0102,R008,Professional Services,Inbound Web,Closed Lost,3800.0,2025-03-10,2025-07-17,2025-07-13,415,129,True,False,False,False
+O00542,A0085,R013,Data Module,Inbound Web,Closed Won,14600.0,2026-06-13,2026-08-31,2026-08-29,3,79,True,True,False,False
+O00543,A0090,R015,Support Add-on,ZoomInfo List,Closed Lost,8100.0,2025-03-25,2025-07-20,2025-07-18,410,117,True,False,False,False
+O00544,A0022,R013,Platform License,,Closed Won,6800.0,2026-07-26,2026-08-29,2026-08-29,3,34,True,True,False,False
+O00545,A0095,R017,Support Add-on,LinkedIn Sales Nav,Closed Won,16800.0,2025-11-06,2026-01-28,2026-01-25,219,83,True,True,False,False
+O00546,A0083,R013,Professional Services,,Negotiation,15300.0,2026-04-18,,2026-09-01,0,136,False,False,False,False
+O00547,A0079,R005,Support Add-on,Outreach Sequence,Qualification,8000.0,2025-05-31,,2025-06-08,450,458,False,False,True,False
+O00548,A0008,R017,Professional Services,,Negotiation,82300.0,2026-04-05,,2026-08-08,24,149,False,False,False,False
+O00549,A0051,R001,Platform License,,Closed Won,13800.0,2025-06-07,2025-08-09,2025-08-05,392,63,True,True,False,False
+O00550,A0098,R011,Support Add-on,Inbound Web,Closed Won,3400.0,2025-12-04,2025-12-27,2025-12-26,249,23,True,True,False,False
+O00551,A0007,R013,Platform License,LinkedIn Sales Nav,Qualification,8700.0,2026-01-04,,2026-08-24,8,240,False,False,False,False
+O00552,A0107,R007,Support Add-on,Inbound Web,Proposal,18100.0,2025-05-29,,2026-08-11,21,460,False,False,False,False
+O00553,A0081,R009,Data Module,,Qualification,4500.0,2025-11-25,,2026-08-24,8,280,False,False,False,False
+O00554,A0136,R009,Support Add-on,Referral,Closed Won,28400.0,2025-12-27,2026-05-19,2026-05-17,107,143,True,True,False,False
+O00555,A0081,R002,Support Add-on,ZoomInfo List,Negotiation,9400.0,2026-08-21,,2026-08-25,7,11,False,False,False,False
+O00556,A0025,R014,Platform License,,Qualification,219400.0,2025-11-14,,2025-11-17,288,291,False,False,True,False
+O00557,A0103,R005,Platform License,,Prospecting,25100.0,2026-05-01,,2026-08-08,24,123,False,False,False,False
+O00558,A0118,R002,Data Module,,Qualification,12000.0,2026-02-24,,2026-08-30,2,189,False,False,False,False
+O00559,A0019,R004,Platform License,LinkedIn Sales Nav,Qualification,21700.0,2025-10-04,,2025-10-06,330,332,False,False,True,False
+O00560,A0018,R003,Data Module,Outreach Sequence,Prospecting,11000.0,2025-12-03,,2026-08-26,6,272,False,False,False,False
+O00561,A0108,R004,Platform License,Outreach Sequence,Proposal,4000.0,2026-04-06,,2026-04-10,144,148,False,False,True,False
+O00562,A0066,R009,Platform License,Outreach Sequence,Prospecting,12300.0,2026-06-18,,2026-09-01,0,75,False,False,False,False
+O00563,A0041,R011,Data Module,Inbound Web,Qualification,27400.0,2025-07-28,,2025-08-10,387,400,False,False,True,False
+O00564,A0117,R007,Platform License,Referral,Closed Won,13300.0,2025-07-14,2025-12-09,2025-12-08,267,148,True,True,False,True
+O00565,A0119,R011,Support Add-on,Referral,Qualification,9900.0,2025-08-29,,2026-08-12,20,368,False,False,False,False
+O00566,A0127,R002,Platform License,Inbound Web,Prospecting,5700.0,2025-09-17,,2026-08-23,9,349,False,False,False,False
+O00567,A0058,R007,Platform License,,Qualification,15900.0,2026-02-17,,2026-08-12,20,196,False,False,False,False
+O00568,A0021,R003,Data Module,Inbound Web,Closed Won,11700.0,2025-06-09,2025-06-28,2025-06-27,431,19,True,True,False,True
+O00569,A0120,R006,Platform License,LinkedIn Sales Nav,Closed Won,43800.0,2026-06-28,2026-08-27,2026-08-24,8,60,True,True,False,False
+O00570,A0004,R018,Professional Services,,Qualification,16600.0,2026-07-05,,2026-07-09,54,58,False,False,True,False
+O00571,A0007,R007,Platform License,ZoomInfo List,Closed Lost,26600.0,2026-01-05,2026-02-20,2026-02-17,196,46,True,False,False,False
+O00572,A0015,R018,Platform License,Outreach Sequence,Prospecting,1500.0,2026-04-20,,2026-08-07,25,134,False,False,False,False
+O00573,A0020,R004,Support Add-on,Outreach Sequence,Proposal,10500.0,2026-05-07,,2026-05-14,110,117,False,False,True,False
+O00574,A0074,R011,Platform License,LinkedIn Sales Nav,Qualification,12500.0,2026-04-13,,2026-08-14,18,141,False,False,False,False
+O00575,A0104,R008,Platform License,ZoomInfo List,Closed Won,14000.0,2026-04-09,2026-07-22,2026-07-18,45,104,True,True,False,False
+O00576,A0038,R001,Platform License,Outreach Sequence,Closed Won,34200.0,2026-05-21,2026-07-10,2026-07-10,53,50,True,True,False,False
+O00577,A0076,R010,Professional Services,ZoomInfo List,Closed Lost,51200.0,2026-03-01,2026-06-25,2026-06-20,73,116,True,False,False,False
+O00578,A0067,R013,Professional Services,,Negotiation,27100.0,2026-04-07,,2026-08-25,7,147,False,False,False,False
+O00579,A0128,R018,Platform License,Referral,Negotiation,30900.0,2025-04-07,,2026-08-07,25,512,False,False,False,False
+O00580,A0006,R009,Data Module,,Qualification,10600.0,2026-01-02,,2026-08-13,19,242,False,False,False,False
+O00581,A0070,R002,Data Module,ZoomInfo List,Qualification,16700.0,2026-01-30,,2026-02-04,209,214,False,False,True,False
+O00582,A0136,R004,Support Add-on,LinkedIn Sales Nav,Negotiation,6500.0,2026-03-21,,2026-04-02,152,164,False,False,True,False
+O00583,A0102,R003,Data Module,Referral,Prospecting,26900.0,2025-05-24,,2026-08-27,5,465,False,False,False,False
+O00584,A0098,R002,Professional Services,,Prospecting,11400.0,2026-05-05,,2026-08-14,18,119,False,False,False,False
+O00585,A0041,R015,Professional Services,Inbound Web,Qualification,4400.0,2025-10-02,,2025-10-06,330,334,False,False,True,False
+O00586,A0103,R011,Professional Services,Inbound Web,Prospecting,56800.0,2026-01-18,,2026-02-01,212,226,False,False,True,False
+O00587,A0124,R014,Platform License,,Prospecting,23300.0,2025-08-14,,2026-08-24,8,383,False,False,False,False
+O00588,A0065,R009,Professional Services,LinkedIn Sales Nav,Qualification,4400.0,2026-07-01,,2026-08-18,14,62,False,False,False,False
+O00589,A0067,R011,Data Module,Referral,Closed Won,3100.0,2026-03-24,2026-08-28,2026-08-24,8,157,True,True,False,False
+O00590,A0121,R004,Platform License,,Closed Won,20400.0,2025-04-18,2025-09-26,2025-09-23,343,161,True,True,False,False
+O00591,A0019,R013,Professional Services,Referral,Closed Won,13500.0,2025-06-19,2025-08-31,2025-08-29,368,73,True,True,False,False
+O00592,A0104,R012,Data Module,Referral,Proposal,19100.0,2026-08-26,,2026-09-11,-10,6,False,False,False,False
+O00593,A0061,R012,Platform License,,Proposal,9900.0,2025-07-24,,2026-08-18,14,404,False,False,False,False
+O00594,A0071,R016,Platform License,Inbound Web,Closed Lost,10600.0,2025-07-11,2025-10-20,2025-10-18,318,101,True,False,False,False
+O00595,A0104,R003,Data Module,ZoomInfo List,Prospecting,7500.0,2025-10-23,,2026-08-09,23,313,False,False,False,False
+O00596,A0124,R011,Data Module,,Qualification,4300.0,2025-07-12,,2026-08-10,22,416,False,False,False,False
+O00597,A0032,R008,Platform License,Referral,Proposal,13800.0,2025-09-25,,2026-08-24,8,341,False,False,False,False
+O00598,A0108,R003,Platform License,Inbound Web,Closed Won,14400.0,2025-09-22,2026-02-10,2026-02-05,208,141,True,True,False,False
+O00599,A0055,R009,Professional Services,ZoomInfo List,Proposal,29500.0,2025-08-22,,2026-08-27,5,375,False,False,False,False
+O00600,A0039,R014,Professional Services,LinkedIn Sales Nav,Qualification,60800.0,2025-09-23,,2026-08-09,23,343,False,False,False,False
+O00601,A0008,R004,Data Module,Inbound Web,Closed Lost,4500.0,2025-09-04,2025-11-23,2025-11-23,282,80,True,False,False,False
+O00602,A0049,R002,Data Module,Referral,Proposal,13500.0,2025-04-05,,2026-08-15,17,514,False,False,False,False
+O00603,A0082,R007,Professional Services,LinkedIn Sales Nav,Closed Won,5200.0,2025-08-20,2025-10-17,2025-10-14,322,58,True,True,False,False
+O00604,A0021,R018,Platform License,LinkedIn Sales Nav,Prospecting,23800.0,2026-06-14,,2026-06-19,74,79,False,False,True,False
+O00605,A0076,R014,Support Add-on,ZoomInfo List,Closed Lost,13300.0,2025-07-01,2025-11-09,2025-11-07,298,131,True,False,False,False
+O00606,A0031,R001,Support Add-on,,Prospecting,19500.0,2026-06-28,,2026-08-16,16,65,False,False,False,False
+O00607,A0110,R014,Professional Services,LinkedIn Sales Nav,Proposal,17500.0,2025-10-01,,2026-08-15,17,335,False,False,False,False
+O00608,A0081,R013,Professional Services,LinkedIn Sales Nav,Closed Won,4800.0,2026-03-09,2026-07-20,2026-07-18,45,133,True,True,False,False
+O00609,A0135,R017,Professional Services,ZoomInfo List,Proposal,12800.0,2025-11-13,,2026-08-27,5,292,False,False,False,False
+O00610,A0109,R015,Support Add-on,LinkedIn Sales Nav,Prospecting,11100.0,2026-03-27,,2026-04-07,147,158,False,False,True,False
+O00611,A0134,R002,Support Add-on,Inbound Web,Qualification,10400.0,2026-02-24,,2026-03-07,178,189,False,False,True,False
+O00612,A0128,R018,Data Module,LinkedIn Sales Nav,Proposal,10300.0,2026-03-18,,2026-08-20,12,167,False,False,False,False
+O00613,A0105,R018,Professional Services,Referral,Prospecting,21600.0,2026-03-25,,2026-08-23,9,160,False,False,False,False
+O00614,A0061,R016,Support Add-on,Outreach Sequence,Qualification,50600.0,2025-06-05,,2026-08-31,1,453,False,False,False,False
+O00615,A0128,R006,Professional Services,LinkedIn Sales Nav,Negotiation,15500.0,2025-07-16,,2026-08-30,2,412,False,False,False,False
+O00616,A0044,R004,Professional Services,Inbound Web,Prospecting,11400.0,2026-02-12,,2026-08-30,2,201,False,False,False,False
+O00617,A0082,R004,Data Module,LinkedIn Sales Nav,Negotiation,8700.0,2025-10-10,,2026-08-11,21,326,False,False,False,False
+O00618,A0026,R013,Professional Services,,Qualification,14200.0,2025-08-01,,2025-08-11,386,396,False,False,True,False
+O00619,A0064,R017,Data Module,ZoomInfo List,Closed Won,45100.0,2025-06-03,2025-10-04,2025-10-02,334,123,True,True,False,False
+O00620,A0120,R007,Data Module,Outreach Sequence,Prospecting,28700.0,2026-06-04,,2026-08-16,16,89,False,False,False,False
+O00621,A0085,R006,Professional Services,ZoomInfo List,Proposal,12500.0,2026-08-25,,2026-08-15,17,7,False,False,False,False
+O00622,A0137,R009,Data Module,Referral,Qualification,14600.0,2025-08-06,,2025-08-16,381,391,False,False,True,False
+O00623,A0058,R004,Platform License,,Qualification,17800.0,2025-05-14,,2025-05-24,465,475,False,False,True,False
+O00624,A0019,R017,Support Add-on,Inbound Web,Proposal,3700.0,2025-11-10,,2026-08-12,20,295,False,False,False,False
+O00625,A0104,R009,Data Module,,Negotiation,3500.0,2026-06-24,,2026-08-14,18,69,False,False,False,False
+O00626,A0140,R017,Professional Services,LinkedIn Sales Nav,Qualification,10100.0,2026-05-01,,2026-08-24,8,123,False,False,False,False
+O00627,A0115,R011,Data Module,,Closed Won,15200.0,2025-05-16,2025-08-25,2025-08-24,373,101,True,True,False,False
+O00628,A0081,R004,Platform License,Referral,Prospecting,13300.0,2025-09-01,,2026-08-30,2,365,False,False,False,False
+O00629,A0041,R002,Support Add-on,Outreach Sequence,Proposal,3900.0,2026-03-13,,2026-08-11,21,172,False,False,False,False
+O00630,A0047,R001,Data Module,LinkedIn Sales Nav,Closed Won,13000.0,2025-09-05,2025-10-20,2025-10-16,320,45,True,True,False,False
+O00631,A0043,R014,Data Module,Inbound Web,Prospecting,21400.0,2026-03-18,,2026-08-26,6,167,False,False,False,False
+O00632,A0090,R013,Professional Services,Inbound Web,Prospecting,11200.0,2026-06-14,,2026-08-17,15,79,False,False,False,False
+O00633,A0122,R013,Professional Services,ZoomInfo List,Closed Won,30300.0,2025-03-14,2025-05-07,2025-05-02,487,54,True,True,False,False
+O00634,A0008,R009,Data Module,,Closed Won,14400.0,2026-04-08,2026-05-20,2026-05-19,105,42,True,True,False,False
+O00635,A0003,R008,Platform License,Inbound Web,Prospecting,12600.0,2026-05-09,,2026-08-31,1,115,False,False,False,False
+O00636,A0078,R018,Platform License,Referral,Closed Lost,40000.0,2026-05-02,2026-05-28,2026-05-26,98,26,True,False,False,False
+O00637,A0088,R003,Support Add-on,Referral,Negotiation,12650.0,2026-02-02,,2026-02-14,199,211,False,False,True,True
+O00638,A0019,R011,Platform License,Referral,Qualification,29200.0,2025-09-09,,2026-08-13,19,357,False,False,False,False
+O00639,A0125,R016,Platform License,ZoomInfo List,Proposal,42200.0,2026-08-17,,2026-08-27,5,15,False,False,False,False
+O00640,A0061,R011,Platform License,ZoomInfo List,Closed Won,14300.0,2025-04-02,2025-07-14,2025-07-09,419,103,True,True,False,False
+O00641,A0041,R011,Support Add-on,Outreach Sequence,Closed Lost,10800.0,2025-09-02,2025-11-05,2025-11-01,304,64,True,False,False,False
+O00642,A0096,R017,Platform License,LinkedIn Sales Nav,Prospecting,19300.0,2025-05-11,,2026-08-21,11,478,False,False,False,False
+O00643,A0127,R013,Professional Services,Referral,Prospecting,16100.0,2025-04-13,,2026-08-09,23,506,False,False,False,False
+O00644,A0135,R008,Support Add-on,ZoomInfo List,Qualification,3400.0,2025-07-10,,2025-07-13,415,418,False,False,True,False
+O00645,A0124,R018,Platform License,ZoomInfo List,Closed Lost,17400.0,2026-08-18,2026-08-28,2026-08-25,7,10,True,False,False,False
+O00646,A0043,R003,Platform License,LinkedIn Sales Nav,Proposal,5700.0,2025-07-23,,2026-08-09,23,405,False,False,False,False
+O00647,A0115,R008,Data Module,LinkedIn Sales Nav,Qualification,32900.0,2026-02-09,,2026-08-20,12,204,False,False,False,False
+O00648,A0006,R017,Data Module,Referral,Closed Won,7000.0,2025-11-25,2026-03-06,2026-03-03,182,101,True,True,False,False
+O00649,A0101,R002,Professional Services,Outreach Sequence,Prospecting,35300.0,2025-11-19,,2025-11-28,277,286,False,False,True,False
+O00650,A0097,R005,Professional Services,LinkedIn Sales Nav,Closed Won,2300.0,2026-05-22,2026-08-31,2026-08-30,2,101,True,True,False,False
+O00651,A0104,R008,Support Add-on,Referral,Closed Won,5900.0,2026-05-25,2026-08-30,2026-08-28,4,97,True,True,False,False
+O00652,A0022,R002,Data Module,Inbound Web,Closed Won,7200.0,2025-09-14,2025-10-02,2025-09-29,337,18,True,True,False,False
+O00653,A0046,R008,Professional Services,Inbound Web,Closed Won,13450.0,2025-10-13,2026-02-17,2026-02-17,196,127,True,True,False,True
+O00654,A0115,R010,Data Module,Inbound Web,Prospecting,10700.0,2025-06-16,,2026-08-29,3,442,False,False,False,False
+O00655,A0047,R017,Support Add-on,LinkedIn Sales Nav,Proposal,3900.0,2026-03-24,,2026-04-12,142,161,False,False,True,False
+O00656,A0053,R001,Support Add-on,Inbound Web,Prospecting,7400.0,2026-06-30,,2026-07-12,51,63,False,False,True,False
+O00657,A0043,R011,Professional Services,,Proposal,8600.0,2026-05-24,,2026-08-31,1,100,False,False,False,False
+O00658,A0085,R011,Platform License,Referral,Negotiation,3800.0,2025-10-16,,2025-10-26,310,320,False,False,True,False
+O00659,A0113,R010,Platform License,LinkedIn Sales Nav,Prospecting,18600.0,2025-10-02,,2026-08-19,13,334,False,False,False,False
+O00660,A0009,R014,Support Add-on,Inbound Web,Negotiation,9800.0,2025-08-10,,2026-08-07,25,387,False,False,False,False
+O00661,A0024,R008,Professional Services,Inbound Web,Closed Won,11300.0,2025-04-04,2025-05-26,2025-05-22,467,52,True,True,False,False
+O00662,A0111,R010,Professional Services,Referral,Closed Won,7100.0,2026-06-15,2026-08-29,2026-08-29,3,75,True,True,False,False
+O00663,A0071,R007,Data Module,ZoomInfo List,Closed Won,15300.0,2026-05-29,2026-08-29,2026-08-27,5,92,True,True,False,False
+O00664,A0129,R006,Professional Services,Inbound Web,Closed Won,6700.0,2025-09-10,2026-01-27,2026-01-25,219,139,True,True,False,False
+O00665,A0070,R014,Professional Services,Referral,Qualification,5200.0,2025-07-16,,2026-08-08,24,412,False,False,False,False
+O00666,A0038,R015,Platform License,Referral,Qualification,3800.0,2025-04-07,,2026-08-24,8,512,False,False,False,False
+O00667,A0099,R009,Support Add-on,Outreach Sequence,Qualification,38200.0,2026-02-07,,2026-02-17,196,206,False,False,True,False
+O00668,A0129,R015,Data Module,ZoomInfo List,Closed Won,14600.0,2026-02-04,2026-04-28,2026-04-23,131,83,True,True,False,False
+O00669,A0004,R007,Data Module,,Prospecting,10500.0,2026-05-07,,2026-05-17,107,117,False,False,True,False
+O00670,A0092,R013,Professional Services,,Qualification,29400.0,2026-07-25,,2026-08-03,29,38,False,False,False,False
+O00671,A0088,R006,Support Add-on,Referral,Closed Lost,7500.0,2026-07-19,2026-08-03,2026-08-03,29,15,True,False,False,False
+O00672,A0051,R006,Data Module,,Closed Won,11600.0,2025-10-30,2026-02-10,2026-02-05,208,103,True,True,False,False
+O00673,A0045,R007,Data Module,Outreach Sequence,Qualification,10000.0,2026-04-10,,2026-08-29,3,144,False,False,False,False
+O00674,A0101,R010,Data Module,ZoomInfo List,Negotiation,99800.0,2025-12-31,,2026-01-19,225,244,False,False,True,False
+O00675,A0088,R006,Data Module,Referral,Prospecting,10800.0,2026-04-06,,2026-08-18,14,148,False,False,False,False
+O00676,A0132,R005,Support Add-on,ZoomInfo List,Closed Won,15900.0,2025-08-13,2025-11-12,2025-11-08,297,91,True,True,False,False
+O00677,A0132,R009,Platform License,,Proposal,20100.0,2025-08-25,,2026-09-01,0,372,False,False,False,False
+O00678,A0022,R006,Professional Services,Inbound Web,Qualification,10800.0,2025-12-29,,2026-01-10,234,246,False,False,True,False
+O00679,A0106,R011,Support Add-on,ZoomInfo List,Prospecting,9300.0,2025-07-30,,2026-08-24,8,398,False,False,False,False
+O00680,A0017,R012,Data Module,Inbound Web,Closed Lost,8900.0,2026-03-20,2026-08-28,2026-08-28,4,161,True,False,False,False
+O00681,A0088,R010,Platform License,LinkedIn Sales Nav,Closed Lost,8600.0,2025-07-05,2025-10-31,2025-10-31,305,118,True,False,False,False
+O00682,A0036,R013,Professional Services,,Negotiation,3400.0,2025-06-27,,2026-08-18,14,431,False,False,False,False
+O00683,A0131,R004,Support Add-on,Referral,Closed Won,12200.0,2025-06-03,2025-06-13,2025-06-10,448,10,True,True,False,False
+O00684,A0116,R008,Data Module,LinkedIn Sales Nav,Prospecting,5600.0,2026-06-08,,2026-08-08,24,85,False,False,False,False
+O00685,A0096,R016,Support Add-on,ZoomInfo List,Proposal,8500.0,2025-05-26,,2025-06-01,457,463,False,False,True,False
+O00686,A0001,R016,Platform License,Outreach Sequence,Proposal,10600.0,2026-06-06,,2026-08-20,12,87,False,False,False,False
+O00687,A0139,R011,Platform License,Inbound Web,Closed Lost,4100.0,2026-01-09,2026-03-10,2026-03-08,177,60,True,False,False,False
+O00688,A0009,R015,Platform License,,Negotiation,57700.0,2025-06-18,,2025-06-30,428,440,False,False,True,False
+O00689,A0068,R002,Professional Services,LinkedIn Sales Nav,Proposal,18100.0,2025-03-11,,2026-08-17,15,539,False,False,False,False
+O00690,A0088,R003,Support Add-on,,Closed Won,27100.0,2025-11-10,2025-12-23,2025-12-20,255,43,True,True,False,False
+O00691,A0002,R005,Professional Services,Referral,Proposal,20700.0,2026-02-19,,2026-09-01,0,194,False,False,False,False
+O00692,A0046,R014,Platform License,Inbound Web,Closed Lost,30900.0,2025-05-27,2025-11-02,2025-10-28,308,159,True,False,False,False
+O00693,A0125,R003,Support Add-on,Outreach Sequence,Closed Won,18700.0,2026-04-17,2026-06-20,2026-06-15,78,64,True,True,False,False
+O00694,A0043,R012,Platform License,Outreach Sequence,Proposal,3400.0,2026-05-26,,2026-06-03,90,98,False,False,True,False
+O00695,A0046,R006,Platform License,Referral,Proposal,6500.0,2025-12-15,,2025-12-28,247,260,False,False,True,False
+O00696,A0133,R003,Platform License,LinkedIn Sales Nav,Qualification,6600.0,2026-03-01,,2026-08-22,10,184,False,False,False,False
+O00697,A0039,R016,Support Add-on,,Proposal,11200.0,2025-03-06,,2025-03-08,542,544,False,False,True,False
+O00698,A0026,R004,Support Add-on,Inbound Web,Closed Lost,14100.0,2025-08-27,2025-11-12,2025-11-08,297,77,True,False,False,False
+O00699,A0074,R002,Platform License,ZoomInfo List,Qualification,15800.0,2026-03-16,,2026-08-28,4,169,False,False,False,False
+O00700,A0098,R001,Data Module,Outreach Sequence,Prospecting,11600.0,2026-04-01,,2026-04-10,144,153,False,False,True,False
+O00701,A0023,R005,Platform License,,Prospecting,12500.0,2025-04-12,,2026-08-15,17,507,False,False,False,False
+O00702,A0074,R002,Support Add-on,Referral,Prospecting,29400.0,2026-04-02,,2026-04-12,142,152,False,False,True,False
+O00703,A0105,R013,Professional Services,Inbound Web,Negotiation,11000.0,2026-01-26,,2026-08-14,18,218,False,False,False,False
+O00704,A0073,R007,Data Module,LinkedIn Sales Nav,Closed Lost,6200.0,2026-05-27,2026-08-17,2026-08-12,20,82,True,False,False,False
+O00705,A0057,R012,Data Module,,Closed Won,10100.0,2026-05-15,2026-06-01,2026-06-01,92,17,True,True,False,False
+O00706,A0125,R013,Support Add-on,,Negotiation,13900.0,2025-11-29,,2025-12-01,274,276,False,False,True,False
+O00707,A0002,R017,Platform License,Referral,Qualification,28700.0,2026-04-21,,2026-08-23,9,133,False,False,False,False
+O00708,A0103,R017,Professional Services,Inbound Web,Prospecting,21300.0,2025-08-06,,2025-08-19,378,391,False,False,True,False
+O00709,A0119,R004,Support Add-on,,Qualification,6400.0,2025-07-15,,2025-07-25,403,413,False,False,True,False
+O00710,A0105,R013,Data Module,Inbound Web,Qualification,5600.0,2026-04-19,,2026-08-16,16,135,False,False,False,False
+O00711,A0009,R005,Data Module,,Negotiation,35700.0,2025-11-30,,2025-12-14,261,275,False,False,True,False
+O00712,A0019,R010,Data Module,Referral,Prospecting,7500.0,2025-06-21,,2026-08-11,21,437,False,False,False,False
+O00713,A0004,R001,Professional Services,,Prospecting,6000.0,2025-03-12,,2026-08-07,25,538,False,False,False,False
+O00714,A0049,R007,Platform License,Referral,Closed Won,7000.0,2025-10-28,2026-01-21,2026-01-17,227,85,True,True,False,False
+O00715,A0078,R018,Support Add-on,Referral,Proposal,11300.0,2026-05-13,,2026-06-01,92,111,False,False,True,False
+O00716,A0106,R009,Professional Services,Inbound Web,Closed Won,24700.0,2026-06-09,2026-07-18,2026-07-13,50,39,True,True,False,False
+O00717,A0098,R008,Support Add-on,LinkedIn Sales Nav,Prospecting,900.0,2026-07-16,,2026-07-31,32,47,False,False,True,False
+O00718,A0003,R015,Data Module,Referral,Qualification,1100.0,2026-02-21,,2026-08-13,19,192,False,False,False,False
+O00719,A0117,R001,Data Module,LinkedIn Sales Nav,Prospecting,8800.0,2026-08-13,,2026-08-29,3,19,False,False,False,False
+O00720,A0044,R012,Professional Services,Outreach Sequence,Closed Won,28900.0,2025-08-27,2025-11-22,2025-11-22,283,87,True,True,False,False
+O00721,A0127,R009,Professional Services,Inbound Web,Closed Won,21700.0,2026-08-15,2026-08-31,2026-08-30,2,16,True,True,False,False
+O00722,A0098,R015,Professional Services,,Prospecting,13450.0,2026-02-17,,2026-03-03,182,196,False,False,True,True
+O00723,A0066,R007,Support Add-on,Referral,Closed Lost,13600.0,2025-06-02,2025-06-17,2025-06-14,444,15,True,False,False,False
+O00724,A0124,R008,Support Add-on,Outreach Sequence,Prospecting,12700.0,2025-07-26,,2025-08-09,388,402,False,False,True,False
+O00725,A0064,R013,Professional Services,,Proposal,5400.0,2025-04-19,,2026-08-13,19,500,False,False,False,False
+O00726,A0023,R006,Data Module,Outreach Sequence,Proposal,1200.0,2026-06-30,,2026-08-15,17,63,False,False,False,False
+O00727,A0019,R010,Professional Services,Inbound Web,Negotiation,13450.0,2025-04-12,,2025-04-26,493,507,False,False,True,True
+O00728,A0073,R007,Professional Services,LinkedIn Sales Nav,Proposal,4300.0,2025-09-13,,2025-09-24,342,353,False,False,True,False
+O00729,A0041,R001,Platform License,,Closed Lost,4400.0,2025-07-28,2025-12-05,2025-12-04,271,130,True,False,False,False
+O00730,A0110,R010,Data Module,LinkedIn Sales Nav,Prospecting,11100.0,2025-04-24,,2025-05-10,479,495,False,False,True,False
+O00731,A0007,R004,Professional Services,ZoomInfo List,Qualification,21700.0,2026-01-03,,2026-08-21,11,241,False,False,False,False
+O00732,A0092,R010,Professional Services,Inbound Web,Prospecting,11900.0,2025-04-03,,2025-04-07,512,516,False,False,True,False
+O00733,A0120,R007,Platform License,,Closed Lost,3700.0,2025-12-10,2025-12-31,2025-12-27,248,21,True,False,False,False
+O00734,A0126,R014,Platform License,Referral,Closed Lost,13600.0,2026-07-11,2026-08-31,2026-08-31,1,51,True,False,False,False
+O00735,A0115,R002,Data Module,Referral,Prospecting,25000.0,2026-05-16,,2026-08-21,11,108,False,False,False,False
+O00736,A0098,R018,Platform License,ZoomInfo List,Closed Won,7500.0,2025-04-08,2025-05-27,2025-05-22,467,49,True,True,False,False
+O00737,A0127,R010,Platform License,LinkedIn Sales Nav,Closed Lost,10700.0,2025-06-08,2025-08-19,2025-08-16,381,72,True,False,False,False
+O00738,A0085,R005,Data Module,ZoomInfo List,Closed Won,9100.0,2025-08-15,2025-11-25,2025-11-20,285,102,True,True,False,False
+O00739,A0026,R009,Platform License,Inbound Web,Closed Won,36200.0,2026-04-12,2026-08-04,2026-08-01,31,114,True,True,False,False
+O00740,A0033,R018,Data Module,Outreach Sequence,Closed Won,38900.0,2026-04-04,2026-05-05,2026-05-03,121,31,True,True,False,False
+O00741,A0015,R002,Data Module,Inbound Web,Closed Won,18600.0,2025-07-25,2025-12-29,2025-12-29,246,157,True,True,False,False
+O00742,A0002,R003,Data Module,Inbound Web,Closed Won,4400.0,2025-10-24,2026-01-30,2026-01-30,214,98,True,True,False,False
+O00743,A0035,R009,Support Add-on,Outreach Sequence,Closed Lost,10700.0,2026-02-02,2026-05-11,2026-05-06,118,98,True,False,False,False
+O00744,A0024,R015,Professional Services,Outreach Sequence,Proposal,20600.0,2026-07-25,,2026-08-09,23,38,False,False,False,False
+O00745,A0092,R003,Professional Services,LinkedIn Sales Nav,Proposal,13450.0,2025-03-26,,2025-04-01,518,524,False,False,True,True
+O00746,A0024,R001,Platform License,Outreach Sequence,Closed Lost,16800.0,2025-06-25,2025-07-20,2025-07-18,410,25,True,False,False,False
+O00747,A0131,R011,Professional Services,LinkedIn Sales Nav,Proposal,36300.0,2026-04-26,,2026-08-18,14,128,False,False,False,False
+O00748,A0097,R016,Platform License,LinkedIn Sales Nav,Qualification,4500.0,2025-10-29,,2026-08-28,4,307,False,False,False,False
+O00749,A0055,R015,Platform License,Outreach Sequence,Negotiation,7700.0,2025-03-21,,2026-08-28,4,529,False,False,False,False
+O00750,A0134,R005,Data Module,LinkedIn Sales Nav,Proposal,13000.0,2026-06-29,,2026-08-18,14,64,False,False,False,False
+O00751,A0098,R001,Professional Services,ZoomInfo List,Negotiation,3300.0,2025-04-08,,2026-08-17,15,511,False,False,False,False
+O00752,A0006,R006,Professional Services,Inbound Web,Prospecting,37300.0,2025-04-01,,2025-04-18,501,518,False,False,True,False
+O00753,A0120,R004,Data Module,Outreach Sequence,Prospecting,22100.0,2025-05-04,,2026-08-21,11,485,False,False,False,False
+O00754,A0137,R017,Support Add-on,LinkedIn Sales Nav,Qualification,13600.0,2026-04-30,,2026-05-05,119,124,False,False,True,False
+O00755,A0080,R014,Support Add-on,ZoomInfo List,Proposal,23500.0,2025-11-03,,2025-11-22,283,302,False,False,True,False
+O00756,A0103,R016,Platform License,Inbound Web,Closed Won,1500.0,2026-02-25,2026-03-07,2026-03-07,178,10,True,True,False,False
+O00757,A0038,R011,Professional Services,ZoomInfo List,Negotiation,34800.0,2025-04-26,,2026-08-22,10,493,False,False,False,False
+O00758,A0098,R008,Platform License,Referral,Negotiation,20300.0,2025-04-02,,2026-08-28,4,517,False,False,False,False
+O00759,A0043,R008,Support Add-on,,Proposal,10400.0,2025-07-08,,2025-07-10,418,420,False,False,True,False
+O00760,A0038,R015,Professional Services,Referral,Closed Won,21100.0,2026-06-02,2026-08-29,2026-08-25,7,88,True,True,False,False
+O00761,A0061,R012,Platform License,LinkedIn Sales Nav,Closed Lost,3900.0,2026-07-08,2026-08-27,2026-08-27,5,50,True,False,False,False
+O00762,A0098,R010,Data Module,Referral,Qualification,19300.0,2026-02-02,,2026-08-14,18,211,False,False,False,False
+O00763,A0139,R010,Data Module,LinkedIn Sales Nav,Proposal,18300.0,2026-07-16,,2026-07-22,41,47,False,False,True,False
+O00764,A0064,R017,Platform License,ZoomInfo List,Prospecting,6600.0,2026-05-30,,2026-08-23,9,94,False,False,False,False
+O00765,A0019,R018,Platform License,,Closed Lost,4900.0,2025-10-21,2025-11-15,2025-11-11,294,25,True,False,False,False
+O00766,A0006,R012,Data Module,Outreach Sequence,Qualification,7300.0,2026-07-03,,2026-07-17,46,60,False,False,True,False
+O00767,A0005,R004,Platform License,LinkedIn Sales Nav,Qualification,86900.0,2026-07-09,,2026-08-17,15,54,False,False,False,False
+O00768,A0079,R009,Platform License,LinkedIn Sales Nav,Qualification,13300.0,2026-06-30,,2026-08-17,15,63,False,False,False,True
+O00769,A0030,R016,Data Module,Outreach Sequence,Qualification,1000.0,2026-05-20,,2026-08-28,4,104,False,False,False,False
+O00770,A0054,R017,Data Module,Outreach Sequence,Qualification,10500.0,2025-04-06,,2026-08-27,5,513,False,False,False,False
+O00771,A0114,R009,Support Add-on,Referral,Closed Won,29100.0,2026-08-30,2026-08-30,2026-08-30,2,0,True,True,False,False
+O00772,A0112,R002,Platform License,ZoomInfo List,Closed Won,43300.0,2025-12-18,2026-03-27,2026-03-22,163,99,True,True,False,False
+O00773,A0128,R003,Data Module,ZoomInfo List,Qualification,25100.0,2026-06-21,,2026-08-28,4,72,False,False,False,False
+O00774,A0110,R005,Support Add-on,ZoomInfo List,Closed Lost,11600.0,2025-04-02,2025-07-08,2025-07-03,425,97,True,False,False,False
+O00775,A0008,R008,Platform License,Referral,Qualification,13300.0,2025-10-06,,2026-08-22,10,330,False,False,False,True
+O00776,A0064,R005,Data Module,Referral,Prospecting,10300.0,2025-05-01,,2026-08-19,13,488,False,False,False,False
+O00777,A0035,R016,Support Add-on,Inbound Web,Closed Won,10800.0,2026-06-09,2026-08-31,2026-08-26,6,83,True,True,False,False
+O00778,A0071,R009,Data Module,Outreach Sequence,Proposal,83000.0,2025-08-30,,2026-08-29,3,367,False,False,False,False
+O00779,A0061,R018,Professional Services,ZoomInfo List,Closed Won,27200.0,2026-01-17,2026-04-28,2026-04-27,127,101,True,True,False,False
+O00780,A0002,R001,Platform License,ZoomInfo List,Closed Lost,3500.0,2025-04-13,2025-07-03,2025-06-30,428,81,True,False,False,False
+O00781,A0125,R005,Professional Services,Outreach Sequence,Prospecting,7300.0,2025-07-22,,2026-08-17,15,406,False,False,False,False
+O00782,A0035,R002,Professional Services,,Closed Won,5300.0,2026-04-22,2026-07-07,2026-07-03,60,76,True,True,False,False
+O00783,A0052,R015,Support Add-on,Inbound Web,Closed Lost,5900.0,2026-08-08,2026-08-28,2026-08-28,4,20,True,False,False,False
+O00784,A0085,R001,Professional Services,Outreach Sequence,Qualification,44500.0,2025-07-11,,2026-08-17,15,417,False,False,False,False
+O00785,A0051,R014,Platform License,Referral,Closed Lost,18300.0,2025-11-20,2026-02-18,2026-02-18,195,90,True,False,False,False
+O00786,A0096,R018,Support Add-on,Outreach Sequence,Closed Lost,2800.0,2026-08-06,2026-08-31,2026-08-30,2,25,True,False,False,False
+O00787,A0127,R013,Support Add-on,ZoomInfo List,Prospecting,25800.0,2026-05-24,,2026-08-14,18,100,False,False,False,False
+O00788,A0049,R018,Platform License,Referral,Proposal,4100.0,2026-05-13,,2026-08-22,10,111,False,False,False,False
+O00789,A0132,R016,Platform License,Inbound Web,Closed Won,40000.0,2025-06-08,2025-11-13,2025-11-13,292,158,True,True,False,False
+O00790,A0108,R011,Platform License,LinkedIn Sales Nav,Closed Lost,13000.0,2025-10-15,2025-11-26,2025-11-26,279,42,True,False,False,False
+O00791,A0112,R006,Platform License,Referral,Prospecting,20700.0,2025-06-15,,2026-08-23,9,443,False,False,False,False
+O00792,A0124,R011,Data Module,Inbound Web,Qualification,11700.0,2025-07-07,,2026-08-13,19,421,False,False,False,True
+O00793,A0085,R014,Platform License,Outreach Sequence,Qualification,18700.0,2026-05-20,,2026-08-18,14,104,False,False,False,False
+O00794,A0045,R009,Support Add-on,LinkedIn Sales Nav,Negotiation,25000.0,2026-08-19,,2026-08-26,6,13,False,False,False,False
+O00795,A0033,R009,Platform License,ZoomInfo List,Proposal,5700.0,2025-06-26,,2026-08-25,7,432,False,False,False,False
+O00796,A0067,R004,Professional Services,Inbound Web,Negotiation,11500.0,2025-10-16,,2026-08-08,24,320,False,False,False,False
+O00797,A0087,R011,Platform License,ZoomInfo List,Negotiation,13300.0,2025-10-19,,2026-09-01,0,317,False,False,False,False
+O00798,A0028,R008,Professional Services,Outreach Sequence,Closed Won,14600.0,2025-03-30,2025-07-26,2025-07-24,404,118,True,True,False,False
+O00799,A0049,R002,Support Add-on,Referral,Qualification,13300.0,2025-09-16,,2026-08-18,14,350,False,False,False,False
+O00800,A0130,R009,Professional Services,,Proposal,5300.0,2025-10-29,,2025-10-31,305,307,False,False,True,False
+O00801,A0012,R006,Professional Services,Inbound Web,Proposal,22000.0,2026-01-08,,2026-01-19,225,236,False,False,True,False
+O00802,A0008,R004,Platform License,ZoomInfo List,Closed Won,30000.0,2026-02-24,2026-06-06,2026-06-06,87,102,True,True,False,False
+O00803,A0129,R014,Professional Services,ZoomInfo List,Proposal,18800.0,2025-11-07,,2026-08-08,24,298,False,False,False,False
+O00804,A0014,R017,Professional Services,ZoomInfo List,Prospecting,9300.0,2025-11-14,,2026-08-22,10,291,False,False,False,False
+O00805,A0131,R009,Data Module,,Prospecting,5000.0,2026-08-09,,2026-09-01,0,23,False,False,False,False
+O00806,A0020,R015,Professional Services,Referral,Qualification,23900.0,2026-05-10,,2026-05-18,106,114,False,False,True,False
+O00807,A0032,R009,Professional Services,ZoomInfo List,Closed Won,10500.0,2025-06-13,2025-07-23,2025-07-22,406,40,True,True,False,False
+O00808,A0033,R017,Platform License,Referral,Closed Won,9000.0,2025-08-09,2026-01-19,2026-01-16,228,163,True,True,False,False
+O00809,A0127,R006,Professional Services,Referral,Closed Won,7600.0,2026-02-19,2026-04-08,2026-04-06,148,48,True,True,False,False
+O00810,A0021,R004,Professional Services,Referral,Qualification,12500.0,2025-04-18,,2026-08-07,25,501,False,False,False,False
+O00811,A0035,R003,Support Add-on,Referral,Closed Won,36500.0,2025-07-30,2025-12-14,2025-12-10,265,137,True,True,False,False
+O00812,A0087,R003,Professional Services,ZoomInfo List,Closed Won,8600.0,2025-04-24,2025-09-02,2025-08-31,366,131,True,True,False,False
+O00813,A0061,R004,Professional Services,LinkedIn Sales Nav,Proposal,22900.0,2026-02-05,,2026-08-23,9,208,False,False,False,False
+O00814,A0004,R002,Professional Services,Referral,Proposal,21800.0,2025-12-14,,2026-08-23,9,261,False,False,False,False
+O00815,A0038,R009,Support Add-on,Inbound Web,Proposal,8200.0,2026-07-20,,2026-08-04,28,43,False,False,False,False
+O00816,A0134,R017,Support Add-on,Outreach Sequence,Qualification,7900.0,2025-10-11,,2025-10-19,317,325,False,False,True,False
+O00817,A0072,R003,Support Add-on,Outreach Sequence,Closed Won,26800.0,2025-11-03,2026-01-22,2026-01-21,223,80,True,True,False,False
+O00818,A0009,R007,Professional Services,,Qualification,19800.0,2026-02-07,,2026-02-17,196,206,False,False,True,False
+O00819,A0134,R016,Data Module,Inbound Web,Closed Lost,2300.0,2026-04-12,2026-04-24,2026-04-22,132,12,True,False,False,False
+O00820,A0066,R016,Professional Services,,Proposal,28900.0,2026-08-19,,2026-08-28,4,13,False,False,False,False
+O00821,A0064,R017,Support Add-on,Outreach Sequence,Proposal,43800.0,2026-01-29,,2026-08-15,17,215,False,False,False,False
+O00822,A0071,R007,Support Add-on,ZoomInfo List,Closed Won,4600.0,2025-10-15,2026-02-08,2026-02-07,206,116,True,True,False,False
+O00823,A0025,R012,Data Module,,Qualification,16200.0,2026-04-22,,2026-05-04,120,132,False,False,True,False
+O00824,A0079,R017,Professional Services,ZoomInfo List,Closed Won,13450.0,2025-07-14,2025-10-15,2025-10-11,325,93,True,True,False,True
+O00825,A0042,R012,Professional Services,Inbound Web,Negotiation,7900.0,2025-09-27,,2026-08-14,18,339,False,False,False,False
+O00826,A0058,R016,Support Add-on,Outreach Sequence,Proposal,28400.0,2026-06-27,,2026-08-22,10,66,False,False,False,False
+O00827,A0051,R015,Professional Services,Outreach Sequence,Prospecting,2900.0,2026-03-09,,2026-03-29,156,176,False,False,True,False
+O00828,A0001,R007,Support Add-on,Referral,Qualification,25800.0,2025-08-01,,2025-08-18,379,396,False,False,True,False
+O00829,A0108,R011,Data Module,,Prospecting,6200.0,2026-08-20,,2026-08-29,3,12,False,False,False,False
+O00830,A0001,R016,Professional Services,Referral,Proposal,14200.0,2026-06-22,,2026-06-29,64,71,False,False,True,False
+O00831,A0046,R015,Professional Services,Inbound Web,Negotiation,6400.0,2025-10-18,,2026-08-18,14,318,False,False,False,False
+O00832,A0124,R015,Data Module,Referral,Closed Won,6600.0,2026-06-27,2026-08-29,2026-08-25,7,63,True,True,False,False
+O00833,A0042,R001,Data Module,Referral,Closed Won,6900.0,2026-07-22,2026-08-28,2026-08-26,6,37,True,True,False,False
+O00834,A0054,R009,Professional Services,,Proposal,20600.0,2026-03-05,,2026-08-09,23,180,False,False,False,False
+O00835,A0089,R003,Platform License,,Proposal,8700.0,2026-05-26,,2026-06-01,92,98,False,False,True,False
+O00836,A0032,R010,Platform License,Referral,Closed Lost,20500.0,2026-01-21,2026-06-21,2026-06-21,72,151,True,False,False,False
+O00837,A0082,R006,Platform License,,Proposal,7800.0,2025-10-02,,2025-10-19,317,334,False,False,True,False
+O00838,A0073,R017,Support Add-on,Outreach Sequence,Proposal,9700.0,2025-05-16,,2026-08-26,6,473,False,False,False,False
+O00839,A0101,R004,Data Module,ZoomInfo List,Qualification,19000.0,2026-04-14,,2026-08-18,14,140,False,False,False,False
+O00840,A0052,R003,Support Add-on,Outreach Sequence,Closed Won,5300.0,2025-05-06,2025-06-28,2025-06-28,430,53,True,True,False,False
+O00841,A0081,R009,Professional Services,,Prospecting,31800.0,2025-07-27,,2026-08-28,4,401,False,False,False,False
+O00842,A0020,R001,Data Module,,Closed Lost,20100.0,2026-07-27,2026-08-31,2026-08-26,6,35,True,False,False,False
+O00843,A0113,R011,Support Add-on,ZoomInfo List,Proposal,10900.0,2025-10-20,,2025-11-02,303,316,False,False,True,False
+O00844,A0085,R004,Platform License,ZoomInfo List,Prospecting,35800.0,2026-02-08,,2026-02-09,204,205,False,False,True,False
+O00845,A0015,R004,Support Add-on,LinkedIn Sales Nav,Closed Won,16000.0,2026-05-25,2026-07-16,2026-07-16,47,52,True,True,False,False
+O00846,A0061,R008,Platform License,LinkedIn Sales Nav,Negotiation,22000.0,2026-02-18,,2026-08-19,13,195,False,False,False,False
+O00847,A0014,R006,Professional Services,Outreach Sequence,Prospecting,2600.0,2025-10-04,,2026-09-01,0,332,False,False,False,False
+O00848,A0064,R012,Platform License,,Negotiation,12900.0,2025-11-19,,2025-11-26,279,286,False,False,True,False
+O00849,A0138,R012,Support Add-on,ZoomInfo List,Qualification,23400.0,2026-03-09,,2026-08-12,20,176,False,False,False,False
+O00850,A0043,R003,Data Module,Referral,Closed Lost,11700.0,2025-10-10,2025-11-06,2025-11-04,301,27,True,False,False,True
+O00851,A0079,R005,Support Add-on,ZoomInfo List,Proposal,12650.0,2026-01-05,,2026-08-25,7,239,False,False,False,True
+O00852,A0080,R004,Professional Services,ZoomInfo List,Closed Won,13400.0,2025-06-19,2025-07-14,2025-07-13,415,25,True,True,False,False
+O00853,A0008,R011,Support Add-on,ZoomInfo List,Qualification,16200.0,2025-08-12,,2025-09-01,365,385,False,False,True,False
+O00854,A0056,R009,Platform License,ZoomInfo List,Qualification,16400.0,2025-11-20,,2026-08-19,13,285,False,False,False,False
+O00855,A0038,R008,Data Module,Referral,Qualification,16700.0,2025-09-26,,2026-08-11,21,340,False,False,False,False
+O00856,A0103,R007,Platform License,,Qualification,28100.0,2025-10-06,,2025-10-22,314,330,False,False,True,False
+O00857,A0038,R005,Professional Services,Referral,Closed Lost,10100.0,2026-04-09,2026-05-12,2026-05-11,113,33,True,False,False,False
+O00858,A0057,R010,Professional Services,LinkedIn Sales Nav,Proposal,7000.0,2026-06-12,,2026-06-19,74,81,False,False,True,False
+O00859,A0119,R007,Data Module,Inbound Web,Negotiation,10300.0,2025-11-12,,2025-11-28,277,293,False,False,True,False
+O00860,A0014,R007,Data Module,Outreach Sequence,Proposal,7500.0,2026-03-13,,2026-08-09,23,172,False,False,False,False
+O00861,A0025,R018,Professional Services,LinkedIn Sales Nav,Proposal,8600.0,2025-08-06,,2026-08-23,9,391,False,False,False,False
+O00862,A0106,R004,Support Add-on,ZoomInfo List,Proposal,94900.0,2025-08-07,,2025-08-25,372,390,False,False,True,False
+O00863,A0083,R006,Data Module,Inbound Web,Qualification,3300.0,2025-05-08,,2025-05-25,464,481,False,False,True,False
+O00864,A0035,R005,Data Module,Outreach Sequence,Closed Lost,6400.0,2025-07-02,2025-10-18,2025-10-15,321,108,True,False,False,False
+O00865,A0056,R011,Data Module,,Proposal,35600.0,2026-04-26,,2026-05-10,114,128,False,False,True,False
+O00866,A0098,R003,Platform License,LinkedIn Sales Nav,Closed Won,9800.0,2025-08-19,2025-12-15,2025-12-10,265,118,True,True,False,False
+O00867,A0077,R001,Support Add-on,ZoomInfo List,Closed Won,4300.0,2026-08-03,2026-08-27,2026-08-24,8,24,True,True,False,False
+O00868,A0005,R009,Professional Services,Inbound Web,Prospecting,3100.0,2026-03-19,,2026-08-20,12,166,False,False,False,False
+O00869,A0024,R001,Support Add-on,,Closed Won,15000.0,2026-03-15,2026-06-10,2026-06-06,87,87,True,True,False,False
+O00870,A0084,R001,Professional Services,LinkedIn Sales Nav,Closed Won,17100.0,2025-07-06,2025-08-12,2025-08-07,390,37,True,True,False,False
+O00871,A0136,R005,Platform License,Outreach Sequence,Closed Lost,4500.0,2026-01-29,2026-04-27,2026-04-27,127,88,True,False,False,False
+O00872,A0038,R013,Professional Services,ZoomInfo List,Closed Won,9900.0,2026-06-21,2026-08-28,2026-08-23,9,68,True,True,False,False
+O00873,A0107,R012,Data Module,Referral,Qualification,7000.0,2025-08-13,,2025-08-19,378,384,False,False,True,False
+O00874,A0097,R008,Data Module,Inbound Web,Qualification,10500.0,2026-01-26,,2026-08-07,25,218,False,False,False,False
+O00875,A0129,R010,Support Add-on,Outreach Sequence,Closed Won,24500.0,2026-05-12,2026-06-11,2026-06-09,84,30,True,True,False,False
+O00876,A0013,R001,Platform License,LinkedIn Sales Nav,Prospecting,35400.0,2025-09-15,,2026-08-11,21,351,False,False,False,False
+O00877,A0013,R008,Support Add-on,Inbound Web,Negotiation,5300.0,2026-08-24,,2026-09-10,-9,8,False,False,False,False
+O00878,A0117,R003,Support Add-on,ZoomInfo List,Closed Won,1700.0,2025-05-04,2025-08-08,2025-08-06,391,96,True,True,False,False
+O00879,A0117,R005,Platform License,Inbound Web,Negotiation,9800.0,2025-08-27,,2026-08-21,11,370,False,False,False,False
+O00880,A0068,R015,Professional Services,LinkedIn Sales Nav,Closed Won,9700.0,2025-07-16,2025-08-01,2025-07-28,400,16,True,True,False,False
+O00881,A0064,R002,Platform License,,Negotiation,17800.0,2025-05-26,,2026-08-16,16,463,False,False,False,False
+O00882,A0092,R018,Professional Services,Referral,Prospecting,13200.0,2025-10-06,,2026-08-07,25,330,False,False,False,False
+O00883,A0043,R014,Platform License,,Proposal,21700.0,2025-04-22,,2026-08-21,11,497,False,False,False,False
+O00884,A0110,R001,Professional Services,Inbound Web,Qualification,4900.0,2025-08-02,,2026-08-16,16,395,False,False,False,False
+O00885,A0081,R014,Platform License,Inbound Web,Qualification,14100.0,2026-06-03,,2026-08-18,14,90,False,False,False,False
+O00886,A0022,R017,Data Module,,Qualification,33200.0,2025-12-28,,2026-08-11,21,247,False,False,False,False
+O00887,A0041,R011,Data Module,,Prospecting,6200.0,2026-08-02,,2026-08-08,24,30,False,False,False,False
+O00888,A0086,R011,Professional Services,Referral,Negotiation,20300.0,2026-04-27,,2026-08-17,15,127,False,False,False,False
+O00889,A0118,R002,Data Module,ZoomInfo List,Negotiation,28400.0,2026-06-26,,2026-08-09,23,67,False,False,False,False
+O00890,A0019,R017,Platform License,Referral,Qualification,6000.0,2026-01-15,,2026-01-18,226,229,False,False,True,False
+O00891,A0094,R009,Platform License,Referral,Prospecting,11400.0,2025-08-20,,2026-08-14,18,377,False,False,False,False
+O00892,A0139,R010,Professional Services,Outreach Sequence,Closed Won,17800.0,2026-02-18,2026-05-20,2026-05-18,106,91,True,True,False,False
+O00893,A0008,R017,Data Module,ZoomInfo List,Prospecting,20800.0,2025-07-23,,2025-08-02,395,405,False,False,True,False
+O00894,A0071,R009,Support Add-on,,Prospecting,14500.0,2025-11-14,,2026-08-23,9,291,False,False,False,False
+O00895,A0077,R006,Support Add-on,ZoomInfo List,Negotiation,14500.0,2025-04-29,,2026-08-10,22,490,False,False,False,False
+O00896,A0071,R018,Support Add-on,,Closed Won,3100.0,2026-01-28,2026-02-20,2026-02-19,194,23,True,True,False,False
+O00897,A0117,R002,Data Module,Inbound Web,Closed Lost,6900.0,2026-03-21,2026-06-25,2026-06-22,71,96,True,False,False,False
+O00898,A0124,R013,Platform License,ZoomInfo List,Proposal,14400.0,2026-06-19,,2026-06-26,67,74,False,False,True,False
+O00899,A0012,R017,Data Module,,Closed Won,34300.0,2025-10-04,2025-12-30,2025-12-27,248,87,True,True,False,False
+O00900,A0063,R006,Support Add-on,,Qualification,13900.0,2025-04-24,,2025-05-01,488,495,False,False,True,False

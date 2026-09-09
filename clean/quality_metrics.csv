@@ -1,0 +1,14 @@
+metric,value
+Accounts Before Cleaning,162.0
+Duplicate Accounts Merged,25.0
+Accounts After Cleaning,137.0
+Pct Missing DUNS Before,37.7
+Pct Missing DUNS After,28.5
+Raw Stage Values Found,21.0
+Canonical Stages After Cleaning,6.0
+Open Opportunities,603.0
+Stale Opportunities,201.0
+Stale Pct Of Open Pipeline,33.3
+Open Pipeline Value,10241900.0
+Win Rate Pct,66.7
+Amounts Imputed,33.0
