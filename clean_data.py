@@ -56,21 +56,46 @@ accounts["name_key"] = accounts["account_name"].apply(normalize_name)
 # 2. Fuzzy-cluster accounts that are the same company entered
 #    differently (exact key match + high-similarity near-matches).
 # ------------------------------------------------------------------
-keys = accounts["name_key"].tolist()
-canonical_map = {}          # name_key -> canonical name_key
-seen_keys = []
+canonical_map = {}          # (country, name_key) -> canonical key
+match_scores = {}
+review_keys = set()
+seen_by_country = {}
 
-for k in keys:
-    if k in canonical_map:
+for row in accounts[["account_id", "name_key", "country"]].itertuples(index=False):
+    country = str(row.country).strip().lower()
+    key = (country, row.name_key)
+    if key in canonical_map:
         continue
-    match = difflib.get_close_matches(k, seen_keys, n=1, cutoff=0.92)
-    if match:
-        canonical_map[k] = match[0]
-    else:
-        canonical_map[k] = k
-        seen_keys.append(k)
 
-accounts["canonical_key"] = accounts["name_key"].map(canonical_map)
+    seen = seen_by_country.setdefault(country, [])
+    candidates = [
+        (candidate, difflib.SequenceMatcher(None, row.name_key, candidate).ratio())
+        for candidate in seen
+    ]
+    candidate, score = max(candidates, key=lambda item: item[1], default=(None, 0.0))
+    if score >= 0.92:
+        canonical_map[key] = canonical_map[(country, candidate)]
+        match_scores[key] = score
+    else:
+        canonical_map[key] = f"{country}::{row.name_key}"
+        match_scores[key] = score
+        seen.append(row.name_key)
+        if score >= 0.85:
+            review_keys.add(key)
+
+accounts["country_key"] = accounts["country"].fillna("").str.strip().str.lower()
+accounts["canonical_key"] = [
+    canonical_map[(country, name_key)]
+    for country, name_key in zip(accounts["country_key"], accounts["name_key"])
+]
+accounts["match_score"] = [
+    match_scores[(country, name_key)]
+    for country, name_key in zip(accounts["country_key"], accounts["name_key"])
+]
+accounts["review_required"] = [
+    (country, name_key) in review_keys
+    for country, name_key in zip(accounts["country_key"], accounts["name_key"])
+]
 
 # For each canonical group, pick the "best" surviving record:
 # prefer the one with a DUNS number, then the earliest created_date.
@@ -89,7 +114,7 @@ n_duplicates_merged = n_accounts_before - len(survivors)
 id_map = accounts.merge(
     survivors[["canonical_key", "account_id"]].rename(columns={"account_id": "canonical_account_id"}),
     on="canonical_key", how="left"
-)[["account_id", "account_name", "source_company_id", "canonical_key", "canonical_account_id"]]
+)[["account_id", "account_name", "source_company_id", "canonical_key", "canonical_account_id", "match_score", "review_required"]]
 id_map["merge_status"] = id_map["account_id"] == id_map["canonical_account_id"]
 id_map.rename(columns={"merge_status": "is_survivor"}).to_csv(
     f"{OUT}/account_merge_map.csv", index=False

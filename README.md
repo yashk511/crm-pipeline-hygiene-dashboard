@@ -128,11 +128,17 @@ typical Dynamics or Salesforce exports and does not represent real company or
 client data.
 
 The generator includes a ground-truth account-company key solely for evaluating
-the cleaner. The current name-based matcher recovered all injected duplicate
-pairs but also produced false-positive merges, yielding 84.6% pair precision.
-This is intentionally visible as a quality result; the next matcher upgrade
-will add blocking and review thresholds rather than silently treating every
-merge as correct.
+the cleaner. The original v1 name-only matcher recovered all injected
+duplicate pairs but also produced false-positive merges, yielding 84.6% pair
+precision. That baseline result remains documented for comparison.
+
+On the v2 branch, duplicate records retain the original company's country and
+industry. Country-blocked matching now achieves 100.0% pair precision and
+100.0% pair recall, merging the 22 injected duplicate records into 140 clean
+accounts. The v2 seeded outputs currently contain 605 open opportunities, 200
+stale opportunities, a 67.5% closed-deal win rate, and $10,141,700 of open
+pipeline. These v2 values intentionally differ from the original v1 dashboard
+baseline because the generator is now more realistic and auditable.
 
 ## v2 analytical upgrades
 

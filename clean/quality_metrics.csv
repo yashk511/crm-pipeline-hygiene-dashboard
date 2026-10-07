@@ -1,21 +1,21 @@
 metric,value
 Accounts Before Cleaning,162.0
-Duplicate Accounts Merged,25.0
-Dedup Precision Pct,84.6
+Duplicate Accounts Merged,22.0
+Dedup Precision Pct,100.0
 Dedup Recall Pct,100.0
-Accounts After Cleaning,137.0
+Accounts After Cleaning,140.0
 Pct Missing DUNS Before,37.7
-Pct Missing DUNS After,28.5
+Pct Missing DUNS After,27.9
 Raw Stage Values Found,21.0
 Canonical Stages After Cleaning,6.0
-Open Opportunities,603.0
-Stale Opportunities,201.0
-Stale Pct Of Open Pipeline,33.3
-Open Pipeline Value,10241900.0
-Open Pipeline Value Excluding Imputed,9934500.0
-Stale Pipeline Value,3566900.0
-Stale Value Pct Of Open Pipeline,34.8
-Average Open Age Days,278.2
-Average Sales Cycle Days,83.6
-Win Rate Pct,66.7
+Open Opportunities,605.0
+Stale Opportunities,200.0
+Stale Pct Of Open Pipeline,33.1
+Open Pipeline Value,10141700.0
+Open Pipeline Value Excluding Imputed,9833800.0
+Stale Pipeline Value,3327550.0
+Stale Value Pct Of Open Pipeline,32.8
+Average Open Age Days,276.9
+Average Sales Cycle Days,83.1
+Win Rate Pct,67.5
 Amounts Imputed,33.0

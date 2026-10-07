@@ -80,13 +80,14 @@ for company_index, base in enumerate(base_companies, start=1):
 
 # inject duplicate account records (same real company, different account_id)
 for company_index, base, orig_id in duplicate_pool:
+    original = next(record for record in accounts if record["account_id"] == orig_id)
     acct_id = f"A{acct_counter:04d}"
     accounts.append({
         "account_id": acct_id,
         "source_company_id": f"C{company_index:04d}",
         "account_name": messy_name_variant(base),
-        "industry": random.choice(INDUSTRIES),  # sometimes re-entered inconsistently
-        "country": fake.country(),
+        "industry": original["industry"],
+        "country": original["country"],
         "duns_number": "",  # duplicates usually missing DUNS
         "created_date": (TODAY - timedelta(days=random.randint(5, 730))).date(),
         "owner_rep_id": random.choice(reps_df.rep_id),
