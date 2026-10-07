@@ -31,6 +31,7 @@ sql/                     DuckDB business-question queries
 metric_dictionary.md     KPI definitions, grain, and caveats
 requirements.txt         reproducible Python dependencies
 run_sql.py               executes SQL and exports analysis marts
+analysis/                 findings, recommendations, and limitations
 ```
 
 ## The data problems this fixes (mirrors real Sales Ops work)
@@ -156,6 +157,11 @@ conversion, rep performance, monthly pipeline trends, aging buckets, and stale
 deal prioritization. These queries run directly against the clean CSV outputs.
 Run `python run_sql.py` to export the five query results to `clean/sql_marts/`
 for downstream analysis or Power BI ingestion.
+
+The descriptive findings and operating recommendations are documented in
+`analysis/business_analysis.md`. Because the current data is synthetic and
+does not plant causal win-rate drivers, that report deliberately avoids
+claiming that any rep, region, product, or lead source causes performance.
 
 **5. Publish / screenshot**
 Export a couple of pages as images or PDF for your portfolio/GitHub README

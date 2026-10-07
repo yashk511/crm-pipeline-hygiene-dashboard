@@ -45,3 +45,10 @@ def test_sql_marts_are_exported():
     marts = list((CLEAN / "sql_marts").glob("*.csv"))
 
     assert len(marts) == 5
+
+
+def test_business_analysis_exists():
+    report = ROOT / "analysis" / "business_analysis.md"
+
+    assert report.exists()
+    assert "descriptive operational findings" in report.read_text(encoding="utf-8")
