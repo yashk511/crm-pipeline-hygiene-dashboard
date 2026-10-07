@@ -24,9 +24,10 @@ def test_stale_opportunities_are_open_and_over_threshold():
     fact = load_fact()
     stale = fact[fact["is_stale"]]
 
-    assert len(stale) == 200
+    assert len(stale) == 183
     assert (~stale["is_closed"]).all()
     assert (stale["days_since_activity"] > 30).all()
+    assert stale["expected_win_probability"].between(0.15, 0.85).all()
 
 
 def test_audit_outputs_exist_and_capture_missing_amounts():
@@ -36,7 +37,7 @@ def test_audit_outputs_exist_and_capture_missing_amounts():
 
     assert len(merge_map) == 162
     assert (merge_map["is_survivor"] == True).sum() == 140
-    assert (issues["issue_type"] == "invalid_amount").sum() == 33
+    assert (issues["issue_type"] == "invalid_amount").sum() == 34
     assert summary.loc[summary["issue_type"] == "orphan_account_id", "status"].iloc[0] == "PASS"
     assert summary.loc[summary["issue_type"] == "missing_duns", "issue_count"].iloc[0] == 39
 
@@ -44,7 +45,17 @@ def test_audit_outputs_exist_and_capture_missing_amounts():
 def test_sql_marts_are_exported():
     marts = list((CLEAN / "sql_marts").glob("*.csv"))
 
-    assert len(marts) == 5
+    assert len(marts) == 6
+
+
+def test_stage_history_is_cleaned():
+    history = pd.read_csv(CLEAN / "opportunity_stage_history.csv")
+
+    assert len(history) >= 900
+    assert history["opp_id"].nunique() == 900
+    assert set(history["stage"]).issubset(
+        {"Prospecting", "Qualification", "Proposal", "Negotiation", "Closed Won", "Closed Lost"}
+    )
 
 
 def test_business_analysis_exists():

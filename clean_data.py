@@ -34,6 +34,7 @@ STALE_THRESHOLD_DAYS = int(os.getenv("CRM_STALE_THRESHOLD_DAYS", "30"))
 accounts = pd.read_csv(f"{RAW}/accounts.csv", dtype=str)
 reps = pd.read_csv(f"{RAW}/reps.csv", dtype=str)
 opps = pd.read_csv(f"{RAW}/opportunities.csv", dtype=str)
+stage_history = pd.read_csv(f"{RAW}/opportunity_stage_history.csv", dtype=str)
 
 n_accounts_before = len(accounts)
 
@@ -186,6 +187,7 @@ opps["created_date"] = pd.to_datetime(opps["created_date"])
 opps["close_date"] = pd.to_datetime(opps["close_date"], errors="coerce")
 opps["last_activity_date"] = pd.to_datetime(opps["last_activity_date"])
 opps["amount"] = pd.to_numeric(opps["amount"], errors="coerce")
+opps["expected_win_probability"] = pd.to_numeric(opps["expected_win_probability"], errors="coerce")
 
 opps["is_closed"] = opps["stage"].isin(["Closed Won", "Closed Lost"])
 opps["is_won"] = opps["stage"] == "Closed Won"
@@ -280,9 +282,16 @@ fact_opportunities = opps[[
     "amount", "created_date", "close_date", "last_activity_date",
     "days_since_activity", "open_age_days", "sales_cycle_days", "deal_age_days",
     "is_closed", "is_won",
-    "is_stale", "amount_missing_flag",
+    "is_stale", "amount_missing_flag", "expected_win_probability",
 ]].copy()
 fact_opportunities.to_csv(f"{OUT}/fact_opportunities.csv", index=False)
+
+stage_history["stage"] = stage_history["stage_raw"].apply(standardize_stage)
+stage_history["stage_sequence"] = pd.to_numeric(stage_history["stage_sequence"], errors="coerce").astype("Int64")
+stage_history["stage_date"] = pd.to_datetime(stage_history["stage_date"])
+stage_history[["opp_id", "stage", "stage_sequence", "stage_date"]].to_csv(
+    f"{OUT}/opportunity_stage_history.csv", index=False
+)
 
 # ------------------------------------------------------------------
 # 6. Date dimension (for Power BI time intelligence)

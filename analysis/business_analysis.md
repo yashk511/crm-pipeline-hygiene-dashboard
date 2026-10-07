@@ -2,20 +2,19 @@
 
 ## Scope and caveat
 
-This analysis uses the v2 synthetic CRM dataset as of September 1, 2026. The
-results are descriptive operational findings, not causal claims or a forecast.
-The generator does not yet plant realistic win-rate drivers, so segment
-comparisons should not be interpreted as evidence that a product, rep, team, or
-region causes higher conversion.
+This analysis uses the signal-aware v2 synthetic CRM dataset as of September 1,
+2026. The results are descriptive operational findings, not causal claims or a
+forecast. The generator now plants modest effects by lead source, product, and
+team so the analysis workflow can be demonstrated, but those effects are
+simulation parameters rather than real-world evidence.
 
 ## Findings
 
 ### 1. Aging is the largest immediate pipeline risk
 
-Open opportunities aged 180+ days represent **395 opportunities** and
-**$6,273,000** of pipeline, approximately **61.8%** of total open pipeline
-value ($10,141,700). The 90+ day population represents $8,435,600, or about
-83.1% of open pipeline value.
+Open opportunities aged 180+ days represent the largest aging bucket and should
+be the first operational review population. Use the current `04_aging_buckets`
+mart for the exact v2 amount and count rather than treating age as a forecast.
 
 ### 2. Stale follow-up should be value-prioritized
 
@@ -41,10 +40,17 @@ causality; the sample sizes and synthetic assignment process limit conclusions.
 
 ### 4. Opportunity creation was highest in late summer 2025
 
-August 2025 had the highest creation volume at **71 opportunities** and
-$762,500 of open pipeline. April and May 2026 also show elevated creation
-volume at 63 and 64 opportunities. This supports a monthly pipeline review
-cadence, but does not establish a seasonal sales pattern.
+Use the monthly trend mart to monitor creation volume and open pipeline over
+time. This supports a monthly pipeline review cadence, but does not establish
+a seasonal sales pattern from one synthetic period.
+
+### 5. Simulated driver analysis is now possible, with labels
+
+In the seeded simulation, observed closed-deal win rates differ by lead source
+and product: Referral is 67.3% versus 22.2% for ZoomInfo List, while Platform
+License is 54.9% versus 40.7% for Support Add-on. These are useful for testing
+segmentation, confidence intervals, and regression code, but must be presented
+as planted-signal demonstrations rather than business conclusions.
 
 ## Recommended operating actions
 
@@ -56,9 +62,10 @@ cadence, but does not establish a seasonal sales pattern.
    together; do not rank reps on win rate alone.
 4. Resolve the 33 amount issues, 39 missing-DUNS issues, and one
    close-before-create issue through CRM hygiene workflows.
-5. Treat the current funnel chart as stage distribution, not true
-   stage-to-stage conversion, until the generator includes opportunity-stage
-   history or transition events.
+5. Use the event-based stage transition mart for funnel reporting: the current
+   v2 run shows 83.4% Prospecting-to-Qualification, 76.6%
+   Qualification-to-Proposal, 71.5% Proposal-to-Negotiation, then 35.5% won
+   and 39.9% lost from Negotiation.
 
 ## Next analytical upgrade
 

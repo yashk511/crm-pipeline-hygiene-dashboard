@@ -1,201 +1,184 @@
 opp_id,account_name,rep_name,region,stage,amount,days_since_activity,stale_priority_score
-O00097,Brown Valdez and Lucas,Holly Wood,EMEA,Prospecting,52400.0,508,26619200.0
-O00162,Robinson-Brock,Derek Zuniga,North America,Prospecting,67500.0,262,17685000.0
-O00050,Simmons Meadows and Griffin,Lisa Hensley,APAC,Qualification,43400.0,406,17620400.0
-O00078,Powell LLC,Angie Henderson,EMEA,Proposal,45800.0,375,17175000.0
-O00356,Rodriguez Brennan and Garrison,Dylan Miller,LATAM,Proposal,42100.0,392,16503200.0
-O00204,Dyer Potter and Mack,Monica Herrera,LATAM,Negotiation,41200.0,368,15161600.0
-O00157,Smith-Bowen,Brian Ramirez,APAC,Proposal,44800.0,337,15097600.0
-O00472,Baxter Inc,Cristian Santos,North America,Prospecting,27000.0,533,14391000.0
-O00527,Lawson Morris and Ramos,Ryan Munoz,EMEA,Qualification,35400.0,391,13841400.0
-O00692,West Henderson and Ramirez,Michele Williams,EMEA,Negotiation,30900.0,428,13225200.0
-O00463,Suarez LLC,Holly Wood,EMEA,Prospecting,24400.0,504,12297600.0
-O00172,Gray Group,Dylan Miller,LATAM,Prospecting,24200.0,507,12269400.0
-O00071,Diaz Inc,Abigail Shaffer,North America,Prospecting,26400.0,437,11536800.0
-O00841,Williams-Cook,Gabrielle Davis,North America,Proposal,31800.0,317,10080600.0
-O00517,Mitchell-Jordan,Allison Hill,North America,Qualification,18500.0,533,9860500.0
-O00114,Walsh LLC,Derek Zuniga,North America,Qualification,20400.0,465,9486000.0
-O00146,Bentley Byrd and Orr,Connie Lawrence,LATAM,Prospecting,26800.0,343,9192400.0
-O00820,Edwards Baker and Anderson,Brian Ramirez,APAC,Qualification,28900.0,317,9161300.0
-O00505,Russell Group,Cristian Santos,North America,Proposal,32800.0,276,9052800.0
-O00563,Lee-Davis,Monica Herrera,LATAM,Qualification,27400.0,330,9042000.0
-O00586,White-Estes,Monica Herrera,LATAM,Negotiation,56800.0,152,8633600.0
-O00441,Hickman Ltd,Lisa Hensley,APAC,Qualification,21500.0,385,8277500.0
-O00689,Smith PLC,Noah Rhodes,APAC,Proposal,18100.0,457,8271700.0
-O00047,Hoffman Baker and Richards,Gina Moore,EMEA,Prospecting,22400.0,364,8153600.0
-O00360,Simmons Meadows and Griffin,Noah Rhodes,APAC,Qualification,18300.0,443,8106900.0
-O00122,Daniels Adkins and Brown,Dylan Miller,LATAM,Prospecting,22800.0,353,8048400.0
-O00322,Anderson-Bailey,Dylan Miller,LATAM,Proposal,20700.0,373,7721100.0
-O00763,Mitchell Nelson and Flores,Ryan Munoz,EMEA,Proposal,18300.0,418,7649400.0
-O00614,Jones Inc,Brian Ramirez,APAC,Prospecting,50600.0,147,7438200.0
-O00499,Daniels Adkins and Brown,Connie Lawrence,LATAM,Prospecting,16900.0,435,7351500.0
-O00627,Bentley Byrd and Orr,Monica Herrera,LATAM,Qualification,15200.0,465,7068000.0
-O00862,Joyce Wilson and Lam,Daniel Wagner,North America,Proposal,94900.0,74,7022600.0
-O00400,Stanley Tucker and Lee,Holly Wood,EMEA,Qualification,19700.0,356,7013200.0
-O00255,Schmidt Hansen and Stewart,Connie Lawrence,LATAM,Qualification,51900.0,134,6954600.0
-O00240,Snyder Campos and Callahan,Dylan Miller,LATAM,Prospecting,21600.0,321,6933600.0
-O00539,Bentley Byrd and Orr,Angie Henderson,EMEA,Proposal,15500.0,441,6835500.0
-O00701,Ryan PLC,Cristian Santos,North America,Proposal,12500.0,542,6775000.0
-O00271,Moore-Bass,Dylan Miller,LATAM,Qualification,15900.0,426,6773400.0
-O00249,Donovan-Harris,Daniel Wagner,North America,Prospecting,13650.0,495,6756750.0
-O00058,Lee-Davis,Michele Williams,EMEA,Qualification,23900.0,282,6739800.0
-O00653,West Henderson and Ramirez,Gina Moore,EMEA,Prospecting,24200.0,277,6703400.0
-O00734,Lee Horton and Snyder,Michele Williams,EMEA,Prospecting,13600.0,479,6514400.0
-O00036,Mitchell Nelson and Flores,Dylan Miller,LATAM,Qualification,44600.0,146,6511600.0
-O00158,Hernandez Inc,Dylan Miller,LATAM,Qualification,14700.0,428,6291600.0
-O00116,Lawson Morris and Ramos,Derek Zuniga,North America,Prospecting,19000.0,331,6289000.0
-O00567,Daniels Adkins and Brown,Abigail Shaffer,North America,Qualification,15900.0,387,6153300.0
-O00387,Chambers and Sons,Abigail Shaffer,North America,Proposal,16200.0,370,5994000.0
-O00749,Henderson-Bernard,Dylan Miller,LATAM,Proposal,11550.0,518,5982900.0
-O00151,Allen-Allen,Jamie Arnold,LATAM,Qualification,11300.0,527,5955100.0
-O00489,Bentley Byrd and Orr,Monica Herrera,LATAM,Proposal,11300.0,519,5864700.0
-O00420,Bryant Group,Allison Hill,North America,Prospecting,38400.0,152,5836800.0
-O00451,Riggs PLC,Jamie Arnold,LATAM,Proposal,25300.0,229,5793700.0
-O00069,Hensley Powell and David,Derek Zuniga,North America,Negotiation,13100.0,442,5790200.0
-O00102,Wright and Sons,Cristian Santos,North America,Proposal,45400.0,126,5720400.0
-O00731,Walter Edwards and Rios,Daniel Wagner,North America,Negotiation,11550.0,493,5694150.0
-O00622,Ramirez Strickland and Washington,Gabrielle Davis,North America,Qualification,14600.0,386,5635600.0
-O00577,Newton and Sons,Ryan Munoz,EMEA,Proposal,51200.0,110,5632000.0
-O00100,Wright and Sons,Ryan Munoz,EMEA,Prospecting,11550.0,484,5590200.0
-O00140,Ferrell Rice and Maddox,Abigail Shaffer,North America,Qualification,16100.0,334,5377400.0
-O00485,Robinson-Brock,Abigail Shaffer,North America,Proposal,13800.0,389,5368200.0
-O00224,Allen-Allen,Jamie Arnold,LATAM,Proposal,21300.0,252,5367600.0
-O00073,Newton and Sons,Jamie Arnold,LATAM,Qualification,18500.0,280,5180000.0
-O00178,Smith-Bowen,Daniel Wagner,North America,Proposal,9700.0,519,5034300.0
-O00029,Green-Wright,Daniel Wagner,North America,Proposal,9900.0,486,4811400.0
-O00434,Evans Stewart and Walton,Angie Henderson,EMEA,Proposal,17700.0,253,4478100.0
-O00222,Moore-Bass,Abigail Shaffer,North America,Qualification,36800.0,118,4342400.0
-O00590,Harvey Davis and Crane,Daniel Wagner,North America,Prospecting,20400.0,212,4324800.0
-O00049,Romero Gonzalez and Brooks,Daniel Wagner,North America,Negotiation,37000.0,115,4255000.0
-O00266,Ryan PLC,Gina Moore,EMEA,Prospecting,16300.0,259,4221700.0
-O00107,Campbell-Clark,Angie Henderson,EMEA,Qualification,8900.0,473,4209700.0
-O00376,Powell LLC,Gabrielle Davis,North America,Prospecting,8100.0,516,4179600.0
-O00407,Manning Group,Gina Moore,EMEA,Proposal,15100.0,270,4077000.0
-O00732,Johnson-Doyle,Ryan Munoz,EMEA,Proposal,11900.0,342,4069800.0
-O00521,Russell Group,Monica Herrera,LATAM,Prospecting,29600.0,133,3936800.0
-O00531,Diaz Inc,Holly Wood,EMEA,Proposal,11300.0,348,3932400.0
-O00551,Walter Edwards and Rios,Lisa Hensley,APAC,Qualification,8700.0,450,3915000.0
-O00699,Smith Montoya and Evans,Noah Rhodes,APAC,Proposal,15800.0,247,3902600.0
-O00626,Miller Hernandez and Reyes,Holly Wood,EMEA,Qualification,10100.0,381,3848100.0
-O00736,Walker LLC,Derek Zuniga,North America,Prospecting,7500.0,512,3840000.0
-O00433,Woods Calhoun and Schmidt,Ryan Munoz,EMEA,Prospecting,9700.0,393,3812100.0
-O00852,Davis Group,Daniel Wagner,North America,Negotiation,13400.0,279,3738600.0
-O00857,Jones-Young,Cristian Santos,North America,Qualification,10100.0,365,3686500.0
-O00177,Chapman and Sons,Brian Ramirez,APAC,Proposal,12300.0,298,3665400.0
-O00866,Walker Ltd,Angie Henderson,EMEA,Proposal,9800.0,372,3645600.0
-O00767,Perez Inc,Daniel Wagner,North America,Proposal,86900.0,41,3562900.0
-O00468,Holmes Williams and Wright,Michele Williams,EMEA,Negotiation,7800.0,445,3471000.0
-O00357,Dyer Potter and Mack,Angie Henderson,EMEA,Negotiation,15600.0,221,3447600.0
-O00416,Bryant Group,Brian Ramirez,APAC,Qualification,21700.0,156,3385200.0
-O00540,Chandler-Edwards,Allison Hill,North America,Qualification,21400.0,157,3359800.0
-O00894,Suarez LLC,Gabrielle Davis,North America,Qualification,14500.0,226,3277000.0
-O00070,May-Ross,Noah Rhodes,APAC,Qualification,7500.0,433,3247500.0
-O00144,Evans Stewart and Walton,Jamie Arnold,LATAM,Qualification,7800.0,415,3237000.0
-O00560,Rodriguez-Graham,Angie Henderson,EMEA,Qualification,11000.0,288,3168000.0
-O00175,Rasmussen LLC,Ryan Munoz,EMEA,Prospecting,7300.0,424,3095200.0
-O00386,Ferrell Rice and Maddox,Connie Lawrence,LATAM,Negotiation,7300.0,421,3073300.0
-O00448,Carlson-Cruz,Gabrielle Davis,North America,Negotiation,13600.0,220,2992000.0
-O00406,Newton and Sons,Michele Williams,EMEA,Qualification,15200.0,196,2979200.0
-O00715,Harris-Walters,Derek Zuniga,North America,Negotiation,11300.0,261,2949300.0
-O00759,Brown Valdez and Lucas,Gina Moore,EMEA,Proposal,10400.0,283,2943200.0
-O00648,Morales-Jones,Holly Wood,EMEA,Qualification,7000.0,415,2905000.0
-O00313,Ross Robinson and Bright,Noah Rhodes,APAC,Prospecting,25000.0,114,2850000.0
-O00804,Carlson-Cruz,Holly Wood,EMEA,Proposal,9300.0,305,2836500.0
-O00712,Smith-Bowen,Ryan Munoz,EMEA,Prospecting,7500.0,378,2835000.0
-O00105,Shields Cochran and Adams,Michele Williams,EMEA,Qualification,5700.0,488,2781600.0
-O00285,Brown Valdez and Lucas,Brian Ramirez,APAC,Negotiation,17600.0,158,2780800.0
-O00615,Stafford Inc,Connie Lawrence,LATAM,Qualification,15500.0,178,2759000.0
-O00641,Lee-Davis,Monica Herrera,LATAM,Negotiation,13800.0,199,2746200.0
-O00897,Mitchell-Jordan,Noah Rhodes,APAC,Prospecting,6900.0,395,2725500.0
-O00659,Parker Ortiz and Powell,Ryan Munoz,EMEA,Proposal,18600.0,142,2641200.0
-O00848,Sandoval-Cunningham,Jamie Arnold,LATAM,Prospecting,12900.0,204,2631600.0
-O00320,Anderson-Bailey,Daniel Wagner,North America,Prospecting,6700.0,389,2606300.0
-O00470,Gray Group,Gina Moore,EMEA,Qualification,24100.0,107,2578700.0
-O00832,Riggs PLC,Dylan Miller,LATAM,Qualification,6600.0,379,2501400.0
-O00477,Spence PLC,Holly Wood,EMEA,Qualification,7900.0,308,2433200.0
-O00678,Romero Gonzalez and Brooks,Connie Lawrence,LATAM,Negotiation,10800.0,225,2430000.0
-O00352,Brooks Lam and Hayes,Ryan Munoz,EMEA,Negotiation,6400.0,379,2425600.0
-O00713,Robinson Nguyen and Tate,Allison Hill,North America,Qualification,6000.0,403,2418000.0
-O00758,Walker LLC,Gina Moore,EMEA,Qualification,20300.0,119,2415700.0
-O00340,Joyce Wilson and Lam,Daniel Wagner,North America,Prospecting,5300.0,454,2406200.0
-O00860,Carlson-Cruz,Abigail Shaffer,North America,Qualification,7500.0,314,2355000.0
-O00165,Perez Inc,Allison Hill,North America,Prospecting,6200.0,374,2318800.0
-O00054,Jackson Miller and Robertson,Noah Rhodes,APAC,Prospecting,4300.0,518,2227400.0
-O00662,Mccall Hanson and Alvarado,Ryan Munoz,EMEA,Negotiation,7100.0,310,2201000.0
-O00247,Jones-Young,Lisa Hensley,APAC,Qualification,5800.0,379,2198200.0
-O00214,Robinson Jones and Welch,Lisa Hensley,APAC,Prospecting,32100.0,68,2182800.0
-O00411,Morton-Chase,Allison Hill,North America,Negotiation,8600.0,253,2175800.0
-O00413,Allen-Allen,Derek Zuniga,North America,Qualification,8900.0,244,2171600.0
-O00424,Martin Rose and Obrien,Gabrielle Davis,North America,Qualification,5200.0,406,2111200.0
-O00726,Ryan PLC,Connie Lawrence,LATAM,Prospecting,11550.0,182,2102100.0
-O00341,Edwards Baker and Anderson,Daniel Wagner,North America,Qualification,4800.0,420,2016000.0
-O00877,Burton Ltd,Gina Moore,EMEA,Qualification,5300.0,378,2003400.0
-O00867,Campbell-Clark,Allison Hill,North America,Qualification,4300.0,464,1995200.0
-O00462,Chapman and Sons,Jamie Arnold,LATAM,Qualification,13100.0,152,1991200.0
-O00244,Arroyo Miller and Tucker,Holly Wood,EMEA,Proposal,5700.0,349,1989300.0
-O00005,Chapman and Sons,Gina Moore,EMEA,Qualification,64100.0,31,1987100.0
-O00706,Gibson Ltd,Lisa Hensley,APAC,Prospecting,13900.0,142,1973800.0
-O00350,Woods Calhoun and Schmidt,Michele Williams,EMEA,Prospecting,12500.0,155,1937500.0
-O00408,Johnston Sanchez and Kennedy,Allison Hill,North America,Qualification,5100.0,376,1917600.0
-O00104,Dickson-Brady,Ryan Munoz,EMEA,Qualification,7800.0,243,1895400.0
-O00541,Rivera Johnson and Wiley,Gina Moore,EMEA,Negotiation,3800.0,485,1843000.0
-O00839,May-Ross,Daniel Wagner,North America,Proposal,19000.0,92,1748000.0
-O00869,George Group,Allison Hill,North America,Proposal,15000.0,114,1710000.0
-O00039,Johnson-Doyle,Gabrielle Davis,North America,Qualification,26100.0,64,1670400.0
-O00728,Turner Riggs and Roman,Abigail Shaffer,North America,Prospecting,4300.0,388,1668400.0
-O00529,Williams-Cook,Noah Rhodes,APAC,Qualification,16500.0,100,1650000.0
-O00088,Hernandez Inc,Michele Williams,EMEA,Proposal,4500.0,365,1642500.0
-O00710,Chandler-Edwards,Lisa Hensley,APAC,Negotiation,5600.0,274,1534400.0
-O00338,Rodriguez LLC,Gabrielle Davis,North America,Proposal,4000.0,379,1516000.0
-O00044,Suarez LLC,Angie Henderson,EMEA,Proposal,19300.0,77,1486100.0
-O00671,Nolan and Sons,Connie Lawrence,LATAM,Qualification,7500.0,196,1470000.0
-O00375,Riggs PLC,Cristian Santos,North America,Negotiation,8900.0,164,1459600.0
-O00055,Novak and Sons,Abigail Shaffer,North America,Proposal,27600.0,52,1435200.0
-O00185,Chandler-Edwards,Jamie Arnold,LATAM,Qualification,10800.0,132,1425600.0
-O00565,Lewis Kennedy and Santana,Monica Herrera,LATAM,Proposal,9900.0,144,1425600.0
-O00501,Figueroa PLC,Michele Williams,EMEA,Prospecting,34200.0,41,1402200.0
-O00138,George Group,Monica Herrera,LATAM,Qualification,5600.0,247,1383200.0
-O00810,Harrell LLC,Daniel Wagner,North America,Qualification,12500.0,106,1325000.0
-O00834,House-Glover,Gabrielle Davis,North America,Proposal,20600.0,64,1318400.0
-O00296,Yu Inc,Dylan Miller,LATAM,Prospecting,9400.0,136,1278400.0
-O00698,Allen-Allen,Daniel Wagner,North America,Proposal,14100.0,90,1269000.0
-O00033,Hill Inc,Cristian Santos,North America,Proposal,12500.0,98,1225000.0
-O00500,Riggs PLC,Angie Henderson,EMEA,Prospecting,8000.0,150,1200000.0
-O00231,Chandler-Edwards,Daniel Wagner,North America,Negotiation,16100.0,74,1191400.0
-O00469,Jackson Miller and Robertson,Derek Zuniga,North America,Prospecting,16600.0,68,1128800.0
-O00805,Bryant Group,Gabrielle Davis,North America,Proposal,5000.0,225,1125000.0
-O00673,Wright and Sons,Abigail Shaffer,North America,Prospecting,10000.0,107,1070000.0
-O00202,Gonzalez Group,Holly Wood,EMEA,Prospecting,23400.0,44,1029600.0
-O00243,Arroyo Miller and Tucker,Cristian Santos,North America,Proposal,3800.0,270,1026000.0
-O00589,Evans Stewart and Walton,Monica Herrera,LATAM,Qualification,3100.0,330,1023000.0
-O00831,West Henderson and Ramirez,Dylan Miller,LATAM,Prospecting,6400.0,156,998400.0
-O00585,Lee-Davis,Dylan Miller,LATAM,Qualification,4400.0,209,919600.0
-O00863,Figueroa PLC,Connie Lawrence,LATAM,Negotiation,3300.0,277,914100.0
-O00822,Suarez LLC,Abigail Shaffer,North America,Qualification,4600.0,196,901600.0
-O00704,Turner Riggs and Roman,Abigail Shaffer,North America,Prospecting,6200.0,144,892800.0
-O00719,Mitchell-Jordan,Allison Hill,North America,Proposal,8800.0,92,809600.0
-O00186,Rivera Johnson and Wiley,Abigail Shaffer,North America,Negotiation,6500.0,124,806000.0
-O00682,Robinson Jones and Welch,Lisa Hensley,APAC,Qualification,3400.0,234,795600.0
-O00847,Carlson-Cruz,Connie Lawrence,LATAM,Proposal,2600.0,303,787800.0
-O00523,Morales-Jones,Gina Moore,EMEA,Proposal,2300.0,331,761300.0
-O00756,White-Estes,Brian Ramirez,APAC,Prospecting,1500.0,501,751500.0
-O00721,Hernandez Ltd,Gabrielle Davis,North America,Prospecting,21700.0,32,694400.0
-O00233,Ross LLC,Gina Moore,EMEA,Qualification,2600.0,260,676000.0
-O00574,Smith Montoya and Evans,Monica Herrera,LATAM,Qualification,12500.0,54,675000.0
-O00359,Jones Reid and Ferguson,Connie Lawrence,LATAM,Negotiation,6000.0,112,672000.0
-O00520,Burton Ltd,Ryan Munoz,EMEA,Qualification,3200.0,197,630400.0
-O00464,Johnson-Carlson,Lisa Hensley,APAC,Proposal,16400.0,34,557600.0
-O00328,Bentley Byrd and Orr,Gabrielle Davis,North America,Qualification,2700.0,194,523800.0
-O00660,Baker and Sons,Michele Williams,EMEA,Prospecting,9800.0,51,499800.0
-O00770,House-Glover,Holly Wood,EMEA,Qualification,10500.0,46,483000.0
-O00515,Arroyo Miller and Tucker,Brian Ramirez,APAC,Qualification,2000.0,234,468000.0
-O00016,Hill Inc,Lisa Hensley,APAC,Qualification,6000.0,74,444000.0
-O00368,Riggs PLC,Daniel Wagner,North America,Qualification,12800.0,33,422400.0
-O00522,Burton Ltd,Jamie Arnold,LATAM,Proposal,1100.0,349,383900.0
-O00608,Williams-Cook,Lisa Hensley,APAC,Prospecting,4800.0,74,355200.0
-O00827,Russell Group,Dylan Miller,LATAM,Qualification,2900.0,120,348000.0
-O00503,Mayo-Bowman,Brian Ramirez,APAC,Qualification,5100.0,58,295800.0
-O00358,Ross Robinson and Bright,Gabrielle Davis,North America,Qualification,3800.0,68,258400.0
-O00197,Walker LLC,Noah Rhodes,APAC,Qualification,1900.0,128,243200.0
-O00318,Hensley Powell and David,Abigail Shaffer,North America,Prospecting,7700.0,31,238700.0
-O00524,Green-Wright,Ryan Munoz,EMEA,Prospecting,2800.0,36,100800.0
+O00556,Rodriguez LLC,Michele Williams,EMEA,Negotiation,201800.0,292,58925600.0
+O00775,Wilkerson-Day,Gina Moore,EMEA,Qualification,110800.0,381,42214800.0
+O00162,Robinson-Brock,Derek Zuniga,North America,Proposal,80100.0,437,35003700.0
+O00361,Diaz Inc,Allison Hill,North America,Qualification,68300.0,428,29232400.0
+O00688,Baker and Sons,Dylan Miller,LATAM,Prospecting,54800.0,499,27345200.0
+O00876,Burton Ltd,Allison Hill,North America,Prospecting,50900.0,534,27180600.0
+O00614,Jones Inc,Brian Ramirez,APAC,Proposal,60100.0,444,26684400.0
+O00647,Bentley Byrd and Orr,Gina Moore,EMEA,Qualification,55600.0,470,26132000.0
+O00349,Chapman and Sons,Holly Wood,EMEA,Prospecting,45000.0,487,21915000.0
+O00028,Harris-Walters,Angie Henderson,EMEA,Qualification,50100.0,423,21192300.0
+O00453,Johnson-Carlson,Jamie Arnold,LATAM,Qualification,66900.0,297,19869300.0
+O00274,Mayo-Bowman,Derek Zuniga,North America,Prospecting,77100.0,255,19660500.0
+O00844,Mckee Gardner and Davenport,Daniel Wagner,North America,Proposal,38700.0,488,18885600.0
+O00667,Ross LLC,Gabrielle Davis,North America,Qualification,35100.0,523,18357300.0
+O00125,Mccall Hanson and Alvarado,Angie Henderson,EMEA,Negotiation,76500.0,222,16983000.0
+O00169,Bryant Group,Angie Henderson,EMEA,Prospecting,59500.0,285,16957500.0
+O00366,Anderson-Bailey,Allison Hill,North America,Qualification,31100.0,512,15923200.0
+O00392,Novak PLC,Cristian Santos,North America,Proposal,44500.0,357,15886500.0
+O00336,Robinson-Brock,Monica Herrera,LATAM,Qualification,34100.0,446,15208600.0
+O00842,Baker Mason and White,Allison Hill,North America,Qualification,33900.0,443,15017700.0
+O00389,Johnson-Doyle,Brian Ramirez,APAC,Qualification,27500.0,532,14630000.0
+O00899,Snyder Campos and Callahan,Holly Wood,EMEA,Negotiation,32600.0,447,14572200.0
+O00102,Wright and Sons,Cristian Santos,North America,Prospecting,49000.0,288,14112000.0
+O00889,Lawson Morris and Ramos,Noah Rhodes,APAC,Negotiation,26600.0,515,13699000.0
+O00778,Suarez LLC,Gabrielle Davis,North America,Qualification,89600.0,144,12902400.0
+O00146,Bentley Byrd and Orr,Connie Lawrence,LATAM,Prospecting,45300.0,240,10872000.0
+O00563,Lee-Davis,Monica Herrera,LATAM,Negotiation,25700.0,413,10614100.0
+O00690,Nolan and Sons,Angie Henderson,EMEA,Negotiation,25400.0,412,10464800.0
+O00159,Walter Edwards and Rios,Holly Wood,EMEA,Proposal,18600.0,478,8890800.0
+O00259,Gray Group,Cristian Santos,North America,Proposal,22300.0,398,8875400.0
+O00043,Torres-Pope,Gina Moore,EMEA,Qualification,24100.0,355,8555500.0
+O00264,Chandler-Edwards,Allison Hill,North America,Proposal,16500.0,511,8431500.0
+O00280,Shields Cochran and Adams,Allison Hill,North America,Negotiation,48200.0,172,8290400.0
+O00223,Dickson-Brady,Angie Henderson,EMEA,Prospecting,37800.0,219,8278200.0
+O00895,Campbell-Clark,Connie Lawrence,LATAM,Negotiation,20800.0,387,8049600.0
+O00257,Shields Cochran and Adams,Allison Hill,North America,Proposal,20900.0,380,7942000.0
+O00542,Mckee Gardner and Davenport,Lisa Hensley,APAC,Proposal,17300.0,430,7439000.0
+O00306,Robinson-Brock,Abigail Shaffer,North America,Proposal,20500.0,361,7400500.0
+O00843,Parker Ortiz and Powell,Monica Herrera,LATAM,Qualification,18500.0,398,7363000.0
+O00015,Novak PLC,Derek Zuniga,North America,Proposal,28000.0,262,7336000.0
+O00478,Gonzalez Group,Jamie Arnold,LATAM,Qualification,20800.0,349,7259200.0
+O00613,Chandler-Edwards,Derek Zuniga,North America,Qualification,36400.0,197,7170800.0
+O00203,Ramirez Strickland and Washington,Michele Williams,EMEA,Negotiation,29600.0,240,7104000.0
+O00122,Daniels Adkins and Brown,Dylan Miller,LATAM,Proposal,21600.0,300,6480000.0
+O00416,Bryant Group,Brian Ramirez,APAC,Proposal,20400.0,317,6466800.0
+O00757,Jones-Young,Monica Herrera,LATAM,Qualification,32600.0,198,6454800.0
+O00802,Wilkerson-Day,Daniel Wagner,North America,Proposal,22800.0,280,6384000.0
+O00686,Jones Reid and Ferguson,Brian Ramirez,APAC,Prospecting,15300.0,416,6364800.0
+O00676,Schmidt Hansen and Stewart,Cristian Santos,North America,Prospecting,17200.0,369,6346800.0
+O00604,Harrell LLC,Derek Zuniga,North America,Proposal,28200.0,225,6345000.0
+O00760,Jones-Young,Dylan Miller,LATAM,Prospecting,20000.0,315,6300000.0
+O00188,Martin Rose and Obrien,Lisa Hensley,APAC,Prospecting,11500.0,529,6083500.0
+O00360,Simmons Meadows and Griffin,Noah Rhodes,APAC,Negotiation,21700.0,274,5945800.0
+O00423,Smith PLC,Jamie Arnold,LATAM,Proposal,13100.0,452,5921200.0
+O00852,Davis Group,Daniel Wagner,North America,Proposal,12300.0,468,5756400.0
+O00452,Frazier Inc,Gina Moore,EMEA,Proposal,17100.0,335,5728500.0
+O00399,Walsh LLC,Monica Herrera,LATAM,Prospecting,21900.0,256,5606400.0
+O00754,Ramirez Strickland and Washington,Holly Wood,EMEA,Proposal,18400.0,301,5538400.0
+O00654,Bentley Byrd and Orr,Ryan Munoz,EMEA,Prospecting,11500.0,481,5531500.0
+O00507,Edwards Baker and Anderson,Holly Wood,EMEA,Proposal,18800.0,293,5508400.0
+O00558,Lawson Morris and Ramos,Noah Rhodes,APAC,Negotiation,11200.0,485,5432000.0
+O00275,Nolan-Flynn,Connie Lawrence,LATAM,Proposal,51800.0,104,5387200.0
+O00495,Nolan-Flynn,Noah Rhodes,APAC,Qualification,20100.0,261,5246100.0
+O00798,Spence PLC,Gina Moore,EMEA,Prospecting,21000.0,247,5187000.0
+O00371,Turner Riggs and Roman,Dylan Miller,LATAM,Qualification,32800.0,157,5149600.0
+O00866,Walker Ltd,Angie Henderson,EMEA,Proposal,11600.0,441,5115600.0
+O00136,Spencer-Lee,Abigail Shaffer,North America,Qualification,13000.0,383,4979000.0
+O00232,Torres-Pope,Holly Wood,EMEA,Prospecting,22100.0,220,4862000.0
+O00117,Rasmussen LLC,Angie Henderson,EMEA,Negotiation,11300.0,427,4825100.0
+O00476,Ross Robinson and Bright,Angie Henderson,EMEA,Proposal,9000.0,534,4806000.0
+O00616,Powell LLC,Daniel Wagner,North America,Proposal,10500.0,454,4767000.0
+O00785,Russell Group,Michele Williams,EMEA,Prospecting,16900.0,282,4765800.0
+O00851,Wagner-King,Cristian Santos,North America,Negotiation,10900.0,427,4654300.0
+O00357,Dyer Potter and Mack,Angie Henderson,EMEA,Qualification,26300.0,176,4628800.0
+O00731,Walter Edwards and Rios,Daniel Wagner,North America,Qualification,10200.0,449,4579800.0
+O00525,Robinson Jones and Welch,Gina Moore,EMEA,Prospecting,9400.0,463,4352200.0
+O00220,Parker Ortiz and Powell,Angie Henderson,EMEA,Qualification,17500.0,246,4305000.0
+O00679,Joyce Wilson and Lam,Monica Herrera,LATAM,Proposal,11100.0,382,4240200.0
+O00637,Nolan and Sons,Angie Henderson,EMEA,Qualification,11600.0,361,4187600.0
+O00173,Suarez LLC,Noah Rhodes,APAC,Proposal,11400.0,350,3990000.0
+O00854,Stanley Tucker and Lee,Gabrielle Davis,North America,Qualification,15100.0,263,3971300.0
+O00085,Wright Garcia and Deleon,Monica Herrera,LATAM,Qualification,14100.0,276,3891600.0
+O00820,Edwards Baker and Anderson,Brian Ramirez,APAC,Prospecting,41600.0,92,3827200.0
+O00238,Parker Ortiz and Powell,Lisa Hensley,APAC,Negotiation,9600.0,395,3792000.0
+O00393,Jackson Miller and Robertson,Connie Lawrence,LATAM,Qualification,19300.0,196,3782800.0
+O00850,Brown Valdez and Lucas,Angie Henderson,EMEA,Qualification,8600.0,433,3723800.0
+O00144,Evans Stewart and Walton,Jamie Arnold,LATAM,Qualification,8400.0,442,3712800.0
+O00124,Tran Jordan and Williams,Ryan Munoz,EMEA,Proposal,10100.0,367,3706700.0
+O00363,Dickson-Brady,Cristian Santos,North America,Proposal,13800.0,262,3615600.0
+O00575,Johnson-Carlson,Gina Moore,EMEA,Qualification,16600.0,216,3585600.0
+O00076,Sandoval-Cunningham,Michele Williams,EMEA,Proposal,25200.0,139,3502800.0
+O00582,Green-Wright,Daniel Wagner,North America,Proposal,7000.0,500,3500000.0
+O00817,Moore-Bass,Angie Henderson,EMEA,Proposal,31800.0,108,3434400.0
+O00219,Anderson Group,Dylan Miller,LATAM,Prospecting,11000.0,311,3421000.0
+O00269,Ferrell Rice and Maddox,Brian Ramirez,APAC,Prospecting,9600.0,351,3369600.0
+O00135,Tran Jordan and Williams,Michele Williams,EMEA,Negotiation,7200.0,468,3369600.0
+O00394,Morales-Jones,Gabrielle Davis,North America,Prospecting,6800.0,487,3311600.0
+O00565,Lewis Kennedy and Santana,Monica Herrera,LATAM,Proposal,9300.0,355,3301500.0
+O00003,Williams-Cook,Lisa Hensley,APAC,Proposal,14700.0,220,3234000.0
+O00873,Scott Ltd,Jamie Arnold,LATAM,Negotiation,7600.0,413,3138800.0
+O00742,Martin Group,Angie Henderson,EMEA,Prospecting,6300.0,493,3105900.0
+O00214,Robinson Jones and Welch,Lisa Hensley,APAC,Proposal,54200.0,56,3035200.0
+O00079,Russell Group,Cristian Santos,North America,Qualification,5900.0,485,2861500.0
+O00493,Washington Ryan and Cummings,Michele Williams,EMEA,Proposal,12600.0,223,2809800.0
+O00265,Ryan PLC,Cristian Santos,North America,Proposal,8100.0,345,2794500.0
+O00897,Mitchell-Jordan,Noah Rhodes,APAC,Proposal,8200.0,335,2747000.0
+O00119,Hernandez Inc,Derek Zuniga,North America,Negotiation,9900.0,277,2742300.0
+O00368,Riggs PLC,Daniel Wagner,North America,Negotiation,7700.0,355,2733500.0
+O00266,Ryan PLC,Gina Moore,EMEA,Prospecting,15300.0,176,2692800.0
+O00490,Schmidt Hansen and Stewart,Dylan Miller,LATAM,Proposal,16300.0,163,2656900.0
+O00247,Jones-Young,Lisa Hensley,APAC,Proposal,6900.0,366,2525400.0
+O00332,Novak and Sons,Allison Hill,North America,Proposal,10900.0,230,2507000.0
+O00310,Suarez LLC,Lisa Hensley,APAC,Prospecting,4800.0,518,2486400.0
+O00891,Shields Cochran and Adams,Gabrielle Davis,North America,Prospecting,8700.0,267,2322900.0
+O00464,Johnson-Carlson,Lisa Hensley,APAC,Prospecting,15400.0,150,2310000.0
+O00867,Campbell-Clark,Allison Hill,North America,Qualification,13450.0,171,2299950.0
+O00130,Walker Ltd,Michele Williams,EMEA,Proposal,4500.0,485,2182500.0
+O00291,Chandler-Edwards,Gabrielle Davis,North America,Proposal,4800.0,452,2169600.0
+O00684,Carroll Sullivan and Bass,Gina Moore,EMEA,Prospecting,6600.0,323,2131800.0
+O00059,Garcia Humphrey and Baker,Abigail Shaffer,North America,Prospecting,10700.0,197,2107900.0
+O00870,Patterson Smith and Jones,Allison Hill,North America,Negotiation,24500.0,85,2082500.0
+O00538,Smith PLC,Jamie Arnold,LATAM,Qualification,7900.0,262,2069800.0
+O00094,Wright and Sons,Derek Zuniga,North America,Prospecting,7700.0,261,2009700.0
+O00431,Salazar-Ball,Holly Wood,EMEA,Proposal,7300.0,273,1992900.0
+O00695,West Henderson and Ramirez,Connie Lawrence,LATAM,Qualification,6100.0,325,1982500.0
+O00230,Henderson-Bernard,Allison Hill,North America,Proposal,7300.0,268,1956400.0
+O00626,Miller Hernandez and Reyes,Holly Wood,EMEA,Qualification,7600.0,255,1938000.0
+O00246,Gonzalez Group,Lisa Hensley,APAC,Proposal,13800.0,137,1890600.0
+O00397,Anderson-Bailey,Michele Williams,EMEA,Qualification,12200.0,154,1878800.0
+O00273,Burton Ltd,Ryan Munoz,EMEA,Proposal,40100.0,46,1844600.0
+O00153,Stafford Inc,Ryan Munoz,EMEA,Proposal,7700.0,239,1840300.0
+O00002,Salazar-Ball,Cristian Santos,North America,Proposal,16100.0,114,1835400.0
+O00242,Jones Inc,Dylan Miller,LATAM,Prospecting,14400.0,125,1800000.0
+O00883,Brown Valdez and Lucas,Michele Williams,EMEA,Prospecting,13000.0,135,1755000.0
+O00848,Sandoval-Cunningham,Jamie Arnold,LATAM,Prospecting,11900.0,146,1737400.0
+O00885,Williams-Cook,Michele Williams,EMEA,Qualification,10700.0,161,1722700.0
+O00682,Robinson Jones and Welch,Lisa Hensley,APAC,Prospecting,5800.0,297,1722600.0
+O00660,Baker and Sons,Michele Williams,EMEA,Qualification,9000.0,191,1719000.0
+O00420,Bryant Group,Allison Hill,North America,Proposal,36000.0,47,1692000.0
+O00589,Evans Stewart and Walton,Monica Herrera,LATAM,Qualification,3700.0,431,1594700.0
+O00287,Turner Riggs and Roman,Brian Ramirez,APAC,Qualification,6600.0,234,1544400.0
+O00501,Figueroa PLC,Michele Williams,EMEA,Prospecting,20500.0,74,1517000.0
+O00293,Chapman and Sons,Noah Rhodes,APAC,Negotiation,7800.0,194,1513200.0
+O00492,Baker Mason and White,Dylan Miller,LATAM,Prospecting,4300.0,339,1457700.0
+O00770,House-Glover,Holly Wood,EMEA,Prospecting,7900.0,184,1453600.0
+O00489,Bentley Byrd and Orr,Monica Herrera,LATAM,Qualification,10600.0,132,1399200.0
+O00031,House-Glover,Gabrielle Davis,North America,Proposal,13500.0,99,1336500.0
+O00744,George Group,Dylan Miller,LATAM,Negotiation,19600.0,64,1254400.0
+O00729,Lee-Davis,Allison Hill,North America,Prospecting,6400.0,195,1248000.0
+O00319,Bentley Byrd and Orr,Holly Wood,EMEA,Prospecting,5900.0,208,1227200.0
+O00098,Dickson-Brady,Noah Rhodes,APAC,Qualification,24400.0,48,1171200.0
+O00511,Torres-Pope,Cristian Santos,North America,Proposal,27000.0,41,1107000.0
+O00227,Gonzalez Group,Gina Moore,EMEA,Proposal,5600.0,179,1002400.0
+O00829,Smith-Frost,Monica Herrera,LATAM,Proposal,7400.0,126,932400.0
+O00792,Riggs PLC,Monica Herrera,LATAM,Proposal,1900.0,481,913900.0
+O00445,Chandler-Edwards,Michele Williams,EMEA,Proposal,4800.0,188,902400.0
+O00341,Edwards Baker and Anderson,Daniel Wagner,North America,Prospecting,3700.0,243,899100.0
+O00598,Smith-Frost,Angie Henderson,EMEA,Qualification,17100.0,52,889200.0
+O00685,Gonzalez Group,Brian Ramirez,APAC,Prospecting,10100.0,88,888800.0
+O00105,Shields Cochran and Adams,Michele Williams,EMEA,Negotiation,6100.0,136,829600.0
+O00239,Snyder Campos and Callahan,Michele Williams,EMEA,Prospecting,3100.0,264,818400.0
+O00872,Jones-Young,Lisa Hensley,APAC,Qualification,14200.0,56,795200.0
+O00343,Jones-Young,Cristian Santos,North America,Proposal,8300.0,92,763600.0
+O00497,Walter Edwards and Rios,Abigail Shaffer,North America,Proposal,8000.0,91,728000.0
+O00624,Smith-Bowen,Holly Wood,EMEA,Negotiation,4300.0,163,700900.0
+O00192,Mckee Gardner and Davenport,Ryan Munoz,EMEA,Qualification,1700.0,409,695300.0
+O00523,Morales-Jones,Gina Moore,EMEA,Prospecting,3900.0,173,674700.0
+O00524,Green-Wright,Ryan Munoz,EMEA,Prospecting,2100.0,320,672000.0
+O00733,Jackson Miller and Robertson,Abigail Shaffer,North America,Proposal,3400.0,197,669800.0
+O00091,Wright and Sons,Gabrielle Davis,North America,Negotiation,2700.0,234,631800.0
+O00427,Robinson Jones and Welch,Jamie Arnold,LATAM,Qualification,4500.0,139,625500.0
+O00109,Patton-Jenkins,Brian Ramirez,APAC,Qualification,8900.0,65,578500.0
+O00448,Carlson-Cruz,Gabrielle Davis,North America,Prospecting,10300.0,53,545900.0
+O00234,Torres-Pope,Ryan Munoz,EMEA,Qualification,3300.0,162,534600.0
+O00164,Smith PLC,Ryan Munoz,EMEA,Negotiation,4500.0,107,481500.0
+O00595,Johnson-Carlson,Angie Henderson,EMEA,Qualification,7100.0,66,468600.0
+O00777,Chapman and Sons,Brian Ramirez,APAC,Negotiation,10200.0,44,448800.0
+O00588,Donovan-Harris,Gabrielle Davis,North America,Prospecting,10200.0,44,448800.0
+O00276,Sandoval-Cunningham,Holly Wood,EMEA,Qualification,1600.0,191,305600.0
+O00118,Romero Gonzalez and Brooks,Jamie Arnold,LATAM,Prospecting,4400.0,43,189200.0
+O00769,Martin Rose and Obrien,Brian Ramirez,APAC,Proposal,1400.0,126,176400.0
+O00243,Arroyo Miller and Tucker,Cristian Santos,North America,Qualification,2300.0,60,138000.0
+O00442,Suarez LLC,Dylan Miller,LATAM,Qualification,2300.0,47,108100.0

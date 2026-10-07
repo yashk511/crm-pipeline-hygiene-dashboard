@@ -1,19 +1,19 @@
 rep_name,region,team,opportunity_count,closed_count,won_count,open_pipeline_value,win_rate_pct,pipeline_rank
-Michele Williams,EMEA,SMB,50,19.0,9.0,774400.0,47.4,1
-Abigail Shaffer,North America,Enterprise,54,9.0,7.0,682550.0,77.8,2
-Daniel Wagner,North America,SMB,51,15.0,13.0,681900.0,86.7,3
-Gabrielle Davis,North America,SMB,62,20.0,13.0,674800.0,65.0,4
-Brian Ramirez,APAC,Enterprise,57,22.0,15.0,657100.0,68.2,5
-Dylan Miller,LATAM,Mid-Market,50,15.0,11.0,623350.0,73.3,6
-Ryan Munoz,EMEA,SMB,49,14.0,8.0,606400.0,57.1,7
-Holly Wood,EMEA,Mid-Market,52,18.0,13.0,557800.0,72.2,8
-Lisa Hensley,APAC,Enterprise,50,12.0,9.0,547200.0,75.0,9
-Angie Henderson,EMEA,Enterprise,51,18.0,13.0,521400.0,72.2,10
-Noah Rhodes,APAC,Enterprise,50,17.0,11.0,516450.0,64.7,11
-Monica Herrera,LATAM,Enterprise,50,16.0,10.0,513400.0,62.5,12
-Gina Moore,EMEA,Enterprise,46,12.0,9.0,500000.0,75.0,13
-Derek Zuniga,North America,Enterprise,49,21.0,13.0,498150.0,61.9,14
-Cristian Santos,North America,SMB,45,16.0,10.0,492750.0,62.5,15
-Connie Lawrence,LATAM,Enterprise,43,14.0,8.0,480500.0,57.1,16
-Allison Hill,North America,Enterprise,51,20.0,14.0,439850.0,70.0,17
-Jamie Arnold,LATAM,SMB,40,17.0,13.0,373700.0,76.5,18
+Allison Hill,North America,Enterprise,51,12.0,8.0,944900.0,66.7,1
+Angie Henderson,EMEA,Enterprise,51,16.0,7.0,837500.0,43.8,2
+Brian Ramirez,APAC,Enterprise,57,19.0,6.0,800250.0,31.6,3
+Monica Herrera,LATAM,Enterprise,50,15.0,5.0,731500.0,33.3,4
+Abigail Shaffer,North America,Enterprise,54,20.0,8.0,695050.0,40.0,5
+Michele Williams,EMEA,SMB,50,15.0,5.0,692000.0,33.3,6
+Connie Lawrence,LATAM,Enterprise,43,14.0,5.0,685500.0,35.7,7
+Derek Zuniga,North America,Enterprise,49,18.0,11.0,684900.0,61.1,8
+Lisa Hensley,APAC,Enterprise,50,16.0,9.0,639400.0,56.3,9
+Gina Moore,EMEA,Enterprise,46,19.0,9.0,618900.0,47.4,10
+Noah Rhodes,APAC,Enterprise,50,18.0,9.0,551850.0,50.0,11
+Holly Wood,EMEA,Mid-Market,52,18.0,9.0,543200.0,50.0,12
+Daniel Wagner,North America,SMB,51,22.0,13.0,516000.0,59.1,13
+Cristian Santos,North America,SMB,45,12.0,9.0,505950.0,75.0,14
+Gabrielle Davis,North America,SMB,62,26.0,9.0,503400.0,34.6,15
+Dylan Miller,LATAM,Mid-Market,50,20.0,12.0,497100.0,60.0,16
+Ryan Munoz,EMEA,SMB,49,16.0,5.0,469600.0,31.3,17
+Jamie Arnold,LATAM,SMB,40,14.0,7.0,360500.0,50.0,18

@@ -111,18 +111,49 @@ STAGE_VARIANTS = {
 }
 PRODUCTS = ["Platform License", "Professional Services", "Support Add-on", "Data Module"]
 LEAD_SOURCES = ["Outreach Sequence", "ZoomInfo List", "LinkedIn Sales Nav", "Inbound Web", "Referral", ""]
+PRODUCT_AMOUNT_MULTIPLIER = {
+    "Platform License": 1.35,
+    "Professional Services": 1.15,
+    "Support Add-on": 0.75,
+    "Data Module": 0.95,
+}
+LEAD_SOURCE_WIN_LIFT = {
+    "Referral": 0.12,
+    "Inbound Web": 0.08,
+    "LinkedIn Sales Nav": 0.02,
+    "ZoomInfo List": -0.03,
+    "Outreach Sequence": -0.06,
+    "": -0.08,
+}
+TEAM_WIN_LIFT = {"Enterprise": 0.05, "Mid-Market": 0.0, "SMB": -0.04}
 
 opps = []
+stage_history = []
 for i in range(1, 901):
     acct = accounts_df.sample(1).iloc[0]
     rep = reps_df.sample(1).iloc[0]
+    product = random.choice(PRODUCTS)
+    lead_source = random.choice(LEAD_SOURCES)
     created_dt = TODAY - timedelta(days=random.randint(1, 545))
     created = created_dt.date()
 
-    canonical_stage = random.choices(
-        list(STAGE_VARIANTS.keys()),
-        weights=[18, 20, 18, 12, 20, 12], k=1
+    base_win_probability = (
+        0.48
+        + LEAD_SOURCE_WIN_LIFT[lead_source]
+        + TEAM_WIN_LIFT[rep.team]
+        + {"Platform License": 0.04, "Professional Services": 0.02, "Support Add-on": -0.03, "Data Module": 0.0}[product]
+    )
+    win_probability = max(0.15, min(0.85, base_win_probability))
+    lifecycle_stage = random.choices(
+        ["open", "closed"], weights=[68, 32], k=1
     )[0]
+    if lifecycle_stage == "closed":
+        canonical_stage = "Closed Won" if random.random() < win_probability else "Closed Lost"
+    else:
+        canonical_stage = random.choices(
+            ["Prospecting", "Qualification", "Proposal", "Negotiation"],
+            weights=[18, 20, 18, 12], k=1
+        )[0]
     stage_raw = random.choice(STAGE_VARIANTS[canonical_stage])
     is_closed = canonical_stage in ("Closed Won", "Closed Lost")
 
@@ -139,7 +170,12 @@ for i in range(1, 901):
         else:
             last_activity = TODAY - timedelta(days=random.randint(0, 25))
 
-    amount = round(np.random.lognormal(mean=9.4, sigma=0.8), -2)
+    amount = round(
+        np.random.lognormal(mean=9.4, sigma=0.8)
+        * PRODUCT_AMOUNT_MULTIPLIER[product]
+        * {"Enterprise": 1.25, "Mid-Market": 1.0, "SMB": 0.8}[rep.team],
+        -2,
+    )
     if random.random() < 0.04:
         amount = None  # a few missing amounts
 
@@ -149,16 +185,35 @@ for i in range(1, 901):
         "opp_name": f"{acct.account_name.strip()} - {random.choice(PRODUCTS)}",
         "stage_raw": stage_raw,
         "amount": amount,
-        "product": random.choice(PRODUCTS),
-        "lead_source": random.choice(LEAD_SOURCES),
+        "product": product,
+        "lead_source": lead_source,
+        "expected_win_probability": round(win_probability, 3),
         "created_date": created,
         "close_date": close_date.date() if close_date else "",
         "last_activity_date": last_activity.date(),
         "rep_id": rep.rep_id,
     })
 
+    history_stages = ["Prospecting"]
+    if canonical_stage in ["Qualification", "Proposal", "Negotiation", "Closed Won", "Closed Lost"]:
+        history_stages.append("Qualification")
+    if canonical_stage in ["Proposal", "Negotiation", "Closed Won", "Closed Lost"]:
+        history_stages.append("Proposal")
+    if canonical_stage in ["Negotiation", "Closed Won", "Closed Lost"]:
+        history_stages.append("Negotiation")
+    if canonical_stage in ["Closed Won", "Closed Lost"]:
+        history_stages.append(canonical_stage)
+    for stage_index, history_stage in enumerate(history_stages):
+        stage_history.append({
+            "opp_id": f"O{i:05d}",
+            "stage_raw": history_stage,
+            "stage_sequence": stage_index + 1,
+            "stage_date": (created_dt + timedelta(days=stage_index * 14)).date(),
+        })
+
 opps_df = pd.DataFrame(opps)
 opps_df.to_csv(f"{OUT}/opportunities.csv", index=False)
+pd.DataFrame(stage_history).to_csv(f"{OUT}/opportunity_stage_history.csv", index=False)
 
 print(f"accounts: {len(accounts_df)} rows ({len(duplicate_pool)} duplicated companies)")
 print(f"reps: {len(reps_df)} rows")

@@ -18,13 +18,13 @@
 - Standardized down to **6** canonical stages
 
 ## Pipeline hygiene
-- Open opportunities: **605**
-- Stale opportunities (open, no activity in 30+ days): **200**
-  (33.1% of open pipeline — flagged for rep follow-up)
-- Total open pipeline value: **$10,141,700**
-- Open pipeline value excluding imputed amounts: **$9,833,800**
-- Stale pipeline value: **$3,327,550** (32.8% of open pipeline value)
-- Overall win rate (closed deals): **67.5%**
+- Open opportunities: **590**
+- Stale opportunities (open, no activity in 30+ days): **183**
+  (31.0% of open pipeline — flagged for rep follow-up)
+- Total open pipeline value: **$11,277,500**
+- Open pipeline value excluding imputed amounts: **$10,964,300**
+- Stale pipeline value: **$3,756,350** (33.3% of open pipeline value)
+- Overall win rate (closed deals): **47.1%**
 
 ## Missing amounts
-- Opportunities with missing deal amount, imputed with product-level median: **33**
+- Opportunities with missing deal amount, imputed with product-level median: **34**

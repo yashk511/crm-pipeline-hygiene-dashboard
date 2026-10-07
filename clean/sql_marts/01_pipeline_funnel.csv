@@ -1,7 +1,7 @@
 stage,opportunity_count,pipeline_value,stage_to_stage_pct
-Prospecting,159,2752200.0,
-Qualification,199,3139100.0,125.2
-Proposal,157,2757050.0,78.9
-Negotiation,90,1493350.0,57.3
-Closed Won,199,3084350.0,221.1
-Closed Lost,96,1563900.0,48.2
+Prospecting,149,2762700.0,
+Qualification,176,3715550.0,118.1
+Proposal,164,3001650.0,93.2
+Negotiation,101,1797600.0,61.6
+Closed Won,146,2775400.0,144.6
+Closed Lost,164,2787450.0,112.3

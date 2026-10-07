@@ -23,6 +23,7 @@ clean/                   ← output of clean_data.py — Power BI-ready
   account_merge_map.csv   account survivor and merge audit trail
   data_quality_issues.csv row-level validation issues for follow-up
   validation_summary.csv  pass/review status for every validation rule
+  opportunity_stage_history.csv standardized stage transition events
   data_quality_report.md  before/after metrics
 
 generate_data.py         builds the raw/ files (synthetic, seeded/reproducible)
@@ -138,10 +139,12 @@ precision. That baseline result remains documented for comparison.
 On the v2 branch, duplicate records retain the original company's country and
 industry. Country-blocked matching now achieves 100.0% pair precision and
 100.0% pair recall, merging the 22 injected duplicate records into 140 clean
-accounts. The v2 seeded outputs currently contain 605 open opportunities, 200
-stale opportunities, a 67.5% closed-deal win rate, and $10,141,700 of open
-pipeline. These v2 values intentionally differ from the original v1 dashboard
-baseline because the generator is now more realistic and auditable.
+accounts. The signal-aware v2 seeded outputs currently contain 590 open
+opportunities, 183 stale opportunities, a 47.1% closed-deal win rate, and
+$11,277,500 of open pipeline. These v2 values intentionally differ from the
+original v1 dashboard baseline because the generator is now more realistic and
+auditable. Product, team, and lead-source effects are planted simulation
+parameters, not real-world evidence.
 
 ## v2 analytical upgrades
 
@@ -153,9 +156,10 @@ The validation summary reports zero-count rules as explicit `PASS` results and
 flags issues requiring operational review.
 
 The `sql/` layer uses DuckDB to answer business questions about stage funnel
-conversion, rep performance, monthly pipeline trends, aging buckets, and stale
-deal prioritization. These queries run directly against the clean CSV outputs.
-Run `python run_sql.py` to export the five query results to `clean/sql_marts/`
+conversion, rep performance, monthly pipeline trends, aging buckets, stale
+deal prioritization, and event-based stage transitions. These queries run
+directly against the clean CSV outputs. Run `python run_sql.py` to export the
+six query results to `clean/sql_marts/`
 for downstream analysis or Power BI ingestion.
 
 The descriptive findings and operating recommendations are documented in

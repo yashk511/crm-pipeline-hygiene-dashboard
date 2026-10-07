@@ -8,14 +8,14 @@ Pct Missing DUNS Before,37.7
 Pct Missing DUNS After,27.9
 Raw Stage Values Found,21.0
 Canonical Stages After Cleaning,6.0
-Open Opportunities,605.0
-Stale Opportunities,200.0
-Stale Pct Of Open Pipeline,33.1
-Open Pipeline Value,10141700.0
-Open Pipeline Value Excluding Imputed,9833800.0
-Stale Pipeline Value,3327550.0
-Stale Value Pct Of Open Pipeline,32.8
-Average Open Age Days,276.9
-Average Sales Cycle Days,83.1
-Win Rate Pct,67.5
-Amounts Imputed,33.0
+Open Opportunities,590.0
+Stale Opportunities,183.0
+Stale Pct Of Open Pipeline,31.0
+Open Pipeline Value,11277500.0
+Open Pipeline Value Excluding Imputed,10964300.0
+Stale Pipeline Value,3756350.0
+Stale Value Pct Of Open Pipeline,33.3
+Average Open Age Days,264.0
+Average Sales Cycle Days,87.5
+Win Rate Pct,47.1
+Amounts Imputed,34.0
