@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.vscode/
+
+# Local Power BI cache/lock files
+*.pbiworkspaces/
+~$*.pbix

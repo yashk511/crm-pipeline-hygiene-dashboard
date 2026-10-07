@@ -19,10 +19,15 @@ clean/                   ← output of clean_data.py — Power BI-ready
   dim_date.csv            calendar table for time intelligence
   fact_opportunities.csv  standardized stages, stale-deal flag, deal age
   quality_metrics.csv     dashboard-ready data quality scorecard metrics
+  account_merge_map.csv   account survivor and merge audit trail
+  data_quality_issues.csv row-level validation issues for follow-up
   data_quality_report.md  before/after metrics
 
 generate_data.py         builds the raw/ files (synthetic, seeded/reproducible)
 clean_data.py            the actual cleaning + modeling pipeline
+sql/                     DuckDB business-question queries
+metric_dictionary.md     KPI definitions, grain, and caveats
+requirements.txt         reproducible Python dependencies
 ```
 
 ## The data problems this fixes (mirrors real Sales Ops work)
@@ -118,6 +123,17 @@ The completed report was validated against the Python-generated quality report:
 The CRM data is synthetic and seeded for reproducibility. It is modeled after
 typical Dynamics or Salesforce exports and does not represent real company or
 client data.
+
+## v2 analytical upgrades
+
+The upgraded pipeline separates open opportunity age from closed-deal sales
+cycle, makes the as-of date and stale threshold configurable, and reports
+stale pipeline by value as well as by count. It also preserves imputation-aware
+pipeline value and writes an account merge map plus row-level validation issues.
+
+The `sql/` layer uses DuckDB to answer business questions about stage funnel
+conversion, rep performance, monthly pipeline trends, aging buckets, and stale
+deal prioritization. These queries run directly against the clean CSV outputs.
 
 **5. Publish / screenshot**
 Export a couple of pages as images or PDF for your portfolio/GitHub README

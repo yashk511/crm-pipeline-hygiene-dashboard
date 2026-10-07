@@ -1,0 +1,35 @@
+record_type,record_id,issue_type,field_name,severity,issue_description
+opportunity,O00320,close_before_create,close_date,high,Close date precedes created date
+opportunity,O00020,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00096,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00122,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00149,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00245,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00270,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00296,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00341,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00362,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00380,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00387,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00388,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00400,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00451,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00472,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00481,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00504,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00505,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00510,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00514,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00564,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00568,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00637,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00653,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00722,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00727,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00745,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00768,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00775,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00792,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00824,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00850,invalid_amount,amount,high,Amount was missing or is non-positive
+opportunity,O00851,invalid_amount,amount,high,Amount was missing or is non-positive

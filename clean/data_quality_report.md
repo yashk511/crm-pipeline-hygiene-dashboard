@@ -20,6 +20,8 @@
 - Stale opportunities (open, no activity in 30+ days): **201**
   (33.3% of open pipeline — flagged for rep follow-up)
 - Total open pipeline value: **$10,241,900**
+- Open pipeline value excluding imputed amounts: **$9,934,500**
+- Stale pipeline value: **$3,566,900** (34.8% of open pipeline value)
 - Overall win rate (closed deals): **66.7%**
 
 ## Missing amounts
