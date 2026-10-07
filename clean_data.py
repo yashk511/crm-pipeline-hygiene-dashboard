@@ -19,6 +19,7 @@ This mirrors the actual accountabilities in the job description:
 """
 import re
 import difflib
+from itertools import combinations
 import pandas as pd
 from datetime import datetime
 import os
@@ -88,12 +89,33 @@ n_duplicates_merged = n_accounts_before - len(survivors)
 id_map = accounts.merge(
     survivors[["canonical_key", "account_id"]].rename(columns={"account_id": "canonical_account_id"}),
     on="canonical_key", how="left"
-)[["account_id", "account_name", "canonical_key", "canonical_account_id"]]
+)[["account_id", "account_name", "source_company_id", "canonical_key", "canonical_account_id"]]
 id_map["merge_status"] = id_map["account_id"] == id_map["canonical_account_id"]
 id_map.rename(columns={"merge_status": "is_survivor"}).to_csv(
     f"{OUT}/account_merge_map.csv", index=False
 )
 account_id_lookup = dict(zip(id_map.account_id, id_map.canonical_account_id))
+
+account_records = id_map.set_index("account_id")
+true_duplicate_pairs = {
+    tuple(sorted(pair))
+    for source_id, group in id_map.groupby("source_company_id")
+    if len(group) > 1
+    for pair in combinations(group["account_id"], 2)
+}
+predicted_duplicate_pairs = {
+    tuple(sorted(pair))
+    for canonical_id, group in id_map.groupby("canonical_account_id")
+    if len(group) > 1
+    for pair in combinations(group["account_id"], 2)
+}
+correct_duplicate_pairs = true_duplicate_pairs & predicted_duplicate_pairs
+dedup_precision = round(
+    len(correct_duplicate_pairs) / len(predicted_duplicate_pairs) * 100, 1
+) if predicted_duplicate_pairs else 100.0
+dedup_recall = round(
+    len(correct_duplicate_pairs) / len(true_duplicate_pairs) * 100, 1
+) if true_duplicate_pairs else 100.0
 
 pct_missing_duns_before = round((~accounts["has_duns"]).mean() * 100, 1)
 pct_missing_duns_after = round((~survivors["has_duns"]).mean() * 100, 1)
@@ -227,6 +249,8 @@ report = f"""# CRM Data Quality & Cleaning Report
 - Accounts before cleaning: **{n_accounts_before}**
 - Duplicate account records merged: **{n_duplicates_merged}**
 - Accounts after cleaning: **{len(dim_accounts)}**
+- Duplicate pair precision against generator ground truth: **{dedup_precision}%**
+- Duplicate pair recall against generator ground truth: **{dedup_recall}%**
 
 ## Missing required fields (DUNS number)
 - Missing before cleanup: **{pct_missing_duns_before}%** of accounts
@@ -260,6 +284,8 @@ with open(f"{OUT}/data_quality_report.md", "w", encoding="utf-8") as f:
 metrics = pd.DataFrame([
     {"metric": "Accounts Before Cleaning", "value": n_accounts_before},
     {"metric": "Duplicate Accounts Merged", "value": n_duplicates_merged},
+    {"metric": "Dedup Precision Pct", "value": dedup_precision},
+    {"metric": "Dedup Recall Pct", "value": dedup_recall},
     {"metric": "Accounts After Cleaning", "value": len(dim_accounts)},
     {"metric": "Pct Missing DUNS Before", "value": pct_missing_duns_before},
     {"metric": "Pct Missing DUNS After", "value": pct_missing_duns_after},

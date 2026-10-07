@@ -10,6 +10,7 @@ hygiene monitoring.
 ```
 raw/                     ← messy source export (as "received" from CRM)
   accounts.csv           duplicate company records, missing DUNS numbers
+  account_ground_truth.csv generator-only duplicate labels, not an analysis input
   reps.csv
   opportunities.csv      inconsistent stage naming, some missing amounts
 
@@ -117,12 +118,21 @@ The completed report was validated against the Python-generated quality report:
 | Average deal age | 213.95 days |
 | Accounts before cleaning | 162 |
 | Duplicate accounts merged | 25 |
+| Deduplication precision | 84.6% |
+| Deduplication recall | 100.0% |
 | Accounts after cleaning | 137 |
 | Missing amounts imputed | 33 |
 
 The CRM data is synthetic and seeded for reproducibility. It is modeled after
 typical Dynamics or Salesforce exports and does not represent real company or
 client data.
+
+The generator includes a ground-truth account-company key solely for evaluating
+the cleaner. The current name-based matcher recovered all injected duplicate
+pairs but also produced false-positive merges, yielding 84.6% pair precision.
+This is intentionally visible as a quality result; the next matcher upgrade
+will add blocking and review thresholds rather than silently treating every
+merge as correct.
 
 ## v2 analytical upgrades
 

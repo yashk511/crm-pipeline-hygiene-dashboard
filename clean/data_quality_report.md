@@ -4,6 +4,8 @@
 - Accounts before cleaning: **162**
 - Duplicate account records merged: **25**
 - Accounts after cleaning: **137**
+- Duplicate pair precision against generator ground truth: **84.6%**
+- Duplicate pair recall against generator ground truth: **100.0%**
 
 ## Missing required fields (DUNS number)
 - Missing before cleanup: **37.7%** of accounts

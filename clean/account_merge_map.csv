@@ -1,163 +1,163 @@
-account_id,account_name,canonical_key,canonical_account_id,is_survivor
-A0001,Jones Reid and Ferguson,jones reid and ferguson,A0001,True
-A0002,Martin Group,martin group,A0002,True
-A0003,Mayo-Bowman,mayo-bowman,A0003,True
-A0004,Robinson Nguyen and Tate,robinson nguyen and tate,A0004,True
-A0005,Perez Inc,perez,A0005,True
-A0006,Morales-Jones,morales-jones,A0006,True
-A0007,Walter Edwards and Rios,walter edwards and rios,A0007,True
-A0008,Wilkerson-Day,wilkerson-day,A0008,True
-A0009,Baker and Sons,baker and sons,A0009,True
-A0010,Hoffman Baker and Richards,hoffman baker and richards,A0010,True
-A0011,Ross Robinson and Bright,ross robinson and bright,A0011,True
-A0012,Snyder Campos and Callahan,snyder campos and callahan,A0012,True
-A0013,Burton Ltd,burton,A0013,True
-A0014,Carlson-Cruz,carlson-cruz,A0014,True
-A0015,Ferrell Rice and Maddox,ferrell rice and maddox,A0015,True
-A0016,Frazier Inc,frazier,A0016,True
-A0017,Dyer Potter and Mack,dyer potter and mack,A0017,True
-A0018,Rodriguez-Graham,rodriguez-graham,A0018,True
-A0019,Smith-Bowen,smith-bowen,A0019,True
-A0020,Baker Mason and White,baker mason and white,A0020,True
-A0021,Harrell LLC,harrell,A0021,True
-A0022,Romero Gonzalez and Brooks,romero gonzalez and brooks,A0022,True
-A0023,Ryan PLC,ryan plc,A0023,True
-A0024,George Group,george group,A0024,True
-A0025,Rodriguez LLC,rodriguez,A0025,True
-A0026,Allen-Allen,allen-allen,A0026,True
-A0027,Arroyo Miller and Tucker,arroyo miller and tucker,A0027,True
-A0028,Spence PLC,spence plc,A0028,True
-A0029,Anderson Group,anderson group,A0029,True
-A0030,Martin Rose and Obrien,martin rose and obrien,A0030,True
-A0031,Hickman Ltd,hickman,A0031,True
-A0032,Harris Collins and Carney,harris collins and carney,A0032,True
-A0033,Brooks Lam and Hayes,brooks lam and hayes,A0033,True
-A0034,Walker LLC,walker,A0098,False
-A0035,Chapman and Sons,chapman and sons,A0035,True
-A0036,Robinson Jones and Welch,robinson jones and welch,A0036,True
-A0037,Jones Inc,jones,A0061,False
-A0038,Jones-Young,jones-young,A0038,True
-A0039,Washington Ryan and Cummings,washington ryan and cummings,A0039,True
-A0040,Johnston Sanchez and Kennedy,johnston sanchez and kennedy,A0040,True
-A0041,Lee-Davis,lee-davis,A0041,True
-A0042,Gomez-Jenkins,gomez-jenkins,A0042,True
-A0043,Brown Valdez and Lucas,brown valdez and lucas,A0043,True
-A0044,Powell LLC,powell,A0044,True
-A0045,Wright and Sons,wright and sons,A0045,True
-A0046,West Henderson and Ramirez,west henderson and ramirez,A0046,True
-A0047,Baxter Inc,baxter,A0047,True
-A0048,Morton-Chase,morton-chase,A0048,True
-A0049,Williams PLC,williams plc,A0049,True
-A0050,Novak and Sons,novak and sons,A0050,True
-A0051,Russell Group,russell group,A0051,True
-A0052,Hancock Inc,hancock,A0052,True
-A0053,Gray Group,gray group,A0053,True
-A0054,House-Glover,house-glover,A0054,True
-A0055,Henderson-Bernard,henderson-bernard,A0055,True
-A0056,Stanley Tucker and Lee,stanley tucker and lee,A0056,True
-A0057,Novak PLC,novak plc,A0057,True
-A0058,Daniels Adkins and Brown,daniels adkins and brown,A0058,True
-A0059,Woods Calhoun and Schmidt,woods calhoun and schmidt,A0059,True
-A0060,Yu Inc,yu,A0060,True
-A0061,Jones Inc,jones,A0061,True
-A0062,Hensley Powell and David,hensley powell and david,A0062,True
-A0063,Sanchez Wheeler and Harvey,sanchez wheeler and harvey,A0063,True
-A0064,Sandoval-Cunningham,sandoval-cunningham,A0064,True
-A0065,Donovan-Harris,donovan-harris,A0065,True
-A0066,Edwards Baker and Anderson,edwards baker and anderson,A0066,True
-A0067,Evans Stewart and Walton,evans stewart and walton,A0067,True
-A0068,Smith PLC,smith plc,A0068,True
-A0069,Ferrell Jones and Lewis,ferrell jones and lewis,A0069,True
-A0070,Anderson-Bailey,anderson-bailey,A0070,True
-A0071,Suarez LLC,suarez,A0071,True
-A0072,Moore-Bass,moore-bass,A0072,True
-A0073,Turner Riggs and Roman,turner riggs and roman,A0073,True
-A0074,Smith Montoya and Evans,smith montoya and evans,A0074,True
-A0075,Garcia Humphrey and Baker,garcia humphrey and baker,A0075,True
-A0076,Newton and Sons,newton and sons,A0076,True
-A0077,Campbell-Clark,campbell-clark,A0077,True
-A0078,Harris-Walters,harris-walters,A0078,True
-A0079,Wagner-King,wagner-king,A0079,True
-A0080,Davis Group,davis group,A0080,True
-A0081,Williams-Cook,williams-cook,A0081,True
-A0082,Walsh LLC,walsh,A0082,True
-A0083,Figueroa PLC,figueroa plc,A0083,True
-A0084,Patterson Smith and Jones,patterson smith and jones,A0084,True
-A0085,Mckee Gardner and Davenport,mckee gardner and davenport,A0085,True
-A0086,Tran Jordan and Williams,tran jordan and williams,A0086,True
-A0087,Nolan-Flynn,nolan-flynn,A0087,True
-A0088,Nolan and Sons,nolan and sons,A0088,True
-A0089,Wright Garcia and Deleon,wright garcia and deleon,A0089,True
-A0090,Dickson-Brady,dickson-brady,A0090,True
-A0091,Hancock and Sons,hancock and sons,A0091,True
-A0092,Johnson-Doyle,johnson-doyle,A0092,True
-A0093,Patton-Jenkins,patton-jenkins,A0093,True
-A0094,Shields Cochran and Adams,shields cochran and adams,A0094,True
-A0095,Rodriguez Brennan and Garrison,rodriguez brennan and garrison,A0095,True
-A0096,Gonzalez Group,gonzalez group,A0096,True
-A0097,Torres-Pope,torres-pope,A0097,True
-A0098,Walker Ltd,walker,A0098,True
-A0099,Ross LLC,ross,A0099,True
-A0100,Rasmussen LLC,rasmussen,A0100,True
-A0101,May-Ross,may-ross,A0101,True
-A0102,Rivera Johnson and Wiley,rivera johnson and wiley,A0102,True
-A0103,White-Estes,white-estes,A0103,True
-A0104,Johnson-Carlson,johnson-carlson,A0104,True
-A0105,Chandler-Edwards,chandler-edwards,A0105,True
-A0106,Joyce Wilson and Lam,joyce wilson and lam,A0106,True
-A0107,Scott Ltd,scott,A0107,True
-A0108,Smith-Frost,smith-frost,A0108,True
-A0109,Mcdaniel Bentley and Mclaughlin,mcdaniel bentley and mclaughlin,A0109,True
-A0110,Diaz Inc,diaz,A0110,True
-A0111,Mccall Hanson and Alvarado,mccall hanson and alvarado,A0111,True
-A0112,Cortez LLC,cortez,A0112,True
-A0113,Parker Ortiz and Powell,parker ortiz and powell,A0113,True
-A0114,Spencer-Lee,spencer-lee,A0114,True
-A0115,Bentley Byrd and Orr,bentley byrd and orr,A0115,True
-A0116,Carroll Sullivan and Bass,carroll sullivan and bass,A0116,True
-A0117,Mitchell-Jordan,mitchell-jordan,A0117,True
-A0118,Lawson Morris and Ramos,lawson morris and ramos,A0118,True
-A0119,Lewis Kennedy and Santana,lewis kennedy and santana,A0119,True
-A0120,Jackson Miller and Robertson,jackson miller and robertson,A0120,True
-A0121,Harvey Davis and Crane,harvey davis and crane,A0121,True
-A0122,Chambers and Sons,chambers and sons,A0122,True
-A0123,Hernandez Inc,hernandez,A0127,False
-A0124,Riggs PLC,riggs plc,A0124,True
-A0125,Gibson Ltd,gibson,A0125,True
-A0126,Lee Horton and Snyder,lee horton and snyder,A0126,True
-A0127,Hernandez Ltd,hernandez,A0127,True
-A0128,Stafford Inc,stafford,A0128,True
-A0129,Robinson-Brock,robinson-brock,A0129,True
-A0130,Holmes Williams and Wright,holmes williams and wright,A0130,True
-A0131,Bryant Group,bryant group,A0131,True
-A0132,Schmidt Hansen and Stewart,schmidt hansen and stewart,A0132,True
-A0133,Salazar-Ball,salazar-ball,A0133,True
-A0134,Simmons Meadows and Griffin,simmons meadows and griffin,A0134,True
-A0135,Manning Group,manning group,A0135,True
-A0136,Green-Wright,green-wright,A0136,True
-A0137,Ramirez Strickland and Washington,ramirez strickland and washington,A0137,True
-A0138,Hill Inc,hill,A0138,True
-A0139,Mitchell Nelson and Flores,mitchell nelson and flores,A0139,True
-A0140,Miller Hernandez and Reyes,miller hernandez and reyes,A0140,True
-A0141,Smith-Bowen  ,smith-bowen,A0019,False
-A0142,Spence PLC  ,spence plc,A0028,False
-A0143,Brooks Lam and Hayes Incorporated,brooks lam and hayes,A0033,False
-A0144,Walker LLC Inc.,walker,A0098,False
-A0145,Chapman and Sons  ,chapman and sons,A0035,False
-A0146,Jones-Young Incorporated,jones-young,A0038,False
-A0147,Russell Group,russell group,A0051,False
-A0148,Novak PLC Inc.,novak plc,A0057,False
-A0149,Sandoval-Cunningham,sandoval-cunningham,A0064,False
-A0150,SUAREZ LLC,suarez,A0071,False
-A0151,Moore-Bass Inc.,moore-bass,A0072,False
-A0152,Williams-Cook Inc.,williams-cook,A0081,False
-A0153,Mckee Gardner and Davenport,mckee gardner and davenport,A0085,False
-A0154,NOLAN AND SONS,nolan and sons,A0088,False
-A0155,Shields Cochran and Adams  ,shields cochran and adams,A0094,False
-A0156,Gonzalez Group Inc.,gonzalez group,A0096,False
-A0157,JOHNSON-CARLSON,johnson-carlson,A0104,False
-A0158,Chandler-Edwards Inc.,chandler-edwards,A0105,False
-A0159,Diaz Inc  ,diaz,A0110,False
-A0160,Bentley Byrd and Orr  ,bentley byrd and orr,A0115,False
-A0161,Riggs  PLC,riggs plc,A0124,False
-A0162,Simmons Meadows and Griffin  ,simmons meadows and griffin,A0134,False
+account_id,account_name,source_company_id,canonical_key,canonical_account_id,is_survivor
+A0001,Jones Reid and Ferguson,C0001,jones reid and ferguson,A0001,True
+A0002,Martin Group,C0002,martin group,A0002,True
+A0003,Mayo-Bowman,C0003,mayo-bowman,A0003,True
+A0004,Robinson Nguyen and Tate,C0004,robinson nguyen and tate,A0004,True
+A0005,Perez Inc,C0005,perez,A0005,True
+A0006,Morales-Jones,C0006,morales-jones,A0006,True
+A0007,Walter Edwards and Rios,C0007,walter edwards and rios,A0007,True
+A0008,Wilkerson-Day,C0008,wilkerson-day,A0008,True
+A0009,Baker and Sons,C0009,baker and sons,A0009,True
+A0010,Hoffman Baker and Richards,C0010,hoffman baker and richards,A0010,True
+A0011,Ross Robinson and Bright,C0011,ross robinson and bright,A0011,True
+A0012,Snyder Campos and Callahan,C0012,snyder campos and callahan,A0012,True
+A0013,Burton Ltd,C0013,burton,A0013,True
+A0014,Carlson-Cruz,C0014,carlson-cruz,A0014,True
+A0015,Ferrell Rice and Maddox,C0015,ferrell rice and maddox,A0015,True
+A0016,Frazier Inc,C0016,frazier,A0016,True
+A0017,Dyer Potter and Mack,C0017,dyer potter and mack,A0017,True
+A0018,Rodriguez-Graham,C0018,rodriguez-graham,A0018,True
+A0019,Smith-Bowen,C0019,smith-bowen,A0019,True
+A0020,Baker Mason and White,C0020,baker mason and white,A0020,True
+A0021,Harrell LLC,C0021,harrell,A0021,True
+A0022,Romero Gonzalez and Brooks,C0022,romero gonzalez and brooks,A0022,True
+A0023,Ryan PLC,C0023,ryan plc,A0023,True
+A0024,George Group,C0024,george group,A0024,True
+A0025,Rodriguez LLC,C0025,rodriguez,A0025,True
+A0026,Allen-Allen,C0026,allen-allen,A0026,True
+A0027,Arroyo Miller and Tucker,C0027,arroyo miller and tucker,A0027,True
+A0028,Spence PLC,C0028,spence plc,A0028,True
+A0029,Anderson Group,C0029,anderson group,A0029,True
+A0030,Martin Rose and Obrien,C0030,martin rose and obrien,A0030,True
+A0031,Hickman Ltd,C0031,hickman,A0031,True
+A0032,Harris Collins and Carney,C0032,harris collins and carney,A0032,True
+A0033,Brooks Lam and Hayes,C0033,brooks lam and hayes,A0033,True
+A0034,Walker LLC,C0034,walker,A0098,False
+A0035,Chapman and Sons,C0035,chapman and sons,A0035,True
+A0036,Robinson Jones and Welch,C0036,robinson jones and welch,A0036,True
+A0037,Jones Inc,C0037,jones,A0061,False
+A0038,Jones-Young,C0038,jones-young,A0038,True
+A0039,Washington Ryan and Cummings,C0039,washington ryan and cummings,A0039,True
+A0040,Johnston Sanchez and Kennedy,C0040,johnston sanchez and kennedy,A0040,True
+A0041,Lee-Davis,C0041,lee-davis,A0041,True
+A0042,Gomez-Jenkins,C0042,gomez-jenkins,A0042,True
+A0043,Brown Valdez and Lucas,C0043,brown valdez and lucas,A0043,True
+A0044,Powell LLC,C0044,powell,A0044,True
+A0045,Wright and Sons,C0045,wright and sons,A0045,True
+A0046,West Henderson and Ramirez,C0046,west henderson and ramirez,A0046,True
+A0047,Baxter Inc,C0047,baxter,A0047,True
+A0048,Morton-Chase,C0048,morton-chase,A0048,True
+A0049,Williams PLC,C0049,williams plc,A0049,True
+A0050,Novak and Sons,C0050,novak and sons,A0050,True
+A0051,Russell Group,C0051,russell group,A0051,True
+A0052,Hancock Inc,C0052,hancock,A0052,True
+A0053,Gray Group,C0053,gray group,A0053,True
+A0054,House-Glover,C0054,house-glover,A0054,True
+A0055,Henderson-Bernard,C0055,henderson-bernard,A0055,True
+A0056,Stanley Tucker and Lee,C0056,stanley tucker and lee,A0056,True
+A0057,Novak PLC,C0057,novak plc,A0057,True
+A0058,Daniels Adkins and Brown,C0058,daniels adkins and brown,A0058,True
+A0059,Woods Calhoun and Schmidt,C0059,woods calhoun and schmidt,A0059,True
+A0060,Yu Inc,C0060,yu,A0060,True
+A0061,Jones Inc,C0061,jones,A0061,True
+A0062,Hensley Powell and David,C0062,hensley powell and david,A0062,True
+A0063,Sanchez Wheeler and Harvey,C0063,sanchez wheeler and harvey,A0063,True
+A0064,Sandoval-Cunningham,C0064,sandoval-cunningham,A0064,True
+A0065,Donovan-Harris,C0065,donovan-harris,A0065,True
+A0066,Edwards Baker and Anderson,C0066,edwards baker and anderson,A0066,True
+A0067,Evans Stewart and Walton,C0067,evans stewart and walton,A0067,True
+A0068,Smith PLC,C0068,smith plc,A0068,True
+A0069,Ferrell Jones and Lewis,C0069,ferrell jones and lewis,A0069,True
+A0070,Anderson-Bailey,C0070,anderson-bailey,A0070,True
+A0071,Suarez LLC,C0071,suarez,A0071,True
+A0072,Moore-Bass,C0072,moore-bass,A0072,True
+A0073,Turner Riggs and Roman,C0073,turner riggs and roman,A0073,True
+A0074,Smith Montoya and Evans,C0074,smith montoya and evans,A0074,True
+A0075,Garcia Humphrey and Baker,C0075,garcia humphrey and baker,A0075,True
+A0076,Newton and Sons,C0076,newton and sons,A0076,True
+A0077,Campbell-Clark,C0077,campbell-clark,A0077,True
+A0078,Harris-Walters,C0078,harris-walters,A0078,True
+A0079,Wagner-King,C0079,wagner-king,A0079,True
+A0080,Davis Group,C0080,davis group,A0080,True
+A0081,Williams-Cook,C0081,williams-cook,A0081,True
+A0082,Walsh LLC,C0082,walsh,A0082,True
+A0083,Figueroa PLC,C0083,figueroa plc,A0083,True
+A0084,Patterson Smith and Jones,C0084,patterson smith and jones,A0084,True
+A0085,Mckee Gardner and Davenport,C0085,mckee gardner and davenport,A0085,True
+A0086,Tran Jordan and Williams,C0086,tran jordan and williams,A0086,True
+A0087,Nolan-Flynn,C0087,nolan-flynn,A0087,True
+A0088,Nolan and Sons,C0088,nolan and sons,A0088,True
+A0089,Wright Garcia and Deleon,C0089,wright garcia and deleon,A0089,True
+A0090,Dickson-Brady,C0090,dickson-brady,A0090,True
+A0091,Hancock and Sons,C0091,hancock and sons,A0091,True
+A0092,Johnson-Doyle,C0092,johnson-doyle,A0092,True
+A0093,Patton-Jenkins,C0093,patton-jenkins,A0093,True
+A0094,Shields Cochran and Adams,C0094,shields cochran and adams,A0094,True
+A0095,Rodriguez Brennan and Garrison,C0095,rodriguez brennan and garrison,A0095,True
+A0096,Gonzalez Group,C0096,gonzalez group,A0096,True
+A0097,Torres-Pope,C0097,torres-pope,A0097,True
+A0098,Walker Ltd,C0098,walker,A0098,True
+A0099,Ross LLC,C0099,ross,A0099,True
+A0100,Rasmussen LLC,C0100,rasmussen,A0100,True
+A0101,May-Ross,C0101,may-ross,A0101,True
+A0102,Rivera Johnson and Wiley,C0102,rivera johnson and wiley,A0102,True
+A0103,White-Estes,C0103,white-estes,A0103,True
+A0104,Johnson-Carlson,C0104,johnson-carlson,A0104,True
+A0105,Chandler-Edwards,C0105,chandler-edwards,A0105,True
+A0106,Joyce Wilson and Lam,C0106,joyce wilson and lam,A0106,True
+A0107,Scott Ltd,C0107,scott,A0107,True
+A0108,Smith-Frost,C0108,smith-frost,A0108,True
+A0109,Mcdaniel Bentley and Mclaughlin,C0109,mcdaniel bentley and mclaughlin,A0109,True
+A0110,Diaz Inc,C0110,diaz,A0110,True
+A0111,Mccall Hanson and Alvarado,C0111,mccall hanson and alvarado,A0111,True
+A0112,Cortez LLC,C0112,cortez,A0112,True
+A0113,Parker Ortiz and Powell,C0113,parker ortiz and powell,A0113,True
+A0114,Spencer-Lee,C0114,spencer-lee,A0114,True
+A0115,Bentley Byrd and Orr,C0115,bentley byrd and orr,A0115,True
+A0116,Carroll Sullivan and Bass,C0116,carroll sullivan and bass,A0116,True
+A0117,Mitchell-Jordan,C0117,mitchell-jordan,A0117,True
+A0118,Lawson Morris and Ramos,C0118,lawson morris and ramos,A0118,True
+A0119,Lewis Kennedy and Santana,C0119,lewis kennedy and santana,A0119,True
+A0120,Jackson Miller and Robertson,C0120,jackson miller and robertson,A0120,True
+A0121,Harvey Davis and Crane,C0121,harvey davis and crane,A0121,True
+A0122,Chambers and Sons,C0122,chambers and sons,A0122,True
+A0123,Hernandez Inc,C0123,hernandez,A0127,False
+A0124,Riggs PLC,C0124,riggs plc,A0124,True
+A0125,Gibson Ltd,C0125,gibson,A0125,True
+A0126,Lee Horton and Snyder,C0126,lee horton and snyder,A0126,True
+A0127,Hernandez Ltd,C0127,hernandez,A0127,True
+A0128,Stafford Inc,C0128,stafford,A0128,True
+A0129,Robinson-Brock,C0129,robinson-brock,A0129,True
+A0130,Holmes Williams and Wright,C0130,holmes williams and wright,A0130,True
+A0131,Bryant Group,C0131,bryant group,A0131,True
+A0132,Schmidt Hansen and Stewart,C0132,schmidt hansen and stewart,A0132,True
+A0133,Salazar-Ball,C0133,salazar-ball,A0133,True
+A0134,Simmons Meadows and Griffin,C0134,simmons meadows and griffin,A0134,True
+A0135,Manning Group,C0135,manning group,A0135,True
+A0136,Green-Wright,C0136,green-wright,A0136,True
+A0137,Ramirez Strickland and Washington,C0137,ramirez strickland and washington,A0137,True
+A0138,Hill Inc,C0138,hill,A0138,True
+A0139,Mitchell Nelson and Flores,C0139,mitchell nelson and flores,A0139,True
+A0140,Miller Hernandez and Reyes,C0140,miller hernandez and reyes,A0140,True
+A0141,Smith-Bowen  ,C0019,smith-bowen,A0019,False
+A0142,Spence PLC  ,C0028,spence plc,A0028,False
+A0143,Brooks Lam and Hayes Incorporated,C0033,brooks lam and hayes,A0033,False
+A0144,Walker LLC Inc.,C0034,walker,A0098,False
+A0145,Chapman and Sons  ,C0035,chapman and sons,A0035,False
+A0146,Jones-Young Incorporated,C0038,jones-young,A0038,False
+A0147,Russell Group,C0051,russell group,A0051,False
+A0148,Novak PLC Inc.,C0057,novak plc,A0057,False
+A0149,Sandoval-Cunningham,C0064,sandoval-cunningham,A0064,False
+A0150,SUAREZ LLC,C0071,suarez,A0071,False
+A0151,Moore-Bass Inc.,C0072,moore-bass,A0072,False
+A0152,Williams-Cook Inc.,C0081,williams-cook,A0081,False
+A0153,Mckee Gardner and Davenport,C0085,mckee gardner and davenport,A0085,False
+A0154,NOLAN AND SONS,C0088,nolan and sons,A0088,False
+A0155,Shields Cochran and Adams  ,C0094,shields cochran and adams,A0094,False
+A0156,Gonzalez Group Inc.,C0096,gonzalez group,A0096,False
+A0157,JOHNSON-CARLSON,C0104,johnson-carlson,A0104,False
+A0158,Chandler-Edwards Inc.,C0105,chandler-edwards,A0105,False
+A0159,Diaz Inc  ,C0110,diaz,A0110,False
+A0160,Bentley Byrd and Orr  ,C0115,bentley byrd and orr,A0115,False
+A0161,Riggs  PLC,C0124,riggs plc,A0124,False
+A0162,Simmons Meadows and Griffin  ,C0134,simmons meadows and griffin,A0134,False

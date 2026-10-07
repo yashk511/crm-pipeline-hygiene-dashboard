@@ -1,6 +1,8 @@
 metric,value
 Accounts Before Cleaning,162.0
 Duplicate Accounts Merged,25.0
+Dedup Precision Pct,84.6
+Dedup Recall Pct,100.0
 Accounts After Cleaning,137.0
 Pct Missing DUNS Before,37.7
 Pct Missing DUNS After,28.5

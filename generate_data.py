@@ -54,15 +54,17 @@ def messy_name_variant(name):
 
 base_companies = [fake.company().replace(",", "") for _ in range(140)]
 accounts = []
+ground_truth_accounts = []
 acct_counter = 1
 duplicate_pool = []  # account_ids that will get a duplicate entry
 
-for base in base_companies:
+for company_index, base in enumerate(base_companies, start=1):
     acct_id = f"A{acct_counter:04d}"
     has_duns = random.random() > 0.28          # ~28% missing DUNS
     created = (TODAY - timedelta(days=random.randint(30, 1095))).date()
     accounts.append({
         "account_id": acct_id,
+        "source_company_id": f"C{company_index:04d}",
         "account_name": base,
         "industry": random.choice(INDUSTRIES),
         "country": fake.country(),
@@ -71,15 +73,17 @@ for base in base_companies:
         "owner_rep_id": random.choice(reps_df.rep_id),
         "account_source": random.choice(["Inbound", "Outbound", "Partner", "Event", ""]),
     })
+    ground_truth_accounts.append({"account_id": acct_id, "source_company_id": f"C{company_index:04d}"})
     acct_counter += 1
     if random.random() < 0.16:  # ~16% of accounts get a messy duplicate record
-        duplicate_pool.append((base, acct_id))
+        duplicate_pool.append((company_index, base, acct_id))
 
 # inject duplicate account records (same real company, different account_id)
-for base, orig_id in duplicate_pool:
+for company_index, base, orig_id in duplicate_pool:
     acct_id = f"A{acct_counter:04d}"
     accounts.append({
         "account_id": acct_id,
+        "source_company_id": f"C{company_index:04d}",
         "account_name": messy_name_variant(base),
         "industry": random.choice(INDUSTRIES),  # sometimes re-entered inconsistently
         "country": fake.country(),
@@ -88,10 +92,12 @@ for base, orig_id in duplicate_pool:
         "owner_rep_id": random.choice(reps_df.rep_id),
         "account_source": random.choice(["Inbound", "Outbound", "Partner", "Event", ""]),
     })
+    ground_truth_accounts.append({"account_id": acct_id, "source_company_id": f"C{company_index:04d}"})
     acct_counter += 1
 
 accounts_df = pd.DataFrame(accounts)
 accounts_df.to_csv(f"{OUT}/accounts.csv", index=False)
+pd.DataFrame(ground_truth_accounts).to_csv(f"{OUT}/account_ground_truth.csv", index=False)
 
 # -------------------------------------------------------------- opportunities
 STAGE_VARIANTS = {
