@@ -225,9 +225,43 @@ add_issue(opps["is_closed"] & opps["close_date"].isna(), "closed_without_close_d
 add_issue(~opps["is_closed"] & opps["close_date"].notna(), "open_with_close_date", "close_date", "medium", "Open opportunity has a close date")
 add_issue(opps["amount_missing_flag"] | (opps["amount"] <= 0), "invalid_amount", "amount", "high", "Amount was missing or is non-positive")
 add_issue(opps["stage"] == "Unclassified", "unclassified_stage", "stage", "high", "Stage could not be mapped to a canonical value")
-pd.DataFrame(issue_rows, columns=[
+for account_id in dim_accounts.loc[dim_accounts["duns_missing_flag"], "account_id"].astype(str):
+    issue_rows.append({
+        "record_type": "account",
+        "record_id": account_id,
+        "issue_type": "missing_duns",
+        "field_name": "duns_number",
+        "severity": "medium",
+        "issue_description": "Account is missing a DUNS number",
+    })
+
+issue_columns = [
     "record_type", "record_id", "issue_type", "field_name", "severity", "issue_description"
-]).to_csv(f"{OUT}/data_quality_issues.csv", index=False)
+]
+issues = pd.DataFrame(issue_rows, columns=issue_columns)
+issues.to_csv(f"{OUT}/data_quality_issues.csv", index=False)
+
+validation_rules = [
+    ("orphan_account_id", "high"),
+    ("orphan_rep_id", "high"),
+    ("duplicate_opportunity_id", "high"),
+    ("close_before_create", "high"),
+    ("closed_without_close_date", "medium"),
+    ("open_with_close_date", "medium"),
+    ("invalid_amount", "high"),
+    ("unclassified_stage", "high"),
+    ("missing_duns", "medium"),
+]
+validation_summary = pd.DataFrame([
+    {
+        "issue_type": issue_type,
+        "severity": severity,
+        "issue_count": int((issues["issue_type"] == issue_type).sum()),
+        "status": "PASS" if not (issues["issue_type"] == issue_type).any() else "REVIEW",
+    }
+    for issue_type, severity in validation_rules
+])
+validation_summary.to_csv(f"{OUT}/validation_summary.csv", index=False)
 
 n_stale = int(opps["is_stale"].sum())
 n_open = int((~opps["is_closed"]).sum())

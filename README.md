@@ -22,6 +22,7 @@ clean/                   ← output of clean_data.py — Power BI-ready
   quality_metrics.csv     dashboard-ready data quality scorecard metrics
   account_merge_map.csv   account survivor and merge audit trail
   data_quality_issues.csv row-level validation issues for follow-up
+  validation_summary.csv  pass/review status for every validation rule
   data_quality_report.md  before/after metrics
 
 generate_data.py         builds the raw/ files (synthetic, seeded/reproducible)
@@ -146,6 +147,8 @@ The upgraded pipeline separates open opportunity age from closed-deal sales
 cycle, makes the as-of date and stale threshold configurable, and reports
 stale pipeline by value as well as by count. It also preserves imputation-aware
 pipeline value and writes an account merge map plus row-level validation issues.
+The validation summary reports zero-count rules as explicit `PASS` results and
+flags issues requiring operational review.
 
 The `sql/` layer uses DuckDB to answer business questions about stage funnel
 conversion, rep performance, monthly pipeline trends, aging buckets, and stale
