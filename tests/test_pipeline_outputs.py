@@ -39,3 +39,9 @@ def test_audit_outputs_exist_and_capture_missing_amounts():
     assert (issues["issue_type"] == "invalid_amount").sum() == 33
     assert summary.loc[summary["issue_type"] == "orphan_account_id", "status"].iloc[0] == "PASS"
     assert summary.loc[summary["issue_type"] == "missing_duns", "issue_count"].iloc[0] == 39
+
+
+def test_sql_marts_are_exported():
+    marts = list((CLEAN / "sql_marts").glob("*.csv"))
+
+    assert len(marts) == 5

@@ -1,0 +1,6 @@
+aging_bucket,open_opportunity_count,open_pipeline_value
+0-29 days,27,434400.0
+30-59 days,31,652250.0
+60-89 days,33,619450.0
+90-179 days,119,2162600.0
+180+ days,395,6273000.0

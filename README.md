@@ -30,6 +30,7 @@ clean_data.py            the actual cleaning + modeling pipeline
 sql/                     DuckDB business-question queries
 metric_dictionary.md     KPI definitions, grain, and caveats
 requirements.txt         reproducible Python dependencies
+run_sql.py               executes SQL and exports analysis marts
 ```
 
 ## The data problems this fixes (mirrors real Sales Ops work)
@@ -153,6 +154,8 @@ flags issues requiring operational review.
 The `sql/` layer uses DuckDB to answer business questions about stage funnel
 conversion, rep performance, monthly pipeline trends, aging buckets, and stale
 deal prioritization. These queries run directly against the clean CSV outputs.
+Run `python run_sql.py` to export the five query results to `clean/sql_marts/`
+for downstream analysis or Power BI ingestion.
 
 **5. Publish / screenshot**
 Export a couple of pages as images or PDF for your portfolio/GitHub README
