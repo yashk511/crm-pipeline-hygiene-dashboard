@@ -1,6 +1,6 @@
-from_stage,to_stage,opportunities_transitioned,opportunities_at_start,transition_rate_pct
-Prospecting,Qualification,751,900,83.4
-Qualification,Proposal,575,751,76.6
-Proposal,Negotiation,411,575,71.5
-Negotiation,Closed Won,146,411,35.5
-Negotiation,Closed Lost,164,411,39.9
+stage_sequence,stage,deals_reached_stage,transition_rate_pct
+1,Prospecting,900,
+2,Qualification,751,83.4
+3,Proposal,575,76.6
+4,Negotiation,411,71.5
+5,Closed Won,146,35.5
