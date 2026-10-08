@@ -2,12 +2,14 @@
 
 ## De-duplication
 - Accounts before cleaning: **162**
-- Duplicate account records merged: **25**
-- Accounts after cleaning: **137**
+- Duplicate account records merged: **22**
+- Accounts after cleaning: **140**
+- Duplicate pair precision against generator ground truth: **100.0%**
+- Duplicate pair recall against generator ground truth: **100.0%**
 
 ## Missing required fields (DUNS number)
 - Missing before cleanup: **37.7%** of accounts
-- Missing after cleanup (still unresolved, flagged for outreach): **28.5%** of accounts
+- Missing after cleanup (still unresolved, flagged for outreach): **27.9%** of accounts
   → `duns_missing_flag = True` in `dim_accounts.csv` for seller follow-up.
 
 ## Non-standard field values
@@ -16,11 +18,13 @@
 - Standardized down to **6** canonical stages
 
 ## Pipeline hygiene
-- Open opportunities: **603**
-- Stale opportunities (open, no activity in 30+ days): **201**
-  (33.3% of open pipeline — flagged for rep follow-up)
-- Total open pipeline value: **$10,241,900**
-- Overall win rate (closed deals): **66.7%**
+- Open opportunities: **590**
+- Stale opportunities (open, no activity in 30+ days): **183**
+  (31.0% of open pipeline — flagged for rep follow-up)
+- Total open pipeline value: **$11,277,500**
+- Open pipeline value excluding imputed amounts: **$10,964,300**
+- Stale pipeline value: **$3,756,350** (33.3% of open pipeline value)
+- Overall win rate (closed deals): **47.1%**
 
 ## Missing amounts
-- Opportunities with missing deal amount, imputed with product-level median: **33**
+- Opportunities with missing deal amount, imputed with product-level median: **34**

@@ -1,0 +1,6 @@
+stage_sequence,stage,deals_reached_stage,transition_rate_pct
+1,Prospecting,900,
+2,Qualification,751,83.4
+3,Proposal,575,76.6
+4,Negotiation,411,71.5
+5,Closed Won,146,35.5

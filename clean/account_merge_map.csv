@@ -1,0 +1,163 @@
+account_id,account_name,source_company_id,canonical_key,canonical_account_id,match_score,review_required,is_survivor
+A0001,Jones Reid and Ferguson,C0001,cape verde::jones reid and ferguson,A0001,0.0,False,True
+A0002,Martin Group,C0002,romania::martin group,A0002,0.0,False,True
+A0003,Mayo-Bowman,C0003,croatia::mayo-bowman,A0003,0.0,False,True
+A0004,Robinson Nguyen and Tate,C0004,bahrain::robinson nguyen and tate,A0004,0.0,False,True
+A0005,Perez Inc,C0005,israel::perez,A0005,0.0,False,True
+A0006,Morales-Jones,C0006,ireland::morales-jones,A0006,0.0,False,True
+A0007,Walter Edwards and Rios,C0007,greenland::walter edwards and rios,A0007,0.0,False,True
+A0008,Wilkerson-Day,C0008,mauritius::wilkerson-day,A0008,0.0,False,True
+A0009,Baker and Sons,C0009,lao people's democratic republic::baker and sons,A0009,0.0,False,True
+A0010,Hoffman Baker and Richards,C0010,israel::hoffman baker and richards,A0010,0.12903225806451613,False,True
+A0011,Ross Robinson and Bright,C0011,bahamas::ross robinson and bright,A0011,0.0,False,True
+A0012,Snyder Campos and Callahan,C0012,costa rica::snyder campos and callahan,A0012,0.0,False,True
+A0013,Burton Ltd,C0013,syrian arab republic::burton,A0013,0.0,False,True
+A0014,Carlson-Cruz,C0014,italy::carlson-cruz,A0014,0.0,False,True
+A0015,Ferrell Rice and Maddox,C0015,iceland::ferrell rice and maddox,A0015,0.0,False,True
+A0016,Frazier Inc,C0016,united kingdom::frazier,A0016,0.0,False,True
+A0017,Dyer Potter and Mack,C0017,sierra leone::dyer potter and mack,A0017,0.0,False,True
+A0018,Rodriguez-Graham,C0018,myanmar::rodriguez-graham,A0018,0.0,False,True
+A0019,Smith-Bowen,C0019,yemen::smith-bowen,A0019,0.0,False,True
+A0020,Baker Mason and White,C0020,qatar::baker mason and white,A0020,0.0,False,True
+A0021,Harrell LLC,C0021,angola::harrell,A0021,0.0,False,True
+A0022,Romero Gonzalez and Brooks,C0022,togo::romero gonzalez and brooks,A0022,0.0,False,True
+A0023,Ryan PLC,C0023,turkmenistan::ryan plc,A0023,0.0,False,True
+A0024,George Group,C0024,serbia::george group,A0024,0.0,False,True
+A0025,Rodriguez LLC,C0025,morocco::rodriguez,A0025,0.0,False,True
+A0026,Allen-Allen,C0026,hong kong::allen-allen,A0026,0.0,False,True
+A0027,Arroyo Miller and Tucker,C0027,lesotho::arroyo miller and tucker,A0027,0.0,False,True
+A0028,Spence PLC,C0028,albania::spence plc,A0028,0.0,False,True
+A0029,Anderson Group,C0029,western sahara::anderson group,A0029,0.0,False,True
+A0030,Martin Rose and Obrien,C0030,guinea::martin rose and obrien,A0030,0.0,False,True
+A0031,Hickman Ltd,C0031,french southern territories::hickman,A0031,0.0,False,True
+A0032,Harris Collins and Carney,C0032,sao tome and principe::harris collins and carney,A0032,0.0,False,True
+A0033,Brooks Lam and Hayes,C0033,iceland::brooks lam and hayes,A0033,0.37209302325581395,False,True
+A0034,Walker LLC,C0034,timor-leste::walker,A0034,0.0,False,True
+A0035,Chapman and Sons,C0035,uganda::chapman and sons,A0035,0.0,False,True
+A0036,Robinson Jones and Welch,C0036,zimbabwe::robinson jones and welch,A0036,0.0,False,True
+A0037,Jones Inc,C0037,syrian arab republic::jones,A0037,0.36363636363636365,False,True
+A0038,Jones-Young,C0038,italy::jones-young,A0038,0.34782608695652173,False,True
+A0039,Washington Ryan and Cummings,C0039,mauritania::washington ryan and cummings,A0039,0.0,False,True
+A0040,Johnston Sanchez and Kennedy,C0040,san marino::johnston sanchez and kennedy,A0040,0.0,False,True
+A0041,Lee-Davis,C0041,saint pierre and miquelon::lee-davis,A0041,0.0,False,True
+A0042,Gomez-Jenkins,C0042,mayotte::gomez-jenkins,A0042,0.0,False,True
+A0043,Brown Valdez and Lucas,C0043,south georgia and the south sandwich islands::brown valdez and lucas,A0043,0.0,False,True
+A0044,Powell LLC,C0044,netherlands::powell,A0044,0.0,False,True
+A0045,Wright and Sons,C0045,ukraine::wright and sons,A0045,0.0,False,True
+A0046,West Henderson and Ramirez,C0046,cyprus::west henderson and ramirez,A0046,0.0,False,True
+A0047,Baxter Inc,C0047,libyan arab jamahiriya::baxter,A0047,0.0,False,True
+A0048,Morton-Chase,C0048,cyprus::morton-chase,A0048,0.2631578947368421,False,True
+A0049,Williams PLC,C0049,faroe islands::williams plc,A0049,0.0,False,True
+A0050,Novak and Sons,C0050,jordan::novak and sons,A0050,0.0,False,True
+A0051,Russell Group,C0051,libyan arab jamahiriya::russell group,A0051,0.10526315789473684,False,True
+A0052,Hancock Inc,C0052,antarctica (the territory south of 60 deg s)::hancock,A0052,0.0,False,True
+A0053,Gray Group,C0053,iceland::gray group,A0053,0.24242424242424243,False,True
+A0054,House-Glover,C0054,guadeloupe::house-glover,A0054,0.0,False,True
+A0055,Henderson-Bernard,C0055,paraguay::henderson-bernard,A0055,0.0,False,True
+A0056,Stanley Tucker and Lee,C0056,philippines::stanley tucker and lee,A0056,0.0,False,True
+A0057,Novak PLC,C0057,south georgia and the south sandwich islands::novak plc,A0057,0.3870967741935484,False,True
+A0058,Daniels Adkins and Brown,C0058,iraq::daniels adkins and brown,A0058,0.0,False,True
+A0059,Woods Calhoun and Schmidt,C0059,saint kitts and nevis::woods calhoun and schmidt,A0059,0.0,False,True
+A0060,Yu Inc,C0060,chad::yu,A0060,0.0,False,True
+A0061,Jones Inc,C0061,tajikistan::jones,A0061,0.0,False,True
+A0062,Hensley Powell and David,C0062,lao people's democratic republic::hensley powell and david,A0062,0.3157894736842105,False,True
+A0063,Sanchez Wheeler and Harvey,C0063,uruguay::sanchez wheeler and harvey,A0063,0.0,False,True
+A0064,Sandoval-Cunningham,C0064,brunei darussalam::sandoval-cunningham,A0064,0.0,False,True
+A0065,Donovan-Harris,C0065,nigeria::donovan-harris,A0065,0.0,False,True
+A0066,Edwards Baker and Anderson,C0066,martinique::edwards baker and anderson,A0066,0.0,False,True
+A0067,Evans Stewart and Walton,C0067,anguilla::evans stewart and walton,A0067,0.0,False,True
+A0068,Smith PLC,C0068,united states of america::smith plc,A0068,0.0,False,True
+A0069,Ferrell Jones and Lewis,C0069,india::ferrell jones and lewis,A0069,0.0,False,True
+A0070,Anderson-Bailey,C0070,nauru::anderson-bailey,A0070,0.0,False,True
+A0071,Suarez LLC,C0071,mongolia::suarez,A0071,0.0,False,True
+A0072,Moore-Bass,C0072,panama::moore-bass,A0072,0.0,False,True
+A0073,Turner Riggs and Roman,C0073,anguilla::turner riggs and roman,A0073,0.391304347826087,False,True
+A0074,Smith Montoya and Evans,C0074,belize::smith montoya and evans,A0074,0.0,False,True
+A0075,Garcia Humphrey and Baker,C0075,norway::garcia humphrey and baker,A0075,0.0,False,True
+A0076,Newton and Sons,C0076,japan::newton and sons,A0076,0.0,False,True
+A0077,Campbell-Clark,C0077,burkina faso::campbell-clark,A0077,0.0,False,True
+A0078,Harris-Walters,C0078,tonga::harris-walters,A0078,0.0,False,True
+A0079,Wagner-King,C0079,kyrgyz republic::wagner-king,A0079,0.0,False,True
+A0080,Davis Group,C0080,cocos (keeling) islands::davis group,A0080,0.0,False,True
+A0081,Williams-Cook,C0081,australia::williams-cook,A0081,0.0,False,True
+A0082,Walsh LLC,C0082,eritrea::walsh,A0082,0.0,False,True
+A0083,Figueroa PLC,C0083,hong kong::figueroa plc,A0083,0.2608695652173913,False,True
+A0084,Patterson Smith and Jones,C0084,greece::patterson smith and jones,A0084,0.0,False,True
+A0085,Mckee Gardner and Davenport,C0085,croatia::mckee gardner and davenport,A0085,0.21052631578947367,False,True
+A0086,Tran Jordan and Williams,C0086,korea::tran jordan and williams,A0086,0.0,False,True
+A0087,Nolan-Flynn,C0087,greece::nolan-flynn,A0087,0.2222222222222222,False,True
+A0088,Nolan and Sons,C0088,guadeloupe::nolan and sons,A0088,0.23076923076923078,False,True
+A0089,Wright Garcia and Deleon,C0089,senegal::wright garcia and deleon,A0089,0.0,False,True
+A0090,Dickson-Brady,C0090,turkmenistan::dickson-brady,A0090,0.09523809523809523,False,True
+A0091,Hancock and Sons,C0091,hong kong::hancock and sons,A0091,0.2962962962962963,False,True
+A0092,Johnson-Doyle,C0092,fiji::johnson-doyle,A0092,0.0,False,True
+A0093,Patton-Jenkins,C0093,sao tome and principe::patton-jenkins,A0093,0.2564102564102564,False,True
+A0094,Shields Cochran and Adams,C0094,zambia::shields cochran and adams,A0094,0.0,False,True
+A0095,Rodriguez Brennan and Garrison,C0095,switzerland::rodriguez brennan and garrison,A0095,0.0,False,True
+A0096,Gonzalez Group,C0096,italy::gonzalez group,A0096,0.4,False,True
+A0097,Torres-Pope,C0097,el salvador::torres-pope,A0097,0.0,False,True
+A0098,Walker Ltd,C0098,syrian arab republic::walker,A0098,0.18181818181818182,False,True
+A0099,Ross LLC,C0099,belgium::ross,A0099,0.0,False,True
+A0100,Rasmussen LLC,C0100,latvia::rasmussen,A0100,0.0,False,True
+A0101,May-Ross,C0101,andorra::may-ross,A0101,0.0,False,True
+A0102,Rivera Johnson and Wiley,C0102,san marino::rivera johnson and wiley,A0102,0.5384615384615384,False,True
+A0103,White-Estes,C0103,mauritius::white-estes,A0103,0.3333333333333333,False,True
+A0104,Johnson-Carlson,C0104,austria::johnson-carlson,A0104,0.0,False,True
+A0105,Chandler-Edwards,C0105,zambia::chandler-edwards,A0105,0.3902439024390244,False,True
+A0106,Joyce Wilson and Lam,C0106,guernsey::joyce wilson and lam,A0106,0.0,False,True
+A0107,Scott Ltd,C0107,czech republic::scott,A0107,0.0,False,True
+A0108,Smith-Frost,C0108,pakistan::smith-frost,A0108,0.0,False,True
+A0109,Mcdaniel Bentley and Mclaughlin,C0109,bangladesh::mcdaniel bentley and mclaughlin,A0109,0.0,False,True
+A0110,Diaz Inc,C0110,slovakia (slovak republic)::diaz,A0110,0.0,False,True
+A0111,Mccall Hanson and Alvarado,C0111,pakistan::mccall hanson and alvarado,A0111,0.16216216216216217,False,True
+A0112,Cortez LLC,C0112,armenia::cortez,A0112,0.0,False,True
+A0113,Parker Ortiz and Powell,C0113,saudi arabia::parker ortiz and powell,A0113,0.0,False,True
+A0114,Spencer-Lee,C0114,antarctica (the territory south of 60 deg s)::spencer-lee,A0114,0.2222222222222222,False,True
+A0115,Bentley Byrd and Orr,C0115,zambia::bentley byrd and orr,A0115,0.3111111111111111,False,True
+A0116,Carroll Sullivan and Bass,C0116,egypt::carroll sullivan and bass,A0116,0.0,False,True
+A0117,Mitchell-Jordan,C0117,cook islands::mitchell-jordan,A0117,0.0,False,True
+A0118,Lawson Morris and Ramos,C0118,taiwan::lawson morris and ramos,A0118,0.0,False,True
+A0119,Lewis Kennedy and Santana,C0119,angola::lewis kennedy and santana,A0119,0.0625,False,True
+A0120,Jackson Miller and Robertson,C0120,nigeria::jackson miller and robertson,A0120,0.3333333333333333,False,True
+A0121,Harvey Davis and Crane,C0121,cape verde::harvey davis and crane,A0121,0.4444444444444444,False,True
+A0122,Chambers and Sons,C0122,dominican republic::chambers and sons,A0122,0.0,False,True
+A0123,Hernandez Inc,C0123,brunei darussalam::hernandez,A0123,0.21428571428571427,False,True
+A0124,Riggs PLC,C0124,lebanon::riggs plc,A0124,0.0,False,True
+A0125,Gibson Ltd,C0125,paraguay::gibson,A0125,0.2608695652173913,False,True
+A0126,Lee Horton and Snyder,C0126,brazil::lee horton and snyder,A0126,0.0,False,True
+A0127,Hernandez Ltd,C0127,mongolia::hernandez,A0127,0.4,False,True
+A0128,Stafford Inc,C0128,yemen::stafford,A0128,0.3157894736842105,False,True
+A0129,Robinson-Brock,C0129,cuba::robinson-brock,A0129,0.0,False,True
+A0130,Holmes Williams and Wright,C0130,lao people's democratic republic::holmes williams and wright,A0130,0.44,False,True
+A0131,Bryant Group,C0131,reunion::bryant group,A0131,0.0,False,True
+A0132,Schmidt Hansen and Stewart,C0132,equatorial guinea::schmidt hansen and stewart,A0132,0.0,False,True
+A0133,Salazar-Ball,C0133,seychelles::salazar-ball,A0133,0.0,False,True
+A0134,Simmons Meadows and Griffin,C0134,heard island and mcdonald islands::simmons meadows and griffin,A0134,0.0,False,True
+A0135,Manning Group,C0135,chad::manning group,A0135,0.13333333333333333,False,True
+A0136,Green-Wright,C0136,new caledonia::green-wright,A0136,0.0,False,True
+A0137,Ramirez Strickland and Washington,C0137,new caledonia::ramirez strickland and washington,A0137,0.26666666666666666,False,True
+A0138,Hill Inc,C0138,san marino::hill,A0138,0.21428571428571427,False,True
+A0139,Mitchell Nelson and Flores,C0139,saint barthelemy::mitchell nelson and flores,A0139,0.0,False,True
+A0140,Miller Hernandez and Reyes,C0140,brazil::miller hernandez and reyes,A0140,0.5106382978723404,False,True
+A0141,Smith-Bowen  ,C0019,yemen::smith-bowen,A0019,0.0,False,False
+A0142,Spence PLC  ,C0028,albania::spence plc,A0028,0.0,False,False
+A0143,Brooks  Lam  and  Hayes,C0033,iceland::brooks lam and hayes,A0033,0.37209302325581395,False,False
+A0144,Walker  LLC,C0034,timor-leste::walker,A0034,0.0,False,False
+A0145,Chapman  and  Sons,C0035,uganda::chapman and sons,A0035,0.0,False,False
+A0146,Jones-Young Incorporated,C0038,italy::jones-young,A0038,0.34782608695652173,False,False
+A0147,Russell  Group,C0051,libyan arab jamahiriya::russell group,A0051,0.10526315789473684,False,False
+A0148,NOVAK PLC,C0057,south georgia and the south sandwich islands::novak plc,A0057,0.3870967741935484,False,False
+A0149,SANDOVAL-CUNNINGHAM,C0064,brunei darussalam::sandoval-cunningham,A0064,0.0,False,False
+A0150,Suarez LLC Inc.,C0071,mongolia::suarez,A0071,0.0,False,False
+A0151,Moore-Bass,C0072,panama::moore-bass,A0072,0.0,False,False
+A0152,Williams-Cook  ,C0081,australia::williams-cook,A0081,0.0,False,False
+A0153,Mckee  Gardner  and  Davenport,C0085,croatia::mckee gardner and davenport,A0085,0.21052631578947367,False,False
+A0154,Nolan and Sons  ,C0088,guadeloupe::nolan and sons,A0088,0.23076923076923078,False,False
+A0155,Shields Cochran and Adams  ,C0094,zambia::shields cochran and adams,A0094,0.0,False,False
+A0156,Gonzalez  Group,C0096,italy::gonzalez group,A0096,0.4,False,False
+A0157,Johnson-Carlson Incorporated,C0104,austria::johnson-carlson,A0104,0.0,False,False
+A0158,Chandler-Edwards,C0105,zambia::chandler-edwards,A0105,0.3902439024390244,False,False
+A0159,DIAZ INC,C0110,slovakia (slovak republic)::diaz,A0110,0.0,False,False
+A0160,Bentley Byrd and Orr Inc.,C0115,zambia::bentley byrd and orr,A0115,0.3111111111111111,False,False
+A0161,RIGGS PLC,C0124,lebanon::riggs plc,A0124,0.0,False,False
+A0162,Simmons  Meadows  and  Griffin,C0134,heard island and mcdonald islands::simmons meadows and griffin,A0134,0.0,False,False

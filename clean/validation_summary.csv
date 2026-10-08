@@ -1,0 +1,10 @@
+issue_type,severity,issue_count,status
+orphan_account_id,high,0,PASS
+orphan_rep_id,high,0,PASS
+duplicate_opportunity_id,high,0,PASS
+close_before_create,high,0,PASS
+closed_without_close_date,medium,0,PASS
+open_with_close_date,medium,0,PASS
+invalid_amount,high,34,REVIEW
+unclassified_stage,high,0,PASS
+missing_duns,medium,39,REVIEW

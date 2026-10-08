@@ -1,0 +1,2948 @@
+opp_id,stage,stage_sequence,stage_date
+O00001,Prospecting,1,2026-01-12
+O00001,Qualification,2,2026-01-26
+O00001,Proposal,3,2026-02-09
+O00001,Negotiation,4,2026-02-23
+O00001,Closed Lost,5,2026-03-09
+O00002,Prospecting,1,2026-04-27
+O00002,Qualification,2,2026-05-11
+O00002,Proposal,3,2026-05-25
+O00003,Prospecting,1,2026-01-04
+O00003,Qualification,2,2026-01-18
+O00003,Proposal,3,2026-02-01
+O00004,Prospecting,1,2025-10-26
+O00005,Prospecting,1,2026-04-15
+O00005,Qualification,2,2026-04-29
+O00006,Prospecting,1,2026-05-22
+O00006,Qualification,2,2026-06-05
+O00006,Proposal,3,2026-06-19
+O00006,Negotiation,4,2026-07-03
+O00006,Closed Lost,5,2026-07-17
+O00007,Prospecting,1,2025-08-25
+O00007,Qualification,2,2025-09-08
+O00007,Proposal,3,2025-09-22
+O00008,Prospecting,1,2026-04-28
+O00008,Qualification,2,2026-05-12
+O00008,Proposal,3,2026-05-26
+O00008,Negotiation,4,2026-06-09
+O00008,Closed Lost,5,2026-06-23
+O00009,Prospecting,1,2025-12-25
+O00009,Qualification,2,2026-01-08
+O00009,Proposal,3,2026-01-22
+O00009,Negotiation,4,2026-02-05
+O00009,Closed Lost,5,2026-02-19
+O00010,Prospecting,1,2026-04-02
+O00010,Qualification,2,2026-04-16
+O00010,Proposal,3,2026-04-30
+O00010,Negotiation,4,2026-05-14
+O00010,Closed Lost,5,2026-05-28
+O00011,Prospecting,1,2026-08-05
+O00011,Qualification,2,2026-08-19
+O00012,Prospecting,1,2025-06-26
+O00012,Qualification,2,2025-07-10
+O00012,Proposal,3,2025-07-24
+O00013,Prospecting,1,2026-01-17
+O00013,Qualification,2,2026-01-31
+O00013,Proposal,3,2026-02-14
+O00013,Negotiation,4,2026-02-28
+O00013,Closed Won,5,2026-03-14
+O00014,Prospecting,1,2025-06-21
+O00014,Qualification,2,2025-07-05
+O00014,Proposal,3,2025-07-19
+O00014,Negotiation,4,2025-08-02
+O00014,Closed Won,5,2025-08-16
+O00015,Prospecting,1,2025-11-23
+O00015,Qualification,2,2025-12-07
+O00015,Proposal,3,2025-12-21
+O00016,Prospecting,1,2026-05-06
+O00016,Qualification,2,2026-05-20
+O00016,Proposal,3,2026-06-03
+O00016,Negotiation,4,2026-06-17
+O00016,Closed Lost,5,2026-07-01
+O00017,Prospecting,1,2026-05-26
+O00017,Qualification,2,2026-06-09
+O00018,Prospecting,1,2026-06-05
+O00019,Prospecting,1,2025-09-03
+O00019,Qualification,2,2025-09-17
+O00019,Proposal,3,2025-10-01
+O00019,Negotiation,4,2025-10-15
+O00019,Closed Lost,5,2025-10-29
+O00020,Prospecting,1,2025-03-30
+O00020,Qualification,2,2025-04-13
+O00020,Proposal,3,2025-04-27
+O00021,Prospecting,1,2026-01-12
+O00021,Qualification,2,2026-01-26
+O00021,Proposal,3,2026-02-09
+O00021,Negotiation,4,2026-02-23
+O00021,Closed Lost,5,2026-03-09
+O00022,Prospecting,1,2025-11-25
+O00022,Qualification,2,2025-12-09
+O00022,Proposal,3,2025-12-23
+O00022,Negotiation,4,2026-01-06
+O00022,Closed Won,5,2026-01-20
+O00023,Prospecting,1,2026-04-08
+O00023,Qualification,2,2026-04-22
+O00023,Proposal,3,2026-05-06
+O00023,Negotiation,4,2026-05-20
+O00023,Closed Lost,5,2026-06-03
+O00024,Prospecting,1,2025-08-18
+O00024,Qualification,2,2025-09-01
+O00025,Prospecting,1,2025-06-04
+O00025,Qualification,2,2025-06-18
+O00026,Prospecting,1,2026-05-10
+O00026,Qualification,2,2026-05-24
+O00026,Proposal,3,2026-06-07
+O00027,Prospecting,1,2026-02-03
+O00028,Prospecting,1,2025-06-17
+O00028,Qualification,2,2025-07-01
+O00029,Prospecting,1,2026-07-19
+O00029,Qualification,2,2026-08-02
+O00030,Prospecting,1,2026-05-06
+O00030,Qualification,2,2026-05-20
+O00030,Proposal,3,2026-06-03
+O00030,Negotiation,4,2026-06-17
+O00031,Prospecting,1,2026-05-15
+O00031,Qualification,2,2026-05-29
+O00031,Proposal,3,2026-06-12
+O00032,Prospecting,1,2026-06-14
+O00033,Prospecting,1,2026-04-04
+O00034,Prospecting,1,2025-05-29
+O00034,Qualification,2,2025-06-12
+O00034,Proposal,3,2025-06-26
+O00034,Negotiation,4,2025-07-10
+O00034,Closed Lost,5,2025-07-24
+O00035,Prospecting,1,2025-10-25
+O00035,Qualification,2,2025-11-08
+O00035,Proposal,3,2025-11-22
+O00035,Negotiation,4,2025-12-06
+O00035,Closed Won,5,2025-12-20
+O00036,Prospecting,1,2025-08-19
+O00036,Qualification,2,2025-09-02
+O00036,Proposal,3,2025-09-16
+O00036,Negotiation,4,2025-09-30
+O00036,Closed Won,5,2025-10-14
+O00037,Prospecting,1,2026-02-20
+O00037,Qualification,2,2026-03-06
+O00038,Prospecting,1,2026-03-08
+O00038,Qualification,2,2026-03-22
+O00038,Proposal,3,2026-04-05
+O00039,Prospecting,1,2025-07-09
+O00039,Qualification,2,2025-07-23
+O00039,Proposal,3,2025-08-06
+O00039,Negotiation,4,2025-08-20
+O00039,Closed Lost,5,2025-09-03
+O00040,Prospecting,1,2025-08-01
+O00040,Qualification,2,2025-08-15
+O00040,Proposal,3,2025-08-29
+O00041,Prospecting,1,2026-04-09
+O00041,Qualification,2,2026-04-23
+O00041,Proposal,3,2026-05-07
+O00041,Negotiation,4,2026-05-21
+O00041,Closed Won,5,2026-06-04
+O00042,Prospecting,1,2025-08-11
+O00042,Qualification,2,2025-08-25
+O00043,Prospecting,1,2025-08-26
+O00043,Qualification,2,2025-09-09
+O00044,Prospecting,1,2025-11-02
+O00044,Qualification,2,2025-11-16
+O00044,Proposal,3,2025-11-30
+O00044,Negotiation,4,2025-12-14
+O00044,Closed Won,5,2025-12-28
+O00045,Prospecting,1,2026-03-18
+O00045,Qualification,2,2026-04-01
+O00045,Proposal,3,2026-04-15
+O00046,Prospecting,1,2025-12-31
+O00046,Qualification,2,2026-01-14
+O00046,Proposal,3,2026-01-28
+O00046,Negotiation,4,2026-02-11
+O00046,Closed Lost,5,2026-02-25
+O00047,Prospecting,1,2025-06-06
+O00047,Qualification,2,2025-06-20
+O00048,Prospecting,1,2026-07-09
+O00048,Qualification,2,2026-07-23
+O00048,Proposal,3,2026-08-06
+O00048,Negotiation,4,2026-08-20
+O00049,Prospecting,1,2026-03-20
+O00049,Qualification,2,2026-04-03
+O00049,Proposal,3,2026-04-17
+O00049,Negotiation,4,2026-05-01
+O00050,Prospecting,1,2026-08-04
+O00050,Qualification,2,2026-08-18
+O00051,Prospecting,1,2025-09-22
+O00051,Qualification,2,2025-10-06
+O00051,Proposal,3,2025-10-20
+O00051,Negotiation,4,2025-11-03
+O00051,Closed Won,5,2025-11-17
+O00052,Prospecting,1,2026-08-26
+O00052,Qualification,2,2026-09-09
+O00052,Proposal,3,2026-09-23
+O00052,Negotiation,4,2026-10-07
+O00052,Closed Won,5,2026-10-21
+O00053,Prospecting,1,2025-12-31
+O00054,Prospecting,1,2026-08-15
+O00054,Qualification,2,2026-08-29
+O00054,Proposal,3,2026-09-12
+O00055,Prospecting,1,2025-07-01
+O00055,Qualification,2,2025-07-15
+O00055,Proposal,3,2025-07-29
+O00056,Prospecting,1,2026-07-18
+O00056,Qualification,2,2026-08-01
+O00056,Proposal,3,2026-08-15
+O00056,Negotiation,4,2026-08-29
+O00057,Prospecting,1,2026-05-17
+O00057,Qualification,2,2026-05-31
+O00057,Proposal,3,2026-06-14
+O00057,Negotiation,4,2026-06-28
+O00057,Closed Lost,5,2026-07-12
+O00058,Prospecting,1,2025-05-13
+O00058,Qualification,2,2025-05-27
+O00058,Proposal,3,2025-06-10
+O00058,Negotiation,4,2025-06-24
+O00058,Closed Lost,5,2025-07-08
+O00059,Prospecting,1,2026-02-06
+O00060,Prospecting,1,2026-02-17
+O00060,Qualification,2,2026-03-03
+O00060,Proposal,3,2026-03-17
+O00060,Negotiation,4,2026-03-31
+O00061,Prospecting,1,2025-06-07
+O00061,Qualification,2,2025-06-21
+O00061,Proposal,3,2025-07-05
+O00061,Negotiation,4,2025-07-19
+O00061,Closed Won,5,2025-08-02
+O00062,Prospecting,1,2025-06-23
+O00062,Qualification,2,2025-07-07
+O00062,Proposal,3,2025-07-21
+O00063,Prospecting,1,2025-06-01
+O00063,Qualification,2,2025-06-15
+O00064,Prospecting,1,2026-07-04
+O00064,Qualification,2,2026-07-18
+O00064,Proposal,3,2026-08-01
+O00065,Prospecting,1,2025-06-09
+O00066,Prospecting,1,2025-08-16
+O00067,Prospecting,1,2026-08-05
+O00067,Qualification,2,2026-08-19
+O00067,Proposal,3,2026-09-02
+O00067,Negotiation,4,2026-09-16
+O00067,Closed Lost,5,2026-09-30
+O00068,Prospecting,1,2025-11-12
+O00068,Qualification,2,2025-11-26
+O00068,Proposal,3,2025-12-10
+O00068,Negotiation,4,2025-12-24
+O00068,Closed Lost,5,2026-01-07
+O00069,Prospecting,1,2025-06-02
+O00069,Qualification,2,2025-06-16
+O00069,Proposal,3,2025-06-30
+O00069,Negotiation,4,2025-07-14
+O00069,Closed Lost,5,2025-07-28
+O00070,Prospecting,1,2026-03-06
+O00070,Qualification,2,2026-03-20
+O00070,Proposal,3,2026-04-03
+O00070,Negotiation,4,2026-04-17
+O00070,Closed Lost,5,2026-05-01
+O00071,Prospecting,1,2025-08-19
+O00071,Qualification,2,2025-09-02
+O00071,Proposal,3,2025-09-16
+O00071,Negotiation,4,2025-09-30
+O00072,Prospecting,1,2025-07-07
+O00072,Qualification,2,2025-07-21
+O00072,Proposal,3,2025-08-04
+O00072,Negotiation,4,2025-08-18
+O00072,Closed Lost,5,2025-09-01
+O00073,Prospecting,1,2025-03-20
+O00073,Qualification,2,2025-04-03
+O00073,Proposal,3,2025-04-17
+O00073,Negotiation,4,2025-05-01
+O00074,Prospecting,1,2026-07-06
+O00074,Qualification,2,2026-07-20
+O00074,Proposal,3,2026-08-03
+O00074,Negotiation,4,2026-08-17
+O00074,Closed Won,5,2026-08-31
+O00075,Prospecting,1,2025-11-14
+O00075,Qualification,2,2025-11-28
+O00075,Proposal,3,2025-12-12
+O00075,Negotiation,4,2025-12-26
+O00075,Closed Won,5,2026-01-09
+O00076,Prospecting,1,2026-03-27
+O00076,Qualification,2,2026-04-10
+O00076,Proposal,3,2026-04-24
+O00077,Prospecting,1,2025-12-03
+O00077,Qualification,2,2025-12-17
+O00077,Proposal,3,2025-12-31
+O00078,Prospecting,1,2025-12-24
+O00078,Qualification,2,2026-01-07
+O00078,Proposal,3,2026-01-21
+O00078,Negotiation,4,2026-02-04
+O00078,Closed Lost,5,2026-02-18
+O00079,Prospecting,1,2025-04-23
+O00079,Qualification,2,2025-05-07
+O00080,Prospecting,1,2025-08-17
+O00081,Prospecting,1,2025-11-07
+O00081,Qualification,2,2025-11-21
+O00081,Proposal,3,2025-12-05
+O00081,Negotiation,4,2025-12-19
+O00081,Closed Lost,5,2026-01-02
+O00082,Prospecting,1,2025-04-08
+O00082,Qualification,2,2025-04-22
+O00082,Proposal,3,2025-05-06
+O00082,Negotiation,4,2025-05-20
+O00082,Closed Lost,5,2025-06-03
+O00083,Prospecting,1,2026-01-23
+O00084,Prospecting,1,2025-06-16
+O00085,Prospecting,1,2025-11-09
+O00085,Qualification,2,2025-11-23
+O00086,Prospecting,1,2025-07-24
+O00086,Qualification,2,2025-08-07
+O00086,Proposal,3,2025-08-21
+O00086,Negotiation,4,2025-09-04
+O00087,Prospecting,1,2026-07-23
+O00087,Qualification,2,2026-08-06
+O00088,Prospecting,1,2025-10-09
+O00088,Qualification,2,2025-10-23
+O00088,Proposal,3,2025-11-06
+O00088,Negotiation,4,2025-11-20
+O00089,Prospecting,1,2026-08-14
+O00089,Qualification,2,2026-08-28
+O00089,Proposal,3,2026-09-11
+O00090,Prospecting,1,2026-01-10
+O00090,Qualification,2,2026-01-24
+O00090,Proposal,3,2026-02-07
+O00090,Negotiation,4,2026-02-21
+O00090,Closed Lost,5,2026-03-07
+O00091,Prospecting,1,2025-12-26
+O00091,Qualification,2,2026-01-09
+O00091,Proposal,3,2026-01-23
+O00091,Negotiation,4,2026-02-06
+O00092,Prospecting,1,2026-02-04
+O00092,Qualification,2,2026-02-18
+O00092,Proposal,3,2026-03-04
+O00093,Prospecting,1,2025-10-03
+O00093,Qualification,2,2025-10-17
+O00093,Proposal,3,2025-10-31
+O00093,Negotiation,4,2025-11-14
+O00093,Closed Won,5,2025-11-28
+O00094,Prospecting,1,2025-12-04
+O00095,Prospecting,1,2026-01-31
+O00095,Qualification,2,2026-02-14
+O00095,Proposal,3,2026-02-28
+O00095,Negotiation,4,2026-03-14
+O00095,Closed Lost,5,2026-03-28
+O00096,Prospecting,1,2025-08-08
+O00096,Qualification,2,2025-08-22
+O00096,Proposal,3,2025-09-05
+O00096,Negotiation,4,2025-09-19
+O00096,Closed Lost,5,2025-10-03
+O00097,Prospecting,1,2025-12-12
+O00097,Qualification,2,2025-12-26
+O00097,Proposal,3,2026-01-09
+O00097,Negotiation,4,2026-01-23
+O00097,Closed Won,5,2026-02-06
+O00098,Prospecting,1,2026-07-11
+O00098,Qualification,2,2026-07-25
+O00099,Prospecting,1,2026-04-13
+O00099,Qualification,2,2026-04-27
+O00100,Prospecting,1,2025-11-12
+O00100,Qualification,2,2025-11-26
+O00100,Proposal,3,2025-12-10
+O00100,Negotiation,4,2025-12-24
+O00101,Prospecting,1,2026-03-04
+O00101,Qualification,2,2026-03-18
+O00101,Proposal,3,2026-04-01
+O00101,Negotiation,4,2026-04-15
+O00101,Closed Won,5,2026-04-29
+O00102,Prospecting,1,2025-10-30
+O00103,Prospecting,1,2026-02-15
+O00103,Qualification,2,2026-03-01
+O00103,Proposal,3,2026-03-15
+O00103,Negotiation,4,2026-03-29
+O00103,Closed Won,5,2026-04-12
+O00104,Prospecting,1,2026-02-15
+O00104,Qualification,2,2026-03-01
+O00104,Proposal,3,2026-03-15
+O00104,Negotiation,4,2026-03-29
+O00105,Prospecting,1,2026-04-10
+O00105,Qualification,2,2026-04-24
+O00105,Proposal,3,2026-05-08
+O00105,Negotiation,4,2026-05-22
+O00106,Prospecting,1,2026-08-20
+O00106,Qualification,2,2026-09-03
+O00107,Prospecting,1,2025-04-04
+O00107,Qualification,2,2025-04-18
+O00107,Proposal,3,2025-05-02
+O00107,Negotiation,4,2025-05-16
+O00107,Closed Lost,5,2025-05-30
+O00108,Prospecting,1,2026-01-17
+O00109,Prospecting,1,2026-06-09
+O00109,Qualification,2,2026-06-23
+O00110,Prospecting,1,2025-09-30
+O00110,Qualification,2,2025-10-14
+O00110,Proposal,3,2025-10-28
+O00110,Negotiation,4,2025-11-11
+O00110,Closed Won,5,2025-11-25
+O00111,Prospecting,1,2026-04-18
+O00111,Qualification,2,2026-05-02
+O00112,Prospecting,1,2026-08-28
+O00112,Qualification,2,2026-09-11
+O00112,Proposal,3,2026-09-25
+O00112,Negotiation,4,2026-10-09
+O00112,Closed Lost,5,2026-10-23
+O00113,Prospecting,1,2026-07-30
+O00114,Prospecting,1,2025-05-29
+O00114,Qualification,2,2025-06-12
+O00114,Proposal,3,2025-06-26
+O00114,Negotiation,4,2025-07-10
+O00114,Closed Lost,5,2025-07-24
+O00115,Prospecting,1,2026-03-02
+O00115,Qualification,2,2026-03-16
+O00115,Proposal,3,2026-03-30
+O00115,Negotiation,4,2026-04-13
+O00115,Closed Lost,5,2026-04-27
+O00116,Prospecting,1,2025-06-23
+O00116,Qualification,2,2025-07-07
+O00116,Proposal,3,2025-07-21
+O00117,Prospecting,1,2025-06-28
+O00117,Qualification,2,2025-07-12
+O00117,Proposal,3,2025-07-26
+O00117,Negotiation,4,2025-08-09
+O00118,Prospecting,1,2026-07-13
+O00119,Prospecting,1,2025-11-08
+O00119,Qualification,2,2025-11-22
+O00119,Proposal,3,2025-12-06
+O00119,Negotiation,4,2025-12-20
+O00120,Prospecting,1,2026-04-07
+O00120,Qualification,2,2026-04-21
+O00120,Proposal,3,2026-05-05
+O00120,Negotiation,4,2026-05-19
+O00120,Closed Won,5,2026-06-02
+O00121,Prospecting,1,2025-04-11
+O00121,Qualification,2,2025-04-25
+O00122,Prospecting,1,2025-10-28
+O00122,Qualification,2,2025-11-11
+O00122,Proposal,3,2025-11-25
+O00123,Prospecting,1,2025-07-05
+O00123,Qualification,2,2025-07-19
+O00123,Proposal,3,2025-08-02
+O00123,Negotiation,4,2025-08-16
+O00123,Closed Lost,5,2025-08-30
+O00124,Prospecting,1,2025-08-17
+O00124,Qualification,2,2025-08-31
+O00124,Proposal,3,2025-09-14
+O00125,Prospecting,1,2026-01-21
+O00125,Qualification,2,2026-02-04
+O00125,Proposal,3,2026-02-18
+O00125,Negotiation,4,2026-03-04
+O00126,Prospecting,1,2025-04-28
+O00126,Qualification,2,2025-05-12
+O00126,Proposal,3,2025-05-26
+O00126,Negotiation,4,2025-06-09
+O00126,Closed Lost,5,2025-06-23
+O00127,Prospecting,1,2025-08-29
+O00127,Qualification,2,2025-09-12
+O00128,Prospecting,1,2025-08-17
+O00129,Prospecting,1,2026-02-12
+O00129,Qualification,2,2026-02-26
+O00130,Prospecting,1,2025-04-16
+O00130,Qualification,2,2025-04-30
+O00130,Proposal,3,2025-05-14
+O00131,Prospecting,1,2026-07-13
+O00131,Qualification,2,2026-07-27
+O00131,Proposal,3,2026-08-10
+O00131,Negotiation,4,2026-08-24
+O00131,Closed Won,5,2026-09-07
+O00132,Prospecting,1,2026-07-01
+O00132,Qualification,2,2026-07-15
+O00132,Proposal,3,2026-07-29
+O00133,Prospecting,1,2026-08-14
+O00133,Qualification,2,2026-08-28
+O00134,Prospecting,1,2025-03-13
+O00135,Prospecting,1,2025-05-18
+O00135,Qualification,2,2025-06-01
+O00135,Proposal,3,2025-06-15
+O00135,Negotiation,4,2025-06-29
+O00136,Prospecting,1,2025-08-08
+O00136,Qualification,2,2025-08-22
+O00137,Prospecting,1,2026-05-26
+O00137,Qualification,2,2026-06-09
+O00137,Proposal,3,2026-06-23
+O00137,Negotiation,4,2026-07-07
+O00137,Closed Lost,5,2026-07-21
+O00138,Prospecting,1,2026-06-16
+O00138,Qualification,2,2026-06-30
+O00138,Proposal,3,2026-07-14
+O00138,Negotiation,4,2026-07-28
+O00138,Closed Won,5,2026-08-11
+O00139,Prospecting,1,2025-07-20
+O00139,Qualification,2,2025-08-03
+O00139,Proposal,3,2025-08-17
+O00139,Negotiation,4,2025-08-31
+O00139,Closed Won,5,2025-09-14
+O00140,Prospecting,1,2026-04-10
+O00140,Qualification,2,2026-04-24
+O00140,Proposal,3,2026-05-08
+O00140,Negotiation,4,2026-05-22
+O00140,Closed Lost,5,2026-06-05
+O00141,Prospecting,1,2026-01-06
+O00141,Qualification,2,2026-01-20
+O00141,Proposal,3,2026-02-03
+O00141,Negotiation,4,2026-02-17
+O00141,Closed Won,5,2026-03-03
+O00142,Prospecting,1,2025-09-01
+O00142,Qualification,2,2025-09-15
+O00143,Prospecting,1,2026-06-17
+O00144,Prospecting,1,2025-06-02
+O00144,Qualification,2,2025-06-16
+O00145,Prospecting,1,2026-06-01
+O00146,Prospecting,1,2025-12-26
+O00147,Prospecting,1,2026-03-13
+O00147,Qualification,2,2026-03-27
+O00148,Prospecting,1,2026-02-12
+O00149,Prospecting,1,2025-09-23
+O00149,Qualification,2,2025-10-07
+O00149,Proposal,3,2025-10-21
+O00149,Negotiation,4,2025-11-04
+O00150,Prospecting,1,2026-03-03
+O00150,Qualification,2,2026-03-17
+O00150,Proposal,3,2026-03-31
+O00150,Negotiation,4,2026-04-14
+O00150,Closed Lost,5,2026-04-28
+O00151,Prospecting,1,2025-11-17
+O00151,Qualification,2,2025-12-01
+O00151,Proposal,3,2025-12-15
+O00151,Negotiation,4,2025-12-29
+O00151,Closed Won,5,2026-01-12
+O00152,Prospecting,1,2025-05-16
+O00152,Qualification,2,2025-05-30
+O00152,Proposal,3,2025-06-13
+O00152,Negotiation,4,2025-06-27
+O00152,Closed Won,5,2025-07-11
+O00153,Prospecting,1,2025-12-16
+O00153,Qualification,2,2025-12-30
+O00153,Proposal,3,2026-01-13
+O00154,Prospecting,1,2026-07-25
+O00154,Qualification,2,2026-08-08
+O00154,Proposal,3,2026-08-22
+O00154,Negotiation,4,2026-09-05
+O00154,Closed Won,5,2026-09-19
+O00155,Prospecting,1,2026-07-17
+O00155,Qualification,2,2026-07-31
+O00155,Proposal,3,2026-08-14
+O00156,Prospecting,1,2026-05-23
+O00156,Qualification,2,2026-06-06
+O00157,Prospecting,1,2025-05-14
+O00157,Qualification,2,2025-05-28
+O00157,Proposal,3,2025-06-11
+O00157,Negotiation,4,2025-06-25
+O00157,Closed Lost,5,2025-07-09
+O00158,Prospecting,1,2026-05-05
+O00158,Qualification,2,2026-05-19
+O00158,Proposal,3,2026-06-02
+O00158,Negotiation,4,2026-06-16
+O00158,Closed Lost,5,2026-06-30
+O00159,Prospecting,1,2025-05-01
+O00159,Qualification,2,2025-05-15
+O00159,Proposal,3,2025-05-29
+O00160,Prospecting,1,2026-05-12
+O00161,Prospecting,1,2025-07-13
+O00162,Prospecting,1,2025-06-18
+O00162,Qualification,2,2025-07-02
+O00162,Proposal,3,2025-07-16
+O00163,Prospecting,1,2026-02-11
+O00164,Prospecting,1,2026-05-07
+O00164,Qualification,2,2026-05-21
+O00164,Proposal,3,2026-06-04
+O00164,Negotiation,4,2026-06-18
+O00165,Prospecting,1,2026-05-03
+O00166,Prospecting,1,2026-02-22
+O00166,Qualification,2,2026-03-08
+O00167,Prospecting,1,2026-02-21
+O00167,Qualification,2,2026-03-07
+O00168,Prospecting,1,2025-04-01
+O00168,Qualification,2,2025-04-15
+O00169,Prospecting,1,2025-11-05
+O00170,Prospecting,1,2026-05-07
+O00170,Qualification,2,2026-05-21
+O00171,Prospecting,1,2026-05-19
+O00171,Qualification,2,2026-06-02
+O00171,Proposal,3,2026-06-16
+O00171,Negotiation,4,2026-06-30
+O00171,Closed Lost,5,2026-07-14
+O00172,Prospecting,1,2026-05-03
+O00172,Qualification,2,2026-05-17
+O00172,Proposal,3,2026-05-31
+O00172,Negotiation,4,2026-06-14
+O00172,Closed Won,5,2026-06-28
+O00173,Prospecting,1,2025-09-06
+O00173,Qualification,2,2025-09-20
+O00173,Proposal,3,2025-10-04
+O00174,Prospecting,1,2025-07-06
+O00174,Qualification,2,2025-07-20
+O00174,Proposal,3,2025-08-03
+O00174,Negotiation,4,2025-08-17
+O00174,Closed Lost,5,2025-08-31
+O00175,Prospecting,1,2025-07-25
+O00175,Qualification,2,2025-08-08
+O00175,Proposal,3,2025-08-22
+O00176,Prospecting,1,2025-11-20
+O00176,Qualification,2,2025-12-04
+O00176,Proposal,3,2025-12-18
+O00176,Negotiation,4,2026-01-01
+O00176,Closed Lost,5,2026-01-15
+O00177,Prospecting,1,2025-08-30
+O00177,Qualification,2,2025-09-13
+O00177,Proposal,3,2025-09-27
+O00177,Negotiation,4,2025-10-11
+O00177,Closed Lost,5,2025-10-25
+O00178,Prospecting,1,2025-11-14
+O00178,Qualification,2,2025-11-28
+O00178,Proposal,3,2025-12-12
+O00179,Prospecting,1,2025-05-18
+O00179,Qualification,2,2025-06-01
+O00179,Proposal,3,2025-06-15
+O00179,Negotiation,4,2025-06-29
+O00180,Prospecting,1,2026-04-18
+O00180,Qualification,2,2026-05-02
+O00180,Proposal,3,2026-05-16
+O00180,Negotiation,4,2026-05-30
+O00180,Closed Won,5,2026-06-13
+O00181,Prospecting,1,2026-03-15
+O00181,Qualification,2,2026-03-29
+O00181,Proposal,3,2026-04-12
+O00182,Prospecting,1,2026-01-25
+O00183,Prospecting,1,2026-04-18
+O00184,Prospecting,1,2025-08-05
+O00184,Qualification,2,2025-08-19
+O00184,Proposal,3,2025-09-02
+O00184,Negotiation,4,2025-09-16
+O00184,Closed Lost,5,2025-09-30
+O00185,Prospecting,1,2025-09-06
+O00185,Qualification,2,2025-09-20
+O00185,Proposal,3,2025-10-04
+O00185,Negotiation,4,2025-10-18
+O00185,Closed Lost,5,2025-11-01
+O00186,Prospecting,1,2026-04-10
+O00186,Qualification,2,2026-04-24
+O00186,Proposal,3,2026-05-08
+O00186,Negotiation,4,2026-05-22
+O00186,Closed Lost,5,2026-06-05
+O00187,Prospecting,1,2026-06-06
+O00187,Qualification,2,2026-06-20
+O00187,Proposal,3,2026-07-04
+O00188,Prospecting,1,2025-03-19
+O00189,Prospecting,1,2026-05-08
+O00189,Qualification,2,2026-05-22
+O00189,Proposal,3,2026-06-05
+O00190,Prospecting,1,2025-06-27
+O00190,Qualification,2,2025-07-11
+O00190,Proposal,3,2025-07-25
+O00191,Prospecting,1,2026-01-23
+O00192,Prospecting,1,2025-07-16
+O00192,Qualification,2,2025-07-30
+O00193,Prospecting,1,2025-10-01
+O00193,Qualification,2,2025-10-15
+O00193,Proposal,3,2025-10-29
+O00194,Prospecting,1,2025-12-24
+O00194,Qualification,2,2026-01-07
+O00195,Prospecting,1,2026-04-13
+O00195,Qualification,2,2026-04-27
+O00195,Proposal,3,2026-05-11
+O00195,Negotiation,4,2026-05-25
+O00195,Closed Won,5,2026-06-08
+O00196,Prospecting,1,2025-11-29
+O00196,Qualification,2,2025-12-13
+O00196,Proposal,3,2025-12-27
+O00196,Negotiation,4,2026-01-10
+O00196,Closed Won,5,2026-01-24
+O00197,Prospecting,1,2026-06-14
+O00197,Qualification,2,2026-06-28
+O00198,Prospecting,1,2026-05-05
+O00198,Qualification,2,2026-05-19
+O00199,Prospecting,1,2026-03-31
+O00199,Qualification,2,2026-04-14
+O00199,Proposal,3,2026-04-28
+O00199,Negotiation,4,2026-05-12
+O00200,Prospecting,1,2025-12-20
+O00200,Qualification,2,2026-01-03
+O00200,Proposal,3,2026-01-17
+O00201,Prospecting,1,2025-03-21
+O00201,Qualification,2,2025-04-04
+O00201,Proposal,3,2025-04-18
+O00201,Negotiation,4,2025-05-02
+O00201,Closed Lost,5,2025-05-16
+O00202,Prospecting,1,2025-05-21
+O00203,Prospecting,1,2025-12-23
+O00203,Qualification,2,2026-01-06
+O00203,Proposal,3,2026-01-20
+O00203,Negotiation,4,2026-02-03
+O00204,Prospecting,1,2025-08-11
+O00204,Qualification,2,2025-08-25
+O00204,Proposal,3,2025-09-08
+O00204,Negotiation,4,2025-09-22
+O00204,Closed Lost,5,2025-10-06
+O00205,Prospecting,1,2026-04-08
+O00205,Qualification,2,2026-04-22
+O00205,Proposal,3,2026-05-06
+O00205,Negotiation,4,2026-05-20
+O00205,Closed Won,5,2026-06-03
+O00206,Prospecting,1,2026-06-06
+O00206,Qualification,2,2026-06-20
+O00207,Prospecting,1,2026-04-20
+O00208,Prospecting,1,2025-11-26
+O00208,Qualification,2,2025-12-10
+O00208,Proposal,3,2025-12-24
+O00208,Negotiation,4,2026-01-07
+O00209,Prospecting,1,2025-05-11
+O00210,Prospecting,1,2026-05-31
+O00210,Qualification,2,2026-06-14
+O00210,Proposal,3,2026-06-28
+O00211,Prospecting,1,2025-12-20
+O00211,Qualification,2,2026-01-03
+O00211,Proposal,3,2026-01-17
+O00211,Negotiation,4,2026-01-31
+O00211,Closed Won,5,2026-02-14
+O00212,Prospecting,1,2025-05-25
+O00212,Qualification,2,2025-06-08
+O00213,Prospecting,1,2026-01-16
+O00213,Qualification,2,2026-01-30
+O00213,Proposal,3,2026-02-13
+O00213,Negotiation,4,2026-02-27
+O00214,Prospecting,1,2026-06-26
+O00214,Qualification,2,2026-07-10
+O00214,Proposal,3,2026-07-24
+O00215,Prospecting,1,2025-06-14
+O00215,Qualification,2,2025-06-28
+O00215,Proposal,3,2025-07-12
+O00215,Negotiation,4,2025-07-26
+O00215,Closed Won,5,2025-08-09
+O00216,Prospecting,1,2025-11-23
+O00216,Qualification,2,2025-12-07
+O00216,Proposal,3,2025-12-21
+O00216,Negotiation,4,2026-01-04
+O00217,Prospecting,1,2025-04-28
+O00217,Qualification,2,2025-05-12
+O00218,Prospecting,1,2025-08-29
+O00218,Qualification,2,2025-09-12
+O00218,Proposal,3,2025-09-26
+O00219,Prospecting,1,2025-10-09
+O00220,Prospecting,1,2025-12-21
+O00220,Qualification,2,2026-01-04
+O00221,Prospecting,1,2026-03-04
+O00221,Qualification,2,2026-03-18
+O00222,Prospecting,1,2026-02-20
+O00222,Qualification,2,2026-03-06
+O00222,Proposal,3,2026-03-20
+O00222,Negotiation,4,2026-04-03
+O00222,Closed Lost,5,2026-04-17
+O00223,Prospecting,1,2026-01-05
+O00224,Prospecting,1,2026-03-03
+O00224,Qualification,2,2026-03-17
+O00224,Proposal,3,2026-03-31
+O00224,Negotiation,4,2026-04-14
+O00224,Closed Lost,5,2026-04-28
+O00225,Prospecting,1,2025-08-23
+O00225,Qualification,2,2025-09-06
+O00225,Proposal,3,2025-09-20
+O00225,Negotiation,4,2025-10-04
+O00225,Closed Won,5,2025-10-18
+O00226,Prospecting,1,2025-06-10
+O00226,Qualification,2,2025-06-24
+O00226,Proposal,3,2025-07-08
+O00226,Negotiation,4,2025-07-22
+O00226,Closed Lost,5,2025-08-05
+O00227,Prospecting,1,2026-03-05
+O00227,Qualification,2,2026-03-19
+O00227,Proposal,3,2026-04-02
+O00228,Prospecting,1,2025-10-10
+O00228,Qualification,2,2025-10-24
+O00228,Proposal,3,2025-11-07
+O00228,Negotiation,4,2025-11-21
+O00228,Closed Lost,5,2025-12-05
+O00229,Prospecting,1,2026-06-13
+O00229,Qualification,2,2026-06-27
+O00229,Proposal,3,2026-07-11
+O00229,Negotiation,4,2026-07-25
+O00230,Prospecting,1,2025-12-03
+O00230,Qualification,2,2025-12-17
+O00230,Proposal,3,2025-12-31
+O00231,Prospecting,1,2025-06-28
+O00231,Qualification,2,2025-07-12
+O00231,Proposal,3,2025-07-26
+O00231,Negotiation,4,2025-08-09
+O00231,Closed Lost,5,2025-08-23
+O00232,Prospecting,1,2026-01-13
+O00233,Prospecting,1,2026-03-10
+O00233,Qualification,2,2026-03-24
+O00233,Proposal,3,2026-04-07
+O00233,Negotiation,4,2026-04-21
+O00233,Closed Won,5,2026-05-05
+O00234,Prospecting,1,2026-03-16
+O00234,Qualification,2,2026-03-30
+O00235,Prospecting,1,2025-11-16
+O00236,Prospecting,1,2026-06-03
+O00236,Qualification,2,2026-06-17
+O00236,Proposal,3,2026-07-01
+O00237,Prospecting,1,2025-05-04
+O00237,Qualification,2,2025-05-18
+O00237,Proposal,3,2025-06-01
+O00237,Negotiation,4,2025-06-15
+O00237,Closed Won,5,2025-06-29
+O00238,Prospecting,1,2025-07-31
+O00238,Qualification,2,2025-08-14
+O00238,Proposal,3,2025-08-28
+O00238,Negotiation,4,2025-09-11
+O00239,Prospecting,1,2025-11-29
+O00240,Prospecting,1,2026-06-30
+O00240,Qualification,2,2026-07-14
+O00240,Proposal,3,2026-07-28
+O00240,Negotiation,4,2026-08-11
+O00240,Closed Lost,5,2026-08-25
+O00241,Prospecting,1,2025-07-23
+O00241,Qualification,2,2025-08-06
+O00241,Proposal,3,2025-08-20
+O00241,Negotiation,4,2025-09-03
+O00241,Closed Lost,5,2025-09-17
+O00242,Prospecting,1,2026-04-24
+O00243,Prospecting,1,2026-06-24
+O00243,Qualification,2,2026-07-08
+O00244,Prospecting,1,2025-07-03
+O00244,Qualification,2,2025-07-17
+O00244,Proposal,3,2025-07-31
+O00245,Prospecting,1,2025-09-13
+O00245,Qualification,2,2025-09-27
+O00245,Proposal,3,2025-10-11
+O00245,Negotiation,4,2025-10-25
+O00245,Closed Won,5,2025-11-08
+O00246,Prospecting,1,2026-04-06
+O00246,Qualification,2,2026-04-20
+O00246,Proposal,3,2026-05-04
+O00247,Prospecting,1,2025-08-15
+O00247,Qualification,2,2025-08-29
+O00247,Proposal,3,2025-09-12
+O00248,Prospecting,1,2025-10-28
+O00248,Qualification,2,2025-11-11
+O00248,Proposal,3,2025-11-25
+O00248,Negotiation,4,2025-12-09
+O00248,Closed Lost,5,2025-12-23
+O00249,Prospecting,1,2026-01-27
+O00249,Qualification,2,2026-02-10
+O00249,Proposal,3,2026-02-24
+O00249,Negotiation,4,2026-03-10
+O00249,Closed Won,5,2026-03-24
+O00250,Prospecting,1,2025-03-31
+O00250,Qualification,2,2025-04-14
+O00250,Proposal,3,2025-04-28
+O00251,Prospecting,1,2026-07-29
+O00251,Qualification,2,2026-08-12
+O00251,Proposal,3,2026-08-26
+O00251,Negotiation,4,2026-09-09
+O00252,Prospecting,1,2026-07-31
+O00252,Qualification,2,2026-08-14
+O00253,Prospecting,1,2025-12-10
+O00253,Qualification,2,2025-12-24
+O00253,Proposal,3,2026-01-07
+O00253,Negotiation,4,2026-01-21
+O00253,Closed Lost,5,2026-02-04
+O00254,Prospecting,1,2026-01-13
+O00254,Qualification,2,2026-01-27
+O00255,Prospecting,1,2026-03-07
+O00256,Prospecting,1,2025-09-08
+O00257,Prospecting,1,2025-08-13
+O00257,Qualification,2,2025-08-27
+O00257,Proposal,3,2025-09-10
+O00258,Prospecting,1,2025-10-03
+O00258,Qualification,2,2025-10-17
+O00258,Proposal,3,2025-10-31
+O00258,Negotiation,4,2025-11-14
+O00258,Closed Won,5,2025-11-28
+O00259,Prospecting,1,2025-07-14
+O00259,Qualification,2,2025-07-28
+O00259,Proposal,3,2025-08-11
+O00260,Prospecting,1,2025-07-30
+O00260,Qualification,2,2025-08-13
+O00260,Proposal,3,2025-08-27
+O00260,Negotiation,4,2025-09-10
+O00260,Closed Lost,5,2025-09-24
+O00261,Prospecting,1,2025-10-28
+O00261,Qualification,2,2025-11-11
+O00261,Proposal,3,2025-11-25
+O00261,Negotiation,4,2025-12-09
+O00261,Closed Lost,5,2025-12-23
+O00262,Prospecting,1,2025-09-22
+O00263,Prospecting,1,2025-11-03
+O00264,Prospecting,1,2025-04-06
+O00264,Qualification,2,2025-04-20
+O00264,Proposal,3,2025-05-04
+O00265,Prospecting,1,2025-09-15
+O00265,Qualification,2,2025-09-29
+O00265,Proposal,3,2025-10-13
+O00266,Prospecting,1,2026-03-03
+O00267,Prospecting,1,2026-04-21
+O00267,Qualification,2,2026-05-05
+O00267,Proposal,3,2026-05-19
+O00268,Prospecting,1,2025-08-14
+O00268,Qualification,2,2025-08-28
+O00268,Proposal,3,2025-09-11
+O00268,Negotiation,4,2025-09-25
+O00268,Closed Lost,5,2025-10-09
+O00269,Prospecting,1,2025-09-13
+O00270,Prospecting,1,2025-03-17
+O00270,Qualification,2,2025-03-31
+O00271,Prospecting,1,2026-03-16
+O00271,Qualification,2,2026-03-30
+O00271,Proposal,3,2026-04-13
+O00271,Negotiation,4,2026-04-27
+O00271,Closed Lost,5,2026-05-11
+O00272,Prospecting,1,2026-08-09
+O00273,Prospecting,1,2026-07-13
+O00273,Qualification,2,2026-07-27
+O00273,Proposal,3,2026-08-10
+O00274,Prospecting,1,2025-12-16
+O00275,Prospecting,1,2026-05-16
+O00275,Qualification,2,2026-05-30
+O00275,Proposal,3,2026-06-13
+O00276,Prospecting,1,2026-02-06
+O00276,Qualification,2,2026-02-20
+O00277,Prospecting,1,2026-08-29
+O00278,Prospecting,1,2026-05-20
+O00278,Qualification,2,2026-06-03
+O00278,Proposal,3,2026-06-17
+O00278,Negotiation,4,2026-07-01
+O00278,Closed Lost,5,2026-07-15
+O00279,Prospecting,1,2025-11-07
+O00279,Qualification,2,2025-11-21
+O00279,Proposal,3,2025-12-05
+O00280,Prospecting,1,2026-03-10
+O00280,Qualification,2,2026-03-24
+O00280,Proposal,3,2026-04-07
+O00280,Negotiation,4,2026-04-21
+O00281,Prospecting,1,2025-07-17
+O00281,Qualification,2,2025-07-31
+O00282,Prospecting,1,2026-07-02
+O00282,Qualification,2,2026-07-16
+O00282,Proposal,3,2026-07-30
+O00282,Negotiation,4,2026-08-13
+O00282,Closed Lost,5,2026-08-27
+O00283,Prospecting,1,2025-08-08
+O00283,Qualification,2,2025-08-22
+O00283,Proposal,3,2025-09-05
+O00283,Negotiation,4,2025-09-19
+O00283,Closed Lost,5,2025-10-03
+O00284,Prospecting,1,2026-06-28
+O00284,Qualification,2,2026-07-12
+O00285,Prospecting,1,2025-03-14
+O00285,Qualification,2,2025-03-28
+O00285,Proposal,3,2025-04-11
+O00285,Negotiation,4,2025-04-25
+O00285,Closed Won,5,2025-05-09
+O00286,Prospecting,1,2026-07-07
+O00286,Qualification,2,2026-07-21
+O00286,Proposal,3,2026-08-04
+O00286,Negotiation,4,2026-08-18
+O00287,Prospecting,1,2025-12-28
+O00287,Qualification,2,2026-01-11
+O00288,Prospecting,1,2025-06-03
+O00288,Qualification,2,2025-06-17
+O00288,Proposal,3,2025-07-01
+O00288,Negotiation,4,2025-07-15
+O00288,Closed Won,5,2025-07-29
+O00289,Prospecting,1,2025-07-14
+O00289,Qualification,2,2025-07-28
+O00290,Prospecting,1,2025-05-21
+O00290,Qualification,2,2025-06-04
+O00290,Proposal,3,2025-06-18
+O00290,Negotiation,4,2025-07-02
+O00290,Closed Won,5,2025-07-16
+O00291,Prospecting,1,2025-05-25
+O00291,Qualification,2,2025-06-08
+O00291,Proposal,3,2025-06-22
+O00292,Prospecting,1,2026-05-15
+O00293,Prospecting,1,2026-02-12
+O00293,Qualification,2,2026-02-26
+O00293,Proposal,3,2026-03-12
+O00293,Negotiation,4,2026-03-26
+O00294,Prospecting,1,2026-04-27
+O00294,Qualification,2,2026-05-11
+O00294,Proposal,3,2026-05-25
+O00294,Negotiation,4,2026-06-08
+O00294,Closed Won,5,2026-06-22
+O00295,Prospecting,1,2026-03-03
+O00295,Qualification,2,2026-03-17
+O00295,Proposal,3,2026-03-31
+O00295,Negotiation,4,2026-04-14
+O00295,Closed Won,5,2026-04-28
+O00296,Prospecting,1,2025-12-20
+O00296,Qualification,2,2026-01-03
+O00296,Proposal,3,2026-01-17
+O00296,Negotiation,4,2026-01-31
+O00297,Prospecting,1,2026-01-21
+O00297,Qualification,2,2026-02-04
+O00297,Proposal,3,2026-02-18
+O00298,Prospecting,1,2026-05-05
+O00298,Qualification,2,2026-05-19
+O00298,Proposal,3,2026-06-02
+O00298,Negotiation,4,2026-06-16
+O00298,Closed Lost,5,2026-06-30
+O00299,Prospecting,1,2026-04-05
+O00300,Prospecting,1,2025-11-02
+O00300,Qualification,2,2025-11-16
+O00301,Prospecting,1,2025-03-26
+O00301,Qualification,2,2025-04-09
+O00301,Proposal,3,2025-04-23
+O00301,Negotiation,4,2025-05-07
+O00301,Closed Lost,5,2025-05-21
+O00302,Prospecting,1,2025-10-15
+O00302,Qualification,2,2025-10-29
+O00302,Proposal,3,2025-11-12
+O00302,Negotiation,4,2025-11-26
+O00302,Closed Won,5,2025-12-10
+O00303,Prospecting,1,2025-08-20
+O00303,Qualification,2,2025-09-03
+O00303,Proposal,3,2025-09-17
+O00303,Negotiation,4,2025-10-01
+O00303,Closed Lost,5,2025-10-15
+O00304,Prospecting,1,2025-03-23
+O00305,Prospecting,1,2025-05-11
+O00305,Qualification,2,2025-05-25
+O00305,Proposal,3,2025-06-08
+O00305,Negotiation,4,2025-06-22
+O00305,Closed Won,5,2025-07-06
+O00306,Prospecting,1,2025-08-30
+O00306,Qualification,2,2025-09-13
+O00306,Proposal,3,2025-09-27
+O00307,Prospecting,1,2025-07-14
+O00308,Prospecting,1,2026-08-22
+O00308,Qualification,2,2026-09-05
+O00309,Prospecting,1,2025-10-07
+O00309,Qualification,2,2025-10-21
+O00309,Proposal,3,2025-11-04
+O00310,Prospecting,1,2025-03-29
+O00311,Prospecting,1,2026-06-25
+O00311,Qualification,2,2026-07-09
+O00311,Proposal,3,2026-07-23
+O00312,Prospecting,1,2026-06-19
+O00312,Qualification,2,2026-07-03
+O00312,Proposal,3,2026-07-17
+O00312,Negotiation,4,2026-07-31
+O00312,Closed Won,5,2026-08-14
+O00313,Prospecting,1,2026-06-20
+O00314,Prospecting,1,2025-07-29
+O00314,Qualification,2,2025-08-12
+O00315,Prospecting,1,2025-04-04
+O00315,Qualification,2,2025-04-18
+O00315,Proposal,3,2025-05-02
+O00316,Prospecting,1,2026-07-31
+O00316,Qualification,2,2026-08-14
+O00317,Prospecting,1,2025-08-14
+O00317,Qualification,2,2025-08-28
+O00317,Proposal,3,2025-09-11
+O00317,Negotiation,4,2025-09-25
+O00317,Closed Won,5,2025-10-09
+O00318,Prospecting,1,2026-01-28
+O00318,Qualification,2,2026-02-11
+O00318,Proposal,3,2026-02-25
+O00318,Negotiation,4,2026-03-11
+O00318,Closed Lost,5,2026-03-25
+O00319,Prospecting,1,2026-01-17
+O00320,Prospecting,1,2026-06-24
+O00321,Prospecting,1,2026-06-21
+O00321,Qualification,2,2026-07-05
+O00321,Proposal,3,2026-07-19
+O00321,Negotiation,4,2026-08-02
+O00321,Closed Won,5,2026-08-16
+O00322,Prospecting,1,2025-06-19
+O00322,Qualification,2,2025-07-03
+O00323,Prospecting,1,2025-09-26
+O00323,Qualification,2,2025-10-10
+O00323,Proposal,3,2025-10-24
+O00323,Negotiation,4,2025-11-07
+O00323,Closed Lost,5,2025-11-21
+O00324,Prospecting,1,2026-04-10
+O00324,Qualification,2,2026-04-24
+O00324,Proposal,3,2026-05-08
+O00324,Negotiation,4,2026-05-22
+O00324,Closed Won,5,2026-06-05
+O00325,Prospecting,1,2026-01-26
+O00325,Qualification,2,2026-02-09
+O00325,Proposal,3,2026-02-23
+O00325,Negotiation,4,2026-03-09
+O00325,Closed Won,5,2026-03-23
+O00326,Prospecting,1,2025-05-13
+O00327,Prospecting,1,2026-03-21
+O00327,Qualification,2,2026-04-04
+O00327,Proposal,3,2026-04-18
+O00327,Negotiation,4,2026-05-02
+O00328,Prospecting,1,2026-01-19
+O00328,Qualification,2,2026-02-02
+O00328,Proposal,3,2026-02-16
+O00328,Negotiation,4,2026-03-02
+O00328,Closed Won,5,2026-03-16
+O00329,Prospecting,1,2025-05-08
+O00329,Qualification,2,2025-05-22
+O00329,Proposal,3,2025-06-05
+O00329,Negotiation,4,2025-06-19
+O00329,Closed Lost,5,2025-07-03
+O00330,Prospecting,1,2026-03-06
+O00330,Qualification,2,2026-03-20
+O00331,Prospecting,1,2025-07-12
+O00331,Qualification,2,2025-07-26
+O00331,Proposal,3,2025-08-09
+O00331,Negotiation,4,2025-08-23
+O00332,Prospecting,1,2026-01-08
+O00332,Qualification,2,2026-01-22
+O00332,Proposal,3,2026-02-05
+O00333,Prospecting,1,2025-09-27
+O00333,Qualification,2,2025-10-11
+O00333,Proposal,3,2025-10-25
+O00333,Negotiation,4,2025-11-08
+O00333,Closed Won,5,2025-11-22
+O00334,Prospecting,1,2026-07-18
+O00334,Qualification,2,2026-08-01
+O00334,Proposal,3,2026-08-15
+O00335,Prospecting,1,2025-12-10
+O00335,Qualification,2,2025-12-24
+O00335,Proposal,3,2026-01-07
+O00335,Negotiation,4,2026-01-21
+O00335,Closed Lost,5,2026-02-04
+O00336,Prospecting,1,2025-05-29
+O00336,Qualification,2,2025-06-12
+O00337,Prospecting,1,2025-09-15
+O00337,Qualification,2,2025-09-29
+O00337,Proposal,3,2025-10-13
+O00337,Negotiation,4,2025-10-27
+O00337,Closed Lost,5,2025-11-10
+O00338,Prospecting,1,2025-03-14
+O00338,Qualification,2,2025-03-28
+O00338,Proposal,3,2025-04-11
+O00338,Negotiation,4,2025-04-25
+O00338,Closed Lost,5,2025-05-09
+O00339,Prospecting,1,2025-04-03
+O00339,Qualification,2,2025-04-17
+O00339,Proposal,3,2025-05-01
+O00339,Negotiation,4,2025-05-15
+O00339,Closed Won,5,2025-05-29
+O00340,Prospecting,1,2026-07-18
+O00340,Qualification,2,2026-08-01
+O00340,Proposal,3,2026-08-15
+O00340,Negotiation,4,2026-08-29
+O00340,Closed Won,5,2026-09-12
+O00341,Prospecting,1,2025-12-14
+O00342,Prospecting,1,2026-08-24
+O00343,Prospecting,1,2026-05-14
+O00343,Qualification,2,2026-05-28
+O00343,Proposal,3,2026-06-11
+O00344,Prospecting,1,2025-07-21
+O00344,Qualification,2,2025-08-04
+O00344,Proposal,3,2025-08-18
+O00344,Negotiation,4,2025-09-01
+O00344,Closed Won,5,2025-09-15
+O00345,Prospecting,1,2025-09-13
+O00345,Qualification,2,2025-09-27
+O00345,Proposal,3,2025-10-11
+O00345,Negotiation,4,2025-10-25
+O00345,Closed Won,5,2025-11-08
+O00346,Prospecting,1,2026-01-24
+O00346,Qualification,2,2026-02-07
+O00346,Proposal,3,2026-02-21
+O00347,Prospecting,1,2026-08-26
+O00347,Qualification,2,2026-09-09
+O00347,Proposal,3,2026-09-23
+O00347,Negotiation,4,2026-10-07
+O00347,Closed Lost,5,2026-10-21
+O00348,Prospecting,1,2026-07-24
+O00348,Qualification,2,2026-08-07
+O00348,Proposal,3,2026-08-21
+O00348,Negotiation,4,2026-09-04
+O00348,Closed Lost,5,2026-09-18
+O00349,Prospecting,1,2025-04-12
+O00350,Prospecting,1,2026-07-26
+O00350,Qualification,2,2026-08-09
+O00350,Proposal,3,2026-08-23
+O00351,Prospecting,1,2026-02-07
+O00351,Qualification,2,2026-02-21
+O00351,Proposal,3,2026-03-07
+O00352,Prospecting,1,2026-01-12
+O00353,Prospecting,1,2025-11-03
+O00354,Prospecting,1,2025-04-23
+O00354,Qualification,2,2025-05-07
+O00354,Proposal,3,2025-05-21
+O00354,Negotiation,4,2025-06-04
+O00354,Closed Lost,5,2025-06-18
+O00355,Prospecting,1,2026-06-23
+O00355,Qualification,2,2026-07-07
+O00355,Proposal,3,2026-07-21
+O00356,Prospecting,1,2026-08-22
+O00356,Qualification,2,2026-09-05
+O00356,Proposal,3,2026-09-19
+O00356,Negotiation,4,2026-10-03
+O00356,Closed Won,5,2026-10-17
+O00357,Prospecting,1,2026-03-02
+O00357,Qualification,2,2026-03-16
+O00358,Prospecting,1,2025-12-27
+O00358,Qualification,2,2026-01-10
+O00358,Proposal,3,2026-01-24
+O00358,Negotiation,4,2026-02-07
+O00358,Closed Won,5,2026-02-21
+O00359,Prospecting,1,2025-04-14
+O00359,Qualification,2,2025-04-28
+O00359,Proposal,3,2025-05-12
+O00360,Prospecting,1,2025-11-23
+O00360,Qualification,2,2025-12-07
+O00360,Proposal,3,2025-12-21
+O00360,Negotiation,4,2026-01-04
+O00361,Prospecting,1,2025-06-24
+O00361,Qualification,2,2025-07-08
+O00362,Prospecting,1,2026-08-23
+O00363,Prospecting,1,2025-11-29
+O00363,Qualification,2,2025-12-13
+O00363,Proposal,3,2025-12-27
+O00364,Prospecting,1,2025-11-18
+O00364,Qualification,2,2025-12-02
+O00364,Proposal,3,2025-12-16
+O00365,Prospecting,1,2026-02-12
+O00365,Qualification,2,2026-02-26
+O00365,Proposal,3,2026-03-12
+O00365,Negotiation,4,2026-03-26
+O00366,Prospecting,1,2025-03-20
+O00366,Qualification,2,2025-04-03
+O00367,Prospecting,1,2026-03-17
+O00367,Qualification,2,2026-03-31
+O00367,Proposal,3,2026-04-14
+O00368,Prospecting,1,2025-08-28
+O00368,Qualification,2,2025-09-11
+O00368,Proposal,3,2025-09-25
+O00368,Negotiation,4,2025-10-09
+O00369,Prospecting,1,2025-09-02
+O00369,Qualification,2,2025-09-16
+O00370,Prospecting,1,2026-04-05
+O00370,Qualification,2,2026-04-19
+O00370,Proposal,3,2026-05-03
+O00370,Negotiation,4,2026-05-17
+O00370,Closed Lost,5,2026-05-31
+O00371,Prospecting,1,2026-03-19
+O00371,Qualification,2,2026-04-02
+O00372,Prospecting,1,2025-08-25
+O00372,Qualification,2,2025-09-08
+O00372,Proposal,3,2025-09-22
+O00372,Negotiation,4,2025-10-06
+O00372,Closed Won,5,2025-10-20
+O00373,Prospecting,1,2026-01-03
+O00373,Qualification,2,2026-01-17
+O00373,Proposal,3,2026-01-31
+O00373,Negotiation,4,2026-02-14
+O00374,Prospecting,1,2025-05-04
+O00375,Prospecting,1,2025-07-28
+O00376,Prospecting,1,2025-08-31
+O00376,Qualification,2,2025-09-14
+O00376,Proposal,3,2025-09-28
+O00376,Negotiation,4,2025-10-12
+O00376,Closed Won,5,2025-10-26
+O00377,Prospecting,1,2026-03-03
+O00377,Qualification,2,2026-03-17
+O00378,Prospecting,1,2026-01-11
+O00378,Qualification,2,2026-01-25
+O00378,Proposal,3,2026-02-08
+O00378,Negotiation,4,2026-02-22
+O00378,Closed Won,5,2026-03-08
+O00379,Prospecting,1,2026-04-14
+O00379,Qualification,2,2026-04-28
+O00380,Prospecting,1,2025-06-17
+O00380,Qualification,2,2025-07-01
+O00380,Proposal,3,2025-07-15
+O00380,Negotiation,4,2025-07-29
+O00380,Closed Lost,5,2025-08-12
+O00381,Prospecting,1,2026-03-17
+O00381,Qualification,2,2026-03-31
+O00381,Proposal,3,2026-04-14
+O00381,Negotiation,4,2026-04-28
+O00381,Closed Lost,5,2026-05-12
+O00382,Prospecting,1,2025-03-05
+O00382,Qualification,2,2025-03-19
+O00382,Proposal,3,2025-04-02
+O00382,Negotiation,4,2025-04-16
+O00382,Closed Won,5,2025-04-30
+O00383,Prospecting,1,2025-04-15
+O00384,Prospecting,1,2026-04-25
+O00384,Qualification,2,2026-05-09
+O00384,Proposal,3,2026-05-23
+O00384,Negotiation,4,2026-06-06
+O00384,Closed Lost,5,2026-06-20
+O00385,Prospecting,1,2025-10-16
+O00385,Qualification,2,2025-10-30
+O00385,Proposal,3,2025-11-13
+O00385,Negotiation,4,2025-11-27
+O00385,Closed Lost,5,2025-12-11
+O00386,Prospecting,1,2026-07-05
+O00386,Qualification,2,2026-07-19
+O00387,Prospecting,1,2026-04-29
+O00387,Qualification,2,2026-05-13
+O00387,Proposal,3,2026-05-27
+O00387,Negotiation,4,2026-06-10
+O00387,Closed Lost,5,2026-06-24
+O00388,Prospecting,1,2026-05-27
+O00388,Qualification,2,2026-06-10
+O00388,Proposal,3,2026-06-24
+O00388,Negotiation,4,2026-07-08
+O00389,Prospecting,1,2025-03-16
+O00389,Qualification,2,2025-03-30
+O00390,Prospecting,1,2025-06-13
+O00391,Prospecting,1,2025-05-02
+O00391,Qualification,2,2025-05-16
+O00391,Proposal,3,2025-05-30
+O00391,Negotiation,4,2025-06-13
+O00391,Closed Won,5,2025-06-27
+O00392,Prospecting,1,2025-09-01
+O00392,Qualification,2,2025-09-15
+O00392,Proposal,3,2025-09-29
+O00393,Prospecting,1,2026-02-15
+O00393,Qualification,2,2026-03-01
+O00394,Prospecting,1,2025-04-17
+O00395,Prospecting,1,2026-03-26
+O00395,Qualification,2,2026-04-09
+O00395,Proposal,3,2026-04-23
+O00396,Prospecting,1,2025-08-24
+O00396,Qualification,2,2025-09-07
+O00396,Proposal,3,2025-09-21
+O00396,Negotiation,4,2025-10-05
+O00396,Closed Won,5,2025-10-19
+O00397,Prospecting,1,2026-03-27
+O00397,Qualification,2,2026-04-10
+O00398,Prospecting,1,2026-03-02
+O00398,Qualification,2,2026-03-16
+O00398,Proposal,3,2026-03-30
+O00398,Negotiation,4,2026-04-13
+O00398,Closed Won,5,2026-04-27
+O00399,Prospecting,1,2025-12-12
+O00400,Prospecting,1,2026-06-30
+O00400,Qualification,2,2026-07-14
+O00400,Proposal,3,2026-07-28
+O00401,Prospecting,1,2026-06-20
+O00401,Qualification,2,2026-07-04
+O00401,Proposal,3,2026-07-18
+O00401,Negotiation,4,2026-08-01
+O00401,Closed Won,5,2026-08-15
+O00402,Prospecting,1,2025-03-11
+O00402,Qualification,2,2025-03-25
+O00402,Proposal,3,2025-04-08
+O00403,Prospecting,1,2025-05-19
+O00403,Qualification,2,2025-06-02
+O00403,Proposal,3,2025-06-16
+O00403,Negotiation,4,2025-06-30
+O00403,Closed Lost,5,2025-07-14
+O00404,Prospecting,1,2025-06-04
+O00404,Qualification,2,2025-06-18
+O00404,Proposal,3,2025-07-02
+O00404,Negotiation,4,2025-07-16
+O00404,Closed Lost,5,2025-07-30
+O00405,Prospecting,1,2025-12-28
+O00406,Prospecting,1,2026-07-27
+O00406,Qualification,2,2026-08-10
+O00406,Proposal,3,2026-08-24
+O00406,Negotiation,4,2026-09-07
+O00406,Closed Lost,5,2026-09-21
+O00407,Prospecting,1,2025-11-22
+O00407,Qualification,2,2025-12-06
+O00407,Proposal,3,2025-12-20
+O00407,Negotiation,4,2026-01-03
+O00407,Closed Lost,5,2026-01-17
+O00408,Prospecting,1,2025-08-21
+O00408,Qualification,2,2025-09-04
+O00408,Proposal,3,2025-09-18
+O00408,Negotiation,4,2025-10-02
+O00408,Closed Won,5,2025-10-16
+O00409,Prospecting,1,2025-10-03
+O00409,Qualification,2,2025-10-17
+O00409,Proposal,3,2025-10-31
+O00409,Negotiation,4,2025-11-14
+O00409,Closed Won,5,2025-11-28
+O00410,Prospecting,1,2025-09-23
+O00410,Qualification,2,2025-10-07
+O00410,Proposal,3,2025-10-21
+O00411,Prospecting,1,2025-08-05
+O00411,Qualification,2,2025-08-19
+O00412,Prospecting,1,2025-07-25
+O00412,Qualification,2,2025-08-08
+O00412,Proposal,3,2025-08-22
+O00412,Negotiation,4,2025-09-05
+O00412,Closed Lost,5,2025-09-19
+O00413,Prospecting,1,2025-09-21
+O00413,Qualification,2,2025-10-05
+O00413,Proposal,3,2025-10-19
+O00414,Prospecting,1,2025-04-26
+O00414,Qualification,2,2025-05-10
+O00415,Prospecting,1,2025-12-02
+O00415,Qualification,2,2025-12-16
+O00415,Proposal,3,2025-12-30
+O00415,Negotiation,4,2026-01-13
+O00415,Closed Won,5,2026-01-27
+O00416,Prospecting,1,2025-10-07
+O00416,Qualification,2,2025-10-21
+O00416,Proposal,3,2025-11-04
+O00417,Prospecting,1,2026-07-17
+O00417,Qualification,2,2026-07-31
+O00417,Proposal,3,2026-08-14
+O00417,Negotiation,4,2026-08-28
+O00417,Closed Won,5,2026-09-11
+O00418,Prospecting,1,2026-08-17
+O00418,Qualification,2,2026-08-31
+O00418,Proposal,3,2026-09-14
+O00419,Prospecting,1,2025-03-14
+O00419,Qualification,2,2025-03-28
+O00419,Proposal,3,2025-04-11
+O00419,Negotiation,4,2025-04-25
+O00419,Closed Won,5,2025-05-09
+O00420,Prospecting,1,2026-07-01
+O00420,Qualification,2,2026-07-15
+O00420,Proposal,3,2026-07-29
+O00421,Prospecting,1,2025-11-27
+O00421,Qualification,2,2025-12-11
+O00421,Proposal,3,2025-12-25
+O00421,Negotiation,4,2026-01-08
+O00422,Prospecting,1,2025-03-29
+O00422,Qualification,2,2025-04-12
+O00422,Proposal,3,2025-04-26
+O00422,Negotiation,4,2025-05-10
+O00422,Closed Won,5,2025-05-24
+O00423,Prospecting,1,2025-05-20
+O00423,Qualification,2,2025-06-03
+O00423,Proposal,3,2025-06-17
+O00424,Prospecting,1,2026-03-24
+O00424,Qualification,2,2026-04-07
+O00424,Proposal,3,2026-04-21
+O00425,Prospecting,1,2025-12-11
+O00425,Qualification,2,2025-12-25
+O00425,Proposal,3,2026-01-08
+O00425,Negotiation,4,2026-01-22
+O00425,Closed Lost,5,2026-02-05
+O00426,Prospecting,1,2026-04-13
+O00426,Qualification,2,2026-04-27
+O00427,Prospecting,1,2026-03-28
+O00427,Qualification,2,2026-04-11
+O00428,Prospecting,1,2025-10-19
+O00428,Qualification,2,2025-11-02
+O00428,Proposal,3,2025-11-16
+O00428,Negotiation,4,2025-11-30
+O00428,Closed Lost,5,2025-12-14
+O00429,Prospecting,1,2026-05-02
+O00429,Qualification,2,2026-05-16
+O00429,Proposal,3,2026-05-30
+O00429,Negotiation,4,2026-06-13
+O00430,Prospecting,1,2025-06-04
+O00430,Qualification,2,2025-06-18
+O00430,Proposal,3,2025-07-02
+O00430,Negotiation,4,2025-07-16
+O00430,Closed Lost,5,2025-07-30
+O00431,Prospecting,1,2025-12-01
+O00431,Qualification,2,2025-12-15
+O00431,Proposal,3,2025-12-29
+O00432,Prospecting,1,2025-05-08
+O00432,Qualification,2,2025-05-22
+O00432,Proposal,3,2025-06-05
+O00432,Negotiation,4,2025-06-19
+O00432,Closed Won,5,2025-07-03
+O00433,Prospecting,1,2025-07-09
+O00433,Qualification,2,2025-07-23
+O00433,Proposal,3,2025-08-06
+O00433,Negotiation,4,2025-08-20
+O00433,Closed Won,5,2025-09-03
+O00434,Prospecting,1,2026-03-03
+O00434,Qualification,2,2026-03-17
+O00434,Proposal,3,2026-03-31
+O00434,Negotiation,4,2026-04-14
+O00434,Closed Lost,5,2026-04-28
+O00435,Prospecting,1,2025-08-07
+O00435,Qualification,2,2025-08-21
+O00435,Proposal,3,2025-09-04
+O00435,Negotiation,4,2025-09-18
+O00435,Closed Won,5,2025-10-02
+O00436,Prospecting,1,2025-07-22
+O00436,Qualification,2,2025-08-05
+O00436,Proposal,3,2025-08-19
+O00436,Negotiation,4,2025-09-02
+O00436,Closed Won,5,2025-09-16
+O00437,Prospecting,1,2025-07-20
+O00437,Qualification,2,2025-08-03
+O00437,Proposal,3,2025-08-17
+O00437,Negotiation,4,2025-08-31
+O00437,Closed Lost,5,2025-09-14
+O00438,Prospecting,1,2025-05-26
+O00438,Qualification,2,2025-06-09
+O00439,Prospecting,1,2025-05-27
+O00439,Qualification,2,2025-06-10
+O00440,Prospecting,1,2026-04-27
+O00440,Qualification,2,2026-05-11
+O00440,Proposal,3,2026-05-25
+O00441,Prospecting,1,2025-08-07
+O00442,Prospecting,1,2026-07-10
+O00442,Qualification,2,2026-07-24
+O00443,Prospecting,1,2025-12-15
+O00443,Qualification,2,2025-12-29
+O00444,Prospecting,1,2025-05-01
+O00444,Qualification,2,2025-05-15
+O00445,Prospecting,1,2026-02-23
+O00445,Qualification,2,2026-03-09
+O00445,Proposal,3,2026-03-23
+O00446,Prospecting,1,2026-07-12
+O00446,Qualification,2,2026-07-26
+O00446,Proposal,3,2026-08-09
+O00446,Negotiation,4,2026-08-23
+O00447,Prospecting,1,2025-08-28
+O00447,Qualification,2,2025-09-11
+O00447,Proposal,3,2025-09-25
+O00447,Negotiation,4,2025-10-09
+O00447,Closed Won,5,2025-10-23
+O00448,Prospecting,1,2026-06-26
+O00449,Prospecting,1,2025-03-08
+O00449,Qualification,2,2025-03-22
+O00449,Proposal,3,2025-04-05
+O00449,Negotiation,4,2025-04-19
+O00449,Closed Lost,5,2025-05-03
+O00450,Prospecting,1,2025-04-10
+O00450,Qualification,2,2025-04-24
+O00450,Proposal,3,2025-05-08
+O00451,Prospecting,1,2026-05-02
+O00451,Qualification,2,2026-05-16
+O00451,Proposal,3,2026-05-30
+O00452,Prospecting,1,2025-09-24
+O00452,Qualification,2,2025-10-08
+O00452,Proposal,3,2025-10-22
+O00453,Prospecting,1,2025-10-28
+O00453,Qualification,2,2025-11-11
+O00454,Prospecting,1,2025-09-27
+O00454,Qualification,2,2025-10-11
+O00454,Proposal,3,2025-10-25
+O00454,Negotiation,4,2025-11-08
+O00454,Closed Lost,5,2025-11-22
+O00455,Prospecting,1,2025-05-17
+O00455,Qualification,2,2025-05-31
+O00455,Proposal,3,2025-06-14
+O00455,Negotiation,4,2025-06-28
+O00455,Closed Lost,5,2025-07-12
+O00456,Prospecting,1,2025-10-12
+O00457,Prospecting,1,2025-09-18
+O00457,Qualification,2,2025-10-02
+O00457,Proposal,3,2025-10-16
+O00457,Negotiation,4,2025-10-30
+O00457,Closed Lost,5,2025-11-13
+O00458,Prospecting,1,2025-10-13
+O00458,Qualification,2,2025-10-27
+O00458,Proposal,3,2025-11-10
+O00458,Negotiation,4,2025-11-24
+O00458,Closed Won,5,2025-12-08
+O00459,Prospecting,1,2025-10-26
+O00459,Qualification,2,2025-11-09
+O00460,Prospecting,1,2026-03-27
+O00460,Qualification,2,2026-04-10
+O00460,Proposal,3,2026-04-24
+O00460,Negotiation,4,2026-05-08
+O00461,Prospecting,1,2026-04-18
+O00462,Prospecting,1,2026-06-03
+O00462,Qualification,2,2026-06-17
+O00462,Proposal,3,2026-07-01
+O00462,Negotiation,4,2026-07-15
+O00463,Prospecting,1,2026-01-29
+O00464,Prospecting,1,2026-03-23
+O00465,Prospecting,1,2025-11-14
+O00466,Prospecting,1,2025-05-06
+O00466,Qualification,2,2025-05-20
+O00466,Proposal,3,2025-06-03
+O00466,Negotiation,4,2025-06-17
+O00466,Closed Won,5,2025-07-01
+O00467,Prospecting,1,2025-09-01
+O00467,Qualification,2,2025-09-15
+O00467,Proposal,3,2025-09-29
+O00468,Prospecting,1,2025-05-09
+O00468,Qualification,2,2025-05-23
+O00469,Prospecting,1,2025-12-10
+O00469,Qualification,2,2025-12-24
+O00469,Proposal,3,2026-01-07
+O00469,Negotiation,4,2026-01-21
+O00469,Closed Won,5,2026-02-04
+O00470,Prospecting,1,2025-09-06
+O00470,Qualification,2,2025-09-20
+O00470,Proposal,3,2025-10-04
+O00470,Negotiation,4,2025-10-18
+O00471,Prospecting,1,2026-05-14
+O00471,Qualification,2,2026-05-28
+O00471,Proposal,3,2026-06-11
+O00472,Prospecting,1,2026-03-22
+O00472,Qualification,2,2026-04-05
+O00472,Proposal,3,2026-04-19
+O00472,Negotiation,4,2026-05-03
+O00472,Closed Won,5,2026-05-17
+O00473,Prospecting,1,2026-01-02
+O00473,Qualification,2,2026-01-16
+O00473,Proposal,3,2026-01-30
+O00474,Prospecting,1,2026-05-24
+O00474,Qualification,2,2026-06-07
+O00474,Proposal,3,2026-06-21
+O00474,Negotiation,4,2026-07-05
+O00474,Closed Won,5,2026-07-19
+O00475,Prospecting,1,2026-06-30
+O00475,Qualification,2,2026-07-14
+O00475,Proposal,3,2026-07-28
+O00476,Prospecting,1,2025-03-05
+O00476,Qualification,2,2025-03-19
+O00476,Proposal,3,2025-04-02
+O00477,Prospecting,1,2025-09-13
+O00477,Qualification,2,2025-09-27
+O00477,Proposal,3,2025-10-11
+O00477,Negotiation,4,2025-10-25
+O00477,Closed Lost,5,2025-11-08
+O00478,Prospecting,1,2025-08-29
+O00478,Qualification,2,2025-09-12
+O00479,Prospecting,1,2025-08-06
+O00480,Prospecting,1,2025-11-09
+O00480,Qualification,2,2025-11-23
+O00480,Proposal,3,2025-12-07
+O00480,Negotiation,4,2025-12-21
+O00480,Closed Lost,5,2026-01-04
+O00481,Prospecting,1,2025-06-10
+O00481,Qualification,2,2025-06-24
+O00481,Proposal,3,2025-07-08
+O00481,Negotiation,4,2025-07-22
+O00481,Closed Won,5,2025-08-05
+O00482,Prospecting,1,2025-03-28
+O00482,Qualification,2,2025-04-11
+O00482,Proposal,3,2025-04-25
+O00483,Prospecting,1,2026-01-01
+O00483,Qualification,2,2026-01-15
+O00483,Proposal,3,2026-01-29
+O00483,Negotiation,4,2026-02-12
+O00483,Closed Won,5,2026-02-26
+O00484,Prospecting,1,2025-04-25
+O00484,Qualification,2,2025-05-09
+O00484,Proposal,3,2025-05-23
+O00484,Negotiation,4,2025-06-06
+O00484,Closed Won,5,2025-06-20
+O00485,Prospecting,1,2026-06-13
+O00485,Qualification,2,2026-06-27
+O00485,Proposal,3,2026-07-11
+O00485,Negotiation,4,2026-07-25
+O00485,Closed Won,5,2026-08-08
+O00486,Prospecting,1,2025-03-25
+O00486,Qualification,2,2025-04-08
+O00486,Proposal,3,2025-04-22
+O00486,Negotiation,4,2025-05-06
+O00486,Closed Lost,5,2025-05-20
+O00487,Prospecting,1,2026-07-26
+O00487,Qualification,2,2026-08-09
+O00487,Proposal,3,2026-08-23
+O00487,Negotiation,4,2026-09-06
+O00487,Closed Lost,5,2026-09-20
+O00488,Prospecting,1,2025-11-06
+O00488,Qualification,2,2025-11-20
+O00488,Proposal,3,2025-12-04
+O00488,Negotiation,4,2025-12-18
+O00488,Closed Lost,5,2026-01-01
+O00489,Prospecting,1,2026-04-18
+O00489,Qualification,2,2026-05-02
+O00490,Prospecting,1,2026-03-05
+O00490,Qualification,2,2026-03-19
+O00490,Proposal,3,2026-04-02
+O00491,Prospecting,1,2026-03-27
+O00491,Qualification,2,2026-04-10
+O00491,Proposal,3,2026-04-24
+O00491,Negotiation,4,2026-05-08
+O00491,Closed Lost,5,2026-05-22
+O00492,Prospecting,1,2025-09-12
+O00493,Prospecting,1,2026-01-04
+O00493,Qualification,2,2026-01-18
+O00493,Proposal,3,2026-02-01
+O00494,Prospecting,1,2025-08-05
+O00494,Qualification,2,2025-08-19
+O00494,Proposal,3,2025-09-02
+O00494,Negotiation,4,2025-09-16
+O00495,Prospecting,1,2025-11-25
+O00495,Qualification,2,2025-12-09
+O00496,Prospecting,1,2025-09-20
+O00496,Qualification,2,2025-10-04
+O00496,Proposal,3,2025-10-18
+O00496,Negotiation,4,2025-11-01
+O00497,Prospecting,1,2026-05-23
+O00497,Qualification,2,2026-06-06
+O00497,Proposal,3,2026-06-20
+O00498,Prospecting,1,2026-05-29
+O00498,Qualification,2,2026-06-12
+O00498,Proposal,3,2026-06-26
+O00499,Prospecting,1,2026-04-20
+O00499,Qualification,2,2026-05-04
+O00499,Proposal,3,2026-05-18
+O00500,Prospecting,1,2025-05-10
+O00501,Prospecting,1,2026-06-17
+O00502,Prospecting,1,2026-06-21
+O00502,Qualification,2,2026-07-05
+O00502,Proposal,3,2026-07-19
+O00502,Negotiation,4,2026-08-02
+O00503,Prospecting,1,2026-05-15
+O00503,Qualification,2,2026-05-29
+O00503,Proposal,3,2026-06-12
+O00503,Negotiation,4,2026-06-26
+O00503,Closed Lost,5,2026-07-10
+O00504,Prospecting,1,2025-04-09
+O00504,Qualification,2,2025-04-23
+O00504,Proposal,3,2025-05-07
+O00505,Prospecting,1,2026-08-28
+O00505,Qualification,2,2026-09-11
+O00505,Proposal,3,2026-09-25
+O00505,Negotiation,4,2026-10-09
+O00506,Prospecting,1,2025-08-03
+O00506,Qualification,2,2025-08-17
+O00506,Proposal,3,2025-08-31
+O00506,Negotiation,4,2025-09-14
+O00506,Closed Lost,5,2025-09-28
+O00507,Prospecting,1,2025-10-25
+O00507,Qualification,2,2025-11-08
+O00507,Proposal,3,2025-11-22
+O00508,Prospecting,1,2025-11-08
+O00509,Prospecting,1,2025-08-29
+O00509,Qualification,2,2025-09-12
+O00509,Proposal,3,2025-09-26
+O00509,Negotiation,4,2025-10-10
+O00510,Prospecting,1,2025-07-29
+O00510,Qualification,2,2025-08-12
+O00511,Prospecting,1,2026-07-05
+O00511,Qualification,2,2026-07-19
+O00511,Proposal,3,2026-08-02
+O00512,Prospecting,1,2026-07-25
+O00512,Qualification,2,2026-08-08
+O00512,Proposal,3,2026-08-22
+O00512,Negotiation,4,2026-09-05
+O00512,Closed Lost,5,2026-09-19
+O00513,Prospecting,1,2026-07-11
+O00513,Qualification,2,2026-07-25
+O00513,Proposal,3,2026-08-08
+O00513,Negotiation,4,2026-08-22
+O00513,Closed Lost,5,2026-09-05
+O00514,Prospecting,1,2025-04-09
+O00514,Qualification,2,2025-04-23
+O00514,Proposal,3,2025-05-07
+O00515,Prospecting,1,2026-04-13
+O00515,Qualification,2,2026-04-27
+O00515,Proposal,3,2026-05-11
+O00515,Negotiation,4,2026-05-25
+O00516,Prospecting,1,2026-04-09
+O00516,Qualification,2,2026-04-23
+O00516,Proposal,3,2026-05-07
+O00516,Negotiation,4,2026-05-21
+O00516,Closed Won,5,2026-06-04
+O00517,Prospecting,1,2025-08-11
+O00517,Qualification,2,2025-08-25
+O00517,Proposal,3,2025-09-08
+O00517,Negotiation,4,2025-09-22
+O00517,Closed Won,5,2025-10-06
+O00518,Prospecting,1,2025-05-01
+O00518,Qualification,2,2025-05-15
+O00518,Proposal,3,2025-05-29
+O00518,Negotiation,4,2025-06-12
+O00518,Closed Won,5,2025-06-26
+O00519,Prospecting,1,2026-02-28
+O00519,Qualification,2,2026-03-14
+O00519,Proposal,3,2026-03-28
+O00519,Negotiation,4,2026-04-11
+O00519,Closed Lost,5,2026-04-25
+O00520,Prospecting,1,2026-05-03
+O00520,Qualification,2,2026-05-17
+O00520,Proposal,3,2026-05-31
+O00520,Negotiation,4,2026-06-14
+O00520,Closed Lost,5,2026-06-28
+O00521,Prospecting,1,2026-02-14
+O00522,Prospecting,1,2025-08-24
+O00522,Qualification,2,2025-09-07
+O00523,Prospecting,1,2026-03-04
+O00524,Prospecting,1,2025-10-02
+O00525,Prospecting,1,2025-05-06
+O00526,Prospecting,1,2025-05-20
+O00526,Qualification,2,2025-06-03
+O00526,Proposal,3,2025-06-17
+O00526,Negotiation,4,2025-07-01
+O00526,Closed Lost,5,2025-07-15
+O00527,Prospecting,1,2026-05-10
+O00527,Qualification,2,2026-05-24
+O00527,Proposal,3,2026-06-07
+O00527,Negotiation,4,2026-06-21
+O00527,Closed Lost,5,2026-07-05
+O00528,Prospecting,1,2026-01-08
+O00528,Qualification,2,2026-01-22
+O00528,Proposal,3,2026-02-05
+O00528,Negotiation,4,2026-02-19
+O00529,Prospecting,1,2025-06-19
+O00529,Qualification,2,2025-07-03
+O00529,Proposal,3,2025-07-17
+O00529,Negotiation,4,2025-07-31
+O00529,Closed Won,5,2025-08-14
+O00530,Prospecting,1,2026-07-17
+O00530,Qualification,2,2026-07-31
+O00531,Prospecting,1,2025-12-28
+O00531,Qualification,2,2026-01-11
+O00531,Proposal,3,2026-01-25
+O00532,Prospecting,1,2026-05-31
+O00532,Qualification,2,2026-06-14
+O00532,Proposal,3,2026-06-28
+O00533,Prospecting,1,2026-04-12
+O00533,Qualification,2,2026-04-26
+O00533,Proposal,3,2026-05-10
+O00533,Negotiation,4,2026-05-24
+O00533,Closed Won,5,2026-06-07
+O00534,Prospecting,1,2025-09-25
+O00534,Qualification,2,2025-10-09
+O00535,Prospecting,1,2025-09-22
+O00535,Qualification,2,2025-10-06
+O00535,Proposal,3,2025-10-20
+O00535,Negotiation,4,2025-11-03
+O00535,Closed Won,5,2025-11-17
+O00536,Prospecting,1,2025-08-21
+O00536,Qualification,2,2025-09-04
+O00537,Prospecting,1,2026-05-07
+O00537,Qualification,2,2026-05-21
+O00537,Proposal,3,2026-06-04
+O00538,Prospecting,1,2025-12-01
+O00538,Qualification,2,2025-12-15
+O00539,Prospecting,1,2025-03-05
+O00539,Qualification,2,2025-03-19
+O00540,Prospecting,1,2026-06-03
+O00540,Qualification,2,2026-06-17
+O00540,Proposal,3,2026-07-01
+O00540,Negotiation,4,2026-07-15
+O00541,Prospecting,1,2026-04-02
+O00541,Qualification,2,2026-04-16
+O00541,Proposal,3,2026-04-30
+O00541,Negotiation,4,2026-05-14
+O00542,Prospecting,1,2025-06-27
+O00542,Qualification,2,2025-07-11
+O00542,Proposal,3,2025-07-25
+O00543,Prospecting,1,2025-09-14
+O00543,Qualification,2,2025-09-28
+O00543,Proposal,3,2025-10-12
+O00544,Prospecting,1,2026-04-18
+O00544,Qualification,2,2026-05-02
+O00544,Proposal,3,2026-05-16
+O00544,Negotiation,4,2026-05-30
+O00544,Closed Won,5,2026-06-13
+O00545,Prospecting,1,2025-09-04
+O00545,Qualification,2,2025-09-18
+O00545,Proposal,3,2025-10-02
+O00545,Negotiation,4,2025-10-16
+O00546,Prospecting,1,2026-03-27
+O00547,Prospecting,1,2026-07-27
+O00547,Qualification,2,2026-08-10
+O00547,Proposal,3,2026-08-24
+O00547,Negotiation,4,2026-09-07
+O00548,Prospecting,1,2025-07-13
+O00548,Qualification,2,2025-07-27
+O00548,Proposal,3,2025-08-10
+O00548,Negotiation,4,2025-08-24
+O00548,Closed Lost,5,2025-09-07
+O00549,Prospecting,1,2025-11-08
+O00549,Qualification,2,2025-11-22
+O00549,Proposal,3,2025-12-06
+O00549,Negotiation,4,2025-12-20
+O00549,Closed Lost,5,2026-01-03
+O00550,Prospecting,1,2026-05-08
+O00550,Qualification,2,2026-05-22
+O00550,Proposal,3,2026-06-05
+O00550,Negotiation,4,2026-06-19
+O00550,Closed Lost,5,2026-07-03
+O00551,Prospecting,1,2026-05-29
+O00551,Qualification,2,2026-06-12
+O00551,Proposal,3,2026-06-26
+O00552,Prospecting,1,2026-06-07
+O00552,Qualification,2,2026-06-21
+O00553,Prospecting,1,2025-03-26
+O00553,Qualification,2,2025-04-09
+O00553,Proposal,3,2025-04-23
+O00553,Negotiation,4,2025-05-07
+O00553,Closed Lost,5,2025-05-21
+O00554,Prospecting,1,2025-08-15
+O00554,Qualification,2,2025-08-29
+O00555,Prospecting,1,2025-11-09
+O00555,Qualification,2,2025-11-23
+O00555,Proposal,3,2025-12-07
+O00556,Prospecting,1,2025-10-25
+O00556,Qualification,2,2025-11-08
+O00556,Proposal,3,2025-11-22
+O00556,Negotiation,4,2025-12-06
+O00557,Prospecting,1,2025-11-25
+O00557,Qualification,2,2025-12-09
+O00558,Prospecting,1,2025-04-16
+O00558,Qualification,2,2025-04-30
+O00558,Proposal,3,2025-05-14
+O00558,Negotiation,4,2025-05-28
+O00559,Prospecting,1,2026-03-27
+O00559,Qualification,2,2026-04-10
+O00559,Proposal,3,2026-04-24
+O00559,Negotiation,4,2026-05-08
+O00560,Prospecting,1,2025-04-15
+O00560,Qualification,2,2025-04-29
+O00560,Proposal,3,2025-05-13
+O00560,Negotiation,4,2025-05-27
+O00560,Closed Lost,5,2025-06-10
+O00561,Prospecting,1,2025-04-26
+O00561,Qualification,2,2025-05-10
+O00561,Proposal,3,2025-05-24
+O00561,Negotiation,4,2025-06-07
+O00562,Prospecting,1,2026-03-18
+O00563,Prospecting,1,2025-06-28
+O00563,Qualification,2,2025-07-12
+O00563,Proposal,3,2025-07-26
+O00563,Negotiation,4,2025-08-09
+O00564,Prospecting,1,2026-02-25
+O00564,Qualification,2,2026-03-11
+O00564,Proposal,3,2026-03-25
+O00564,Negotiation,4,2026-04-08
+O00564,Closed Lost,5,2026-04-22
+O00565,Prospecting,1,2025-08-25
+O00565,Qualification,2,2025-09-08
+O00565,Proposal,3,2025-09-22
+O00566,Prospecting,1,2026-03-18
+O00567,Prospecting,1,2026-06-14
+O00568,Prospecting,1,2025-03-14
+O00568,Qualification,2,2025-03-28
+O00568,Proposal,3,2025-04-11
+O00568,Negotiation,4,2025-04-25
+O00568,Closed Won,5,2025-05-09
+O00569,Prospecting,1,2026-04-08
+O00569,Qualification,2,2026-04-22
+O00569,Proposal,3,2026-05-06
+O00569,Negotiation,4,2026-05-20
+O00569,Closed Won,5,2026-06-03
+O00570,Prospecting,1,2025-04-23
+O00570,Qualification,2,2025-05-07
+O00570,Proposal,3,2025-05-21
+O00570,Negotiation,4,2025-06-04
+O00570,Closed Won,5,2025-06-18
+O00571,Prospecting,1,2025-12-15
+O00571,Qualification,2,2025-12-29
+O00572,Prospecting,1,2025-09-06
+O00573,Prospecting,1,2026-08-17
+O00573,Qualification,2,2026-08-31
+O00573,Proposal,3,2026-09-14
+O00574,Prospecting,1,2025-05-02
+O00574,Qualification,2,2025-05-16
+O00574,Proposal,3,2025-05-30
+O00575,Prospecting,1,2026-01-24
+O00575,Qualification,2,2026-02-07
+O00576,Prospecting,1,2025-11-09
+O00577,Prospecting,1,2025-07-10
+O00577,Qualification,2,2025-07-24
+O00577,Proposal,3,2025-08-07
+O00577,Negotiation,4,2025-08-21
+O00578,Prospecting,1,2025-04-15
+O00578,Qualification,2,2025-04-29
+O00579,Prospecting,1,2026-05-19
+O00579,Qualification,2,2026-06-02
+O00579,Proposal,3,2026-06-16
+O00579,Negotiation,4,2026-06-30
+O00579,Closed Lost,5,2026-07-14
+O00580,Prospecting,1,2025-07-14
+O00580,Qualification,2,2025-07-28
+O00580,Proposal,3,2025-08-11
+O00580,Negotiation,4,2025-08-25
+O00581,Prospecting,1,2025-05-01
+O00581,Qualification,2,2025-05-15
+O00581,Proposal,3,2025-05-29
+O00581,Negotiation,4,2025-06-12
+O00582,Prospecting,1,2025-04-17
+O00582,Qualification,2,2025-05-01
+O00582,Proposal,3,2025-05-15
+O00583,Prospecting,1,2025-08-05
+O00583,Qualification,2,2025-08-19
+O00584,Prospecting,1,2025-11-04
+O00584,Qualification,2,2025-11-18
+O00585,Prospecting,1,2026-05-02
+O00585,Qualification,2,2026-05-16
+O00586,Prospecting,1,2025-06-16
+O00586,Qualification,2,2025-06-30
+O00586,Proposal,3,2025-07-14
+O00587,Prospecting,1,2026-03-24
+O00587,Qualification,2,2026-04-07
+O00588,Prospecting,1,2026-06-30
+O00589,Prospecting,1,2025-06-19
+O00589,Qualification,2,2025-07-03
+O00590,Prospecting,1,2026-06-25
+O00590,Qualification,2,2026-07-09
+O00590,Proposal,3,2026-07-23
+O00590,Negotiation,4,2026-08-06
+O00590,Closed Won,5,2026-08-20
+O00591,Prospecting,1,2025-03-22
+O00591,Qualification,2,2025-04-05
+O00591,Proposal,3,2025-04-19
+O00591,Negotiation,4,2025-05-03
+O00591,Closed Won,5,2025-05-17
+O00592,Prospecting,1,2026-05-23
+O00592,Qualification,2,2026-06-06
+O00592,Proposal,3,2026-06-20
+O00592,Negotiation,4,2026-07-04
+O00592,Closed Won,5,2026-07-18
+O00593,Prospecting,1,2025-10-29
+O00593,Qualification,2,2025-11-12
+O00594,Prospecting,1,2026-07-14
+O00594,Qualification,2,2026-07-28
+O00594,Proposal,3,2026-08-11
+O00595,Prospecting,1,2026-06-24
+O00595,Qualification,2,2026-07-08
+O00596,Prospecting,1,2025-10-15
+O00596,Qualification,2,2025-10-29
+O00597,Prospecting,1,2025-03-21
+O00597,Qualification,2,2025-04-04
+O00597,Proposal,3,2025-04-18
+O00597,Negotiation,4,2025-05-02
+O00597,Closed Lost,5,2025-05-16
+O00598,Prospecting,1,2026-07-01
+O00598,Qualification,2,2026-07-15
+O00599,Prospecting,1,2026-02-04
+O00599,Qualification,2,2026-02-18
+O00599,Proposal,3,2026-03-04
+O00599,Negotiation,4,2026-03-18
+O00599,Closed Won,5,2026-04-01
+O00600,Prospecting,1,2026-05-07
+O00601,Prospecting,1,2026-03-21
+O00602,Prospecting,1,2026-07-06
+O00602,Qualification,2,2026-07-20
+O00602,Proposal,3,2026-08-03
+O00602,Negotiation,4,2026-08-17
+O00602,Closed Won,5,2026-08-31
+O00603,Prospecting,1,2026-04-10
+O00603,Qualification,2,2026-04-24
+O00603,Proposal,3,2026-05-08
+O00604,Prospecting,1,2025-12-31
+O00604,Qualification,2,2026-01-14
+O00604,Proposal,3,2026-01-28
+O00605,Prospecting,1,2026-04-06
+O00606,Prospecting,1,2025-08-13
+O00606,Qualification,2,2025-08-27
+O00606,Proposal,3,2025-09-10
+O00606,Negotiation,4,2025-09-24
+O00606,Closed Won,5,2025-10-08
+O00607,Prospecting,1,2025-05-02
+O00607,Qualification,2,2025-05-16
+O00607,Proposal,3,2025-05-30
+O00607,Negotiation,4,2025-06-13
+O00607,Closed Lost,5,2025-06-27
+O00608,Prospecting,1,2025-08-03
+O00608,Qualification,2,2025-08-17
+O00608,Proposal,3,2025-08-31
+O00608,Negotiation,4,2025-09-14
+O00609,Prospecting,1,2026-08-23
+O00609,Qualification,2,2026-09-06
+O00609,Proposal,3,2026-09-20
+O00609,Negotiation,4,2026-10-04
+O00609,Closed Won,5,2026-10-18
+O00610,Prospecting,1,2025-10-11
+O00610,Qualification,2,2025-10-25
+O00610,Proposal,3,2025-11-08
+O00610,Negotiation,4,2025-11-22
+O00610,Closed Lost,5,2025-12-06
+O00611,Prospecting,1,2025-07-05
+O00611,Qualification,2,2025-07-19
+O00611,Proposal,3,2025-08-02
+O00611,Negotiation,4,2025-08-16
+O00611,Closed Won,5,2025-08-30
+O00612,Prospecting,1,2025-10-01
+O00613,Prospecting,1,2026-02-08
+O00613,Qualification,2,2026-02-22
+O00614,Prospecting,1,2025-05-26
+O00614,Qualification,2,2025-06-09
+O00614,Proposal,3,2025-06-23
+O00615,Prospecting,1,2025-07-03
+O00615,Qualification,2,2025-07-17
+O00616,Prospecting,1,2025-05-15
+O00616,Qualification,2,2025-05-29
+O00616,Proposal,3,2025-06-12
+O00617,Prospecting,1,2025-08-20
+O00617,Qualification,2,2025-09-03
+O00617,Proposal,3,2025-09-17
+O00618,Prospecting,1,2026-01-14
+O00618,Qualification,2,2026-01-28
+O00618,Proposal,3,2026-02-11
+O00618,Negotiation,4,2026-02-25
+O00618,Closed Won,5,2026-03-11
+O00619,Prospecting,1,2026-01-23
+O00619,Qualification,2,2026-02-06
+O00619,Proposal,3,2026-02-20
+O00619,Negotiation,4,2026-03-06
+O00619,Closed Won,5,2026-03-20
+O00620,Prospecting,1,2025-12-06
+O00620,Qualification,2,2025-12-20
+O00621,Prospecting,1,2026-04-17
+O00621,Qualification,2,2026-05-01
+O00621,Proposal,3,2026-05-15
+O00621,Negotiation,4,2026-05-29
+O00621,Closed Lost,5,2026-06-12
+O00622,Prospecting,1,2026-05-26
+O00623,Prospecting,1,2025-04-02
+O00623,Qualification,2,2025-04-16
+O00624,Prospecting,1,2026-03-11
+O00624,Qualification,2,2026-03-25
+O00624,Proposal,3,2026-04-08
+O00624,Negotiation,4,2026-04-22
+O00625,Prospecting,1,2026-05-04
+O00625,Qualification,2,2026-05-18
+O00625,Proposal,3,2026-06-01
+O00625,Negotiation,4,2026-06-15
+O00626,Prospecting,1,2025-12-04
+O00626,Qualification,2,2025-12-18
+O00627,Prospecting,1,2026-02-19
+O00628,Prospecting,1,2026-07-21
+O00628,Qualification,2,2026-08-04
+O00628,Proposal,3,2026-08-18
+O00628,Negotiation,4,2026-09-01
+O00629,Prospecting,1,2026-05-28
+O00629,Qualification,2,2026-06-11
+O00630,Prospecting,1,2026-02-28
+O00631,Prospecting,1,2026-05-15
+O00631,Qualification,2,2026-05-29
+O00631,Proposal,3,2026-06-12
+O00631,Negotiation,4,2026-06-26
+O00631,Closed Won,5,2026-07-10
+O00632,Prospecting,1,2026-07-18
+O00632,Qualification,2,2026-08-01
+O00632,Proposal,3,2026-08-15
+O00632,Negotiation,4,2026-08-29
+O00633,Prospecting,1,2025-11-15
+O00634,Prospecting,1,2025-12-29
+O00634,Qualification,2,2026-01-12
+O00634,Proposal,3,2026-01-26
+O00634,Negotiation,4,2026-02-09
+O00634,Closed Lost,5,2026-02-23
+O00635,Prospecting,1,2026-03-27
+O00635,Qualification,2,2026-04-10
+O00636,Prospecting,1,2026-05-25
+O00636,Qualification,2,2026-06-08
+O00636,Proposal,3,2026-06-22
+O00636,Negotiation,4,2026-07-06
+O00636,Closed Lost,5,2026-07-20
+O00637,Prospecting,1,2025-08-19
+O00637,Qualification,2,2025-09-02
+O00638,Prospecting,1,2026-03-26
+O00638,Qualification,2,2026-04-09
+O00638,Proposal,3,2026-04-23
+O00638,Negotiation,4,2026-05-07
+O00638,Closed Lost,5,2026-05-21
+O00639,Prospecting,1,2026-04-23
+O00639,Qualification,2,2026-05-07
+O00639,Proposal,3,2026-05-21
+O00639,Negotiation,4,2026-06-04
+O00639,Closed Won,5,2026-06-18
+O00640,Prospecting,1,2026-05-13
+O00640,Qualification,2,2026-05-27
+O00641,Prospecting,1,2026-06-09
+O00641,Qualification,2,2026-06-23
+O00641,Proposal,3,2026-07-07
+O00641,Negotiation,4,2026-07-21
+O00641,Closed Won,5,2026-08-04
+O00642,Prospecting,1,2025-10-31
+O00642,Qualification,2,2025-11-14
+O00642,Proposal,3,2025-11-28
+O00643,Prospecting,1,2026-06-12
+O00643,Qualification,2,2026-06-26
+O00643,Proposal,3,2026-07-10
+O00643,Negotiation,4,2026-07-24
+O00643,Closed Lost,5,2026-08-07
+O00644,Prospecting,1,2025-04-30
+O00644,Qualification,2,2025-05-14
+O00645,Prospecting,1,2025-07-23
+O00645,Qualification,2,2025-08-06
+O00645,Proposal,3,2025-08-20
+O00645,Negotiation,4,2025-09-03
+O00645,Closed Won,5,2025-09-17
+O00646,Prospecting,1,2026-01-29
+O00647,Prospecting,1,2025-05-14
+O00647,Qualification,2,2025-05-28
+O00648,Prospecting,1,2026-08-11
+O00648,Qualification,2,2026-08-25
+O00648,Proposal,3,2026-09-08
+O00648,Negotiation,4,2026-09-22
+O00648,Closed Lost,5,2026-10-06
+O00649,Prospecting,1,2025-06-15
+O00649,Qualification,2,2025-06-29
+O00649,Proposal,3,2025-07-13
+O00649,Negotiation,4,2025-07-27
+O00649,Closed Lost,5,2025-08-10
+O00650,Prospecting,1,2026-06-30
+O00650,Qualification,2,2026-07-14
+O00651,Prospecting,1,2025-04-12
+O00651,Qualification,2,2025-04-26
+O00651,Proposal,3,2025-05-10
+O00652,Prospecting,1,2025-06-09
+O00653,Prospecting,1,2025-07-28
+O00653,Qualification,2,2025-08-11
+O00653,Proposal,3,2025-08-25
+O00653,Negotiation,4,2025-09-08
+O00653,Closed Lost,5,2025-09-22
+O00654,Prospecting,1,2025-04-24
+O00655,Prospecting,1,2026-01-29
+O00655,Qualification,2,2026-02-12
+O00655,Proposal,3,2026-02-26
+O00655,Negotiation,4,2026-03-12
+O00656,Prospecting,1,2025-09-20
+O00656,Qualification,2,2025-10-04
+O00656,Proposal,3,2025-10-18
+O00657,Prospecting,1,2025-12-01
+O00657,Qualification,2,2025-12-15
+O00657,Proposal,3,2025-12-29
+O00657,Negotiation,4,2026-01-12
+O00657,Closed Lost,5,2026-01-26
+O00658,Prospecting,1,2026-05-19
+O00658,Qualification,2,2026-06-02
+O00658,Proposal,3,2026-06-16
+O00658,Negotiation,4,2026-06-30
+O00658,Closed Won,5,2026-07-14
+O00659,Prospecting,1,2025-11-05
+O00659,Qualification,2,2025-11-19
+O00659,Proposal,3,2025-12-03
+O00659,Negotiation,4,2025-12-17
+O00659,Closed Lost,5,2025-12-31
+O00660,Prospecting,1,2026-02-06
+O00660,Qualification,2,2026-02-20
+O00661,Prospecting,1,2025-08-15
+O00661,Qualification,2,2025-08-29
+O00661,Proposal,3,2025-09-12
+O00661,Negotiation,4,2025-09-26
+O00661,Closed Won,5,2025-10-10
+O00662,Prospecting,1,2025-07-04
+O00662,Qualification,2,2025-07-18
+O00662,Proposal,3,2025-08-01
+O00662,Negotiation,4,2025-08-15
+O00662,Closed Lost,5,2025-08-29
+O00663,Prospecting,1,2025-09-19
+O00663,Qualification,2,2025-10-03
+O00663,Proposal,3,2025-10-17
+O00663,Negotiation,4,2025-10-31
+O00664,Prospecting,1,2025-03-17
+O00664,Qualification,2,2025-03-31
+O00664,Proposal,3,2025-04-14
+O00664,Negotiation,4,2025-04-28
+O00664,Closed Won,5,2025-05-12
+O00665,Prospecting,1,2025-07-14
+O00666,Prospecting,1,2026-06-06
+O00666,Qualification,2,2026-06-20
+O00667,Prospecting,1,2025-03-26
+O00667,Qualification,2,2025-04-09
+O00668,Prospecting,1,2025-06-25
+O00668,Qualification,2,2025-07-09
+O00668,Proposal,3,2025-07-23
+O00668,Negotiation,4,2025-08-06
+O00668,Closed Won,5,2025-08-20
+O00669,Prospecting,1,2026-04-26
+O00669,Qualification,2,2026-05-10
+O00669,Proposal,3,2026-05-24
+O00670,Prospecting,1,2025-11-13
+O00670,Qualification,2,2025-11-27
+O00670,Proposal,3,2025-12-11
+O00671,Prospecting,1,2025-03-21
+O00671,Qualification,2,2025-04-04
+O00671,Proposal,3,2025-04-18
+O00672,Prospecting,1,2026-06-29
+O00673,Prospecting,1,2025-04-08
+O00673,Qualification,2,2025-04-22
+O00673,Proposal,3,2025-05-06
+O00673,Negotiation,4,2025-05-20
+O00674,Prospecting,1,2025-04-01
+O00674,Qualification,2,2025-04-15
+O00674,Proposal,3,2025-04-29
+O00675,Prospecting,1,2025-05-04
+O00676,Prospecting,1,2025-08-18
+O00677,Prospecting,1,2026-08-03
+O00677,Qualification,2,2026-08-17
+O00677,Proposal,3,2026-08-31
+O00677,Negotiation,4,2026-09-14
+O00677,Closed Won,5,2026-09-28
+O00678,Prospecting,1,2025-04-18
+O00678,Qualification,2,2025-05-02
+O00679,Prospecting,1,2025-08-10
+O00679,Qualification,2,2025-08-24
+O00679,Proposal,3,2025-09-07
+O00680,Prospecting,1,2025-05-29
+O00680,Qualification,2,2025-06-12
+O00680,Proposal,3,2025-06-26
+O00681,Prospecting,1,2025-09-18
+O00681,Qualification,2,2025-10-02
+O00681,Proposal,3,2025-10-16
+O00681,Negotiation,4,2025-10-30
+O00682,Prospecting,1,2025-10-19
+O00683,Prospecting,1,2025-04-04
+O00683,Qualification,2,2025-04-18
+O00683,Proposal,3,2025-05-02
+O00683,Negotiation,4,2025-05-16
+O00683,Closed Won,5,2025-05-30
+O00684,Prospecting,1,2025-10-07
+O00685,Prospecting,1,2026-05-30
+O00686,Prospecting,1,2025-07-10
+O00687,Prospecting,1,2025-07-05
+O00687,Qualification,2,2025-07-19
+O00687,Proposal,3,2025-08-02
+O00687,Negotiation,4,2025-08-16
+O00687,Closed Won,5,2025-08-30
+O00688,Prospecting,1,2025-04-02
+O00689,Prospecting,1,2026-01-04
+O00689,Qualification,2,2026-01-18
+O00689,Proposal,3,2026-02-01
+O00689,Negotiation,4,2026-02-15
+O00689,Closed Won,5,2026-03-01
+O00690,Prospecting,1,2025-07-11
+O00690,Qualification,2,2025-07-25
+O00690,Proposal,3,2025-08-08
+O00690,Negotiation,4,2025-08-22
+O00691,Prospecting,1,2025-06-24
+O00691,Qualification,2,2025-07-08
+O00691,Proposal,3,2025-07-22
+O00691,Negotiation,4,2025-08-05
+O00691,Closed Won,5,2025-08-19
+O00692,Prospecting,1,2026-07-01
+O00692,Qualification,2,2026-07-15
+O00692,Proposal,3,2026-07-29
+O00692,Negotiation,4,2026-08-12
+O00692,Closed Lost,5,2026-08-26
+O00693,Prospecting,1,2026-06-21
+O00693,Qualification,2,2026-07-05
+O00694,Prospecting,1,2025-04-02
+O00694,Qualification,2,2025-04-16
+O00694,Proposal,3,2025-04-30
+O00694,Negotiation,4,2025-05-14
+O00694,Closed Won,5,2025-05-28
+O00695,Prospecting,1,2025-10-06
+O00695,Qualification,2,2025-10-20
+O00696,Prospecting,1,2026-08-22
+O00696,Qualification,2,2026-09-05
+O00697,Prospecting,1,2026-07-31
+O00697,Qualification,2,2026-08-14
+O00697,Proposal,3,2026-08-28
+O00697,Negotiation,4,2026-09-11
+O00697,Closed Lost,5,2026-09-25
+O00698,Prospecting,1,2026-08-23
+O00698,Qualification,2,2026-09-06
+O00699,Prospecting,1,2026-05-31
+O00699,Qualification,2,2026-06-14
+O00699,Proposal,3,2026-06-28
+O00699,Negotiation,4,2026-07-12
+O00699,Closed Lost,5,2026-07-26
+O00700,Prospecting,1,2026-01-29
+O00700,Qualification,2,2026-02-12
+O00700,Proposal,3,2026-02-26
+O00700,Negotiation,4,2026-03-12
+O00701,Prospecting,1,2026-02-14
+O00701,Qualification,2,2026-02-28
+O00701,Proposal,3,2026-03-14
+O00702,Prospecting,1,2025-12-09
+O00702,Qualification,2,2025-12-23
+O00702,Proposal,3,2026-01-06
+O00702,Negotiation,4,2026-01-20
+O00702,Closed Lost,5,2026-02-03
+O00703,Prospecting,1,2025-06-20
+O00703,Qualification,2,2025-07-04
+O00703,Proposal,3,2025-07-18
+O00703,Negotiation,4,2025-08-01
+O00704,Prospecting,1,2025-03-19
+O00704,Qualification,2,2025-04-02
+O00705,Prospecting,1,2026-08-26
+O00705,Qualification,2,2026-09-09
+O00706,Prospecting,1,2026-02-11
+O00706,Qualification,2,2026-02-25
+O00707,Prospecting,1,2025-12-21
+O00708,Prospecting,1,2025-06-08
+O00708,Qualification,2,2025-06-22
+O00708,Proposal,3,2025-07-06
+O00708,Negotiation,4,2025-07-20
+O00708,Closed Won,5,2025-08-03
+O00709,Prospecting,1,2026-06-26
+O00709,Qualification,2,2026-07-10
+O00709,Proposal,3,2026-07-24
+O00709,Negotiation,4,2026-08-07
+O00709,Closed Won,5,2026-08-21
+O00710,Prospecting,1,2026-07-05
+O00710,Qualification,2,2026-07-19
+O00711,Prospecting,1,2025-08-03
+O00711,Qualification,2,2025-08-17
+O00712,Prospecting,1,2025-09-29
+O00713,Prospecting,1,2025-03-28
+O00713,Qualification,2,2025-04-11
+O00714,Prospecting,1,2025-10-16
+O00714,Qualification,2,2025-10-30
+O00715,Prospecting,1,2025-10-19
+O00715,Qualification,2,2025-11-02
+O00716,Prospecting,1,2026-07-07
+O00717,Prospecting,1,2025-05-01
+O00717,Qualification,2,2025-05-15
+O00717,Proposal,3,2025-05-29
+O00717,Negotiation,4,2025-06-12
+O00717,Closed Lost,5,2025-06-26
+O00718,Prospecting,1,2026-03-18
+O00718,Qualification,2,2026-04-01
+O00718,Proposal,3,2026-04-15
+O00718,Negotiation,4,2026-04-29
+O00719,Prospecting,1,2026-01-25
+O00719,Qualification,2,2026-02-08
+O00719,Proposal,3,2026-02-22
+O00720,Prospecting,1,2026-08-21
+O00721,Prospecting,1,2026-02-09
+O00722,Prospecting,1,2026-08-09
+O00723,Prospecting,1,2025-10-23
+O00723,Qualification,2,2025-11-06
+O00724,Prospecting,1,2026-04-06
+O00724,Qualification,2,2026-04-20
+O00724,Proposal,3,2026-05-04
+O00724,Negotiation,4,2026-05-18
+O00724,Closed Won,5,2026-06-01
+O00725,Prospecting,1,2025-06-18
+O00725,Qualification,2,2025-07-02
+O00725,Proposal,3,2025-07-16
+O00725,Negotiation,4,2025-07-30
+O00725,Closed Won,5,2025-08-13
+O00726,Prospecting,1,2025-12-21
+O00726,Qualification,2,2026-01-04
+O00726,Proposal,3,2026-01-18
+O00727,Prospecting,1,2026-06-26
+O00727,Qualification,2,2026-07-10
+O00728,Prospecting,1,2025-08-14
+O00728,Qualification,2,2025-08-28
+O00729,Prospecting,1,2026-02-05
+O00730,Prospecting,1,2026-06-06
+O00731,Prospecting,1,2025-05-27
+O00731,Qualification,2,2025-06-10
+O00732,Prospecting,1,2026-06-15
+O00733,Prospecting,1,2026-02-07
+O00733,Qualification,2,2026-02-21
+O00733,Proposal,3,2026-03-07
+O00734,Prospecting,1,2025-10-29
+O00734,Qualification,2,2025-11-12
+O00735,Prospecting,1,2025-03-25
+O00735,Qualification,2,2025-04-08
+O00735,Proposal,3,2025-04-22
+O00735,Negotiation,4,2025-05-06
+O00735,Closed Lost,5,2025-05-20
+O00736,Prospecting,1,2025-03-21
+O00736,Qualification,2,2025-04-04
+O00737,Prospecting,1,2025-06-18
+O00737,Qualification,2,2025-07-02
+O00737,Proposal,3,2025-07-16
+O00737,Negotiation,4,2025-07-30
+O00737,Closed Lost,5,2025-08-13
+O00738,Prospecting,1,2026-04-22
+O00738,Qualification,2,2026-05-06
+O00738,Proposal,3,2026-05-20
+O00739,Prospecting,1,2025-07-14
+O00739,Qualification,2,2025-07-28
+O00739,Proposal,3,2025-08-11
+O00739,Negotiation,4,2025-08-25
+O00739,Closed Lost,5,2025-09-08
+O00740,Prospecting,1,2025-09-27
+O00740,Qualification,2,2025-10-11
+O00740,Proposal,3,2025-10-25
+O00741,Prospecting,1,2025-08-01
+O00742,Prospecting,1,2025-04-18
+O00743,Prospecting,1,2025-08-19
+O00744,Prospecting,1,2026-06-22
+O00744,Qualification,2,2026-07-06
+O00744,Proposal,3,2026-07-20
+O00744,Negotiation,4,2026-08-03
+O00745,Prospecting,1,2025-10-18
+O00745,Qualification,2,2025-11-01
+O00746,Prospecting,1,2025-07-19
+O00747,Prospecting,1,2025-05-21
+O00747,Qualification,2,2025-06-04
+O00747,Proposal,3,2025-06-18
+O00747,Negotiation,4,2025-07-02
+O00748,Prospecting,1,2025-06-15
+O00748,Qualification,2,2025-06-29
+O00748,Proposal,3,2025-07-13
+O00748,Negotiation,4,2025-07-27
+O00749,Prospecting,1,2025-11-24
+O00749,Qualification,2,2025-12-08
+O00749,Proposal,3,2025-12-22
+O00749,Negotiation,4,2026-01-05
+O00749,Closed Lost,5,2026-01-19
+O00750,Prospecting,1,2026-05-16
+O00750,Qualification,2,2026-05-30
+O00750,Proposal,3,2026-06-13
+O00751,Prospecting,1,2026-06-18
+O00751,Qualification,2,2026-07-02
+O00751,Proposal,3,2026-07-16
+O00752,Prospecting,1,2026-08-21
+O00752,Qualification,2,2026-09-04
+O00752,Proposal,3,2026-09-18
+O00753,Prospecting,1,2025-12-26
+O00753,Qualification,2,2026-01-09
+O00753,Proposal,3,2026-01-23
+O00753,Negotiation,4,2026-02-06
+O00753,Closed Won,5,2026-02-20
+O00754,Prospecting,1,2025-11-03
+O00754,Qualification,2,2025-11-17
+O00754,Proposal,3,2025-12-01
+O00755,Prospecting,1,2026-03-02
+O00756,Prospecting,1,2025-10-20
+O00756,Qualification,2,2025-11-03
+O00756,Proposal,3,2025-11-17
+O00757,Prospecting,1,2026-02-08
+O00757,Qualification,2,2026-02-22
+O00758,Prospecting,1,2026-03-13
+O00758,Qualification,2,2026-03-27
+O00758,Proposal,3,2026-04-10
+O00758,Negotiation,4,2026-04-24
+O00758,Closed Won,5,2026-05-08
+O00759,Prospecting,1,2025-07-23
+O00759,Qualification,2,2025-08-06
+O00759,Proposal,3,2025-08-20
+O00759,Negotiation,4,2025-09-03
+O00759,Closed Won,5,2025-09-17
+O00760,Prospecting,1,2025-10-12
+O00761,Prospecting,1,2026-01-20
+O00761,Qualification,2,2026-02-03
+O00761,Proposal,3,2026-02-17
+O00762,Prospecting,1,2025-10-03
+O00762,Qualification,2,2025-10-17
+O00762,Proposal,3,2025-10-31
+O00762,Negotiation,4,2025-11-14
+O00762,Closed Lost,5,2025-11-28
+O00763,Prospecting,1,2025-09-22
+O00763,Qualification,2,2025-10-06
+O00763,Proposal,3,2025-10-20
+O00763,Negotiation,4,2025-11-03
+O00764,Prospecting,1,2026-04-26
+O00764,Qualification,2,2026-05-10
+O00764,Proposal,3,2026-05-24
+O00765,Prospecting,1,2026-03-29
+O00765,Qualification,2,2026-04-12
+O00765,Proposal,3,2026-04-26
+O00766,Prospecting,1,2025-11-20
+O00766,Qualification,2,2025-12-04
+O00766,Proposal,3,2025-12-18
+O00767,Prospecting,1,2025-09-26
+O00768,Prospecting,1,2025-10-06
+O00768,Qualification,2,2025-10-20
+O00768,Proposal,3,2025-11-03
+O00769,Prospecting,1,2026-04-25
+O00769,Qualification,2,2026-05-09
+O00769,Proposal,3,2026-05-23
+O00770,Prospecting,1,2026-02-10
+O00771,Prospecting,1,2026-06-11
+O00771,Qualification,2,2026-06-25
+O00771,Proposal,3,2026-07-09
+O00771,Negotiation,4,2026-07-23
+O00771,Closed Won,5,2026-08-06
+O00772,Prospecting,1,2026-08-11
+O00772,Qualification,2,2026-08-25
+O00772,Proposal,3,2026-09-08
+O00772,Negotiation,4,2026-09-22
+O00772,Closed Won,5,2026-10-06
+O00773,Prospecting,1,2025-05-14
+O00773,Qualification,2,2025-05-28
+O00774,Prospecting,1,2026-02-18
+O00774,Qualification,2,2026-03-04
+O00774,Proposal,3,2026-03-18
+O00774,Negotiation,4,2026-04-01
+O00775,Prospecting,1,2025-08-14
+O00775,Qualification,2,2025-08-28
+O00776,Prospecting,1,2026-03-18
+O00776,Qualification,2,2026-04-01
+O00777,Prospecting,1,2026-07-03
+O00777,Qualification,2,2026-07-17
+O00777,Proposal,3,2026-07-31
+O00777,Negotiation,4,2026-08-14
+O00778,Prospecting,1,2026-04-02
+O00778,Qualification,2,2026-04-16
+O00779,Prospecting,1,2026-05-29
+O00779,Qualification,2,2026-06-12
+O00779,Proposal,3,2026-06-26
+O00779,Negotiation,4,2026-07-10
+O00780,Prospecting,1,2025-06-20
+O00780,Qualification,2,2025-07-04
+O00781,Prospecting,1,2025-09-13
+O00781,Qualification,2,2025-09-27
+O00781,Proposal,3,2025-10-11
+O00781,Negotiation,4,2025-10-25
+O00781,Closed Won,5,2025-11-08
+O00782,Prospecting,1,2026-05-24
+O00782,Qualification,2,2026-06-07
+O00782,Proposal,3,2026-06-21
+O00783,Prospecting,1,2026-02-22
+O00783,Qualification,2,2026-03-08
+O00783,Proposal,3,2026-03-22
+O00783,Negotiation,4,2026-04-05
+O00783,Closed Won,5,2026-04-19
+O00784,Prospecting,1,2026-07-02
+O00784,Qualification,2,2026-07-16
+O00784,Proposal,3,2026-07-30
+O00784,Negotiation,4,2026-08-13
+O00784,Closed Lost,5,2026-08-27
+O00785,Prospecting,1,2025-11-04
+O00786,Prospecting,1,2026-06-30
+O00786,Qualification,2,2026-07-14
+O00786,Proposal,3,2026-07-28
+O00786,Negotiation,4,2026-08-11
+O00787,Prospecting,1,2025-03-17
+O00787,Qualification,2,2025-03-31
+O00787,Proposal,3,2025-04-14
+O00787,Negotiation,4,2025-04-28
+O00787,Closed Lost,5,2025-05-12
+O00788,Prospecting,1,2025-09-14
+O00788,Qualification,2,2025-09-28
+O00788,Proposal,3,2025-10-12
+O00788,Negotiation,4,2025-10-26
+O00788,Closed Lost,5,2025-11-09
+O00789,Prospecting,1,2026-05-21
+O00789,Qualification,2,2026-06-04
+O00789,Proposal,3,2026-06-18
+O00789,Negotiation,4,2026-07-02
+O00790,Prospecting,1,2025-12-20
+O00790,Qualification,2,2026-01-03
+O00790,Proposal,3,2026-01-17
+O00791,Prospecting,1,2025-10-06
+O00791,Qualification,2,2025-10-20
+O00792,Prospecting,1,2025-04-22
+O00792,Qualification,2,2025-05-06
+O00792,Proposal,3,2025-05-20
+O00793,Prospecting,1,2026-02-13
+O00793,Qualification,2,2026-02-27
+O00793,Proposal,3,2026-03-13
+O00793,Negotiation,4,2026-03-27
+O00793,Closed Lost,5,2026-04-10
+O00794,Prospecting,1,2025-06-01
+O00794,Qualification,2,2025-06-15
+O00794,Proposal,3,2025-06-29
+O00794,Negotiation,4,2025-07-13
+O00794,Closed Lost,5,2025-07-27
+O00795,Prospecting,1,2026-08-02
+O00795,Qualification,2,2026-08-16
+O00795,Proposal,3,2026-08-30
+O00795,Negotiation,4,2026-09-13
+O00796,Prospecting,1,2026-04-14
+O00796,Qualification,2,2026-04-28
+O00796,Proposal,3,2026-05-12
+O00796,Negotiation,4,2026-05-26
+O00796,Closed Lost,5,2026-06-09
+O00797,Prospecting,1,2025-09-14
+O00797,Qualification,2,2025-09-28
+O00797,Proposal,3,2025-10-12
+O00798,Prospecting,1,2025-12-09
+O00799,Prospecting,1,2025-10-15
+O00799,Qualification,2,2025-10-29
+O00799,Proposal,3,2025-11-12
+O00799,Negotiation,4,2025-11-26
+O00799,Closed Lost,5,2025-12-10
+O00800,Prospecting,1,2025-10-08
+O00800,Qualification,2,2025-10-22
+O00800,Proposal,3,2025-11-05
+O00800,Negotiation,4,2025-11-19
+O00800,Closed Lost,5,2025-12-03
+O00801,Prospecting,1,2026-08-22
+O00801,Qualification,2,2026-09-05
+O00802,Prospecting,1,2025-11-14
+O00802,Qualification,2,2025-11-28
+O00802,Proposal,3,2025-12-12
+O00803,Prospecting,1,2025-04-29
+O00804,Prospecting,1,2026-01-28
+O00804,Qualification,2,2026-02-11
+O00804,Proposal,3,2026-02-25
+O00804,Negotiation,4,2026-03-11
+O00804,Closed Lost,5,2026-03-25
+O00805,Prospecting,1,2026-03-21
+O00805,Qualification,2,2026-04-04
+O00805,Proposal,3,2026-04-18
+O00805,Negotiation,4,2026-05-02
+O00805,Closed Lost,5,2026-05-16
+O00806,Prospecting,1,2026-06-19
+O00806,Qualification,2,2026-07-03
+O00807,Prospecting,1,2025-10-04
+O00807,Qualification,2,2025-10-18
+O00807,Proposal,3,2025-11-01
+O00807,Negotiation,4,2025-11-15
+O00807,Closed Lost,5,2025-11-29
+O00808,Prospecting,1,2025-04-24
+O00809,Prospecting,1,2026-05-19
+O00809,Qualification,2,2026-06-02
+O00809,Proposal,3,2026-06-16
+O00809,Negotiation,4,2026-06-30
+O00810,Prospecting,1,2025-09-01
+O00810,Qualification,2,2025-09-15
+O00810,Proposal,3,2025-09-29
+O00810,Negotiation,4,2025-10-13
+O00810,Closed Won,5,2025-10-27
+O00811,Prospecting,1,2025-07-14
+O00812,Prospecting,1,2026-06-01
+O00812,Qualification,2,2026-06-15
+O00812,Proposal,3,2026-06-29
+O00812,Negotiation,4,2026-07-13
+O00812,Closed Lost,5,2026-07-27
+O00813,Prospecting,1,2026-05-04
+O00813,Qualification,2,2026-05-18
+O00814,Prospecting,1,2026-05-27
+O00814,Qualification,2,2026-06-10
+O00814,Proposal,3,2026-06-24
+O00814,Negotiation,4,2026-07-08
+O00814,Closed Won,5,2026-07-22
+O00815,Prospecting,1,2026-02-23
+O00815,Qualification,2,2026-03-09
+O00815,Proposal,3,2026-03-23
+O00816,Prospecting,1,2026-04-26
+O00816,Qualification,2,2026-05-10
+O00816,Proposal,3,2026-05-24
+O00816,Negotiation,4,2026-06-07
+O00816,Closed Won,5,2026-06-21
+O00817,Prospecting,1,2026-04-28
+O00817,Qualification,2,2026-05-12
+O00817,Proposal,3,2026-05-26
+O00818,Prospecting,1,2025-03-31
+O00818,Qualification,2,2025-04-14
+O00818,Proposal,3,2025-04-28
+O00818,Negotiation,4,2025-05-12
+O00819,Prospecting,1,2025-11-04
+O00819,Qualification,2,2025-11-18
+O00820,Prospecting,1,2026-05-22
+O00821,Prospecting,1,2026-01-22
+O00821,Qualification,2,2026-02-05
+O00822,Prospecting,1,2026-03-17
+O00823,Prospecting,1,2025-11-29
+O00823,Qualification,2,2025-12-13
+O00823,Proposal,3,2025-12-27
+O00823,Negotiation,4,2026-01-10
+O00823,Closed Lost,5,2026-01-24
+O00824,Prospecting,1,2025-10-12
+O00824,Qualification,2,2025-10-26
+O00824,Proposal,3,2025-11-09
+O00824,Negotiation,4,2025-11-23
+O00824,Closed Won,5,2025-12-07
+O00825,Prospecting,1,2025-07-11
+O00825,Qualification,2,2025-07-25
+O00825,Proposal,3,2025-08-08
+O00826,Prospecting,1,2026-05-23
+O00826,Qualification,2,2026-06-06
+O00826,Proposal,3,2026-06-20
+O00826,Negotiation,4,2026-07-04
+O00827,Prospecting,1,2025-04-17
+O00827,Qualification,2,2025-05-01
+O00828,Prospecting,1,2025-10-10
+O00828,Qualification,2,2025-10-24
+O00828,Proposal,3,2025-11-07
+O00828,Negotiation,4,2025-11-21
+O00828,Closed Won,5,2025-12-05
+O00829,Prospecting,1,2026-04-23
+O00829,Qualification,2,2026-05-07
+O00829,Proposal,3,2026-05-21
+O00830,Prospecting,1,2025-08-17
+O00830,Qualification,2,2025-08-31
+O00830,Proposal,3,2025-09-14
+O00830,Negotiation,4,2025-09-28
+O00830,Closed Won,5,2025-10-12
+O00831,Prospecting,1,2025-11-11
+O00831,Qualification,2,2025-11-25
+O00832,Prospecting,1,2025-10-15
+O00832,Qualification,2,2025-10-29
+O00832,Proposal,3,2025-11-12
+O00832,Negotiation,4,2025-11-26
+O00832,Closed Lost,5,2025-12-10
+O00833,Prospecting,1,2025-11-12
+O00833,Qualification,2,2025-11-26
+O00834,Prospecting,1,2025-03-22
+O00834,Qualification,2,2025-04-05
+O00834,Proposal,3,2025-04-19
+O00834,Negotiation,4,2025-05-03
+O00834,Closed Lost,5,2025-05-17
+O00835,Prospecting,1,2025-09-12
+O00835,Qualification,2,2025-09-26
+O00835,Proposal,3,2025-10-10
+O00836,Prospecting,1,2026-06-16
+O00837,Prospecting,1,2025-09-19
+O00837,Qualification,2,2025-10-03
+O00837,Proposal,3,2025-10-17
+O00837,Negotiation,4,2025-10-31
+O00837,Closed Won,5,2025-11-14
+O00838,Prospecting,1,2025-07-24
+O00838,Qualification,2,2025-08-07
+O00839,Prospecting,1,2026-08-25
+O00839,Qualification,2,2026-09-08
+O00840,Prospecting,1,2026-08-22
+O00840,Qualification,2,2026-09-05
+O00841,Prospecting,1,2025-12-18
+O00841,Qualification,2,2026-01-01
+O00842,Prospecting,1,2025-06-08
+O00842,Qualification,2,2025-06-22
+O00843,Prospecting,1,2025-07-23
+O00843,Qualification,2,2025-08-06
+O00844,Prospecting,1,2025-04-18
+O00844,Qualification,2,2025-05-02
+O00844,Proposal,3,2025-05-16
+O00845,Prospecting,1,2026-05-13
+O00845,Qualification,2,2026-05-27
+O00845,Proposal,3,2026-06-10
+O00845,Negotiation,4,2026-06-24
+O00845,Closed Won,5,2026-07-08
+O00846,Prospecting,1,2026-08-23
+O00846,Qualification,2,2026-09-06
+O00847,Prospecting,1,2025-11-17
+O00847,Qualification,2,2025-12-01
+O00847,Proposal,3,2025-12-15
+O00847,Negotiation,4,2025-12-29
+O00847,Closed Lost,5,2026-01-12
+O00848,Prospecting,1,2026-04-01
+O00849,Prospecting,1,2026-02-08
+O00850,Prospecting,1,2025-06-21
+O00850,Qualification,2,2025-07-05
+O00851,Prospecting,1,2025-06-29
+O00851,Qualification,2,2025-07-13
+O00851,Proposal,3,2025-07-27
+O00851,Negotiation,4,2025-08-10
+O00852,Prospecting,1,2025-05-05
+O00852,Qualification,2,2025-05-19
+O00852,Proposal,3,2025-06-02
+O00853,Prospecting,1,2026-08-18
+O00853,Qualification,2,2026-09-01
+O00853,Proposal,3,2026-09-15
+O00853,Negotiation,4,2026-09-29
+O00853,Closed Lost,5,2026-10-13
+O00854,Prospecting,1,2025-11-22
+O00854,Qualification,2,2025-12-06
+O00855,Prospecting,1,2025-06-01
+O00855,Qualification,2,2025-06-15
+O00855,Proposal,3,2025-06-29
+O00855,Negotiation,4,2025-07-13
+O00855,Closed Won,5,2025-07-27
+O00856,Prospecting,1,2026-04-23
+O00856,Qualification,2,2026-05-07
+O00857,Prospecting,1,2026-05-03
+O00857,Qualification,2,2026-05-17
+O00857,Proposal,3,2026-05-31
+O00857,Negotiation,4,2026-06-14
+O00857,Closed Won,5,2026-06-28
+O00858,Prospecting,1,2026-07-16
+O00858,Qualification,2,2026-07-30
+O00858,Proposal,3,2026-08-13
+O00858,Negotiation,4,2026-08-27
+O00858,Closed Won,5,2026-09-10
+O00859,Prospecting,1,2025-03-28
+O00859,Qualification,2,2025-04-11
+O00859,Proposal,3,2025-04-25
+O00860,Prospecting,1,2026-08-22
+O00860,Qualification,2,2026-09-05
+O00860,Proposal,3,2026-09-19
+O00860,Negotiation,4,2026-10-03
+O00860,Closed Lost,5,2026-10-17
+O00861,Prospecting,1,2025-11-30
+O00862,Prospecting,1,2025-11-28
+O00862,Qualification,2,2025-12-12
+O00862,Proposal,3,2025-12-26
+O00862,Negotiation,4,2026-01-09
+O00862,Closed Won,5,2026-01-23
+O00863,Prospecting,1,2026-06-07
+O00863,Qualification,2,2026-06-21
+O00863,Proposal,3,2026-07-05
+O00863,Negotiation,4,2026-07-19
+O00863,Closed Lost,5,2026-08-02
+O00864,Prospecting,1,2026-08-21
+O00864,Qualification,2,2026-09-04
+O00864,Proposal,3,2026-09-18
+O00864,Negotiation,4,2026-10-02
+O00864,Closed Won,5,2026-10-16
+O00865,Prospecting,1,2025-12-11
+O00865,Qualification,2,2025-12-25
+O00865,Proposal,3,2026-01-08
+O00865,Negotiation,4,2026-01-22
+O00865,Closed Lost,5,2026-02-05
+O00866,Prospecting,1,2025-06-01
+O00866,Qualification,2,2025-06-15
+O00866,Proposal,3,2025-06-29
+O00867,Prospecting,1,2026-03-04
+O00867,Qualification,2,2026-03-18
+O00868,Prospecting,1,2026-02-20
+O00869,Prospecting,1,2026-08-19
+O00869,Qualification,2,2026-09-02
+O00870,Prospecting,1,2026-06-07
+O00870,Qualification,2,2026-06-21
+O00870,Proposal,3,2026-07-05
+O00870,Negotiation,4,2026-07-19
+O00871,Prospecting,1,2026-06-05
+O00871,Qualification,2,2026-06-19
+O00872,Prospecting,1,2026-07-05
+O00872,Qualification,2,2026-07-19
+O00873,Prospecting,1,2025-07-02
+O00873,Qualification,2,2025-07-16
+O00873,Proposal,3,2025-07-30
+O00873,Negotiation,4,2025-08-13
+O00874,Prospecting,1,2025-08-03
+O00874,Qualification,2,2025-08-17
+O00874,Proposal,3,2025-08-31
+O00874,Negotiation,4,2025-09-14
+O00874,Closed Lost,5,2025-09-28
+O00875,Prospecting,1,2025-08-31
+O00875,Qualification,2,2025-09-14
+O00876,Prospecting,1,2025-03-06
+O00877,Prospecting,1,2025-11-27
+O00877,Qualification,2,2025-12-11
+O00877,Proposal,3,2025-12-25
+O00877,Negotiation,4,2026-01-08
+O00877,Closed Lost,5,2026-01-22
+O00878,Prospecting,1,2026-04-02
+O00878,Qualification,2,2026-04-16
+O00878,Proposal,3,2026-04-30
+O00879,Prospecting,1,2025-10-05
+O00879,Qualification,2,2025-10-19
+O00879,Proposal,3,2025-11-02
+O00879,Negotiation,4,2025-11-16
+O00879,Closed Won,5,2025-11-30
+O00880,Prospecting,1,2025-09-24
+O00880,Qualification,2,2025-10-08
+O00880,Proposal,3,2025-10-22
+O00880,Negotiation,4,2025-11-05
+O00881,Prospecting,1,2026-06-07
+O00881,Qualification,2,2026-06-21
+O00882,Prospecting,1,2026-08-29
+O00882,Qualification,2,2026-09-12
+O00882,Proposal,3,2026-09-26
+O00882,Negotiation,4,2026-10-10
+O00883,Prospecting,1,2026-04-11
+O00884,Prospecting,1,2026-04-07
+O00885,Prospecting,1,2026-03-23
+O00885,Qualification,2,2026-04-06
+O00886,Prospecting,1,2025-05-07
+O00886,Qualification,2,2025-05-21
+O00886,Proposal,3,2025-06-04
+O00886,Negotiation,4,2025-06-18
+O00886,Closed Lost,5,2025-07-02
+O00887,Prospecting,1,2026-05-10
+O00887,Qualification,2,2026-05-24
+O00887,Proposal,3,2026-06-07
+O00887,Negotiation,4,2026-06-21
+O00888,Prospecting,1,2025-05-23
+O00888,Qualification,2,2025-06-06
+O00888,Proposal,3,2025-06-20
+O00888,Negotiation,4,2025-07-04
+O00889,Prospecting,1,2025-03-15
+O00889,Qualification,2,2025-03-29
+O00889,Proposal,3,2025-04-12
+O00889,Negotiation,4,2025-04-26
+O00890,Prospecting,1,2026-06-13
+O00890,Qualification,2,2026-06-27
+O00890,Proposal,3,2026-07-11
+O00890,Negotiation,4,2026-07-25
+O00890,Closed Lost,5,2026-08-08
+O00891,Prospecting,1,2025-11-28
+O00892,Prospecting,1,2026-08-20
+O00892,Qualification,2,2026-09-03
+O00892,Proposal,3,2026-09-17
+O00892,Negotiation,4,2026-10-01
+O00892,Closed Won,5,2026-10-15
+O00893,Prospecting,1,2026-07-13
+O00893,Qualification,2,2026-07-27
+O00893,Proposal,3,2026-08-10
+O00893,Negotiation,4,2026-08-24
+O00894,Prospecting,1,2025-07-27
+O00894,Qualification,2,2025-08-10
+O00894,Proposal,3,2025-08-24
+O00894,Negotiation,4,2025-09-07
+O00894,Closed Lost,5,2025-09-21
+O00895,Prospecting,1,2025-08-05
+O00895,Qualification,2,2025-08-19
+O00895,Proposal,3,2025-09-02
+O00895,Negotiation,4,2025-09-16
+O00896,Prospecting,1,2026-01-06
+O00896,Qualification,2,2026-01-20
+O00896,Proposal,3,2026-02-03
+O00896,Negotiation,4,2026-02-17
+O00896,Closed Lost,5,2026-03-03
+O00897,Prospecting,1,2025-09-18
+O00897,Qualification,2,2025-10-02
+O00897,Proposal,3,2025-10-16
+O00898,Prospecting,1,2025-04-09
+O00899,Prospecting,1,2025-05-23
+O00899,Qualification,2,2025-06-06
+O00899,Proposal,3,2025-06-20
+O00899,Negotiation,4,2025-07-04
+O00900,Prospecting,1,2025-05-17
+O00900,Qualification,2,2025-05-31
