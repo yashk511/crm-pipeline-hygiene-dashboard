@@ -1,13 +1,26 @@
 # CRM Pipeline & Data Hygiene Dashboard
 
-A sales-ops style project: takes a deliberately messy CRM export (the kind
-an analyst actually inherits from Dynamics/Salesforce) and turns it into a
-clean, modeled dataset powering a Power BI dashboard — covering data
-de-duplication, field standardization, missing-field flagging, and pipeline
-hygiene monitoring.
+A sales-ops style project: takes a deliberately messy CRM export (the kind an analyst actually inherits from Dynamics/Salesforce) and turns it into a clean, modeled dataset powering a Power BI dashboard — covering data de-duplication, field standardization, missing-field flagging, and pipeline hygiene monitoring.
+
+> Data is synthetic and seeded (`generate_data.py`). Lead-source, product and team effects are planted simulation parameters, not real-world evidence.
+
+## What was cleaned and audited
+| Problem | Approach | Result |
+|---|---|---|
+| **Duplicate accounts** | Name normalization + fuzzy match, blocked by country | 162 -> 140; 100% precision/recall vs ground truth |
+| **Non-standard stages** | Rule-based mapping | 21 raw spellings -> 6 canonical stages |
+| **Missing amounts** | Flagged, median-imputed, reported separately | 34 flagged; $10.96M pipeline excluding imputed vs $11.28M total |
+| **Missing DUNS** | Flagged, never invented | 39 accounts isolated for seller follow-up |
+| **Stale pipeline** | No activity in 30+ days | 183 deals, $3.76M (33% of open pipeline) |
+| **Validation** | 9 row-level rules, PASS/REVIEW summary | 7 PASS, 2 REVIEW |
+
+## Technical Highlights
+* **Event-Based Funnel (SQL Window Functions):** Replaced static current-stage reporting with true historical stage progression using CTEs and `LAG()` window functions in DuckDB to calculate accurate stage-to-stage conversion drop-off.
+* **Data Quality Modeling (DAX):** Isolated dirty records and missing data fields using DAX integer logic rather than letting implicit blanks break matrix visuals.
+* **Fuzzy Matching:** Achieved 100% duplicate pair precision using country-blocked sequence matching.
 
 ## What's in here
-```
+```text
 raw/                     ← messy source export (as "received" from CRM)
   accounts.csv           duplicate company records, missing DUNS numbers
   account_ground_truth.csv generator-only duplicate labels, not an analysis input
@@ -15,16 +28,17 @@ raw/                     ← messy source export (as "received" from CRM)
   opportunities.csv      inconsistent stage naming, some missing amounts
 
 clean/                   ← output of clean_data.py — Power BI-ready
-  dim_accounts.csv        deduped, DUNS-missing flag added
+  dim_accounts.csv       deduped, DUNS-missing flag added
   dim_reps.csv
-  dim_date.csv            calendar table for time intelligence
-  fact_opportunities.csv  standardized stages, stale-deal flag, deal age
-  quality_metrics.csv     dashboard-ready data quality scorecard metrics
-  account_merge_map.csv   account survivor and merge audit trail
+  dim_date.csv           calendar table for time intelligence
+  fact_opportunities.csv standardized stages, stale-deal flag, deal age
+  quality_metrics.csv    dashboard-ready data quality scorecard metrics
+  account_merge_map.csv  account survivor and merge audit trail
   data_quality_issues.csv row-level validation issues for follow-up
-  validation_summary.csv  pass/review status for every validation rule
+  validation_summary.csv pass/review status for every validation rule
   opportunity_stage_history.csv standardized stage transition events
-  data_quality_report.md  before/after metrics
+  sql_marts/             DuckDB output tables for dashboarding
+  data_quality_report.md before/after metrics
 
 generate_data.py         builds the raw/ files (synthetic, seeded/reproducible)
 clean_data.py            the actual cleaning + modeling pipeline
@@ -32,20 +46,8 @@ sql/                     DuckDB business-question queries
 metric_dictionary.md     KPI definitions, grain, and caveats
 requirements.txt         reproducible Python dependencies
 run_sql.py               executes SQL and exports analysis marts
-analysis/                 findings, recommendations, and limitations
+analysis/                findings, recommendations, and limitations
 ```
-
-## The data problems this fixes (mirrors real Sales Ops work)
-- **Duplicate accounts**: same company entered multiple times with name
-  variants ("Acme Corp" / "ACME CORPORATION" / "Acme Corp.") — matched with
-  a normalization + fuzzy-similarity pass and merged to one canonical record.
-- **Missing required fields**: ~38% of raw accounts have no DUNS number.
-  Cleaning doesn't invent one — it flags it (`duns_missing_flag`) for
-  seller follow-up, which is the real remediation workflow.
-- **Non-standard field values**: 21 raw spellings of deal stage
-  ("closed-won", "Won", "CLOSED WON"...) standardized to 6 canonical stages.
-- **Pipeline hygiene**: open opportunities with no activity in 30+ days are
-  flagged `is_stale` — in this dataset, ~33% of open pipeline.
 
 ## Build the Power BI dashboard (Windows, Power BI Desktop)
 
@@ -94,20 +96,13 @@ DIVIDE(
 ```
 
 **4. Completed dashboard pages**
-- **Pipeline Overview** — cards for Open Pipeline Value / Win Rate / Stale
-  Opportunities / Avg Deal Age; bar chart of pipeline value by stage; line
-  chart of opportunities created by month (from `dim_date`).
-- **Pipeline Hygiene** — table of stale opportunities (account, rep, days
-  since activity, amount) sorted descending; stale % trend by month.
-- **Rep / Region Performance** — win rate by rep, pipeline value by region,
-  deals closed by team.
-- **Data Quality Scorecard** — DUNS completeness by industry, a callout of
-  duplicate accounts merged, non-standard stage values normalized.
+- **Executive Pipeline Summary** — cards for Open Pipeline Value / Win Rate / Stale Opportunities / Avg Deal Age; bar chart of pipeline value by stage; line chart of opportunities created by month.
+- **Pipeline Hygiene** — table of stale opportunities (account, rep, days since activity, amount) sorted descending; stale % trend by month.
+- **Rep / Regional Performance** — win rate by rep, pipeline value by region, deals closed by team.
+- **Funnel & Stage Conversion** — historical, event-based stage progression mapping conversion rates through the pipeline.
+- **Data Quality Scorecard** — DUNS completeness by industry, a callout of duplicate accounts merged, missing amounts isolated, and non-standard stage values normalized.
 
-The Power BI report is built from the five clean tables above and uses a
-star-schema model with `fact_opportunities` at its center. The dashboard is
-designed for sales operations reporting, pipeline inspection, rep performance
-analysis, and CRM data-quality follow-up.
+The Power BI report is built from the clean tables above and uses a star-schema model with `fact_opportunities` at its center. The dashboard is designed for sales operations reporting, pipeline inspection, rep performance analysis, and CRM data-quality follow-up.
 
 ## Verified dashboard results
 
@@ -115,65 +110,32 @@ The completed report was validated against the Python-generated quality report:
 
 | KPI | Result |
 |---|---:|
-| Open pipeline value | $10,241,900 |
-| Win rate | 66.7% |
-| Stale opportunities | 201 |
+| Open pipeline value | $11,277,500 |
+| Win rate | 47.1% |
+| Stale opportunities | 183 |
 | Stale percent of open pipeline | 33.3% |
 | Average deal age | 213.95 days |
 | Accounts before cleaning | 162 |
-| Duplicate accounts merged | 25 |
-| Deduplication precision | 84.6% |
+| Duplicate accounts merged | 22 |
+| Deduplication precision | 100.0% |
 | Deduplication recall | 100.0% |
-| Accounts after cleaning | 137 |
-| Missing amounts imputed | 33 |
+| Accounts after cleaning | 140 |
+| Missing amounts imputed | 34 |
 
-The CRM data is synthetic and seeded for reproducibility. It is modeled after
-typical Dynamics or Salesforce exports and does not represent real company or
-client data.
+## v2 Analytical Upgrades
 
-The generator includes a ground-truth account-company key solely for evaluating
-the cleaner. The original v1 name-only matcher recovered all injected
-duplicate pairs but also produced false-positive merges, yielding 84.6% pair
-precision. That baseline result remains documented for comparison.
+The upgraded pipeline separates open opportunity age from closed-deal sales cycle, makes the as-of date and stale threshold configurable, and reports stale pipeline by value as well as by count. It also preserves imputation-aware pipeline value and writes an account merge map plus row-level validation issues. The validation summary reports zero-count rules as explicit `PASS` results and flags issues requiring operational review.
 
-On the v2 branch, duplicate records retain the original company's country and
-industry. Country-blocked matching now achieves 100.0% pair precision and
-100.0% pair recall, merging the 22 injected duplicate records into 140 clean
-accounts. The signal-aware v2 seeded outputs currently contain 590 open
-opportunities, 183 stale opportunities, a 47.1% closed-deal win rate, and
-$11,277,500 of open pipeline. These v2 values intentionally differ from the
-original v1 dashboard baseline because the generator is now more realistic and
-auditable. Product, team, and lead-source effects are planted simulation
-parameters, not real-world evidence.
+On the v2 branch, duplicate records retain the original company's country and industry. Country-blocked matching now achieves 100.0% pair precision and 100.0% pair recall, merging the 22 injected duplicate records into 140 clean accounts. The signal-aware v2 seeded outputs currently contain 183 stale opportunities, a 47.1% closed-deal win rate, and $11,277,500 of open pipeline. Product, team, and lead-source effects are planted simulation parameters, not real-world evidence.
 
-## v2 analytical upgrades
+The `sql/` layer uses DuckDB to answer business questions about stage funnel conversion, rep performance, monthly pipeline trends, aging buckets, stale deal prioritization, and event-based stage transitions. These queries run directly against the clean CSV outputs. Run `python run_sql.py` to export the six query results to `clean/sql_marts/` for downstream analysis or Power BI ingestion.
 
-The upgraded pipeline separates open opportunity age from closed-deal sales
-cycle, makes the as-of date and stale threshold configurable, and reports
-stale pipeline by value as well as by count. It also preserves imputation-aware
-pipeline value and writes an account merge map plus row-level validation issues.
-The validation summary reports zero-count rules as explicit `PASS` results and
-flags issues requiring operational review.
-
-The `sql/` layer uses DuckDB to answer business questions about stage funnel
-conversion, rep performance, monthly pipeline trends, aging buckets, stale
-deal prioritization, and event-based stage transitions. These queries run
-directly against the clean CSV outputs. Run `python run_sql.py` to export the
-six query results to `clean/sql_marts/`
-for downstream analysis or Power BI ingestion.
-
-The descriptive findings and operating recommendations are documented in
-`analysis/business_analysis.md`. Because the current data is synthetic and
-does not plant causal win-rate drivers, that report deliberately avoids
-claiming that any rep, region, product, or lead source causes performance.
-
-**5. Publish / screenshot**
-Export a couple of pages as images or PDF for your portfolio/GitHub README
-once built — that's what you'll actually reference in the interview.
+The descriptive findings and operating recommendations are documented in `analysis/business_analysis.md`. Because the current data is synthetic and does not plant causal win-rate drivers, that report deliberately avoids claiming that any rep, region, product, or lead source causes performance.
 
 ## Reproduce from scratch
-```
-pip install pandas numpy faker
+```bash
+pip install pandas numpy faker duckdb
 python generate_data.py
 python clean_data.py
+python run_sql.py
 ```

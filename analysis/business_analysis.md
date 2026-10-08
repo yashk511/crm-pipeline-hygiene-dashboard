@@ -52,6 +52,12 @@ License is 54.9% versus 40.7% for Support Add-on. These are useful for testing
 segmentation, confidence intervals, and regression code, but must be presented
 as planted-signal demonstrations rather than business conclusions.
 
+### 6. Data Hygiene requires active management
+
+An audit of the raw CRM data revealed operational bottlenecks requiring sales manager intervention:
+* **Stale Pipeline:** 183 active opportunities have had no recorded activity in over 30 days.
+* **Missing Data:** 34 deals are missing mandatory amount fields, which were imputed using product-level medians to prevent forecasting errors.
+
 ## Recommended operating actions
 
 1. Create a weekly aging review for all opportunities older than 180 days,
@@ -60,12 +66,13 @@ as planted-signal demonstrations rather than business conclusions.
    status confirmation before forecasting recovery.
 3. Review rep performance with closed-deal volume, pipeline mix, and deal age
    together; do not rank reps on win rate alone.
-4. Resolve the 33 amount issues, 39 missing-DUNS issues, and one
+4. Resolve the **34** amount issues, 39 missing-DUNS issues, and one
    close-before-create issue through CRM hygiene workflows.
-5. Use the event-based stage transition mart for funnel reporting: the current
-   v2 run shows 83.4% Prospecting-to-Qualification, 76.6%
-   Qualification-to-Proposal, 71.5% Proposal-to-Negotiation, then 35.5% won
-   and 39.9% lost from Negotiation.
+5. Use the event-based stage transition mart for funnel reporting. Tracking historical progression (rather than static snapshots) shows true funnel drop-off rates:
+   * **Prospecting to Qualification:** 83.4% (751 / 900 deals)
+   * **Qualification to Proposal:** 76.6% (575 / 751 deals)
+   * **Proposal to Negotiation:** 71.5% (411 / 575 deals)
+   * **Negotiation to Closed Won:** 35.5% (146 / 411 deals)
 
 ## Next analytical upgrade
 
