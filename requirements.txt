@@ -1,5 +1,5 @@
-pandas
-numpy
-faker
-pytest
-duckdb
+pandas>=2.2
+numpy>=1.26
+faker>=24
+duckdb>=1.0
+pytest>=8

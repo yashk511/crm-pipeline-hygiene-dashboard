@@ -26,5 +26,12 @@
 - Stale pipeline value: **$3,756,350** (33.3% of open pipeline value)
 - Overall win rate (closed deals): **47.1%**
 
+## Over-aged pipeline
+- Longest sales cycle among closed deals: **180 days**
+- Open opportunities older than that: **378** (candidates for close-out review)
+
+## Missing lead source
+- Opportunities with no lead source (reported as "Unknown"): **171**
+
 ## Missing amounts
 - Opportunities with missing deal amount, imputed with product-level median: **34**

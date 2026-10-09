@@ -1,0 +1,6 @@
+from_stage,from_order,to_stage,to_order,opportunities_progressed,opportunities_at_start,progressed_to_date_pct
+Prospecting,1,Qualification,2,751,900,83.4
+Qualification,2,Proposal,3,575,751,76.6
+Proposal,3,Negotiation,4,411,575,71.5
+Negotiation,4,Closed Won,5,146,411,35.5
+Negotiation,4,Closed Lost,6,164,411,39.9

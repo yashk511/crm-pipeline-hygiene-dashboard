@@ -1,0 +1,11 @@
+dimension,segment,closed_deals,won_deals,win_rate_pct,ci95_low_pct,ci95_high_pct
+lead_source,Referral,49,33.0,67.3,53.4,78.8
+lead_source,LinkedIn Sales Nav,34,20.0,58.8,42.2,73.6
+lead_source,Inbound Web,45,25.0,55.6,41.2,69.1
+lead_source,Outreach Sequence,58,31.0,53.4,40.8,65.7
+lead_source,Unknown,70,25.0,35.7,25.5,47.4
+lead_source,ZoomInfo List,54,12.0,22.2,13.2,34.9
+product,Platform License,71,39.0,54.9,43.4,66.0
+product,Professional Services,83,40.0,48.2,37.8,58.8
+product,Data Module,75,34.0,45.3,34.6,56.6
+product,Support Add-on,81,33.0,40.7,30.7,51.6
