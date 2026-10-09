@@ -10,12 +10,12 @@ and produces a clean star-schema data model ready for Power BI:
     clean/fact_opportunities.csv
     clean/data_quality_report.md
 
-This mirrors the actual accountabilities in the job description:
+Covers:
   - CRM data hygiene / de-duplication / validation checks
   - Standardizing non-standard field values
-  - Flagging missing required fields (DUNS number)
-  - Identifying stale opportunities / pipeline hygiene issues
-  - Structuring a scalable dataset that powers dashboards & KPIs
+  - Flagging missing required fields (DUNS number, amount, lead source)
+  - Identifying stale and over-aged opportunities
+  - Structuring a star schema that powers dashboards & KPIs
 """
 import re
 import difflib
@@ -163,6 +163,11 @@ reps.to_csv(f"{OUT}/dim_reps.csv", index=False)
 # ------------------------------------------------------------------
 # 4. Standardize opportunity stage values (non-standard field values)
 # ------------------------------------------------------------------
+STAGE_ORDER = {
+    "Prospecting": 1, "Qualification": 2, "Proposal": 3,
+    "Negotiation": 4, "Closed Won": 5, "Closed Lost": 6, "Unclassified": 7,
+}
+
 def standardize_stage(raw):
     s = str(raw).strip().lower().replace("-", " ")
     if "prospect" in s:
@@ -180,6 +185,7 @@ def standardize_stage(raw):
     return "Unclassified"
 
 opps["stage"] = opps["stage_raw"].apply(standardize_stage)
+opps["stage_order"] = opps["stage"].map(STAGE_ORDER).astype(int)
 n_non_standard_stage_values = opps["stage_raw"].nunique() - opps["stage"].nunique()
 
 opps["account_id"] = opps["account_id"].map(account_id_lookup).fillna(opps["account_id"])
@@ -187,19 +193,26 @@ opps["created_date"] = pd.to_datetime(opps["created_date"])
 opps["close_date"] = pd.to_datetime(opps["close_date"], errors="coerce")
 opps["last_activity_date"] = pd.to_datetime(opps["last_activity_date"])
 opps["amount"] = pd.to_numeric(opps["amount"], errors="coerce")
-opps["expected_win_probability"] = pd.to_numeric(opps["expected_win_probability"], errors="coerce")
 
 opps["is_closed"] = opps["stage"].isin(["Closed Won", "Closed Lost"])
 opps["is_won"] = opps["stage"] == "Closed Won"
 opps["days_since_activity"] = (TODAY - opps["last_activity_date"]).dt.days
 opps["is_stale"] = (~opps["is_closed"]) & (opps["days_since_activity"] > STALE_THRESHOLD_DAYS)
 opps["open_age_days"] = (pd.Timestamp(TODAY) - opps["created_date"]).dt.days
+# Open age only exists for OPEN deals (mirrors sales_cycle_days for closed deals), so a plain
+# AVERAGE(open_age_days) in Power BI cannot silently include closed deals.
+opps.loc[opps["is_closed"], "open_age_days"] = pd.NA
+opps["open_age_days"] = opps["open_age_days"].astype("Int64")
 opps["sales_cycle_days"] = (
     opps["close_date"] - opps["created_date"]
 ).dt.days
-# Retain the v1 field for compatibility; v2 analysis should use the explicit fields.
-opps["deal_age_days"] = opps["sales_cycle_days"].fillna(opps["open_age_days"])
+# NOTE: the blended v1 "deal_age_days" field was removed: it mixed open age and
+# closed sales cycle. Use open_age_days (open deals) or sales_cycle_days (closed).
+opps["lead_source_missing_flag"] = opps["lead_source"].fillna("").str.strip() == ""
+opps["lead_source"] = opps["lead_source"].fillna("").str.strip().replace("", "Unknown")
 opps["amount_missing_flag"] = opps["amount"].isna()
+max_closed_cycle = int(opps.loc[opps["is_closed"], "sales_cycle_days"].max())
+opps["beyond_max_cycle_flag"] = (~opps["is_closed"]) & (opps["open_age_days"] > max_closed_cycle)
 amount_before_imputation = opps["amount"].copy()
 opps["amount"] = opps["amount"].fillna(opps.groupby("product")["amount"].transform("median"))
 
@@ -227,6 +240,7 @@ add_issue(opps["is_closed"] & opps["close_date"].isna(), "closed_without_close_d
 add_issue(~opps["is_closed"] & opps["close_date"].notna(), "open_with_close_date", "close_date", "medium", "Open opportunity has a close date")
 add_issue(opps["amount_missing_flag"] | (opps["amount"] <= 0), "invalid_amount", "amount", "high", "Amount was missing or is non-positive")
 add_issue(opps["stage"] == "Unclassified", "unclassified_stage", "stage", "high", "Stage could not be mapped to a canonical value")
+add_issue(opps["lead_source_missing_flag"], "missing_lead_source", "lead_source", "medium", "Opportunity has no lead source")
 for account_id in dim_accounts.loc[dim_accounts["duns_missing_flag"], "account_id"].astype(str):
     issue_rows.append({
         "record_type": "account",
@@ -252,6 +266,7 @@ validation_rules = [
     ("open_with_close_date", "medium"),
     ("invalid_amount", "high"),
     ("unclassified_stage", "high"),
+    ("missing_lead_source", "medium"),
     ("missing_duns", "medium"),
 ]
 validation_summary = pd.DataFrame([
@@ -265,6 +280,8 @@ validation_summary = pd.DataFrame([
 ])
 validation_summary.to_csv(f"{OUT}/validation_summary.csv", index=False)
 
+n_missing_lead_source = int(opps["lead_source_missing_flag"].sum())
+n_beyond_cycle = int(opps["beyond_max_cycle_flag"].sum())
 n_stale = int(opps["is_stale"].sum())
 n_open = int((~opps["is_closed"]).sum())
 n_stale_value = round(opps.loc[opps["is_stale"], "amount"].sum(), 0)
@@ -280,16 +297,19 @@ average_sales_cycle = round(opps.loc[opps["is_closed"], "sales_cycle_days"].mean
 fact_opportunities = opps[[
     "opp_id", "account_id", "rep_id", "product", "lead_source", "stage",
     "amount", "created_date", "close_date", "last_activity_date",
-    "days_since_activity", "open_age_days", "sales_cycle_days", "deal_age_days",
-    "is_closed", "is_won",
-    "is_stale", "amount_missing_flag", "expected_win_probability",
+    "days_since_activity", "open_age_days", "sales_cycle_days",
+    "is_closed", "is_won", "is_stale", "amount_missing_flag",
+    "lead_source_missing_flag", "beyond_max_cycle_flag", "stage_order",
 ]].copy()
+# expected_win_probability is the generator's hidden ground truth. It is left out of
+# the analytical model on purpose: it would leak the outcome into any driver analysis.
 fact_opportunities.to_csv(f"{OUT}/fact_opportunities.csv", index=False)
 
 stage_history["stage"] = stage_history["stage_raw"].apply(standardize_stage)
 stage_history["stage_sequence"] = pd.to_numeric(stage_history["stage_sequence"], errors="coerce").astype("Int64")
 stage_history["stage_date"] = pd.to_datetime(stage_history["stage_date"])
-stage_history[["opp_id", "stage", "stage_sequence", "stage_date"]].to_csv(
+stage_history["stage_order"] = stage_history["stage"].map(STAGE_ORDER).astype(int)
+stage_history[["opp_id", "stage", "stage_order", "stage_sequence", "stage_date"]].to_csv(
     f"{OUT}/opportunity_stage_history.csv", index=False
 )
 
@@ -339,6 +359,13 @@ report = f"""# CRM Data Quality & Cleaning Report
 - Stale pipeline value: **${n_stale_value:,.0f}** ({n_stale_value_pct}% of open pipeline value)
 - Overall win rate (closed deals): **{win_rate}%**
 
+## Over-aged pipeline
+- Longest sales cycle among closed deals: **{max_closed_cycle} days**
+- Open opportunities older than that: **{n_beyond_cycle}** (candidates for close-out review)
+
+## Missing lead source
+- Opportunities with no lead source (reported as "Unknown"): **{n_missing_lead_source}**
+
 ## Missing amounts
 - Opportunities with missing deal amount, imputed with product-level median: **{int(opps['amount_missing_flag'].sum())}**
 """
@@ -370,6 +397,9 @@ metrics = pd.DataFrame([
     {"metric": "Average Sales Cycle Days", "value": average_sales_cycle},
     {"metric": "Win Rate Pct", "value": win_rate},
     {"metric": "Amounts Imputed", "value": int(opps["amount_missing_flag"].sum())},
+    {"metric": "Missing Lead Source Opportunities", "value": n_missing_lead_source},
+    {"metric": "Longest Closed Sales Cycle Days", "value": max_closed_cycle},
+    {"metric": "Open Opportunities Beyond Longest Closed Cycle", "value": n_beyond_cycle},
 ])
 metrics.to_csv(f"{OUT}/quality_metrics.csv", index=False)
 
