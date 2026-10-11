@@ -1,4 +1,5 @@
 # CRM Pipeline Intelligence
+**[Live dashboard](https://crm-pipeline-intelligence.streamlit.app)**
 
 An audit-first sales-operations project. A deliberately messy, **synthetic** CRM export
 (Dynamics / Salesforce style) is cleaned, validated and modeled in Python and SQL before any
