@@ -1,4 +1,4 @@
-account_id,account_name,source_company_id,canonical_key,canonical_account_id,match_score,review_required,is_survivor
+account_id,account_name,source_company_id,canonical_key,canonical_account_id,nearest_other_similarity,review_required,is_survivor
 A0001,Jones Reid and Ferguson,C0001,cape verde::jones reid and ferguson,A0001,0.0,False,True
 A0002,Martin Group,C0002,romania::martin group,A0002,0.0,False,True
 A0003,Mayo-Bowman,C0003,croatia::mayo-bowman,A0003,0.0,False,True

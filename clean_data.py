@@ -58,10 +58,13 @@ accounts["name_key"] = accounts["account_name"].apply(normalize_name)
 #    differently (exact key match + high-similarity near-matches).
 # ------------------------------------------------------------------
 canonical_map = {}          # (country, name_key) -> canonical key
-match_scores = {}
+nearest_scores = {}
 review_keys = set()
 seen_by_country = {}
 
+# NOTE: the score stored for each key is its similarity to the closest OTHER company name already
+# seen in the same country (used to decide fuzzy merges and the 0.85-0.92 review band). It is not a
+# confidence that a duplicate matches its survivor. Exact normalized-key duplicates skip scoring.
 for row in accounts[["account_id", "name_key", "country"]].itertuples(index=False):
     country = str(row.country).strip().lower()
     key = (country, row.name_key)
@@ -76,10 +79,10 @@ for row in accounts[["account_id", "name_key", "country"]].itertuples(index=Fals
     candidate, score = max(candidates, key=lambda item: item[1], default=(None, 0.0))
     if score >= 0.92:
         canonical_map[key] = canonical_map[(country, candidate)]
-        match_scores[key] = score
+        nearest_scores[key] = score
     else:
         canonical_map[key] = f"{country}::{row.name_key}"
-        match_scores[key] = score
+        nearest_scores[key] = score
         seen.append(row.name_key)
         if score >= 0.85:
             review_keys.add(key)
@@ -89,8 +92,8 @@ accounts["canonical_key"] = [
     canonical_map[(country, name_key)]
     for country, name_key in zip(accounts["country_key"], accounts["name_key"])
 ]
-accounts["match_score"] = [
-    match_scores[(country, name_key)]
+accounts["nearest_other_similarity"] = [
+    nearest_scores[(country, name_key)]
     for country, name_key in zip(accounts["country_key"], accounts["name_key"])
 ]
 accounts["review_required"] = [
@@ -115,7 +118,7 @@ n_duplicates_merged = n_accounts_before - len(survivors)
 id_map = accounts.merge(
     survivors[["canonical_key", "account_id"]].rename(columns={"account_id": "canonical_account_id"}),
     on="canonical_key", how="left"
-)[["account_id", "account_name", "source_company_id", "canonical_key", "canonical_account_id", "match_score", "review_required"]]
+)[["account_id", "account_name", "source_company_id", "canonical_key", "canonical_account_id", "nearest_other_similarity", "review_required"]]
 id_map["merge_status"] = id_map["account_id"] == id_map["canonical_account_id"]
 id_map.rename(columns={"merge_status": "is_survivor"}).to_csv(
     f"{OUT}/account_merge_map.csv", index=False
