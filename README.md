@@ -1,4 +1,4 @@
-# CRM Pipeline Intelligence
+﻿# CRM Pipeline Intelligence
 **[Live dashboard](https://crm-pipeline-intelligence.streamlit.app)**
 
 An audit-first sales-operations project. A deliberately messy, **synthetic** CRM export
@@ -60,12 +60,11 @@ sql/           8 DuckDB queries (window functions, CTEs, Wilson intervals)
 analysis/      business_analysis.md, generated from the marts
 dashboard/     data loading, pure-pandas metric functions, theme
 tests/         22 tests (pipeline logic + dashboard-vs-SQL checks)
-docs/          Power BI and Streamlit deployment notes
+docs/          PDF export of the Power BI report
 app.py         Streamlit dashboard
 ```
 
-A Power BI version of the report (`.pbix`) is included and is being refreshed to match the
-Streamlit app. Metric definitions are in `metric_dictionary.md`.
+A Power BI version of the report is included (`CRM_Pipeline_Hygiene_Dashboard_v2.pbix`, with a [PDF export](docs/CRM_Pipeline_Hygiene_Dashboard_v2.pdf)); its figures match the Streamlit app. Metric definitions are in `metric_dictionary.md`.
 
 ## Run it
 
@@ -80,3 +79,4 @@ streamlit run app.py     # http://localhost:8501
 - Stage progression is right-censored: open deals that have not moved count as not progressed yet.
 - Win-rate gaps by lead source are planted; the product gap is within sampling noise.
 - Rep-level samples are small (12-26 closed deals each), so wide intervals are expected.
+
